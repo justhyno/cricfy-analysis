@@ -28,7 +28,19 @@ As classes da própria app estão **protegidas contra descompilação**: depois 
 Outros truques de ofuscação:
 - O código da app está no pacote **`com.android.vending`**, que é o nome de pacote da Google Play Store. Isto engana quem olha para stack traces ou listas de serviços (`com.android.vending.helpers.PushService`, `com.android.vending.player.FloatingPlayerService`).
 - R8 com nomes curtos (`p000.*`).
-- `com.cricfytv.sports.FuckOff.fuckYou()` e `com.android.vending.networking.Baker.merge(String, Context)`: este último é `native` e está em `libnative-lib.so` (`Java_com_android_vending_networking_Baker_merge`). Usa `SecretKeySpec` e `Base64`, portanto **desencripta configuração escondida** (provavelmente URLs e chaves de servidores). Está por analisar.
+- `com.cricfytv.sports.FuckOff.fuckYou()` e `com.android.vending.networking.Baker.merge(String, Context)`: este último é `native` e está em `libnative-lib.so` (`Java_com_android_vending_networking_Baker_merge`). **Já analisado** — ver `native/libnative-lib.analise.md` e a reimplementação funcional em `native/baker_decrypt.py`.
+
+### `Baker.merge` decifrado (ver `native/`)
+
+Apesar do símbolo `AesDecrypt_decrypt`, **não há AES**. É uma cifra de fluxo caseira sobre SHA-256:
+```
+bruto    = Base64.decode(entrada, NO_WRAP)
+chave    = bruto[:16]                          # a chave viaja dentro do blob
+cifrado  = bruto[16:]
+bloco_i  = SHA-256(chave || big_endian_uint32(i))   # 32 bytes por bloco
+claro    = cifrado XOR (bloco_0 || bloco_1 || ...)
+```
+Não existe chave fixa no binário, por isso qualquer valor cifrado da app (o `cric_api2` do Remote Config, respostas da API) decifra-se só com `baker_decrypt.py`, sem segredos extra.
 
 ## Principais achados
 
