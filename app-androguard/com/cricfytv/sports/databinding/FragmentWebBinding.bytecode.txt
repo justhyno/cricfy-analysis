@@ -1,0 +1,60 @@
+=== <init>(Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout; Lcom/cricfytv/sports/databinding/ErrorLayoutBinding; Landroid/webkit/WebView;)V
+    invoke-direct v0, Ljava/lang/Object;-><init>()V
+    iput-object v1, v0, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->a Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    iput-object v2, v0, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->b Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;
+    iput-object v3, v0, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->c Landroid/webkit/WebView;
+    return-void 
+    <junk/payload omitted>
+=== bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    const v0, 2131362124
+    invoke-static v4, v0, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v1
+    if-eqz v1, +025h
+    invoke-static v1, Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;->bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;
+    move-result-object v0
+    const v1, 2131362823
+    invoke-static v4, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    check-cast v2, Landroid/webkit/WebView;
+    if-eqz v2, +015h
+    const v1, 2131362826
+    invoke-static v4, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v3
+    check-cast v3, Landroid/widget/FrameLayout;
+    if-eqz v3, +00ah
+    new-instance v1, Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    check-cast v4, Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    invoke-direct v1, v4, v0, v2, Lcom/cricfytv/sports/databinding/FragmentWebBinding;-><init>(Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout; Lcom/cricfytv/sports/databinding/ErrorLayoutBinding; Landroid/webkit/WebView;)V
+    return-object v1
+    move v0, v1
+    invoke-virtual v4, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+    move-result-object v4
+    invoke-virtual v4, v0, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+    move-result-object v4
+    const-string v0, "Missing required view with ID: "
+    invoke-virtual v0, v4, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v4
+    invoke-static v4, Llr3;->p(Ljava/lang/String;)V
+    const/4 v4, 0
+    return-object v4
+    nop 
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater;)Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    const/4 v0, 0
+    const/4 v1, 0
+    invoke-static v2, v0, v1, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    move-result-object v2
+    return-object v2
+    nop 
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    const v0, 2131558492
+    const/4 v1, 0
+    invoke-virtual v2, v0, v3, v1, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+    move-result-object v2
+    if-eqz v4, +005h
+    invoke-virtual v3, v2, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-static v2, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    move-result-object v2
+    return-object v2
+    <junk/payload omitted>

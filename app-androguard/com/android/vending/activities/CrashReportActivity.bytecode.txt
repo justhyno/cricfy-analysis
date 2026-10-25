@@ -1,0 +1,250 @@
+=== <init>()V
+    invoke-direct v3, Landroidx/fragment/app/FragmentActivity;-><init>()V
+    invoke-virtual v3, Landroidx/activity/ComponentActivity;->getSavedStateRegistry()Lq43;
+    move-result-object v0
+    new-instance v1, Lgb;
+    invoke-direct v1, v3, Lgb;-><init>(Landroidx/appcompat/app/AppCompatActivity;)V
+    const-string v2, "androidx:appcompat"
+    invoke-virtual v0, v2, v1, Lq43;->c(Ljava/lang/String; Lp43;)V
+    new-instance v0, Lhb;
+    invoke-direct v0, v3, Lhb;-><init>(Landroidx/appcompat/app/AppCompatActivity;)V
+    invoke-virtual v3, v0, Landroidx/activity/ComponentActivity;->addOnContextAvailableListener(Lli2;)V
+    const-string v0, ""
+    iput-object v0, v3, Lcom/android/vending/activities/CrashReportActivity;->y Ljava/lang/String;
+    return-void 
+    <junk/payload omitted>
+=== onCreate(Landroid/os/Bundle;)V
+    move-object/from16 v0, v18
+    const/4 v1, 0
+    const/4 v2, 3
+    invoke-static v0, v1, v2, Lzm0;->a(Landroidx/appcompat/app/AppCompatActivity; Lal3; I)V
+    invoke-super/range v18 ... v19, Landroidx/fragment/app/FragmentActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-virtual v0, Landroid/app/Activity;->getLayoutInflater()Landroid/view/LayoutInflater;
+    move-result-object v3
+    const/4 v4, 0
+    invoke-static v3, v1, v4, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;
+    move-result-object v3
+    iput-object v3, v0, Lcom/android/vending/activities/CrashReportActivity;->w Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;
+    iget-object v3, v3, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->a Landroid/widget/LinearLayout;
+    invoke-virtual v0, v3, Landroidx/appcompat/app/AppCompatActivity;->setContentView(Landroid/view/View;)V
+    iget-object v3, v0, Lcom/android/vending/activities/CrashReportActivity;->w Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;
+    const-string v5, "binding"
+    if-eqz v3, +1b5h
+    iget-object v6, v3, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->e Landroid/widget/LinearLayout;
+    if-eqz v3, +1adh
+    iget-object v3, v3, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->d Landroid/widget/LinearLayout;
+    invoke-virtual v6, Landroid/view/View;->getPaddingStart()I
+    move-result v8
+    invoke-virtual v6, Landroid/view/View;->getPaddingTop()I
+    move-result v9
+    invoke-virtual v6, Landroid/view/View;->getPaddingEnd()I
+    move-result v10
+    invoke-virtual v6, Landroid/view/View;->getPaddingBottom()I
+    move-result v11
+    invoke-virtual v3, Landroid/view/View;->getPaddingStart()I
+    move-result v13
+    invoke-virtual v3, Landroid/view/View;->getPaddingTop()I
+    move-result v14
+    invoke-virtual v3, Landroid/view/View;->getPaddingEnd()I
+    move-result v15
+    invoke-virtual v3, Landroid/view/View;->getPaddingBottom()I
+    move-result v16
+    new-instance v7, Lh70;
+    const/4 v12, 0
+    invoke-direct/range v7 ... v12, Lh70;-><init>(I I I I I)V
+    sget-object v8, Lty3;->a Ljava/util/WeakHashMap;
+    invoke-static v6, v7, Lky3;->c(Landroid/view/View; Lzh2;)V
+    new-instance v12, Lh70;
+    const/16 v17, 1
+    invoke-direct/range v12 ... v17, Lh70;-><init>(I I I I I)V
+    invoke-static v3, v12, Lky3;->c(Landroid/view/View; Lzh2;)V
+    invoke-virtual v0, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    move-result-object v3
+    const-string v6, "extra_report_path"
+    invoke-virtual v3, v6, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v3
+    if-eqz v3, +00eh
+    new-instance v6, Ljava/io/File;
+    invoke-direct v6, v3, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    invoke-virtual v6, Ljava/io/File;->exists()Z
+    move-result v3
+    if-eqz v3, +003h
+    goto +2h
+    move-object v6, v1
+    iput-object v6, v0, Lcom/android/vending/activities/CrashReportActivity;->x Ljava/io/File;
+    if-eqz v6, +007h
+    invoke-static v6, Lwv0;->D(Ljava/io/File;)Ljava/lang/String;
+    move-result-object v3
+    goto +2h
+    move-object v3, v1
+    if-nez v3, +004h
+    const-string v3, ""
+    iput-object v3, v0, Lcom/android/vending/activities/CrashReportActivity;->y Ljava/lang/String;
+    iget-object v6, v0, Lcom/android/vending/activities/CrashReportActivity;->w Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;
+    if-eqz v6, +145h
+    new-instance v7, Lkn1;
+    invoke-direct v7, v3, Lkn1;-><init>(Ljava/lang/CharSequence;)V
+    invoke-virtual v7, Lkn1;->hasNext()Z
+    move-result v3
+    const-string v8, "Message:"
+    if-eqz v3, +010h
+    invoke-virtual v7, Lkn1;->next()Ljava/lang/Object;
+    move-result-object v3
+    move-object v9, v3
+    check-cast v9, Ljava/lang/String;
+    invoke-static v9, v8, v4, Lzh3;->B(Ljava/lang/String; Ljava/lang/String; Z)Z
+    move-result v9
+    if-eqz v9, -013h
+    goto +2h
+    move-object v3, v1
+    check-cast v3, Ljava/lang/String;
+    if-eqz v3, +023h
+    invoke-static v3, v8, Lsh3;->T(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v3
+    invoke-static v3, Lsh3;->i0(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    move-result-object v3
+    invoke-virtual v3, Ljava/lang/Object;->toString()Ljava/lang/String;
+    move-result-object v3
+    if-eqz v3, +015h
+    invoke-static v3, Lsh3;->N(Ljava/lang/CharSequence;)Z
+    move-result v7
+    if-nez v7, +00bh
+    const-string v7, "No message"
+    invoke-virtual v3, v7, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    move-result v7
+    if-nez v7, +003h
+    goto +2h
+    move-object v3, v1
+    if-eqz v3, +003h
+    goto +3h
+    const-string v3, "A technical report was created with the information needed to investigate the problem."
+    iget-object v7, v6, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->g Landroid/widget/TextView;
+    const-string v8, "Something went wrong"
+    invoke-virtual v7, v8, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    iget-object v7, v6, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->f Landroid/widget/TextView;
+    const-string v8, "Cricfy stopped unexpectedly. "
+    invoke-virtual v8, v3, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v3
+    invoke-virtual v7, v3, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    iget-object v3, v6, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->i Landroid/widget/TextView;
+    iget-object v7, v0, Lcom/android/vending/activities/CrashReportActivity;->y Ljava/lang/String;
+    invoke-static v7, Lsh3;->N(Ljava/lang/CharSequence;)Z
+    move-result v7
+    const/4 v8, 1
+    if-eqz v7, +005h
+    const-string v7, "No diagnostic report was found."
+    goto +33h
+    const-string v14, "Android:"
+    const-string v15, "Model:"
+    const-string v9, "Report Time:"
+    const-string v10, "App Version:"
+    const-string v11, "Thread:"
+    const-string v12, "Exception:"
+    const-string v13, "Message:"
+    filled-new-array/range v9 ... v15, [Ljava/lang/String;
+    move-result-object v7
+    invoke-static v7, Lmc4;->u([Ljava/lang/Object;)Ljava/util/List;
+    move-result-object v7
+    iget-object v9, v0, Lcom/android/vending/activities/CrashReportActivity;->y Ljava/lang/String;
+    invoke-virtual v9, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    new-instance v10, Lrz;
+    const/4 v11, 4
+    invoke-direct v10, v9, v11, Lrz;-><init>(Ljava/lang/Object; I)V
+    new-instance v9, Ly;
+    const/4 v11, 6
+    invoke-direct v9, v7, v11, Ly;-><init>(Ljava/lang/Object; I)V
+    new-instance v7, Lzv0;
+    invoke-direct v7, v10, v8, v9, Lzv0;-><init>(Lk73; Z Lc41;)V
+    const-string v9, "
+"
+    invoke-static v7, v9, Lq73;->L(Lk73; Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v7
+    invoke-virtual v3, v7, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    iget-object v3, v6, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->h Landroid/widget/TextView;
+    iget-object v6, v0, Lcom/android/vending/activities/CrashReportActivity;->y Ljava/lang/String;
+    invoke-static v6, Lsh3;->N(Ljava/lang/CharSequence;)Z
+    move-result v7
+    if-eqz v7, +004h
+    const-string v6, "Crash report file was not available."
+    invoke-virtual v3, v6, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    iget-object v3, v0, Lcom/android/vending/activities/CrashReportActivity;->w Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;
+    if-eqz v3, +096h
+    iget-object v3, v3, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->c Landroid/widget/Button;
+    new-instance v6, Lg70;
+    invoke-direct v6, v0, v4, Lg70;-><init>(Lcom/android/vending/activities/CrashReportActivity; I)V
+    invoke-virtual v3, v6, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v3, v0, Lcom/android/vending/activities/CrashReportActivity;->w Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;
+    if-eqz v3, +084h
+    iget-object v3, v3, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->k Landroid/widget/Button;
+    new-instance v4, Lg70;
+    invoke-direct v4, v0, v8, Lg70;-><init>(Lcom/android/vending/activities/CrashReportActivity; I)V
+    invoke-virtual v3, v4, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v3, v0, Lcom/android/vending/activities/CrashReportActivity;->w Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;
+    if-eqz v3, +072h
+    iget-object v3, v3, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->j Landroid/widget/Button;
+    new-instance v4, Lg70;
+    const/4 v6, 2
+    invoke-direct v4, v0, v6, Lg70;-><init>(Lcom/android/vending/activities/CrashReportActivity; I)V
+    invoke-virtual v3, v4, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v3, v0, Lcom/android/vending/activities/CrashReportActivity;->w Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;
+    if-eqz v3, +05fh
+    iget-object v3, v3, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->b Landroid/widget/Button;
+    new-instance v4, Lg70;
+    invoke-direct v4, v0, v2, Lg70;-><init>(Lcom/android/vending/activities/CrashReportActivity; I)V
+    invoke-virtual v3, v4, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v2, v0, Lcom/android/vending/activities/CrashReportActivity;->w Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;
+    if-eqz v2, +04dh
+    iget-object v3, v2, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->k Landroid/widget/Button;
+    iget-object v4, v2, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->c Landroid/widget/Button;
+    iget-object v6, v2, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->j Landroid/widget/Button;
+    iget-object v2, v2, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->b Landroid/widget/Button;
+    filled-new-array v3, v4, v6, v2, [Landroid/widget/Button;
+    move-result-object v2
+    invoke-static v2, Lmc4;->u([Ljava/lang/Object;)Ljava/util/List;
+    move-result-object v2
+    new-instance v3, Lay;
+    invoke-direct v3, v2, v8, Lay;-><init>(Ljava/lang/Object; I)V
+    invoke-interface v2, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    move-result-object v2
+    invoke-interface v2, Ljava/util/Iterator;->hasNext()Z
+    move-result v4
+    if-eqz v4, +00ch
+    invoke-interface v2, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    move-result-object v4
+    check-cast v4, Landroid/widget/Button;
+    invoke-virtual v4, v3, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    goto -fh
+    iget-object v2, v0, Lcom/android/vending/activities/CrashReportActivity;->w Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;
+    if-eqz v2, +01ch
+    iget-object v2, v2, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->k Landroid/widget/Button;
+    invoke-virtual v2, v8, Landroid/view/View;->setSelected(Z)V
+    iget-object v2, v0, Lcom/android/vending/activities/CrashReportActivity;->w Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;
+    if-eqz v2, +00fh
+    iget-object v1, v2, Lcom/cricfytv/sports/databinding/ActivityCrashReportBinding;->k Landroid/widget/Button;
+    new-instance v2, Ls4;
+    const/16 v3, 12
+    invoke-direct v2, v0, v3, Ls4;-><init>(Ljava/lang/Object; I)V
+    invoke-virtual v1, v2, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+    return-void 
+    invoke-static v5, Lrg1;->U(Ljava/lang/String;)V
+    throw v1
+    invoke-static v5, Lrg1;->U(Ljava/lang/String;)V
+    throw v1
+    invoke-static v5, Lrg1;->U(Ljava/lang/String;)V
+    throw v1
+    invoke-static v5, Lrg1;->U(Ljava/lang/String;)V
+    throw v1
+    invoke-static v5, Lrg1;->U(Ljava/lang/String;)V
+    throw v1
+    invoke-static v5, Lrg1;->U(Ljava/lang/String;)V
+    throw v1
+    invoke-static v5, Lrg1;->U(Ljava/lang/String;)V
+    throw v1
+    invoke-static v5, Lrg1;->U(Ljava/lang/String;)V
+    throw v1
+    invoke-static v5, Lrg1;->U(Ljava/lang/String;)V
+    throw v1
+    invoke-static v5, Lrg1;->U(Ljava/lang/String;)V
+    throw v1
+    nop 
+    <junk/payload omitted>

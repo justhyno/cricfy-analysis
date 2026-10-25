@@ -1,0 +1,99 @@
+=== <clinit>()V
+    new-instance v0, Lis2;
+    const-string v1, "binding"
+    const-string v2, "getBinding()Lcom/cricfytv/sports/databinding/FragmentRecyclerNewBinding;"
+    const-class v3, Lcom/android/vending/fragments/NotificationsFragment;
+    invoke-direct v0, v3, v1, v2, Lis2;-><init>(Ljava/lang/Class; Ljava/lang/String; Ljava/lang/String;)V
+    const/4 v1, 1
+    new-array v1, v1, [Lmk1;
+    const/4 v2, 0
+    aput-object v0, v1, v2
+    sput-object v1, Lcom/android/vending/fragments/NotificationsFragment;->t0 [Lmk1;
+    return-void 
+    <junk/payload omitted>
+=== <init>()V
+    const v0, 2131558489
+    invoke-direct v3, v0, Lu11;-><init>(I)V
+    new-instance v0, Lst;
+    const/4 v1, 5
+    invoke-direct v0, v3, v1, Lst;-><init>(Ljava/lang/Object; I)V
+    new-instance v1, Lqv;
+    const/4 v2, 3
+    invoke-direct v1, v3, v0, v2, Lqv;-><init>(Lu11; La41; I)V
+    sget-object v0, Lbm1;->p Lbm1;
+    invoke-static v0, v1, Lre2;->I(Lbm1; La41;)Ltl1;
+    move-result-object v0
+    iput-object v0, v3, Lcom/android/vending/fragments/NotificationsFragment;->q0 Ltl1;
+    const-class v0, Lcom/cricfytv/sports/databinding/FragmentRecyclerNewBinding;
+    invoke-static v3, v0, Lke2;->w(Lu11; Ljava/lang/Class;)Ld31;
+    move-result-object v0
+    iput-object v0, v3, Lcom/android/vending/fragments/NotificationsFragment;->r0 Ld31;
+    new-instance v0, Ldc2;
+    invoke-direct v0, v3, v2, Ldc2;-><init>(Ljava/lang/Object; I)V
+    new-instance v1, Lvk3;
+    invoke-direct v1, v0, Lvk3;-><init>(La41;)V
+    iput-object v1, v3, Lcom/android/vending/fragments/NotificationsFragment;->s0 Lvk3;
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== C(Landroid/view/View;)V
+    invoke-virtual v6, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    sget-object v6, Lcom/android/vending/fragments/NotificationsFragment;->t0 [Lmk1;
+    const/4 v0, 0
+    aget-object v1, v6, v0
+    iget-object v2, v5, Lcom/android/vending/fragments/NotificationsFragment;->r0 Ld31;
+    invoke-virtual v2, v5, v1, Ld31;->c1(Ljava/lang/Object; Lmk1;)Ljava/lang/Object;
+    move-result-object v1
+    check-cast v1, Lcom/cricfytv/sports/databinding/FragmentRecyclerNewBinding;
+    aget-object v6, v6, v0
+    invoke-virtual v2, v5, v6, Ld31;->c1(Ljava/lang/Object; Lmk1;)Ljava/lang/Object;
+    move-result-object v6
+    check-cast v6, Lcom/cricfytv/sports/databinding/FragmentRecyclerNewBinding;
+    iget-object v6, v6, Lcom/cricfytv/sports/databinding/FragmentRecyclerNewBinding;->b Landroid/widget/TextView;
+    const-string v2, "Notifications"
+    filled-new-array v2, [Ljava/lang/Object;
+    move-result-object v2
+    const v3, 2132017329
+    invoke-virtual v5, v3, v2, Lu11;->j(I [Ljava/lang/Object;)Ljava/lang/String;
+    move-result-object v2
+    invoke-virtual v6, v2, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    iget-object v6, v1, Lcom/cricfytv/sports/databinding/FragmentRecyclerNewBinding;->c Landroidx/recyclerview/widget/RecyclerView;
+    new-instance v2, Landroidx/recyclerview/widget/LinearLayoutManager;
+    invoke-virtual v5, Lu11;->I()Landroid/content/Context;
+    move-result-object v3
+    const/4 v4, 1
+    invoke-direct v2, v3, v4, v0, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context; I Z)V
+    invoke-virtual v6, v2, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/k;)V
+    iget-object v6, v1, Lcom/cricfytv/sports/databinding/FragmentRecyclerNewBinding;->c Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, v5, Lcom/android/vending/fragments/NotificationsFragment;->s0 Lvk3;
+    invoke-virtual v0, Lvk3;->getValue()Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Lzf2;
+    invoke-virtual v6, v0, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/j;)V
+    iget-object v6, v1, Lcom/cricfytv/sports/databinding/FragmentRecyclerNewBinding;->a Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
+    const v0, 2131231095
+    invoke-virtual v6, v0, Lcom/google/android/material/floatingactionbutton/FloatingActionButton;->setImageResource(I)V
+    new-instance v0, Lpm;
+    const/16 v1, 9
+    invoke-direct v0, v5, v1, Lpm;-><init>(Ljava/lang/Object; I)V
+    invoke-virtual v6, v0, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== t(Landroid/os/Bundle;)V
+    invoke-super v3, v4, Lu11;->t(Landroid/os/Bundle;)V
+    iget-object v4, v3, Lcom/android/vending/fragments/NotificationsFragment;->q0 Ltl1;
+    invoke-interface v4, Ltl1;->getValue()Ljava/lang/Object;
+    move-result-object v4
+    check-cast v4, Lyz3;
+    iget-object v4, v4, Lyz3;->c Lu03;
+    new-instance v0, Lzg2;
+    const/4 v1, 0
+    invoke-direct v0, v3, v1, Lzg2;-><init>(Lcom/android/vending/fragments/NotificationsFragment; I)V
+    new-instance v1, Lnt;
+    const/4 v2, 6
+    invoke-direct v1, v0, v2, Lnt;-><init>(Lc41; I)V
+    invoke-virtual v4, v3, v1, Lap1;->d(Lwm1; Lmh2;)V
+    return-void 
+    nop 
+    <junk/payload omitted>

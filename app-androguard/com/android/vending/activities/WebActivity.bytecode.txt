@@ -1,0 +1,257 @@
+=== <clinit>()V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== <init>()V
+    const v0, 2131558433
+    invoke-direct v1, v0, Landroidx/appcompat/app/AppCompatActivity;-><init>(I)V
+    const/4 v0, -1
+    iput v0, v1, Lcom/android/vending/activities/WebActivity;->y I
+    return-void 
+    <junk/payload omitted>
+=== finish()V
+    iget-object v0, v1, Lcom/android/vending/activities/WebActivity;->z Ljava/lang/Boolean;
+    if-eqz v0, +00eh
+    invoke-virtual v0, Ljava/lang/Boolean;->booleanValue()Z
+    move-result v0
+    if-eqz v0, +004h
+    const/4 v0, -1
+    goto +2h
+    const/4 v0, 0
+    invoke-virtual v1, v0, Landroid/app/Activity;->setResult(I)V
+    invoke-super v1, Landroid/app/Activity;->finish()V
+    return-void 
+    <junk/payload omitted>
+=== onCreate(Landroid/os/Bundle;)V
+    invoke-super v9, v10, Landroidx/fragment/app/FragmentActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-virtual v9, Landroid/app/Activity;->getLayoutInflater()Landroid/view/LayoutInflater;
+    move-result-object v10
+    const/4 v0, 0
+    const/4 v1, 0
+    invoke-static v10, v0, v1, Lcom/cricfytv/sports/databinding/ActivityWebBinding;->inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/ActivityWebBinding;
+    move-result-object v10
+    iput-object v10, v9, Lcom/android/vending/activities/WebActivity;->w Lcom/cricfytv/sports/databinding/ActivityWebBinding;
+    invoke-virtual v9, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    move-result-object v10
+    const-string v2, "showTime"
+    const/4 v3, -1
+    invoke-virtual v10, v2, v3, Landroid/content/Intent;->getIntExtra(Ljava/lang/String; I)I
+    move-result v10
+    iput v10, v9, Lcom/android/vending/activities/WebActivity;->y I
+    iget-object v10, v9, Lcom/android/vending/activities/WebActivity;->w Lcom/cricfytv/sports/databinding/ActivityWebBinding;
+    const-string v2, "binding"
+    if-eqz v10, +170h
+    iget-object v10, v10, Lcom/cricfytv/sports/databinding/ActivityWebBinding;->h Landroid/webkit/WebView;
+    iput-object v10, v9, Lcom/android/vending/activities/WebActivity;->x Landroid/webkit/WebView;
+    invoke-virtual v9, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    move-result-object v10
+    const-string v4, "link"
+    invoke-virtual v10, v4, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v10
+    if-eqz v10, +15ch
+    const-string v4, "http://"
+    const/4 v5, 1
+    invoke-static v10, v4, v5, Lzh3;->B(Ljava/lang/String; Ljava/lang/String; Z)Z
+    move-result v4
+    if-nez v4, +00ch
+    const-string v4, "https://"
+    invoke-static v10, v4, v5, Lzh3;->B(Ljava/lang/String; Ljava/lang/String; Z)Z
+    move-result v4
+    if-eqz v4, +003h
+    goto +2h
+    move-object v10, v0
+    if-nez v10, +004h
+    goto/16 +145h
+    iget-object v4, v9, Lcom/android/vending/activities/WebActivity;->x Landroid/webkit/WebView;
+    const-string v6, "webView"
+    if-eqz v4, +13bh
+    new-instance v7, Landroid/webkit/WebChromeClient;
+    invoke-direct v7, Landroid/webkit/WebChromeClient;-><init>()V
+    invoke-virtual v4, v7, Landroid/webkit/WebView;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V
+    iget-object v4, v9, Lcom/android/vending/activities/WebActivity;->w Lcom/cricfytv/sports/databinding/ActivityWebBinding;
+    if-eqz v4, +12bh
+    iget-object v4, v4, Lcom/cricfytv/sports/databinding/ActivityWebBinding;->d Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;
+    iget-object v4, v4, Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;->b Landroid/widget/TextView;
+    const v7, 2132017301
+    invoke-virtual v4, v7, Landroid/widget/TextView;->setText(I)V
+    iget-object v4, v9, Lcom/android/vending/activities/WebActivity;->x Landroid/webkit/WebView;
+    if-eqz v4, +119h
+    invoke-virtual v4, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
+    move-result-object v4
+    invoke-virtual v4, v5, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
+    invoke-virtual v4, v1, Landroid/webkit/WebSettings;->setDomStorageEnabled(Z)V
+    invoke-virtual v4, v3, Landroid/webkit/WebSettings;->setCacheMode(I)V
+    invoke-virtual v4, v1, Landroid/webkit/WebSettings;->setSupportZoom(Z)V
+    invoke-virtual v4, v1, Landroid/webkit/WebSettings;->setMediaPlaybackRequiresUserGesture(Z)V
+    const-string v3, "ALGORITHMIC_DARKENING"
+    invoke-static v3, Li34;->a(Ljava/lang/String;)Z
+    move-result v3
+    if-eqz v3, +075h
+    invoke-virtual v9, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    move-result-object v3
+    invoke-virtual v3, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+    move-result-object v3
+    iget v3, v3, Landroid/content/res/Configuration;->uiMode I
+    and-int/lit8 v3, v3, 48
+    const-string v4, "This method is not supported by the current version of the framework and the current WebView APK"
+    const-class v7, Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface;
+    if-eqz v3, +037h
+    const/16 v8, 16
+    if-eq v3, v8, +033h
+    const/16 v8, 32
+    if-eq v3, v8, +003h
+    goto +59h
+    iget-object v3, v9, Lcom/android/vending/activities/WebActivity;->x Landroid/webkit/WebView;
+    if-eqz v3, +026h
+    invoke-virtual v3, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
+    move-result-object v3
+    sget-object v8, Li34;->d Lh34;
+    invoke-virtual v8, Lh34;->b()Z
+    move-result v8
+    if-eqz v8, +016h
+    sget-object v4, Lj34;->a Lj4;
+    iget-object v4, v4, Lj4;->p Ljava/lang/Object;
+    check-cast v4, Lorg/chromium/support_lib_boundary/WebkitToCompatConverterBoundaryInterface;
+    invoke-interface v4, v3, Lorg/chromium/support_lib_boundary/WebkitToCompatConverterBoundaryInterface;->convertSettings(Landroid/webkit/WebSettings;)Ljava/lang/reflect/InvocationHandler;
+    move-result-object v3
+    invoke-static v7, v3, Lvo;->f(Ljava/lang/Class; Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    move-result-object v3
+    check-cast v3, Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface;
+    invoke-interface v3, v5, Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface;->setAlgorithmicDarkeningAllowed(Z)V
+    goto +35h
+    invoke-static v4, Ltq0;->k(Ljava/lang/String;)V
+    return-void 
+    invoke-static v6, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    iget-object v3, v9, Lcom/android/vending/activities/WebActivity;->x Landroid/webkit/WebView;
+    if-eqz v3, +026h
+    invoke-virtual v3, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
+    move-result-object v3
+    sget-object v8, Li34;->d Lh34;
+    invoke-virtual v8, Lh34;->b()Z
+    move-result v8
+    if-eqz v8, +016h
+    sget-object v4, Lj34;->a Lj4;
+    iget-object v4, v4, Lj4;->p Ljava/lang/Object;
+    check-cast v4, Lorg/chromium/support_lib_boundary/WebkitToCompatConverterBoundaryInterface;
+    invoke-interface v4, v3, Lorg/chromium/support_lib_boundary/WebkitToCompatConverterBoundaryInterface;->convertSettings(Landroid/webkit/WebSettings;)Ljava/lang/reflect/InvocationHandler;
+    move-result-object v3
+    invoke-static v7, v3, Lvo;->f(Ljava/lang/Class; Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    move-result-object v3
+    check-cast v3, Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface;
+    invoke-interface v3, v1, Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface;->setAlgorithmicDarkeningAllowed(Z)V
+    goto +9h
+    invoke-static v4, Ltq0;->k(Ljava/lang/String;)V
+    return-void 
+    invoke-static v6, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    iget-object v3, v9, Lcom/android/vending/activities/WebActivity;->x Landroid/webkit/WebView;
+    if-eqz v3, +083h
+    new-instance v4, Lm24;
+    invoke-direct v4, v9, v1, Lm24;-><init>(Ljava/lang/Object; I)V
+    invoke-virtual v3, v4, Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
+    iget-object v3, v9, Lcom/android/vending/activities/WebActivity;->x Landroid/webkit/WebView;
+    if-eqz v3, +073h
+    invoke-virtual v3, v10, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+    iget-object v10, v9, Lcom/android/vending/activities/WebActivity;->w Lcom/cricfytv/sports/databinding/ActivityWebBinding;
+    if-eqz v10, +068h
+    iget-object v10, v10, Lcom/cricfytv/sports/databinding/ActivityWebBinding;->f Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    new-instance v3, Lof1;
+    const/16 v4, 27
+    invoke-direct v3, v9, v4, Lof1;-><init>(Ljava/lang/Object; I)V
+    invoke-virtual v10, v3, Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;->setOnRefreshListener(Lok3;)V
+    iget-object v10, v9, Lcom/android/vending/activities/WebActivity;->w Lcom/cricfytv/sports/databinding/ActivityWebBinding;
+    if-eqz v10, +054h
+    iget-object v10, v10, Lcom/cricfytv/sports/databinding/ActivityWebBinding;->b Landroid/widget/ImageButton;
+    new-instance v3, Lk24;
+    invoke-direct v3, v9, v1, Lk24;-><init>(Lcom/android/vending/activities/WebActivity; I)V
+    invoke-virtual v10, v3, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v10, v9, Lcom/android/vending/activities/WebActivity;->w Lcom/cricfytv/sports/databinding/ActivityWebBinding;
+    if-eqz v10, +042h
+    iget-object v10, v10, Lcom/cricfytv/sports/databinding/ActivityWebBinding;->d Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;
+    iget-object v10, v10, Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;->c Lcom/google/android/material/button/MaterialButton;
+    new-instance v1, Lk24;
+    invoke-direct v1, v9, v5, Lk24;-><init>(Lcom/android/vending/activities/WebActivity; I)V
+    invoke-virtual v10, v1, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v10, v9, Lcom/android/vending/activities/WebActivity;->x Landroid/webkit/WebView;
+    if-eqz v10, +02eh
+    invoke-virtual v10, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+    move-result-object v10
+    new-instance v1, Ll24;
+    invoke-direct v1, v9, Ll24;-><init>(Lcom/android/vending/activities/WebActivity;)V
+    invoke-virtual v10, v1, Landroid/view/ViewTreeObserver;->addOnScrollChangedListener(Landroid/view/ViewTreeObserver$OnScrollChangedListener;)V
+    invoke-virtual v9, Landroidx/activity/ComponentActivity;->getOnBackPressedDispatcher()Lii2;
+    move-result-object v10
+    new-instance v1, Las3;
+    const/4 v3, 3
+    invoke-direct v1, v9, v3, Las3;-><init>(Ljava/lang/Object; I)V
+    const/4 v3, 2
+    invoke-static v10, v9, v1, v3, Lne2;->d(Lii2; Lwm1; Lc41; I)Lc21;
+    move-result-object v10
+    invoke-virtual v10, v5, Ldi2;->e(Z)V
+    iget-object v10, v9, Lcom/android/vending/activities/WebActivity;->w Lcom/cricfytv/sports/databinding/ActivityWebBinding;
+    if-eqz v10, +008h
+    iget-object v10, v10, Lcom/cricfytv/sports/databinding/ActivityWebBinding;->a Landroidx/constraintlayout/widget/ConstraintLayout;
+    invoke-virtual v9, v10, Landroidx/appcompat/app/AppCompatActivity;->setContentView(Landroid/view/View;)V
+    return-void 
+    invoke-static v2, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    invoke-static v6, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    invoke-static v2, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    invoke-static v2, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    invoke-static v2, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    invoke-static v6, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    invoke-static v6, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    invoke-static v6, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    invoke-static v2, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    invoke-static v6, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    invoke-virtual v9, Lcom/android/vending/activities/WebActivity;->finish()V
+    return-void 
+    invoke-static v2, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    <junk/payload omitted>
+=== onDestroy()V
+    iget-object v0, v1, Lcom/android/vending/activities/WebActivity;->x Landroid/webkit/WebView;
+    if-eqz v0, +009h
+    invoke-virtual v0, Landroid/webkit/WebView;->destroy()V
+    invoke-super v1, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
+    return-void 
+    const-string v1, "webView"
+    invoke-static v1, Lrg1;->U(Ljava/lang/String;)V
+    const/4 v1, 0
+    throw v1
+    <junk/payload omitted>
+=== onPause()V
+    const/4 v0, 0
+    iput-boolean v0, v1, Lcom/android/vending/activities/WebActivity;->B Z
+    iget-object v0, v1, Lcom/android/vending/activities/WebActivity;->x Landroid/webkit/WebView;
+    if-eqz v0, +009h
+    invoke-virtual v0, Landroid/webkit/WebView;->onPause()V
+    invoke-super v1, Landroidx/fragment/app/FragmentActivity;->onPause()V
+    return-void 
+    const-string v1, "webView"
+    invoke-static v1, Lrg1;->U(Ljava/lang/String;)V
+    const/4 v1, 0
+    throw v1
+    nop 
+    <junk/payload omitted>
+=== onResume()V
+    invoke-super v0, Landroidx/fragment/app/FragmentActivity;->onResume()V
+    iget-object v0, v0, Lcom/android/vending/activities/WebActivity;->x Landroid/webkit/WebView;
+    if-eqz v0, +006h
+    invoke-virtual v0, Landroid/webkit/WebView;->onResume()V
+    return-void 
+    const-string v0, "webView"
+    invoke-static v0, Lrg1;->U(Ljava/lang/String;)V
+    const/4 v0, 0
+    throw v0
+    <junk/payload omitted>

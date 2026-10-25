@@ -1,0 +1,1150 @@
+Android
+9519653
+__cxa_finalize
+__cxa_atexit
+__android_log_vprint
+__stack_chk_fail
+malloc
+realloc
+memset
+memcmp
+__strlen_chk
+memcpy
+getpagesize
+__errno
+munmap
+madvise
+mremap
+mprotect
+pthread_attr_destroy
+pthread_self
+pthread_mutex_init
+pthread_mutex_destroy
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_cond_destroy
+pthread_cond_wait
+pthread_cond_signal
+pthread_cond_broadcast
+pthread_rwlock_rdlock
+pthread_rwlock_wrlock
+pthread_rwlock_unlock
+pthread_getattr_np
+pthread_attr_getstack
+pthread_attr_getguardsize
+clock_gettime
+memmove
+strlen
+__vsnprintf_chk
+strcmp
+bsearch
+vsnprintf
+unity_coherence_library_init
+__memcpy_chk
+__memset_chk
+JNI_OnLoad
+Java_com_unity3d_coherence_CoherenceBridge_init
+Java_com_unity3d_coherence_CoherenceBridge_isInitialized
+Java_com_unity3d_coherence_CoherenceBridge_setLogHandler
+Java_com_unity3d_coherence_CoherenceBridge_setExternalUserId
+Java_com_unity3d_coherence_CoherenceBridge_getCommonAttributes
+Java_com_unity3d_coherence_CoherenceBridge_getVersions
+Java_com_unity3d_coherence_CoherenceBridge_vmCreate
+Java_com_unity3d_coherence_CoherenceBridge_vmInvokeMain
+Java_com_unity3d_coherence_CoherenceBridge_vmDrop
+Java_com_unity3d_coherence_CoherenceBridge_vmLastError
+pthread_getspecific
+pthread_setspecific
+posix_memalign
+__open_2
+__read_chk
+memchr
+strerror_r
+pthread_key_create
+syscall
+vfprintf
+vasprintf
+android_set_abort_message
+openlog
+syslog
+closelog
+__memmove_chk
+__cxa_thread_atexit_impl
+pthread_once
+pthread_key_delete
+getauxval
+__system_property_get
+strncmp
+fprintf
+fflush
+dl_iterate_phdr
+fwrite
+libdl.so
+libc.so
+liblog.so
+libm.so
+libunitycoherencenative.so
+out of bounds memory access
+Instantiate module failed, invalid module type
+Exception: %s
+%s%s%s
+type mismatch: expect data but block stack was empty
+Library::init: source=%d
+wasm_instance_new failed (no trap details)
+call_resolved: null func handle
+create_vm: payload unprotect failed
+protect_payload: compressed=%zu ratio=%.1f%%
+status
+(Ljava/lang/String;)Ljava/lang/Class;
+__cxa_guard_release
+covariant return thunk to 
+operator^=
+operator<=
+unknown pointer encoding
+unsupported restore location for float register
+[GC_ERROR]Heap is corrupted, free memory failed.
+%s module load failed: %s
+Cannot override max memory with value lower than module initial memory
+Cannot override max memory with value greater than module max memory
+integer divide by zero
+__unpin
+invalid mutability
+invalid export kind
+fast interpreter offset overflow
+failed to allocate bitmaps
+Library: engine vtable rejected (already set)
+arity mismatch on resolved function
+reflect_eval_string_jvm
+unity_reset_alloc
+verify_plugin_signature: success, msg_len=%zu
+loadClass
+decltype(
+typeid (
+operator>>=
+operator<=>
+char32_t
+libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+Get vector elem failed: invalid elem index.
+Init memory with pool (%p, %u) failed.
+Init memory with allocator (%p, %p, %p) failed.
+Load function section success.
+unknown function %u
+type mismatch: instruction requires table of functions but table %u has externref
+%s %02x %02x
+invalid memop flags: alignment must not be larger than natural
+type mismatch: elements segment does not fit
+Memory instantiate success.
+collect_signals_blob called
+instance has no exported `memory`
+invoke_wasm_plugin: %s success, output=%zu
+invoke_main: input is null but input_len > 0
+(I)Ljava/lang/Long;
+vm subsystem unavailable
+wchar_t
+operator~
+operator"" 
+std::basic_string
+decltype(auto)
+HashMap create failed: size is too large.
+Init vector failed: alloc memory failed.
+Get vector elem failed: vector or elem buf is NULL.
+argv_to_results
+the result conversion is failed
+Found malloc function, name: %s, index: %u
+frame offset underflow
+v0.0.18
+CoherenceBridge::platform_query_int: id=%d hit
+generate_uuid
+engine_version
+invoke_main: input_len exceeds u32
+create_vm: wasm load failed
+vm::drop: handle=0x%llx
+reflectEvalBool
+doubleValue
+terminating with %s exception of type %s
+const_cast
+unsigned __int128
+operator delete
+operator>=
+unwind_phase2
+unsupported arm64 register
+libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+getSLEB128
+getSavedRegister
+Append vector elem failed: vector or elem buf is NULL.
+Incorrect filetype and compilation flags
+wasm type's ref count too large
+integer representation too long(table)
+invalid reference type or unknown type
+unknown label, unexpected end of section or function
+data count section required
+failed to link import global (%s, %s)
+__wasm_call_ctors
+CoherenceBridge::kv_set: key=%s
+platform_query_string: id=%d answered by provider
+wasm_module_new failed (likely invalid WASM bytes)
+reflect_list_jvm
+kv_set_string
+get_session_storage
+create_vm: envelope parse failed
+unprotect_payload: decompressed_len=%u exceeds max=%zu
+(Ljava/lang/String;)Ljava/lang/String;
+reflectEvalString
+reflectEvalInt
+reflectListJvm
+longValue
+(ILjava/lang/String;)V
+(Landroid/content/Context;I)V
+typeinfo name for 
+operator new
+ [enable_if:
+std::nullptr_t
+objc_object
+std::bad_alloc
+getEncodedP
+current building isn't compatible with the module,may need recompile
+shared memory must have maximum
+native stack overflow
+indirect call type mismatch
+invalid UTF-8 encoding
+Load type section success.
+function and code section have inconsistent lengths
+unexpected end opcodes from unbalanced control flow structures
+LIMITATION: a string which contains '\00' is unsupported
+allocate linear memory failed
+Library::init: initialization complete
+Library::claim_source: source=%d claimed
+reflect_list_objc
+__cxa_guard_abort
+typeinfo for 
+reference temporary for 
+unsigned char
+operator&=
+operator*=
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+getSavedFloatRegister
+%s meets unsupported type %u
+failed to call unlinked function
+interp_process_export
+integer representation too long
+integer overflow
+__retain
+__release
+code section size mismatch
+funcref
+platform_query_string: id=%d answered by coherence, hit=%d
+Library::claim_source: source=%d already claimed
+host fn arity mismatch vs registered signature
+platform
+%s: invoke_main failed
+reset: invalid handle
+reflectDouble
+(Ljava/lang/String;)Ljava/lang/Double;
+java/lang/Long
+GetByteArrayElements failed
+Unknown error %d
+operator delete[]
+std::string
+[GC_ERROR]heap migrate pool buf not 8-byte aligned
+[GC_ERROR]Heap is corrupted, heap migrate failed.
+imports[%d] is NULL and it is fatal
+wasm_runtime_realloc failed: memory hasn't been initialized.
+unsupported param type
+multiple memories
+memory
+type mismatch: const expr stack underflow
+type mismatch, opcode drop was found but stack was empty
+  heap offset: %lu, heap size: %u
+<init>
+coherence
+%s vtable installed, version=%u
+WasmInstance::parse: module parsed
+export not found: 
+reflect_bool_objc
+reflect_bool_jvm
+ads_registered
+coherence_lib_version
+get_current_scene_name
+invoke_main: out_ptr/out_size out of bounds
+create_vm: module does not export `unity_main`
+()Ljava/lang/String;
+unsigned short
+operator/
+operator|
+exynos9810
+libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+FDE has zero length
+FDE is really a CIE
+%s failed
+Failed to malloc instance
+malloc
+invalid type flag
+section size mismatch
+type mismatch: illegal constant opcode sequence
+unknown table %d
+undeclared function reference
+stack cell num error
+failed to link import table (%s, %s)
+Library::prewarm: create_vm failed for signals plugin
+get_common_attributes: product_id=%u event_id=%u
+allocator<T>::allocate(size_t n) 'n' exceeds maximum supported size
+VmHandleRegistry::remove: handle=0x%llx removed=%d
+blobGet
+operator&
+operator%
+operator>>
+libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+DW_EH_PE_aligned pointer encoding not supported
+truncated sleb128 expression
+allocate memory failed
+unreachable
+spectest
+type mismatch or invalid result arity, opcode select was found but stack was empty
+zero byte expected
+AdsBridge::version: %u
+arity exceeds 64
+host fn arity overflow
+host function returned error
+create_vm: unsupported signature algorithm
+(Ljava/lang/String;Ljava/lang/String;)Z
+condition_variable::wait: mutex not locked
+terminate_handler unexpectedly returned
+signed char
+sizeof...(
+basic_ostream
+std::ostream
+std::iostream
+long long
+noexcept(
+unsupported restore location for register
+HashMap find elem failed: map or key is NULL.
+%s, line %d, 
+wasm_extern_copy
+unexpected parameter val type %d
+integer too large
+type mismatch
+section size mismatch: function body END opcode expected
+local count too large
+duplicate export name
+label stack depth limit exceeded
+EngineBridge::get_current_scene_name: hit
+Library::prewarm: create_vm failed for common_attributes plugin
+reflect_string_jvm
+reflect_double_objc
+reflect_eval_bool_jvm
+create_vm: success, handle=0x%llx
+/dev/urandom
+__cxa_guard_acquire detected recursive initialization
+operator new[]
+operator!
+std::basic_ostream<char, std::char_traits<char> >
+__float128
+char16_t
+during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+mmap failed: request size overflow due to paging
+mmap failed: for memory64 at most 64G is allowed
+[GC_ERROR]heap init pool buf not 8-byte aligned
+Failed to add to store instances
+WASM module load failed: unexpected end
+native function throw unknown exception
+undefined element
+too many locals
+Load code segment section success.
+unknown data segment %d
+%s %02x
+%s vtable rejected (already set)
+Library: coherence vtable rejected (already set)
+unity_coherence_library_init: requested_version=%u exceeds library api version=%u; proceeding
+get_common_attributes: plugin returned no output (coherence not registered or plugin error)
+reflect_eval_string_objc
+platform_query_string
+get_external_user_id
+unity_main
+create_vm: envelope parsed, inner_wasm_len=%zu
+create_vm: module does not export `unity_alloc`
+protect_payload: input=%zu
+protect_payload: entropy source failed: %s
+httpPost
+java/lang/Double
+typename 
+operator()
+operator>
+operator[]
+operator->
+unsigned long
+setRegister
+libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+wasm_module_new_ex
+invalid start function
+unknown binary version
+Identity: external_user_id set, len=%zu
+kv_get_string
+create_vm: signature verified
+(Ljava/lang/String;Ljava/lang/String;[B)Lcom/unity3d/coherence/HttpResult;
+clock_gettime(CLOCK_MONOTONIC) failed
+> typename 
+(anonymous namespace)
+operator==
+ complex
+CIE start does not match
+CIE version is not 1 or 3
+[GC_ERROR]heap init struct buf size (%u) < %zu
+HashMap insert elem failed: alloc memory failed.
+Load module success.
+invalid section id
+unknown global %u
+length out of bounds
+opcode else found without matched opcode if
+  page bytes: %u, init pages: %u, max pages: %u
+reflect_string_objc
+(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)I
+%s failed to broadcast
+vtable for 
+VTT for 
+alignof (
+noexcept (
+operator<
+operator->*
+unsigned int
+DW_EH_PE_funcrel pointer encoding not supported
+libunwind: Unsupported .eh_frame_hdr version
+Failed to create wasm-c-api func imports
+warning: wasm_runtime_free failed: memory hasn't been initialize.
+Found aux __data_end global, value: %lu
+Found free function, name: %s, index: %u
+invalid value type or invalid elements segment kind
+ but got other
+Library: coherence vtable registered
+Library: platform_query vtable rejected (already set)
+signals_blob
+failed to create wamr engine/store
+create_vm: entry, len=%zu
+(ILjava/lang/String;)Z
+__cxa_guard_acquire
+libc++abi
+dynamic_cast
+string
+ostream
+long double
+Init vector failed: alloc locker failed.
+invalid limits flags(table64 flag was found, please enable memory64)
+incompatible import type
+There is a pending exception needs to be handled
+unknown memory 0
+CoherenceBridge::kv_get: key=%s hit=%d
+create_vm: reserved bytes nonzero
+com.unity3d.coherence.CoherenceLibrary
+unexpected
+guard variable for 
+operator?
+libunwind: %s - %s
+[%s - %lX]: 
+Init vector failed: vector is NULL.
+wasm_module_exports
+Found aux stack top global, value: %lu, global index: %d, stack size: %d
+Can't find retain function,reset malloc function index to -1
+Shrink import memory size to %lu
+invalid import kind
+unknown type %d
+WASM module load failed: %s
+unknown global
+Load start section success.
+type mismatch: br_table targets must all use same result type
+unknown local type
+unknown global %d
+CoherenceBridge::generate_uuid called
+EngineBridge::get_current_scene_name called
+PlatformQueryBridge::query_string: id=%d miss
+common_attributes
+get_common_attributes: protected=%zu
+get_versions_payload: api=%u coherence=%u engine=%u ads=%u coh_sup=%u eng_sup=%u ads_sup=%u
+unity_alloc
+ads_version
+%s: invoked with invalid vm handle (prewarm likely failed at library init)
+unprotect_payload: input=%zu
+java/lang/ClassLoader
+generic
+virtual thunk to 
+operator*
+operator||
+istream
+char8_t
+DW_OP_deref_size with bad size
+Unknown DWARF encoding for search table.
+HashMap create failed: hash function or key equal function  is NULL.
+HashMap create failed: init map lock failed.
+Interpreter failed to process exports
+link function  #%d failed
+shared memory flag was found, please enable shared memory, lib-pthread or lib-wasi-threads
+tables cannot be shared
+out of bounds table access
+failed to call unlinked import function (%s, %s)
+set instance running mode failed
+WasmInstance::parse: len=%zu
+lib_version
+platformQueryString
+(I)Ljava/lang/String;
+booleanValue
+mutex lock failed
+unspecified system_category error
+unexpected_handler unexpectedly returned
+construction vtable for 
+__int128
+template<
+operator<<
+operator+
+operator+=
+operator++
+string literal
+unsigned long long
+ imaginary
+libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+HashMap remove elem failed: map or key is NULL.
+Init vector failed: init locker failed.
+Destroy vector elem failed: vector is NULL.
+argv_to_results failed
+Failed to create exec env singleton
+wasi_snapshot_preview1
+invalid argument count %u, must be no smaller than %u
+unknown value type
+Load table section success.
+global is immutable
+failed to insert app heap into linear memory, try using `--heap-size=0` option
+failed to link import memory (%s, %s)
+Library: engine vtable registered
+Library: ads vtable registered
+reflect_double_jvm
+reflect_eval_int_objc
+%s: vm reset returned status=%d
+invoke_main: invalid handle
+operator=
+operator/=
+evaluateExpression
+[GC_ERROR]heap migrate invalid pool buf size
+[GC_ERROR]failed to init lock
+wasm_externtype_delete
+Unknown import kind
+WASM module load failed: magic header not detected
+function and code section have inconsistent lengths or unexpected end
+invalid function code size
+Load export section success.
+type mismatch: expect 
+too much local cells 0x%x
+data segment does not fit
+CoherenceBridge::platform_query_int: id=%d miss
+collect_signals_blob: result=%zu
+WasmInstance::instantiate called before parse
+WasmInstance::load: complete, len=%zu
+reflect_eval_bool_objc
+engine_registered
+create_vm: signed_bytes is null or empty
+failed to load vm
+reflectBool
+com/unity3d/coherence/VmInvokeResult
+operator^
+ restrict
+decimal64
+libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+wasm_runtime_malloc failed: memory hasn't been initialized.
+wasi_unstable
+Invalid exec env stack info.
+type mismatch: expect data but stack was empty
+unknown elem segment %u
+unsatisfied import: 
+invoke_wasm_plugin: %s vm=0x%llx input=%zu
+parse_envelope: inner_wasm_len=%zu
+unprotect_payload: inflate failed, rc=%d
+(Ljava/lang/String;)Ljava/lang/Boolean;
+condition_variable wait failed
+random_device got EOF
+terminating with %s exception of type %s: %s
+non-virtual thunk to 
+std::basic_istream<char, std::char_traits<char> >
+iostream
+pixel vector[
+_Unwind_Resume() can't return
+libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+HashMap create failed: alloc memory failed.
+HashMap insert elem failed: duplicated key found.
+invalid local count
+invalid local type 0x%02X
+unknown data segment
+unexpected content after last section or junk after last section
+unexpected end of section or function
+Reset __heap_base global to %lu
+platform_query_int: id=%d answered by provider
+reflect_int_jvm
+reflectInt
+system
+operator%=
+DW_OP_fbreg not implemented
+Remove vector elem failed: invalid elem index.
+warning: to enable linux perf support, please recompile with -DWAMR_BUILD_LINUX_PERF=1
+memory size must be at most 65536 pages (4GiB)
+Load datacount section success.
+create_vm: signature verification failed
+verify_plugin_signature: failed, msg_len=%zu
+unprotect_payload: MAC verification failed
+reflectString
+(Ljava/lang/String;Ljava/lang/String;)Lcom/unity3d/coherence/HttpResult;
+(ILjava/lang/String;)[B
+errorMessage
+random_device got an unexpected error
+terminating with %s foreign exception
+uncaught
+operator--
+operator|=
+std::basic_iostream<char, std::char_traits<char> >
+std::__libcpp_tls_create() failed in __cxa_thread_atexit()
+_Unwind_Resume
+libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+os_munmap error addr:%p, size:0x%lx, errno:%d
+memory64 flag was found, please enable memory64
+warning: wasm_runtime_free with NULL pointer
+the arguments conversion is failed
+invalid local type
+invalid result arity
+warning: failed to link import function (%s, %s)
+CoherenceBridge::platform_query_string: id=%d
+PlatformQueryBridge::query_int: id=%d miss
+platform_query_int
+unprotect_payload: success, size=%zu
+(ILjava/lang/String;[B)Z
+()Ljava/lang/ClassLoader;
+__next_prime overflow
+'block-literal'
+operator-
+basic_istream
+std::istream
+double
+unexpected value type %d
+Error: app heap is corrupted, if the wasm file is compiled by wasi-sdk-12.0 or higher version, please add -Wl,--export=malloc -Wl,--export=free to export malloc and free functions. If it is compiled by asc, please add --exportRuntime to export the runtime helpers.
+unsupported opcode
+Load memory section success.
+unknown table
+unknown memory %d
+init app heap failed
+(null)
+engine
+platform_query
+PlatformQueryBridge::query_string: id=%d hit
+WasmInstance::instantiate called twice
+blobSet
+java/lang/Boolean
+getClassLoader
+%s failed to acquire mutex
+invocation function for block in 
+static_cast
+sizeof... (
+operator-=
+libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+getULEB128
+malformed uleb128 expression
+DWARF opcode not implemented
+%02u:%02u:%02u:%03u
+wasm_extern_delete
+invalid limits flags
+too many items in the index space(%u+%u).
+failed to check signature '%s' and resolve pointer params for import function (%s, %s)
+Found aux __heap_base global, value: %lu
+__data_end
+Shrink memory size to %lu
+integer representation too long(import table)
+incompatible import type or unknown import
+constant expression required
+unknown memory
+Load table segment section success.
+operand stack depth limit exceeded
+WASM module instantiate failed: %s
+PlatformQueryBridge::query_int: id=%d hit
+create_vm: unsupported envelope version
+Ljava/lang/String;
+%s failed to release mutex
+nullptr
+operator<<=
+::operator 
+libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+[GC_ERROR]heap init buf size (%u) < %u
+Append vector elem failed: extend vector failed.
+%s failed: %s
+wasm_instance_new_with_args_ex
+%s meets unsupported type: %d
+link global #%d failed
+doesn't support import memories and tables for now, ignore them
+Ignore custom section [%s].
+illegal opcode or constant expression required or type mismatch
+Load data segment section success.
+magic header not detected
+platform_query_int: id=%d answered by coherence, hit=%d
+Identity: external_user_id cleared
+get_common_attributes: payload protection failed
+memory write out of bounds
+%s: vm reset reports stale handle; call failing
+create_vm: envelope magic mismatch
+httpDownloadToBlob
+vector
+terminating
+reinterpret_cast
+DW_EH_PE_textrel pointer encoding not supported
+truncated uleb128 expression
+[GC_ERROR]couldn't find the node in the normal list
+HashMap traverse failed: map or callback is NULL.
+wasm auxiliary stack overflow
+param count or result count too large
+v128 value type requires simd feature
+data count and data section have inconsistent lengths
+unknown local
+%s vtable version=%u exceeds known max=%u; accepting
+get_common_attributes: versions=%zu plugin=%zu signals=%zu
+invoke_main: unity_alloc returned invalid ptr
+platformQueryInt
+httpGet
+output too large
+basic_string
+operator 
+decimal128
+ro.arch
+libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+getTableEntrySize
+mmap failed with errno: %d, hint: %p, size: %lu, prot: %d, flags: %d
+[GC_ERROR]Heap is corrupted, allocate memory failed.
+[GC_ERROR]heap init struct buf not 8-byte aligned
+HashMap destroy failed: map is NULL.
+uninitialized element
+__heap_base
+Found retain function, name: %s, index: %u
+size minimum must not be greater than maximum
+integer representation too long(import memory)
+externref
+__post_instantiate
+Library: ads vtable rejected (already set)
+get_versions_payload: size=%zu
+WasmInstance::instantiate: success, %zu exports
+reflect_eval_int_jvm
+create_vm: missing export unity_alloc
+VmHandleRegistry::insert: handle=0x%llx, count=%zu
+operator&&
+decimal32
+CIE ID is not zero
+Remove vector elem failed: vector is NULL.
+%s meets unsupported kind: %d
+unsupported result type
+unknown function
+Load import section success.
+type mismatch: stack size does not match block type
+EngineBridge::get_current_scene_name: miss
+Library: platform_query vtable registered
+reflect_int_objc
+create_vm: payload unprotected, wasm=%zu
+create_vm: envelope too short
+protect_payload: envelope=%zu
+unprotect_payload: version mismatch (got %u, want %u)
+generateUuid
+blobDelete
+thread-local wrapper routine for 
+thread-local initialization routine for 
+sizeof (
+operator!=
+__uuidof(
+std::allocator
+allocator
+struct
+libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+Can't binary search on variable length encoded data.
+init thread environment failed
+Failed to validate imports
+WASM module load failed: null load arguments
+wasm operand stack overflow
+wasm auxiliary stack underflow
+integer representation too long(memory)
+Load global section success.
+export is not a function: 
+random_device failed to open 
+terminate_handler unexpectedly threw an exception
+operator,
+decimal16
+noexcept
+getRegister
+DW_EH_PE_datarel is invalid with a datarelBase of 0
+unknown register
+wasm_runtime::
+HashMap insert elem failed: map or key is NULL.
+unexpected end
+warning: wasm_runtime_malloc with size zero
+invalid conversion to integer
+ref value type requires reference types feature
+unknown type
+Memory instantiate:
+WasmInstance::instantiate: %zu imports
+memory read out of bounds
+create_vm: missing export unity_main
+(Ljava/lang/String;)Ljava/lang/Long;
+unspecified generic_category error
+basic_iostream
+ volatile
+std::bad_exception
+DW_OP_piece not implemented
+DHSWdhsw
+;58/16
+V;58/16
+WD8=>(	1+
+;58/16
+D;8(4(6
+;58/16
+;58/16
+;58/16
+9../;1
+}6U7c%
+NiFU%l
+)glAAm
+SWO2I	
+tjSUCWE
+|x<?o|
+vIzpfJMo
+l2I[I	
+ivy#Gs}
+NSt6__ndk120__shared_ptr_emplaceIN5unity9coherence2vm6detail2VmENS_9allocatorIS5_EEEE
+D7q/;M
+								
+NSt6__ndk114__shared_countE
+NSt6__ndk119__shared_weak_countE
+NSt6__ndk112system_errorE
+NSt6__ndk114error_categoryE
+NSt6__ndk112__do_messageE
+NSt6__ndk124__generic_error_categoryE
+NSt6__ndk123__system_error_categoryE
+""i""""""""""""""""""""""""""""{""m
+66666666666666666
+6666666666666tx
+rrrrrrrrrrrrr
+rrrrrrrrrrrr
+	6												
+ (N12_GLOBAL__N_116itanium_demangle11SpecialNameE
+N12_GLOBAL__N_116itanium_demangle4NodeE
+N12_GLOBAL__N_116itanium_demangle21CtorVtableSpecialNameE
+N12_GLOBAL__N_116itanium_demangle8NameTypeE
+N12_GLOBAL__N_116itanium_demangle10NestedNameE
+N12_GLOBAL__N_116itanium_demangle24ForwardTemplateReferenceE
+N12_GLOBAL__N_116itanium_demangle14IntegerLiteralE
+N12_GLOBAL__N_116itanium_demangle8BoolExprE
+N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE
+N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE
+N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE
+N12_GLOBAL__N_116itanium_demangle13StringLiteralE
+N12_GLOBAL__N_116itanium_demangle15UnnamedTypeNameE
+N12_GLOBAL__N_116itanium_demangle26SyntheticTemplateParamNameE
+N12_GLOBAL__N_116itanium_demangle21TypeTemplateParamDeclE
+N12_GLOBAL__N_116itanium_demangle24NonTypeTemplateParamDeclE
+N12_GLOBAL__N_116itanium_demangle25TemplateTemplateParamDeclE
+N12_GLOBAL__N_116itanium_demangle21TemplateParamPackDeclE
+N12_GLOBAL__N_116itanium_demangle15ClosureTypeNameE
+N12_GLOBAL__N_116itanium_demangle10LambdaExprE
+N12_GLOBAL__N_116itanium_demangle15IntegerCastExprE
+N12_GLOBAL__N_116itanium_demangle13FunctionParamE
+N12_GLOBAL__N_116itanium_demangle8FoldExprE
+N12_GLOBAL__N_116itanium_demangle22ParameterPackExpansionE
+N12_GLOBAL__N_116itanium_demangle10BinaryExprE
+N12_GLOBAL__N_116itanium_demangle10PrefixExprE
+N12_GLOBAL__N_116itanium_demangle8CastExprE
+N12_GLOBAL__N_116itanium_demangle8CallExprE
+N12_GLOBAL__N_116itanium_demangle14ConversionExprE
+N12_GLOBAL__N_116itanium_demangle10DeleteExprE
+N12_GLOBAL__N_116itanium_demangle13QualifiedNameE
+N12_GLOBAL__N_116itanium_demangle8DtorNameE
+N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE
+N12_GLOBAL__N_116itanium_demangle15LiteralOperatorE
+N12_GLOBAL__N_116itanium_demangle19GlobalQualifiedNameE
+N12_GLOBAL__N_116itanium_demangle10MemberExprE
+N12_GLOBAL__N_116itanium_demangle18ArraySubscriptExprE
+N12_GLOBAL__N_116itanium_demangle10BracedExprE
+N12_GLOBAL__N_116itanium_demangle15BracedRangeExprE
+N12_GLOBAL__N_116itanium_demangle12InitListExprE
+N12_GLOBAL__N_116itanium_demangle11PostfixExprE
+N12_GLOBAL__N_116itanium_demangle7NewExprE
+N12_GLOBAL__N_116itanium_demangle13EnclosingExprE
+N12_GLOBAL__N_116itanium_demangle15ConditionalExprE
+N12_GLOBAL__N_116itanium_demangle19SizeofParamPackExprE
+N12_GLOBAL__N_116itanium_demangle13NodeArrayNodeE
+N12_GLOBAL__N_116itanium_demangle9ThrowExprE
+N12_GLOBAL__N_116itanium_demangle10UUIDOfExprE
+N12_GLOBAL__N_116itanium_demangle27ExpandedSpecialSubstitutionE
+N12_GLOBAL__N_116itanium_demangle12CtorDtorNameE
+N12_GLOBAL__N_116itanium_demangle10AbiTagAttrE
+N12_GLOBAL__N_116itanium_demangle21StructuredBindingNameE
+N12_GLOBAL__N_116itanium_demangle9LocalNameE
+N12_GLOBAL__N_116itanium_demangle19SpecialSubstitutionE
+N12_GLOBAL__N_116itanium_demangle13ParameterPackE
+N12_GLOBAL__N_116itanium_demangle12TemplateArgsE
+N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE
+N12_GLOBAL__N_116itanium_demangle16StdQualifiedNameE
+N12_GLOBAL__N_116itanium_demangle20TemplateArgumentPackE
+N12_GLOBAL__N_116itanium_demangle12EnableIfAttrE
+N12_GLOBAL__N_116itanium_demangle16FunctionEncodingE
+N12_GLOBAL__N_116itanium_demangle9DotSuffixE
+N12_GLOBAL__N_116itanium_demangle12NoexceptSpecE
+N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE
+N12_GLOBAL__N_116itanium_demangle12FunctionTypeE
+N12_GLOBAL__N_116itanium_demangle13ObjCProtoNameE
+N12_GLOBAL__N_116itanium_demangle17VendorExtQualTypeE
+N12_GLOBAL__N_116itanium_demangle8QualTypeE
+N12_GLOBAL__N_116itanium_demangle15PixelVectorTypeE
+N12_GLOBAL__N_116itanium_demangle10VectorTypeE
+N12_GLOBAL__N_116itanium_demangle9ArrayTypeE
+N12_GLOBAL__N_116itanium_demangle19PointerToMemberTypeE
+N12_GLOBAL__N_116itanium_demangle22ElaboratedTypeSpefTypeE
+N12_GLOBAL__N_116itanium_demangle11PointerTypeE
+N12_GLOBAL__N_116itanium_demangle13ReferenceTypeE
+N12_GLOBAL__N_116itanium_demangle20PostfixQualifiedTypeE
+N10__cxxabiv116__shim_type_infoE
+N10__cxxabiv117__class_type_infoE
+N10__cxxabiv120__si_class_type_infoE
+N10__cxxabiv121__vmi_class_type_infoE
+St9exception
+St13bad_exception
+St9bad_alloc
+St11logic_error
+St12length_error
+St12out_of_range
+St13runtime_error
+St14overflow_error
+St9type_info
++ih8J	
+Lii8k	
+Hc@9		
+jih8)	
+hr@yi"@
++ih8J	
+*a@9)e
+T)k|8(
+jjh8)	
+@y?!(k
+@y?!(k
+k 	A: 
++ih8J	
+JA@9J%
+)A@9)%
+k$1Lzl	
+%!@9&	@
+*A@9h!
+l{ixk	
+jih8)	
+jih8)	
+4jju8_
+T	)@9?
+T	)@9?
+T	-@9?
+T	)@9?
+T	kh8?
++yhxJ	
++yhxJ	
++yhxJ	
+6 kv8=
+@y6Y9x
+x;Iy8_
+jjh8)	
+RHih8)
+*A@9h!
+i88h~@
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8Mi
+Jli*8J
+,ij8k	
++ki8JE@9_
+4hB@9h
+ji8JE@9_
+,ih8Kik8k
+milxmi,
+LikxLi+
+LikxLi+
+(|@9)x@9
+hj8*ij8
+h&N)jb@
+k*N)lJ@
+h&N)jb@
+mIn8nIp8
+hq8qF1
+i;x/j<x
+@9hYhxI
+yjiixJ
+R*i+xi
+ThJ@9(
+R)!C9in
+k!C9k!
++ih8J	
+*Oip8q
+Qkpx?"/k
+yNk/x?
+_k,xLkkx
+@8Iih8k!
+C@7i&@
+XYix*q
+	KoYhxHy
+9*	@9)
+TI	@9?
+TI!@9?
+TI%@9?
+TI)@9?
+TI-@9?
+TI1@9?
+T*	@9_
+T*!@9_
+T*%@9_}
+T*)@9_
+T*-@9_
+T*1@9_%
+Lyixk	
+,ih8k	
+Lyixk	
+Lyixk	
+Lyixk	
+Lyixk	
+Lyixk	
+Lyixk	
+Lyixk	
+Lyixk	
+T		@9?}
+T	!@9?
+T	%@9?
+T	)@9?
+T	!@9?
+T	%@9?
+T	)@9?
+T		@9?
+T		@9?i
+T		@9?
+Lii8k	
+Lii8k	
+Lii8k	
+Lii8k	
+Lii8k	
+R	h(8h
+R	h(8h
+R	h(xh
+Lii8k	
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(xh
+R	h(8h
+R	h(xh
+R	h(8h
+R	h(xh
+TJ%@9_}
+Lyixk	
+Lyixk	
+Lyixk	
+Lyixk	
+Lii8k	
+Lyixk	
+Lyixk	
+Lii8k	
+R	h(8h
+R	h(xh
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
++ih8J	
+R	h(8h
++ih8J	
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(xh
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
+R	h(8h
+Th:A9h
+5h6A9H
+4h2A9(
+Th:A9h
+Th:A9H
+4h2A9i
+Ty2A9|6A9
+Tj:A9J
++ih8J	
++ih8J	
+Lii8k	
+Lii8k	
+Lii8k	
++ih8J	
+Lii8k	
+Lyixk	
+Lyixk	
++ih8J	
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Linker: LLD 14.0.7
+Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+.init_array
+.fini_array
+.comment
+.note.android.ident
+.got.plt
+.rela.plt
+.dynstr
+.eh_frame_hdr
+.gnu.version_r
+.data.rel.ro
+.rela.dyn
+.gnu.version
+.dynsym
+.gnu.hash
+.eh_frame
+.gcc_except_table
+.note.gnu.build-id
+.dynamic
+.shstrtab
+.rodata

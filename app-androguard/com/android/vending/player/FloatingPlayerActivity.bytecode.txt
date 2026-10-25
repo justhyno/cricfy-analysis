@@ -1,0 +1,313 @@
+=== <clinit>()V
+    new-instance v0, Lis2;
+    const-string v1, "binding"
+    const-string v2, "getBinding()Lcom/cricfytv/sports/databinding/ActivityPlayerBinding;"
+    const-class v3, Lcom/android/vending/player/FloatingPlayerActivity;
+    invoke-direct v0, v3, v1, v2, Lis2;-><init>(Ljava/lang/Class; Ljava/lang/String; Ljava/lang/String;)V
+    const/4 v1, 1
+    new-array v1, v1, [Lmk1;
+    const/4 v2, 0
+    aput-object v0, v1, v2
+    sput-object v1, Lcom/android/vending/player/FloatingPlayerActivity;->J [Lmk1;
+    return-void 
+    <junk/payload omitted>
+=== <init>()V
+    invoke-direct v2, Lcom/android/vending/player/BasePlayerActivity;-><init>()V
+    const-class v0, Lcom/cricfytv/sports/databinding/ActivityPlayerBinding;
+    invoke-static v2, v0, Lrg1;->q(Landroidx/appcompat/app/AppCompatActivity; Ljava/lang/Class;)Lj5;
+    move-result-object v0
+    iput-object v0, v2, Lcom/android/vending/player/FloatingPlayerActivity;->D Lj5;
+    const-string v0, ""
+    iput-object v0, v2, Lcom/android/vending/player/FloatingPlayerActivity;->H Ljava/lang/String;
+    new-instance v0, Lz8;
+    const/4 v1, 4
+    invoke-direct v0, v2, v1, Lz8;-><init>(Ljava/lang/Object; I)V
+    iput-object v0, v2, Lcom/android/vending/player/FloatingPlayerActivity;->I Lz8;
+    return-void 
+    <junk/payload omitted>
+=== T()Lcom/cricfytv/sports/databinding/ActivityPlayerBinding;
+    sget-object v0, Lcom/android/vending/player/FloatingPlayerActivity;->J [Lmk1;
+    const/4 v1, 0
+    aget-object v0, v0, v1
+    iget-object v1, v2, Lcom/android/vending/player/FloatingPlayerActivity;->D Lj5;
+    invoke-virtual v1, v2, v0, Lj5;->c1(Ljava/lang/Object; Lmk1;)Ljava/lang/Object;
+    move-result-object v2
+    check-cast v2, Lcom/cricfytv/sports/databinding/ActivityPlayerBinding;
+    return-object v2
+    <junk/payload omitted>
+=== U()Lcom/android/vending/player/CricfyPlayerView;
+    iget-object v0, v0, Lcom/android/vending/player/FloatingPlayerActivity;->F Lcom/android/vending/player/CricfyPlayerView;
+    if-eqz v0, +003h
+    return-object v0
+    const-string v0, "playerView"
+    invoke-static v0, Lrg1;->U(Ljava/lang/String;)V
+    const/4 v0, 0
+    throw v0
+    <junk/payload omitted>
+=== Y()Z
+    iget-object v0, v0, Lcom/android/vending/player/FloatingPlayerActivity;->E Lwx0;
+    if-eqz v0, +00bh
+    invoke-virtual v0, Lwx0;->c()Lrn2;
+    move-result-object v0
+    iget-object v0, v0, Lrn2;->c Ljm2;
+    iget-boolean v0, v0, Ljm2;->a Z
+    return v0
+    const-string v0, "playerManager"
+    invoke-static v0, Lrg1;->U(Ljava/lang/String;)V
+    const/4 v0, 0
+    throw v0
+    <junk/payload omitted>
+=== Z()Z
+    iget-boolean v0, v0, Lcom/android/vending/player/FloatingPlayerActivity;->G Z
+    return v0
+    nop 
+    <junk/payload omitted>
+=== b0(Lho2;)V
+    iget-object v2, v2, Lcom/android/vending/player/FloatingPlayerActivity;->E Lwx0;
+    const/4 v0, 0
+    if-eqz v2, +01fh
+    invoke-virtual v2, Lwx0;->c()Lrn2;
+    move-result-object v2
+    invoke-virtual v2, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    iget-object v1, v2, Lrn2;->c Ljm2;
+    iget-object v1, v1, Ljm2;->e Lcom/cricfytv/sports/PP;
+    if-eqz v1, +00ch
+    invoke-virtual v1, Lcom/cricfytv/sports/PP;->getItems()Ljava/util/List;
+    move-result-object v1
+    if-eqz v1, +006h
+    invoke-static v1, Llz;->T0(Ljava/lang/Iterable;)Ljava/util/List;
+    move-result-object v0
+    if-eqz v0, +005h
+    invoke-virtual v2, v3, v0, Lrn2;->b(Lho2; Ljava/util/List;)V
+    return-void 
+    const-string v2, "playerManager"
+    invoke-static v2, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    <junk/payload omitted>
+=== c0(I Ljava/lang/String;)V
+    iget-object v0, v0, Lcom/android/vending/player/FloatingPlayerActivity;->E Lwx0;
+    if-eqz v0, +00ah
+    invoke-virtual v0, Lwx0;->c()Lrn2;
+    move-result-object v0
+    invoke-virtual v0, v1, v2, Lrn2;->g(I Ljava/lang/String;)V
+    return-void 
+    const-string v0, "playerManager"
+    invoke-static v0, Lrg1;->U(Ljava/lang/String;)V
+    const/4 v0, 0
+    throw v0
+    nop 
+    <junk/payload omitted>
+=== i()V
+    invoke-static v4, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->getInstance(Landroid/content/Context;)Landroidx/localbroadcastmanager/content/LocalBroadcastManager;
+    move-result-object v0
+    new-instance v1, Landroid/content/Intent;
+    const-string v2, "FLOATING_PLAYER_EXIT_FULLSCREEN"
+    iget-object v3, v4, Lcom/android/vending/player/FloatingPlayerActivity;->H Ljava/lang/String;
+    invoke-static v2, v3, Lre2;->g0(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v2
+    invoke-direct v1, v2, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    invoke-virtual v0, v1, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->sendBroadcast(Landroid/content/Intent;)Z
+    invoke-virtual v4, Landroid/app/Activity;->finish()V
+    return-void 
+    <junk/payload omitted>
+=== onConfigurationChanged(Landroid/content/res/Configuration;)V
+    invoke-virtual v2, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-super v1, v2, Landroidx/appcompat/app/AppCompatActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+    iget v2, v2, Landroid/content/res/Configuration;->orientation I
+    const/4 v0, 2
+    if-ne v2, v0, +004h
+    const/4 v2, 1
+    goto +2h
+    const/4 v2, 0
+    iput-boolean v2, v1, Lcom/android/vending/player/FloatingPlayerActivity;->G Z
+    invoke-virtual v1, v2, Lcom/android/vending/player/BasePlayerActivity;->V(Z)V
+    return-void 
+    <junk/payload omitted>
+=== onCreate(Landroid/os/Bundle;)V
+    invoke-super v4, v5, Landroidx/fragment/app/FragmentActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-virtual v4, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+    move-result-object v5
+    const-string v0, "key"
+    invoke-virtual v5, v0, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v5
+    const/4 v0, 0
+    if-eqz v5, +008h
+    invoke-virtual v5, Ljava/lang/String;->length()I
+    move-result v1
+    if-nez v1, +003h
+    move-object v5, v0
+    if-nez v5, +006h
+    invoke-virtual v4, Landroid/app/Activity;->finish()V
+    return-void 
+    iput-object v5, v4, Lcom/android/vending/player/FloatingPlayerActivity;->H Ljava/lang/String;
+    sget-object v1, Lcom/android/vending/player/FloatingPlayerService;->u Lcom/android/vending/player/FloatingPlayerService;
+    if-eqz v1, +0d4h
+    iget-object v1, v1, Lcom/android/vending/player/FloatingPlayerService;->q Ljava/util/LinkedHashMap;
+    invoke-virtual v1, v5, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v5
+    check-cast v5, Lwx0;
+    if-nez v5, +004h
+    goto/16 +0c8h
+    iput-object v5, v4, Lcom/android/vending/player/FloatingPlayerActivity;->E Lwx0;
+    invoke-virtual v5, Lwx0;->b()Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    move-result-object v5
+    iget-object v5, v5, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->b Lcom/android/vending/player/CricfyPlayerView;
+    iput-object v5, v4, Lcom/android/vending/player/FloatingPlayerActivity;->F Lcom/android/vending/player/CricfyPlayerView;
+    invoke-virtual v4, Lcom/android/vending/player/FloatingPlayerActivity;->U()Lcom/android/vending/player/CricfyPlayerView;
+    move-result-object v5
+    invoke-virtual v5, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    move-result-object v5
+    instance-of v1, v5, Landroid/view/ViewGroup;
+    if-eqz v1, +005h
+    check-cast v5, Landroid/view/ViewGroup;
+    goto +2h
+    move-object v5, v0
+    if-eqz v5, +009h
+    invoke-virtual v4, Lcom/android/vending/player/FloatingPlayerActivity;->U()Lcom/android/vending/player/CricfyPlayerView;
+    move-result-object v1
+    invoke-virtual v5, v1, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
+    invoke-virtual v4, Lcom/android/vending/player/FloatingPlayerActivity;->U()Lcom/android/vending/player/CricfyPlayerView;
+    move-result-object v5
+    new-instance v1, Landroid/view/ViewGroup$LayoutParams;
+    const/4 v2, -1
+    invoke-direct v1, v2, v2, Landroid/view/ViewGroup$LayoutParams;-><init>(I I)V
+    invoke-virtual v5, v1, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual v4, Lcom/android/vending/player/FloatingPlayerActivity;->T()Lcom/cricfytv/sports/databinding/ActivityPlayerBinding;
+    move-result-object v5
+    iget-object v5, v5, Lcom/cricfytv/sports/databinding/ActivityPlayerBinding;->f Landroid/widget/FrameLayout;
+    invoke-virtual v4, Lcom/android/vending/player/FloatingPlayerActivity;->U()Lcom/android/vending/player/CricfyPlayerView;
+    move-result-object v1
+    invoke-virtual v5, v1, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-virtual v4, Lcom/android/vending/player/FloatingPlayerActivity;->U()Lcom/android/vending/player/CricfyPlayerView;
+    move-result-object v5
+    invoke-virtual v5, Lcom/android/vending/player/CricfyPlayerView;->getControllerBinding()Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;
+    move-result-object v5
+    iget-object v1, v5, Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;->m Landroid/widget/ImageButton;
+    const/4 v2, 0
+    invoke-virtual v1, v2, Landroid/view/View;->setVisibility(I)V
+    iget-object v1, v5, Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;->m Landroid/widget/ImageButton;
+    new-instance v3, Lqx0;
+    invoke-direct v3, v4, v2, Lqx0;-><init>(Lcom/android/vending/player/FloatingPlayerActivity; I)V
+    invoke-virtual v1, v3, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v1, v5, Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;->g Landroid/widget/ImageButton;
+    invoke-virtual v1, v2, Landroid/view/View;->setVisibility(I)V
+    new-instance v2, Lqx0;
+    const/4 v3, 1
+    invoke-direct v2, v4, v3, Lqx0;-><init>(Lcom/android/vending/player/FloatingPlayerActivity; I)V
+    invoke-virtual v1, v2, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v5, v5, Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;->k Landroid/widget/ImageButton;
+    const/16 v1, 8
+    invoke-virtual v5, v1, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual v4, Lcom/android/vending/player/FloatingPlayerActivity;->T()Lcom/cricfytv/sports/databinding/ActivityPlayerBinding;
+    move-result-object v5
+    iget-object v5, v5, Lcom/cricfytv/sports/databinding/ActivityPlayerBinding;->d Lcom/cricfytv/sports/databinding/MessageLyBinding;
+    invoke-static v5, Lre2;->c0(Lcom/cricfytv/sports/databinding/MessageLyBinding;)V
+    invoke-static v4, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->getInstance(Landroid/content/Context;)Landroidx/localbroadcastmanager/content/LocalBroadcastManager;
+    move-result-object v5
+    new-instance v1, Landroid/content/IntentFilter;
+    invoke-direct v1, Landroid/content/IntentFilter;-><init>()V
+    const-string v2, "FLOATING_PLAYER_EXIT_FULLSCREEN"
+    iget-object v3, v4, Lcom/android/vending/player/FloatingPlayerActivity;->H Ljava/lang/String;
+    invoke-static v2, v3, Lre2;->g0(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v2
+    invoke-virtual v1, v2, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    const-string v2, "FLOATING_WINDOW_CLOSED"
+    iget-object v3, v4, Lcom/android/vending/player/FloatingPlayerActivity;->H Ljava/lang/String;
+    invoke-static v2, v3, Lre2;->g0(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v2
+    invoke-virtual v1, v2, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+    iget-object v2, v4, Lcom/android/vending/player/FloatingPlayerActivity;->I Lz8;
+    invoke-virtual v5, v2, v1, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)V
+    invoke-virtual v4, Lcom/android/vending/player/BasePlayerActivity;->W()V
+    invoke-static v4, Lre2;->H(Landroid/content/Context;)Z
+    move-result v5
+    if-nez v5, +027h
+    iget-object v5, v4, Lcom/android/vending/player/FloatingPlayerActivity;->E Lwx0;
+    if-eqz v5, +01dh
+    invoke-virtual v5, Lwx0;->c()Lrn2;
+    move-result-object v5
+    iget-object v5, v5, Lrn2;->e Lng3;
+    invoke-static v5, Lal;->b(Lay0;)Lt60;
+    move-result-object v5
+    new-instance v0, Ly;
+    const/16 v1, 11
+    invoke-direct v0, v4, v1, Ly;-><init>(Ljava/lang/Object; I)V
+    new-instance v1, Lnt;
+    const/4 v2, 3
+    invoke-direct v1, v0, v2, Lnt;-><init>(Lc41; I)V
+    invoke-virtual v5, v4, v1, Lap1;->d(Lwm1; Lmh2;)V
+    return-void 
+    const-string v4, "playerManager"
+    invoke-static v4, Lrg1;->U(Ljava/lang/String;)V
+    throw v0
+    return-void 
+    invoke-virtual v4, Landroid/app/Activity;->finish()V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== onDestroy()V
+    iget-object v0, v2, Lcom/android/vending/player/FloatingPlayerActivity;->F Lcom/android/vending/player/CricfyPlayerView;
+    if-eqz v0, +010h
+    invoke-virtual v2, Lcom/android/vending/player/FloatingPlayerActivity;->U()Lcom/android/vending/player/CricfyPlayerView;
+    move-result-object v0
+    invoke-virtual v0, Lcom/android/vending/player/CricfyPlayerView;->getControllerBinding()Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;
+    move-result-object v0
+    iget-object v0, v0, Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;->m Landroid/widget/ImageButton;
+    const/4 v1, 0
+    invoke-virtual v0, v1, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    sget-object v0, Lcom/android/vending/player/FloatingPlayerService;->u Lcom/android/vending/player/FloatingPlayerService;
+    if-eqz v0, +027h
+    iget-object v1, v2, Lcom/android/vending/player/FloatingPlayerActivity;->H Ljava/lang/String;
+    invoke-virtual v1, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    iget-object v0, v0, Lcom/android/vending/player/FloatingPlayerService;->q Ljava/util/LinkedHashMap;
+    invoke-virtual v0, v1, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Lwx0;
+    if-eqz v0, +018h
+    const/4 v1, 0
+    iput-boolean v1, v0, Lwx0;->o Z
+    invoke-static v0, Lwx0;->g(Lwx0;)V
+    invoke-virtual v0, Lwx0;->b()Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    move-result-object v0
+    iget-object v0, v0, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->b Lcom/android/vending/player/CricfyPlayerView;
+    iget-object v0, v0, Lcom/android/vending/player/CricfyPlayerView;->b0 Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;
+    iget-object v0, v0, Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;->g Landroid/widget/ImageButton;
+    const v1, 2131230986
+    invoke-virtual v0, v1, Landroid/widget/ImageView;->setImageResource(I)V
+    invoke-static v2, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->getInstance(Landroid/content/Context;)Landroidx/localbroadcastmanager/content/LocalBroadcastManager;
+    move-result-object v0
+    iget-object v1, v2, Lcom/android/vending/player/FloatingPlayerActivity;->I Lz8;
+    invoke-virtual v0, v1, Landroidx/localbroadcastmanager/content/LocalBroadcastManager;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+    invoke-super v2, Landroidx/appcompat/app/AppCompatActivity;->onDestroy()V
+    return-void 
+    <junk/payload omitted>
+=== onPause()V
+    invoke-virtual v1, Landroid/app/Activity;->isFinishing()Z
+    move-result v0
+    if-nez v0, +00fh
+    invoke-virtual v1, Lcom/android/vending/player/FloatingPlayerActivity;->U()Lcom/android/vending/player/CricfyPlayerView;
+    move-result-object v0
+    invoke-virtual v0, Landroidx/media3/ui/PlayerView;->getPlayer()Lfm2;
+    move-result-object v0
+    if-eqz v0, +005h
+    invoke-interface v0, Lfm2;->pause()V
+    invoke-super v1, Landroidx/fragment/app/FragmentActivity;->onPause()V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== onResume()V
+    invoke-super v2, Landroidx/fragment/app/FragmentActivity;->onResume()V
+    iget-boolean v0, v2, Lcom/android/vending/player/FloatingPlayerActivity;->G Z
+    invoke-virtual v2, v0, Lcom/android/vending/player/BasePlayerActivity;->V(Z)V
+    invoke-virtual v2, Lcom/android/vending/player/FloatingPlayerActivity;->U()Lcom/android/vending/player/CricfyPlayerView;
+    move-result-object v0
+    const/4 v1, 0
+    invoke-virtual v0, v1, Lcom/android/vending/player/CricfyPlayerView;->setLock(Z)V
+    invoke-virtual v2, Lcom/android/vending/player/FloatingPlayerActivity;->U()Lcom/android/vending/player/CricfyPlayerView;
+    move-result-object v2
+    invoke-virtual v2, Landroidx/media3/ui/PlayerView;->getPlayer()Lfm2;
+    move-result-object v2
+    if-eqz v2, +005h
+    invoke-interface v2, Lfm2;->l0()V
+    return-void 
+    <junk/payload omitted>

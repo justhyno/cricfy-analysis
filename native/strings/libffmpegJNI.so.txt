@@ -1,0 +1,5898 @@
+Android
+12077973
+1=y{I!
+WJy1.xe%
+c`5~	IVC
+9GX5^r
+UPD~v=
+N>PD]?y8	
+*Z!@Xsj
+zb9uv {
+bEPUN5
+ad4nB^2@
+__cxa_finalize
+__cxa_atexit
+__register_atfork
+JNI_OnLoad
+__android_log_print
+__stack_chk_fail
+Java_androidx_media3_decoder_ffmpeg_FfmpegLibrary_ffmpegGetVersion
+Java_androidx_media3_decoder_ffmpeg_FfmpegLibrary_ffmpegGetInputBufferPaddingSize
+Java_androidx_media3_decoder_ffmpeg_FfmpegLibrary_ffmpegHasDecoder
+avcodec_find_decoder_by_name
+_Z14getCodecByNameP7_JNIEnvP8_jstring
+Java_androidx_media3_decoder_ffmpeg_FfmpegAudioDecoder_ffmpegInitialize
+_Z13createContextP7_JNIEnvPK7AVCodecP11_jbyteArrayhii
+avcodec_alloc_context3
+av_malloc
+av_channel_layout_default
+avcodec_open2
+malloc
+av_strerror
+swr_free
+avcodec_free_context
+Java_androidx_media3_decoder_ffmpeg_FfmpegAudioDecoder_ffmpegDecode
+av_packet_alloc
+_Z12decodePacketP14AVCodecContextP8AVPacketPhi24GrowOutputBufferCallback
+av_packet_free
+avcodec_send_packet
+av_frame_alloc
+avcodec_receive_frame
+av_samples_get_buffer_size
+swr_alloc_set_opts2
+swr_init
+av_get_bytes_per_sample
+swr_get_out_samples
+_ZN7_JNIEnv16CallObjectMethodEP8_jobjectP10_jmethodIDz
+swr_convert
+av_frame_free
+_ZNK24GrowOutputBufferCallbackclEi
+Java_androidx_media3_decoder_ffmpeg_FfmpegAudioDecoder_ffmpegGetChannelCount
+Java_androidx_media3_decoder_ffmpeg_FfmpegAudioDecoder_ffmpegGetSampleRate
+Java_androidx_media3_decoder_ffmpeg_FfmpegAudioDecoder_ffmpegReset
+avcodec_find_decoder
+avcodec_flush_buffers
+_Z14releaseContextP14AVCodecContext
+Java_androidx_media3_decoder_ffmpeg_FfmpegAudioDecoder_ffmpegRelease
+_Z8logErrorPKci
+_Z14transformErrori
+swri_audio_convert_init_aarch64
+swri_oldapi_conv_flt_to_s16_neon
+swri_oldapi_conv_fltp_to_s16_2ch_neon
+swri_oldapi_conv_fltp_to_s16_nch_neon
+ff_resample_common_apply_filter_x4_float_neon
+ff_resample_common_apply_filter_x8_float_neon
+ff_resample_common_apply_filter_x4_s16_neon
+ff_resample_common_apply_filter_x8_s16_neon
+swri_resample_dsp_aarch64_init
+swri_audio_convert_alloc
+swri_audio_convert_free
+swri_audio_convert
+swri_get_dither
+swri_dither_init
+swri_noise_shaping_int16
+swri_noise_shaping_int32
+swri_noise_shaping_float
+swri_noise_shaping_double
+swr_get_class
+swr_alloc
+swr_set_matrix
+swr_build_matrix
+swr_build_matrix2
+swri_rematrix_init
+swri_rematrix_free
+swri_rematrix
+swri_resampler
+swri_resample_dsp_init
+swr_set_channel_mapping
+swr_alloc_set_opts
+av_opt_set_int
+av_get_channel_layout_nb_channels
+av_log
+av_channel_layout_uninit
+av_freep
+av_opt_set_chlayout
+av_free
+memset
+swr_close
+av_channel_layout_check
+av_channel_layout_copy
+av_channel_layout_from_mask
+av_channel_layout_describe
+av_channel_layout_compare
+av_get_planar_sample_fmt
+av_get_sample_fmt_name
+memcpy
+av_sample_fmt_is_planar
+swri_realloc_audio
+av_calloc
+swr_is_initialized
+swr_drop_output
+swr_inject_silence
+swr_get_delay
+swr_set_compensation
+swr_next_pts
+av_mallocz
+av_opt_set_defaults
+av_get_packed_sample_fmt
+av_get_cpu_flags
+av_channel_layout_subset
+av_channel_layout_index_from_channel
+av_channel_layout_channel_from_index
+av_channel_name
+av_reduce
+av_rescale
+av_rescale_rnd
+av_malloc_array
+ff_aac_ac3_parse
+ff_aac_decoder
+ff_aac_latm_decoder
+ff_ps_read_data
+ff_ps_init_common
+ff_k_to_i_20
+ff_k_to_i_34
+ff_ps_apply
+ff_ps_init
+ff_ps_ctx_init
+ff_psdsp_init
+ff_aac_sbr_init
+ff_aac_sbr_ctx_init
+ff_aac_sbr_ctx_close
+ff_decode_sbr_extension
+ff_sbr_apply
+ff_aac_float_common_init
+ff_aac_kbd_long_1024
+ff_aac_kbd_short_128
+ff_aac_tableinit
+ff_aac_pow34sf_tab
+ff_aac_pow2sf_tab
+ff_aac_num_swb_1024
+ff_aac_num_swb_960
+ff_aac_num_swb_512
+ff_aac_num_swb_480
+ff_aac_num_swb_128
+ff_aac_num_swb_120
+ff_aac_pred_sfb_max
+ff_aac_scalefactor_code
+ff_aac_scalefactor_bits
+ff_aac_spectral_codes
+ff_aac_spectral_bits
+ff_aac_spectral_sizes
+ff_aac_codebook_vectors
+ff_aac_codebook_vector_vals
+ff_aac_codebook_vector_idx
+ff_swb_offset_1024
+ff_swb_offset_960
+ff_swb_offset_512
+ff_swb_offset_480
+ff_swb_offset_128
+ff_swb_offset_120
+ff_tns_max_bands_1024
+ff_tns_max_bands_512
+ff_tns_max_bands_480
+ff_tns_max_bands_128
+ff_aac_eld_window_512
+ff_aac_eld_window_512_fixed
+ff_aac_eld_window_480
+ff_aac_eld_window_480_fixed
+ff_psdsp_init_aarch64
+ff_ps_add_squares_neon
+ff_ps_mul_pair_single_neon
+ff_ps_stereo_interpolate_neon
+ff_ps_stereo_interpolate_ipdopd_neon
+ff_ps_hybrid_analysis_neon
+ff_fft_init_aarch64
+ff_fft_calc_neon
+ff_fft_permute_neon
+ff_fmt_convert_init_aarch64
+ff_int32_to_float_fmul_scalar_neon
+ff_int32_to_float_fmul_array8_neon
+ff_mpadsp_init_aarch64
+ff_mpadsp_apply_window_fixed_neon
+ff_mpadsp_apply_window_float_neon
+ff_opus_dsp_init_aarch64
+ff_opus_deemphasis_neon
+ff_opus_postfilter_neon
+ff_sbrdsp_init_aarch64
+ff_sbr_sum64x5_neon
+ff_sbr_sum_square_neon
+ff_sbr_neg_odd_64_neon
+ff_sbr_qmf_pre_shuffle_neon
+ff_sbr_qmf_post_shuffle_neon
+ff_sbr_qmf_deint_neg_neon
+ff_sbr_qmf_deint_bfly_neon
+ff_sbr_hf_gen_neon
+ff_sbr_hf_g_filt_neon
+ff_sbr_autocorrelate_neon
+ff_sbr_hf_apply_noise_0_neon
+ff_sbr_hf_apply_noise_1_neon
+ff_sbr_hf_apply_noise_2_neon
+ff_sbr_hf_apply_noise_3_neon
+ff_synth_filter_init_aarch64
+ff_synth_filter_float_neon
+ff_vorbisdsp_init_aarch64
+ff_vorbis_inverse_coupling_neon
+ff_ac3_bit_alloc_calc_psd
+ff_ac3_bin_to_band_tab
+ff_ac3_band_start_tab
+ff_ac3_bit_alloc_calc_mask
+ff_ac3_channel_layout_tab
+ff_ac3_find_syncword
+ff_ac3_parse_header
+avpriv_ac3_parse_header
+av_ac3_parse_header
+ff_ac3_parser
+ff_ac3_ungroup_3_in_5_bits_tab
+ff_eac3_hebap_tab
+ff_eac3_default_spx_band_struct
+ff_ac3_heavy_dynamic_range_tab
+ff_ac3_decoder
+ff_eac3_decoder
+ff_ac3dsp_downmix_fixed
+ff_ac3dsp_downmix
+ff_ac3dsp_init
+ff_ac3_bap_bits
+ff_ac3_frame_size_tab
+ff_ac3_channels_tab
+ff_ac3_dec_channel_map
+ff_ac3_sample_rate_tab
+ff_ac3_bitrate_tab
+ff_ac3_rematrix_band_tab
+ff_eac3_default_cpl_band_struct
+ff_ac3_bap_tab
+ff_ac3_slow_decay_tab
+ff_ac3_fast_decay_tab
+ff_ac3_slow_gain_tab
+ff_ac3_db_per_bit_tab
+ff_ac3_floor_tab
+ff_ac3_fast_gain_tab
+ff_eac3_custom_channel_map_locations
+ff_acelp_interpolate
+ff_acelp_interpolatef
+ff_acelp_high_pass_filter
+ff_acelp_apply_order_2_transfer_function
+ff_tilt_compensation
+ff_acelp_filter_init
+ff_acelp_interp_filter
+ff_acelp_update_past_gain
+ff_acelp_decode_gain_code
+ff_amr_set_fixed_gain
+ff_decode_pitch_lag
+ff_acelp_fc_pulse_per_track
+ff_decode_10_pulses_35bits
+ff_acelp_weighted_vector_sum
+ff_weighted_vector_sumf
+ff_adaptive_gain_control
+ff_scale_vector_to_given_sum_of_squares
+ff_set_fixed_vector
+ff_clear_fixed_vector
+ff_acelp_vectors_init
+ff_fc_2pulses_9bits_track1_gray
+ff_fc_2pulses_9bits_track2_gray
+ff_fc_4pulses_8bits_tracks_13
+ff_fc_4pulses_8bits_track_4
+ff_pow_0_7
+ff_pow_0_75
+ff_pow_0_55
+ff_b60_sinc
+ff_adts_header_parse
+ff_alac_decoder
+ff_alac_channel_layout_offsets
+ff_alac_ch_layouts
+ff_alac_channel_elements
+ff_alacdsp_init
+av_codec_iterate
+avcodec_find_encoder
+pthread_once
+ff_amrnb_decoder
+ff_amrwb_decoder
+ff_dca_decoder
+ff_flac_decoder
+ff_mlp_decoder
+ff_mp3_decoder
+ff_opus_decoder
+ff_truehd_decoder
+ff_vorbis_decoder
+ff_pcm_alaw_decoder
+ff_pcm_mulaw_decoder
+av_codec_is_encoder
+av_codec_is_decoder
+avcodec_find_encoder_by_name
+strcmp
+ff_mpeg4audio_channels
+avpriv_float_dsp_alloc
+av_tx_init
+av_packet_get_side_data
+av_tx_uninit
+avpriv_request_sample
+ff_init_vlc_sparse
+ff_kbd_window_init
+ff_sine_window_init
+ff_init_ff_sine_windows
+ff_cbrt_tableinit
+ff_sine_128
+ff_sine_1024
+ff_mpeg4audio_get_config_gb
+avpriv_report_missing_feature
+av_frame_unref
+ff_get_buffer
+sscanf
+ff_cbrt_tab
+ff_sine_512
+memmove
+av_default_item_name
+ff_aac_profiles
+ff_sbrdsp_init
+sincosf
+atan2f
+sincos
+ff_log2_tab
+ff_mpeg4audio_sample_rates
+ff_bswapdsp_init
+ff_fmt_convert_init
+av_lfg_init
+av_lfg_init_from_data
+ff_eac3_spx_atten_tab
+ff_eac3_frm_expstr
+av_crc_get_table
+av_crc
+ff_side_data_update_matrix_encoding
+av_downmix_info_update_side_data
+ldexpf
+ff_eac3_bits_vs_hebap
+ff_eac3_mantissa_vq
+ff_eac3_gaq_remap_2_4_a
+ff_eac3_gaq_remap_2_4_b
+ff_eac3_gaq_remap_1
+ff_parse_close
+ff_combine_frame
+ff_thread_get_buffer
+ff_celp_filter_init
+ff_celp_math_init
+ff_set_min_dist_lsf
+ff_acelp_lsf2lspd
+ff_acelp_lspd2lpc
+ff_celp_circ_addf
+avpriv_scalarproduct_float_c
+ff_log2_q15
+log10f
+av_samples_set_silence
+ff_amrwb_lsp2lpc
+avcodec_default_execute
+avcodec_default_execute2
+av_opt_set_dict
+av_match_list
+ff_set_dimensions
+av_image_check_size2
+av_image_check_sar
+avcodec_descriptor_get
+ff_encode_preinit
+ff_decode_preinit
+pthread_mutex_lock
+ff_thread_init
+pthread_mutex_unlock
+avcodec_close
+avcodec_is_open
+av_get_bits_per_sample
+ff_thread_free
+av_buffer_unref
+av_bsf_free
+av_opt_free
+av_packet_unref
+av_bsf_flush
+ff_thread_flush
+avsubtitle_free
+avcodec_string
+av_bprint_init_for_buffer
+av_get_media_type_string
+avcodec_get_name
+avcodec_profile_name
+av_bprintf
+av_log_get_level
+av_fourcc_make_string
+av_get_pix_fmt_name
+av_gcd
+av_bprint_chars
+av_pix_fmt_desc_get
+av_color_range_name
+av_color_space_name
+av_color_primaries_name
+av_color_transfer_name
+av_chroma_location_name
+ff_decode_receive_frame
+ff_encode_receive_frame
+av_init_packet
+av_new_packet
+av_buffer_realloc
+av_shrink_packet
+av_grow_packet
+av_buffer_alloc
+av_buffer_is_writable
+av_packet_from_data
+av_buffer_default_free
+av_buffer_create
+av_packet_free_side_data
+av_packet_add_side_data
+av_realloc
+av_packet_new_side_data
+av_packet_side_data_name
+av_packet_pack_dictionary
+av_dict_iterate
+strlen
+av_packet_unpack_dictionary
+av_dict_set
+av_packet_shrink_side_data
+av_packet_copy_props
+av_buffer_replace
+av_packet_ref
+av_buffer_ref
+av_packet_clone
+av_packet_move_ref
+av_packet_make_refcounted
+av_packet_make_writable
+av_packet_rescale_ts
+av_rescale_q
+avpriv_packet_list_put
+avpriv_packet_list_get
+avpriv_packet_list_free
+ff_side_data_set_encoder_stats
+ff_side_data_set_prft
+av_bsf_iterate
+av_bsf_get_by_name
+ff_bsf_child_class_iterate
+avcodec_parameters_free
+av_bsf_get_class
+av_bsf_alloc
+avcodec_parameters_alloc
+av_bsf_init
+avcodec_parameters_copy
+av_bsf_send_packet
+av_bsf_receive_packet
+ff_bsf_get_packet
+ff_bsf_get_packet_ref
+av_bsf_list_alloc
+av_bsf_list_free
+av_bsf_list_append
+av_dynarray_add_nofree
+av_bsf_list_append2
+av_opt_set_dict2
+av_bsf_list_finalize
+av_bsf_list_parse_str
+av_get_token
+av_strtok
+av_opt_next
+av_opt_set_from_string
+av_bsf_get_null_filter
+av_bprint_init
+av_bprint_finalize
+ff_celp_convolve_circ
+ff_celp_lp_synthesis_filter
+ff_celp_lp_synthesis_filterf
+ff_celp_lp_zero_synthesis_filterf
+ff_dot_product
+ff_dot_productf
+bsearch
+avcodec_descriptor_next
+avcodec_descriptor_get_by_name
+avcodec_get_type
+ff_mpeg2_video_profiles
+ff_mjpeg_profiles
+ff_mpeg4_video_profiles
+ff_h264_profiles
+ff_vc1_profiles
+ff_jpeg2000_profiles
+ff_dnxhd_profiles
+ff_prores_profiles
+ff_vp9_profiles
+ff_hevc_profiles
+ff_vvc_profiles
+ff_av1_profiles
+ff_dca_profiles
+ff_arib_caption_profiles
+avcodec_parameters_from_context
+avcodec_parameters_to_context
+avpriv_dca_convert_bitstream
+ff_dca_parse_core_frame_header
+avpriv_dca_parse_core_frame_header
+ff_dca_sampling_freqs
+ff_dca_freq_ranges
+ff_dca_bits_per_sample
+ff_dca_core_parse
+ff_dca_core_parse_exss
+ff_dca_core_filter_fixed
+ff_dca_core_filter_frame
+ff_dca_core_flush
+ff_dca_core_init
+ff_dca_core_close
+ff_dca_exss_parse
+ff_dca_lbr_init_tables
+ff_dca_lbr_parse
+ff_dca_lbr_flush
+ff_dca_lbr_filter_frame
+ff_dca_lbr_init
+ff_dca_lbr_close
+ff_dca_sample_rates
+ff_dca_xll_parse
+ff_dca_xll_filter_frame
+ff_dca_xll_flush
+ff_dca_xll_close
+ff_dca_bit_rates
+ff_dca_channels
+ff_dca_dmix_primary_nch
+ff_dca_quant_index_sel_nbits
+ff_dca_quant_index_group_size
+ff_dca_adpcm_vb
+ff_dca_scale_factor_quant6
+ff_dca_scale_factor_quant7
+ff_dca_joint_scale_factors
+ff_dca_scale_factor_adj
+ff_dca_quant_levels
+ff_dca_lossy_quant
+ff_dca_lossless_quant
+ff_dca_high_freq_vq
+ff_dca_fir_32bands_perfect
+ff_dca_fir_32bands_nonperfect
+ff_dca_lfe_fir_64
+ff_dca_lfe_fir_128
+ff_dca_fir_64bands
+ff_dca_fir_32bands_perfect_fixed
+ff_dca_fir_32bands_nonperfect_fixed
+ff_dca_lfe_fir_64_fixed
+ff_dca_fir_64bands_fixed
+ff_dca_dmixtable
+ff_dca_inv_dmixtable
+ff_dca_xll_refl_coeff
+ff_dca_xll_band_coeff
+ff_dca_avg_g3_freqs
+ff_dca_fst_amp
+ff_dca_freq_to_sb
+ff_dca_ph0_shift
+ff_dca_grid_1_to_scf
+ff_dca_grid_2_to_scf
+ff_dca_scf_to_grid_1
+ff_dca_scf_to_grid_2
+ff_dca_grid_1_weights
+ff_dca_sb_reorder
+ff_dca_lfe_delta_index_16
+ff_dca_lfe_delta_index_24
+ff_dca_rsd_pack_5_in_8
+ff_dca_rsd_pack_3_in_7
+ff_dca_rsd_level_2a
+ff_dca_rsd_level_2b
+ff_dca_rsd_level_3
+ff_dca_rsd_level_5
+ff_dca_rsd_level_8
+ff_dca_rsd_level_16
+ff_dca_synth_env
+ff_dca_corr_cf
+ff_dca_quant_amp
+ff_dca_st_coeff
+ff_dca_long_window
+ff_dca_lfe_step_size_16
+ff_dca_lfe_step_size_24
+ff_dca_bank_coeff
+ff_dca_lfe_iir
+ff_dcadct_init
+ff_dca_set_channel_layout
+ff_dca_downmix_to_stereo_fixed
+ff_dca_downmix_to_stereo_float
+ff_dcadsp_init
+av_fast_padded_malloc
+ff_dca_init_vlcs
+av_fast_mallocz
+ff_dca_vlc_transition_mode
+ff_dca_vlc_bit_allocation
+ff_dca_vlc_scale_factor
+av_fast_malloc
+avpriv_alloc_fixed_dsp
+ff_synth_filter_init
+ff_dca_vlc_quant_index
+ff_inverse
+ff_dca_vlc_st_grid
+ff_dca_vlc_avg_g3
+ff_dca_vlc_tnl_grp
+ff_dca_vlc_tnl_scf
+ff_dca_vlc_damp
+ff_dca_vlc_dph
+ff_dca_vlc_fst_rsd_amp
+ff_dca_vlc_rsd_apprx
+ff_dca_vlc_rsd_amp
+ff_dca_vlc_grid_3
+ff_dca_vlc_rsd
+ff_dca_vlc_grid_2
+ff_dca_vlc_src_tables
+ff_dca_bitalloc_sizes
+ff_dca_bitalloc_offsets
+ff_init_vlc_from_lengths
+ff_dct_init
+ff_dct_end
+ff_dct32_fixed
+ff_dct32_float
+ff_decode_get_packet
+ff_thread_decode_frame
+av_samples_copy
+av_frame_new_side_data
+av_frame_move_ref
+av_frame_apply_cropping
+avcodec_decode_subtitle2
+avcodec_default_get_format
+avcodec_get_hw_config
+ff_decode_get_hw_frames_ctx
+av_hwdevice_get_type_name
+av_hwframe_ctx_alloc
+av_hwframe_ctx_init
+avcodec_get_hw_frames_parameters
+ff_get_format
+av_memdup
+ff_decode_frame_props_from_pkt
+ff_decode_frame_props
+ff_attach_decode_data
+av_pix_fmt_count_planes
+ff_reget_buffer
+av_frame_is_writable
+av_frame_copy
+ff_copy_palette
+ff_alloc_packet
+avcodec_default_get_encode_buffer
+ff_get_encode_buffer
+avcodec_encode_subtitle
+ff_encode_get_frame
+ff_encode_reordered_opaque
+ff_encode_encode_cb
+avcodec_send_frame
+avcodec_receive_packet
+av_frame_get_side_data
+av_frame_ref
+snprintf
+ff_encode_alloc_frame
+avcodec_default_get_buffer2
+av_frame_get_buffer
+av_frame_copy_props
+ff_init_ff_cos_tabs
+ff_fft_init
+ff_fft_end
+ff_cos_tabs
+ff_flac_decode_frame_header
+ff_flac_is_extradata_valid
+ff_flac_set_channel_layout
+ff_flac_parse_streaminfo
+ff_flac_sample_rate_table
+ff_flac_blocksize_table
+ff_flacdsp_init
+av_samples_fill_arrays
+av_hwframe_get_buffer
+avcodec_align_dimensions2
+av_image_fill_linesizes
+av_image_fill_plane_sizes
+av_buffer_allocz
+av_buffer_pool_init
+av_buffer_pool_get
+av_buffer_pool_uninit
+ff_kbd_window_init_fixed
+ff_acelp_reorder_lsf
+ff_acelp_lsf2lsp
+ff_acelp_lsp2lpc
+ff_acelp_lp_decode
+ff_sort_nearly_sorted_floats
+ff_sqrt_tab
+ff_zigzag_direct
+ff_zigzag_scan
+ff_log2_run
+ff_mlp_init_crc
+ff_mlp_checksum16
+ff_mlp_checksum8
+ff_mlp_restart_checksum
+ff_mlp_calculate_parity
+ff_mlp_huffman_tables
+ff_mlp_ch_info
+ff_mlp_channel_layouts
+ff_mlp_ch_layouts
+ff_mlp_read_major_sync
+ff_mlp_parser
+ff_mlpdsp_init
+av_crc_init
+ff_mlp_rematrix_channel
+ff_mlp_pack_output
+avpriv_mpeg4audio_get_config2
+ff_mpa_l2_select_table
+ff_mpa_sblimit_table
+ff_mpa_quant_steps
+ff_mpa_quant_bits
+ff_mpa_alloc_tables
+ff_mpegaudiodec_common_init_static
+ff_scale_factor_modshift
+ff_huff_vlc
+ff_huff_quad_vlc
+ff_band_index_long
+ff_band_size_long
+ff_division_tabs
+ff_table_4_3_value
+ff_table_4_3_exp
+ff_slen_table
+ff_lsf_nsf_table
+ff_mpa_huff_data
+ff_band_size_short
+ff_mpa_pretab
+ff_mpadsp_init
+avpriv_mpegaudio_decode_header
+ff_mpa_synth_init_fixed
+ff_mpa_synth_window_fixed
+ff_mpa_synth_filter_fixed
+ff_mdct_win_fixed
+ff_mpa_freq_tab
+ff_mpa_bitrate_tab
+ff_mpa_decode_header
+ff_mpadsp_apply_window_float
+ff_mpadsp_apply_window_fixed
+ff_imdct36_blocks_float
+ff_imdct36_blocks_fixed
+ff_mdct_win_float
+ff_rdft_init
+ff_rdft_end
+ff_mpa_enwindow
+ff_mpa_synth_filter_float
+ff_mpa_synth_init_float
+ff_mpa_synth_window_float
+av_opt_set_defaults2
+av_opt_set
+avcodec_get_class
+avcodec_get_subtitle_rect_class
+ff_celt_quant_bands
+ff_celt_bitalloc
+ff_opus_parse_packet
+ff_opus_parse_extradata
+ff_celt_pvq_init
+ff_celt_pvq_uninit
+ff_opus_rc_dec_cdf
+ff_opus_rc_enc_cdf
+ff_opus_rc_dec_log
+ff_opus_rc_enc_log
+ff_opus_rc_get_raw
+ff_opus_rc_put_raw
+ff_opus_rc_dec_uint
+ff_opus_rc_enc_uint
+ff_opus_rc_dec_uint_step
+ff_opus_rc_enc_uint_step
+ff_opus_rc_dec_uint_tri
+ff_opus_rc_enc_uint_tri
+ff_opus_rc_dec_laplace
+ff_opus_rc_enc_laplace
+ff_opus_rc_dec_init
+ff_opus_rc_dec_raw_init
+ff_opus_rc_enc_end
+ff_opus_rc_enc_init
+ff_silk_decode_superframe
+ff_silk_free
+ff_silk_flush
+ff_silk_init
+ff_celt_init
+av_audio_fifo_alloc
+av_audio_fifo_size
+av_audio_fifo_read
+av_opt_get_int
+ff_celt_decode_frame
+ff_celt_flush
+av_audio_fifo_drain
+av_audio_fifo_write
+ff_celt_free
+av_audio_fifo_free
+ff_vorbis_ch_layouts
+ff_vorbis_channel_layout_offsets
+ff_opus_dsp_init
+av_parser_init
+ff_fetch_timestamp
+av_parser_parse2
+av_parser_close
+av_parser_iterate
+av_fast_realloc
+ff_reverse
+ff_sbc_profiles
+ff_slice_thread_init
+ff_frame_thread_init
+ff_slice_thread_free
+ff_frame_thread_free
+ff_pthread_free
+pthread_mutex_destroy
+pthread_cond_destroy
+ff_pthread_init
+pthread_mutex_init
+pthread_cond_init
+pthread_cond_broadcast
+av_reallocp_array
+pthread_cond_wait
+pthread_cond_signal
+ff_thread_report_progress
+ff_thread_await_progress
+ff_thread_finish_setup
+pthread_join
+av_cpu_count
+av_opt_copy
+pthread_create
+ff_thread_can_start_frame
+ff_thread_get_ext_buffer
+ff_thread_release_buffer
+ff_thread_release_ext_buffer
+avpriv_slicethread_free
+ff_slice_thread_execute_with_mainfunc
+avpriv_slicethread_execute
+avpriv_slicethread_create
+ff_slice_thread_init_progress
+ff_thread_report_progress2
+ff_thread_await_progress2
+ff_slice_thread_allocz_entries
+ff_sine_32
+ff_sine_64
+ff_sine_256
+ff_sine_2048
+ff_sine_4096
+ff_sine_8192
+ff_sine_windows
+av_fast_padded_mallocz
+ff_set_sar
+avcodec_align_dimensions
+avcodec_enum_to_chroma_pos
+av_chroma_location_enum_to_pos
+avcodec_chroma_pos_to_enum
+av_chroma_location_pos_to_enum
+avcodec_fill_audio_frame
+ff_color_frame
+av_memcpy_backptr
+avpriv_codec_get_cap_skip_frame_fill_param
+av_get_profile_name
+av_get_exact_bits_per_sample
+av_get_pcm_codec
+av_get_audio_frame_duration
+av_get_audio_frame_duration2
+av_xiphlacing
+ff_match_2uint16
+ff_thread_ref_frame
+avpriv_find_start_code
+av_cpb_properties_alloc
+ff_add_cpb_side_data
+av_realloc_array
+ff_alloc_timecode_sei
+ff_guess_coded_bitrate
+av_get_bits_per_pixel
+ff_int_from_list_or_default
+ff_free_vlc
+av_realloc_f
+ff_vorbis_nth_root
+ff_vorbis_len2vlc
+ff_vorbis_ready_floor1_list
+ff_vorbis_floor1_render_list
+ff_vorbis_channel_layouts
+ff_vorbis_floor1_inverse_db_table
+ff_vorbis_vwin
+ff_vorbisdsp_init
+avpriv_split_xiph_headers
+avpriv_strtod
+ff_get_cpu_flags_aarch64
+ff_get_cpu_max_align_aarch64
+ff_float_dsp_init_aarch64
+ff_vector_fmul_neon
+ff_vector_fmac_scalar_neon
+ff_vector_fmul_scalar_neon
+ff_vector_dmul_scalar_neon
+ff_vector_fmul_window_neon
+ff_vector_fmul_add_neon
+ff_vector_fmul_reverse_neon
+ff_butterflies_float_neon
+ff_scalarproduct_float_neon
+ff_tx_codelet_list_float_aarch64
+ff_tx_fft2_float_neon
+ff_tx_fft4_fwd_float_neon
+ff_tx_fft4_inv_float_neon
+ff_tx_fft8_float_neon
+ff_tx_fft8_ns_float_neon
+ff_tx_fft16_float_neon
+ff_tx_fft16_ns_float_neon
+ff_tx_fft32_float_neon
+ff_tx_fft32_ns_float_neon
+ff_tx_fft_sr_float_neon
+ff_tx_fft_sr_ns_float_neon
+av_fifo_freep2
+av_fifo_alloc2
+av_audio_fifo_realloc
+av_fifo_can_read
+av_fifo_can_write
+av_fifo_grow2
+av_fifo_write
+av_audio_fifo_space
+av_audio_fifo_peek
+av_fifo_peek
+av_audio_fifo_peek_at
+av_fifo_read
+av_fifo_drain2
+av_audio_fifo_reset
+av_fifo_reset2
+av_sscanf
+av_strstart
+av_stristart
+av_stristr
+av_strnstr
+av_strlcpy
+av_strlcat
+av_strlcatf
+av_asprintf
+memcmp
+vsnprintf
+strspn
+strcspn
+av_strcasecmp
+av_strncasecmp
+av_strireplace
+av_bprint_append_data
+av_basename
+strrchr
+av_dirname
+av_append_path_component
+av_strdup
+av_escape
+av_bprint_escape
+av_match_name
+strchr
+strncmp
+av_utf8_decode
+av_vbprintf
+av_bprint_strftime
+strftime
+av_bprint_get_buffer
+av_bprint_clear
+av_buffer_get_opaque
+av_buffer_get_ref_count
+av_buffer_make_writable
+av_buffer_pool_init2
+av_buffer_pool_buffer_get_opaque
+av_channel_name_bprint
+av_channel_description_bprint
+av_channel_description
+av_channel_from_string
+strtol
+av_get_channel_layout
+__errno
+strtoll
+av_get_extended_channel_layout
+av_bprint_channel_layout
+av_get_channel_layout_string
+av_get_default_channel_layout
+av_get_channel_layout_channel_index
+av_get_channel_name
+av_get_channel_description
+av_channel_layout_extract_channel
+av_get_standard_channel_layout
+av_channel_layout_from_string
+av_opt_get_key_value
+strtoull
+av_channel_layout_describe_bprint
+av_channel_layout_channel_from_string
+av_channel_layout_index_from_string
+av_channel_layout_standard
+memchr
+scalbn
+av_force_cpu_flags
+av_parse_cpu_caps
+av_opt_eval_flags
+sched_getaffinity
+__sched_cpucount
+av_cpu_force_count
+av_cpu_max_align
+av_dict_count
+av_dict_get
+av_dict_set_int
+av_dict_parse_string
+av_dict_free
+av_dict_copy
+av_dict_get_string
+avpriv_dict_set_timestamp
+gmtime_r
+strerror_r
+av_strtod
+av_expr_free
+av_expr_parse
+av_expr_count_vars
+av_expr_count_func
+av_expr_eval
+av_expr_parse_and_eval
+av_fifo_auto_grow_limit
+av_fifo_elem_size
+av_fifo_write_from_cb
+av_fifo_read_to_cb
+av_fifo_peek_to_cb
+av_fifo_alloc_array
+av_fifo_reset
+av_fifo_alloc
+av_fifo_free
+av_fifo_freep
+av_fifo_size
+av_fifo_space
+av_fifo_realloc2
+av_fifo_grow
+av_fifo_generic_write
+av_fifo_generic_peek_at
+av_fifo_generic_peek
+av_fifo_generic_read
+av_fifo_drain
+av_image_check_size
+av_image_fill_pointers
+av_hwframe_transfer_data
+av_image_copy
+av_frame_clone
+av_frame_make_writable
+av_frame_get_plane_buffer
+av_frame_new_side_data_from_buf
+av_frame_remove_side_data
+av_frame_side_data_name
+av_hwdevice_find_type_by_name
+av_hwdevice_iterate_types
+av_hwdevice_ctx_alloc
+av_hwdevice_ctx_init
+av_hwframe_transfer_get_formats
+av_hwframe_map
+av_hwdevice_hwconfig_alloc
+av_hwdevice_get_hwframe_constraints
+av_hwframe_constraints_free
+av_hwdevice_ctx_create
+av_hwdevice_ctx_create_derived_opts
+av_hwdevice_ctx_create_derived
+ff_hwframe_map_create
+av_hwframe_ctx_create_derived
+ff_hwframe_map_replace
+av_image_fill_max_pixsteps
+av_image_get_linesize
+avpriv_set_systematic_pal2
+av_image_alloc
+av_image_copy_plane_uc_from
+av_image_copy_plane
+av_image_copy_uc_from
+av_image_fill_arrays
+av_image_get_buffer_size
+av_image_copy_to_buffer
+av_image_fill_black
+av_write_image_line
+av_md5_sum
+av_bmg_get
+av_default_get_category
+av_log_format_line
+av_log_format_line2
+av_log_default_callback
+isatty
+fprintf
+strcpy
+getenv
+strstr
+av_vlog
+av_log_once
+av_log_set_level
+av_log_set_flags
+av_log_get_flags
+av_log_set_callback
+av_rescale_q_rnd
+av_compare_ts
+av_compare_mod
+av_rescale_delta
+av_add_stable
+av_mul_q
+av_md5_alloc
+av_md5_init
+av_md5_update
+av_md5_final
+av_md5_size
+av_max_alloc
+posix_memalign
+realloc
+av_reallocp
+av_strndup
+av_dynarray_add
+av_dynarray2_add
+av_size_mult
+av_opt_find2
+av_parse_time
+av_parse_video_size
+av_parse_video_rate
+av_d2q
+av_get_pix_fmt
+av_get_sample_fmt
+av_parse_color
+av_opt_eval_int
+av_opt_eval_int64
+av_opt_eval_float
+av_opt_eval_double
+av_opt_eval_q
+av_opt_set_double
+av_opt_set_q
+av_opt_set_bin
+av_opt_set_image_size
+av_opt_set_video_rate
+av_opt_set_pixel_fmt
+av_opt_set_sample_fmt
+av_opt_set_channel_layout
+av_opt_set_dict_val
+av_opt_get
+av_opt_get_double
+av_opt_get_q
+av_opt_get_image_size
+av_opt_get_video_rate
+av_opt_get_pixel_fmt
+av_opt_get_sample_fmt
+av_opt_get_channel_layout
+av_opt_get_chlayout
+av_opt_get_dict_val
+av_opt_flag_is_set
+av_opt_find
+av_opt_show2
+av_opt_query_ranges_default
+av_set_options_string
+av_opt_child_class_iterate
+av_opt_child_next
+av_opt_ptr
+av_opt_query_ranges
+av_opt_freep_ranges
+av_opt_is_set_to_default
+av_opt_is_set_to_default_by_name
+av_opt_serialize
+strtoul
+av_gettime
+strtod
+av_parse_ratio
+av_get_random_seed
+av_get_known_color_name
+av_small_strptime
+av_timegm
+localtime_r
+mktime
+av_find_info_tag
+av_read_image_line2
+av_read_image_line
+av_write_image_line2
+av_get_padded_bits_per_pixel
+av_get_pix_fmt_string
+av_pix_fmt_desc_next
+av_pix_fmt_desc_get_id
+av_pix_fmt_get_chroma_sub_sample
+av_pix_fmt_swap_endianness
+av_get_pix_fmt_loss
+av_find_best_pix_fmt_of_2
+av_color_range_from_name
+av_color_primaries_from_name
+av_color_transfer_from_name
+av_color_space_from_name
+av_chroma_location_from_name
+arc4random
+av_div_q
+av_add_q
+av_sub_q
+av_nearer_q
+av_find_nearest_q_idx
+av_q2intfloat
+av_gcd_q
+av_get_alt_sample_fmt
+av_get_sample_fmt_string
+av_samples_alloc
+av_samples_alloc_array_and_samples
+gettimeofday
+av_gettime_relative
+clock_gettime
+av_gettime_relative_is_monotonic
+av_usleep
+nanosleep
+ff_tx_gen_pfa_input_map
+ff_tx_gen_compound_mapping
+ff_tx_gen_ptwo_revtab
+ff_tx_gen_inplace_map
+ff_tx_gen_split_radix_parity_revtab
+ff_tx_clear_ctx
+ff_tx_decompose_length
+ff_tx_gen_default_map
+ff_tx_init_subtx
+ff_tx_codelet_list_float_c
+ff_tx_codelet_list_double_c
+ff_tx_codelet_list_int32_c
+ff_tx_init_tabs_float
+ff_tx_tab_32_float
+ff_tx_tab_64_float
+ff_tx_tab_128_float
+ff_tx_tab_256_float
+ff_tx_tab_512_float
+ff_tx_tab_1024_float
+ff_tx_tab_2048_float
+ff_tx_tab_4096_float
+ff_tx_tab_8192_float
+ff_tx_tab_16384_float
+ff_tx_tab_32768_float
+ff_tx_tab_65536_float
+ff_tx_tab_131072_float
+ff_tx_init_tabs_double
+ff_tx_mdct_gen_exp_double
+ff_tx_tab_8_double
+ff_tx_tab_16_double
+ff_tx_tab_32_double
+ff_tx_tab_64_double
+ff_tx_tab_128_double
+ff_tx_tab_256_double
+ff_tx_tab_512_double
+ff_tx_tab_1024_double
+ff_tx_tab_2048_double
+ff_tx_tab_4096_double
+ff_tx_tab_8192_double
+ff_tx_tab_16384_double
+ff_tx_tab_32768_double
+ff_tx_tab_65536_double
+ff_tx_tab_131072_double
+ff_tx_tab_262144_double
+ff_tx_tab_524288_double
+ff_tx_tab_1048576_double
+ff_tx_tab_2097152_double
+ff_tx_tab_53_double
+ff_tx_tab_9_double
+ff_tx_tab_7_double
+ff_tx_mdct_gen_exp_float
+ff_tx_tab_8_float
+ff_tx_tab_16_float
+ff_tx_tab_262144_float
+ff_tx_tab_524288_float
+ff_tx_tab_1048576_float
+ff_tx_tab_2097152_float
+ff_tx_tab_53_float
+ff_tx_tab_9_float
+ff_tx_tab_7_float
+ff_tx_init_tabs_int32
+ff_tx_mdct_gen_exp_int32
+ff_tx_tab_8_int32
+ff_tx_tab_16_int32
+ff_tx_tab_32_int32
+ff_tx_tab_64_int32
+ff_tx_tab_128_int32
+ff_tx_tab_256_int32
+ff_tx_tab_512_int32
+ff_tx_tab_1024_int32
+ff_tx_tab_2048_int32
+ff_tx_tab_4096_int32
+ff_tx_tab_8192_int32
+ff_tx_tab_16384_int32
+ff_tx_tab_32768_int32
+ff_tx_tab_65536_int32
+ff_tx_tab_131072_int32
+ff_tx_tab_262144_int32
+ff_tx_tab_524288_int32
+ff_tx_tab_1048576_int32
+ff_tx_tab_2097152_int32
+ff_tx_tab_53_int32
+ff_tx_tab_9_int32
+ff_tx_tab_7_int32
+av_get_picture_type_char
+av_int_list_length_for_size
+av_get_time_base_q
+av_assert0_fpu
+getauxval
+__system_property_get
+libm.so
+libc.so
+libandroid.so
+liblog.so
+libdl.so
+libffmpegJNI.so
+Expected no samples remaining after resampling, but found %d.
+Assertion %s failed at %s:%d
+set output channel count (Deprecated, use ochl)
+set input channel layout
+lipshitz
+enable exact rational
+select swr filter type
+Treating HE-AAC mono as stereo.
+Multiple layers
+No codec provided to avcodec_open2()
+Encoder
+%s: %s
+, pass 1
+CPB properties
+rawvideo
+FLV / Sorenson Spark / Sorenson H.263 (Flash Video)
+id RoQ video
+truemotion1
+Huffyuv FFmpeg variant
+image/x-targa
+IFF ACBM/ANIM/DEEP/ILBM/PBM/RGB8/RGBN
+Avid 1:1 10-bit RGB Packer
+pcm_mulaw
+adpcm_ea_r2
+wady_dpcm
+dvaudio
+QDesign Music Codec 2
+truespeech
+TTA (True Audio)
+binkaudio_dct
+metasound
+sonicls
+Invalid XXCH downmix coefficient index (%d)
+Read past end of X96 channel set
+Buffer returned by get_buffer2() did not zero unused plane pointers
+avctx->codec_type == AVMEDIA_TYPE_VIDEO
+Picture changed from size:%dx%d fmt:%s to size:%dx%d fmt:%s in reget buffer()
+Failed to allocate packet of size %d
+extradata too small.
+unexpected stream_type %X in !MLP
+use four motion vectors per macroblock (MPEG-4)
+qscale
+autodetect
+dc_clip
+ignore_err
+minrate
+simplearmv5te
+threading operations
+me_range
+sub-pel ME compare function
+sum of absolute Hadamard transformed differences
+smpte431
+arib-std-b67
+skip_alpha
+hwaccel_flags
+ignore level even if the codec level used is unknown or higher than the maximum supported level reported by the hardware driver
+Main Still Picture
+Simple Studio Profile
+Lossless
+thread awaiting %d field %d from %p
+libavcodec/pthread_frame.c
+unknown_codec
+Invalid VLC (length %u)
+needed %d had %d
+Invalid samplerate
+ Vorbis setup header packet corrupt (no vorbis signature). 
+%d channels
+low frequency 2
+cpuflags
+Internal bug, should not have happened
+Active format description
+ is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+<double>
+Unknown function in '%s'
+Cannot find color '%s'
+Aquamarine
+DarkTurquoise
+HotPink
+LightGoldenRodYellow
+Maroon
+SkyBlue
+Thistle
+gray16be
+rgb444be
+bgr48le
+yuv420p9be
+gbrp12be
+bayer_grbg8
+, len: 
+fft32_ns_float_neon
+fft5_fwd_double_c
+mdct_naive_inv_double_c
+fft2048_ns_float_c
+fft_pfa_float_c
+fft_pfa_ns_float_c
+fft32768_ns_int32_c
+fft_int32_c
+mdct_pfa_7xM_inv_int32_c
+rdft_r2c_int32_c
+Requested output sample format %d is invalid
+rematrix_volume
+select triangular dither with high pass
+select SW Resampler
+Output channel layout is invalid
+Gain control
+Number of scalefactor bands in group (%d) exceeds limit (%d).
+Number of bands (%d) exceeds limit (%d).
+ltrt_cmixlev
+Ignoring dependent frame without independent frame.
+bandwidth code = %d > 60
+invalid spectral extension copy start bin (%d >= %d)
+bps %d
+Encountered a bad or corrupted frame
+FFmpeg video codec #1
+Sun Rasterfile image
+Electronic Arts TQI video
+ASCII/ANSI art
+Multicolor charset for Commodore 64
+Duck TrueMotion 2.0 Real Time
+Amuse Graphics Movie
+PHM (Portable HalfFloatMap) image
+ViewQuest VQC
+PCM signed 32-bit big-endian
+adpcm_4xm
+adpcm_g726le
+adpcm_mtaf
+adpcm_ima_moflex
+ADPCM Konami XMD
+WavPack
+twinvq
+Dolby E
+msnsiren
+Waveform Archiver
+dvd_subtitle
+timed_id3
+AVFrame to AVPacket passthrough
+Reserved bit set
+LBR stream version %#x
+Character encoding subtitles conversion needs a libavcodec built with iconv support for this codec
+PARAM_CHANGE side data too small.
+Ignoring experimental hwaccel: %s
+No buffer returned by get_encode_buffer()
+emulate old buggy lavc behavior
+underread: %d orig size: %d
+Invalid number of wasted bits > available bits (%d) - left=%d
+chunks
+export motion vectors through frame side data
+i_qfactor
+thread_ops
+skip_bottom
+keyint_min
+reference frames to consider for motion compensation
+Unspecified
+SMPTE 170 M
+set pixel format
+video_size
+unsafe_output
+Opus Decoder
+Zero channel count specified in the extradata
+Advanced Scalable Texture Profile
+Extradata missing.
+ Vorbis id header packet corrupt (framing flag not set). 
+ Vorbis setup header packet corrupt (mappings). 
+6.1(front)
+hexadecagonal
+.%06dZ
+BUFFER_TOO_SMALL
+Demuxer not found
+The hardware pixel format '%s' is not supported by the device type '%s'
+0x%08X
+INT64_MIN
+INT_MAX
+DimGray
+LightSkyBlue
+LimeGreen
+MediumOrchid
+MintCream
+SandyBrown
+february
+gbrp10le
+yuv420p12le
+yuv420p14le
+yuv422p12be
+!dual_stride || !(dual_stride & (dual_stride - 1))
+aligned
+fft2097152_ns_double_c
+dctII_double_c
+fft512_ns_int32_c
+JNI_OnLoad: GetEnv failed
+Resampling only supported with internal s16p/s32p/fltp/dblp
+linear_interp
+Requested noise shaping dither not available at this sampling rate, using triangular hp dither
+aac_latm
+AAC decoder
+Implicit SBR was found with a first occurrence after the first frame.
+incomplete frame
+Multiple programs
+Invalid vDk1[%d]: %d
+Invalid bitstream - cannot apply SBR to element type %d
+Not strictly monotone time borders
+ATSC A/52A (AC-3)
+AMR-WB (Adaptive Multi-Rate WideBand)
+Codec type or id mismatches
+, padding %d
+Creative YUV (CYUV)
+Intel Indeo 3
+xan_wc4
+Wing Commander IV / Xxan
+id Quake II CIN video
+indeo2
+image/x-ms-bmp
+flashsv
+image/x-pcx
+sunrast
+motionpixels
+Multicolor charset for Commodore 64, extended with 5th color (colram)
+H.265 / HEVC (High Efficiency Video Coding)
+paf_video
+hq_hqa
+Matrox Uncompressed SD
+Alliance for Open Media AV1
+Screen Recorder Gold Codec
+pcm_f16le
+adpcm_ms
+adpcm_thp
+ADPCM Nintendo THP
+sol_dpcm
+DCA (DTS Coherent Acoustics)
+MPEG-4 Audio Lossless Coding (ALS)
+dvd_nav_packet
+Not a valid DCA frame
+X96 sync word not found
+Invalid X96 joint intensity coding index
+Read past end of X96 channel set header
+%d Hz LBR sample rate
+Invalid setup for format %s: missing configuration.
+skip %d/%d samples
+Specified bit depth %d not possible with the specified pixel formats depth %d
+Stream parameters not seen; skipping frame.
+%d channels (more than the maximum supported by the decoder)
+unaligned
+use loop filter
+allow non-spec-compliant speedup tricks
+export film grain parameters through frame side data
+strict
+aggressive
+lumi_mask
+tcplx_mask
+p_mask
+floating point AAN IDCT
+green_metadata
+startcode
+mblmax
+skip decoding for the selected frames
+nointra
+BT.470 BG
+color_trc_type
+Log square root
+bt1361e
+Center
+topleft
+Bottom-left
+set the log level offset
+apply_cropping
+codec_whitelist
+max_samples
+Error opening the resampler.
+Extradata version %d
+Invalid stream/stereo stream count: %d/%d
+HE-AACv2
+High 4:2:2 Intra
+Invalid floor type!
+res_setup->classbook
+front right-of-center
+side right
+top back center
+av_crc_init(av_crc_table[AV_CRC_32_IEEE_LE], 1, 32, 0xEDB88320, sizeof(av_crc_table[AV_CRC_32_IEEE_LE])) >= 0
+OPTION_NOT_FOUND
+PATCHWELCOME
+Unknown error occurred
+Server returned 5XX Server Error reply
+AVPanScan
+AVOption type %d of option %s not implemented yet
+Unable to parse option value "%s" as video rate
+Setting entry with key '%s' to value '%s'
+random
+BlanchedAlmond
+GhostWhite
+HoneyDew
+LightPink
+LightSalmon
+NavajoWhite
+Silver
+yuv420p10be
+yuv422p10le
+yuv422p9le
+yuva422p
+yuva420p16be
+gray10be
+y210le
+%sout_of_place
+fft_naive_double_c
+mdct_fwd_double_c
+Tried to reset without a context.
+Requested input sample rate %d is invalid
+Requested output sample rate %d is invalid
+Input channel layout "%s" is invalid or unsupported.
+out_chlayout
+set dither method
+select Lipshitz noise shaping dither
+select low Shibata noise shaping dither
+select f-weighted noise shaping dither
+AAC (Advanced Audio Coding)
+order in which the channels are coded in the bitstream
+mono with CPE
+Invalid bitstream, too many SBR envelopes in FIXFIX type SBR frame: %d
+enable consistent noise generation
+Block start info
+band_struct_size >= start_subband + n_subbands
+new coupling coordinates must be present in block 0
+dtx mode
+progressive
+jpegls
+Autodesk Animator Flic video
+Duck TrueMotion 1.0
+Amazing Studio Packed Animation File Video
+PGX (JPEG2000 Test Format)
+simbiosis_imx
+pcm_s32le_planar
+ADPCM Electronic Arts
+adpcm_g726
+ADPCM Electronic Arts R3
+ADPCM IMA Funcom ISS
+adpcm_ima_apc
+ADPCM Argonaut Games
+RealAudio 1.0 (14.4K)
+DPCM Cuberoot-Delta-Exact
+paf_audio
+dsd_lsbf_planar
+ATRAC3 AL (Adaptive TRansform Acoustic Coding 3 Advanced Lossless)
+dvb_subtitle
+DVB teletext
+MPL2 subtitle
+PJS (Phoenix Japanimation Society) subtitle
+ARIB STD-B24 caption
+Unsupported number of PCM sample blocks (%d)
+Invalid X96 sync word
+XLL stream version %d
+Too few samples per XLL segment
+Invalid NAVI position
+Error applying parameter changes.
+Reconstructed frame output requested from an encoder not supporting it
+invalid sync code
+%d substreams (more than the maximum supported by the decoder)
+use frame durations
+error[?] variables will be set during encoding
+Show all frames before the first keyframe
+do not reset ASS ReadOrder field on flush
+QP offset between P- and B-frames
+verify embedded CRCs
+bitstream
+accurate integer
+dct_coeff
+global_quality
+lowres
+noise preserving sum of squared differences
+iec61966-2-1
+Advanced
+A rangebits value of 0 is not compliant with the Vorbis I specification.
+downmix left
+octagonal
+Video encoding parameters
+Picture size %ux%u is invalid
+libavutil/mathematics.c
+%s AVOptions:
+FLT_MIN
+MediumAquaMarine
+MediumBlue
+MediumSeaGreen
+SlateGray
+september
+bgr4_byte
+gray16le
+dxva2_vld
+yuv444p10be
+xyz12le
+rgbaf16le
+rgbaf32be
+, prio: %i
+fft4_fwd_float_neon
+fft3_fwd_double_c
+fft7_fwd_double_c
+fft4096_ns_float_c
+fft_inplace_small_float_c
+mdct_pfa_7xM_fwd_int32_c
+mdct_pfa_15xM_fwd_int32_c
+Failed to allocate extradata.
+!s->preout.count
+set input channel count (Deprecated, use in_chlayout)
+out_channel_count
+set rematrix maxval
+Filter length too large
+autoselection
+epConfig %d
+AAC LD is only defined for ONLY_LONG_SEQUENCE but window sequence %d found.
+frame length mismatch %d << %d
+Invalid n_master: %d
+patch construction failed
+expacc %d is out-of-range
+Note: libopencore_amrnb supports dtx
+, lossless
+JP Dual Mono
+Metadata Update
+Spherical Mapping
+%s (%d) 
+image/jpeg
+ATI VCR1
+QuickTime Graphics (SMC)
+Apple QuickDraw
+Truevision Targa image
+Beam Software VB
+CD Graphics video
+dxtory
+HNM 4 video
+On2 VP7
+Silicon Graphics Motion Video Compressor 1
+Canopus HQ/HQA
+H.266 / VVC (Versatile Video Coding)
+FM Screen Capture Codec
+JPEG XL
+pcm_u16be
+pcm_f64le
+pcm_vidc
+adpcm_ima_dk3
+ADPCM Nintendo THP (Little-Endian)
+adpcm_psx
+ra_288
+DPCM Xilam DERF
+Westwood Audio (SND1)
+Cook / Cooker / Gecko (RealAudio G2)
+smackaudio
+truehd
+g723_1
+comfortnoise
+SMV (Selectable Mode Vocoder)
+MobiClip FastAudio
+MSN Siren
+Invalid downmix layout
+Invalid low frequency effects flag
+libavcodec/dca_lbr.c
+XLL sampling frequency modifier
+libavcodec/get_buffer.c
+n <= 1024
+MLP decoder
+Invalid huff_lsbs.
+Invalid chan_config %d
+set number of audio channels
+maximum video quantizer scale (VBR)
+set error detection flags
+intra_dc_precision
+skip IDCT/dequantization for the selected frames
+discard no frame
+discard all frames except I frames
+color_primaries_type
+BT.709
+log316
+IEC 61966-2-4
+BT.1361
+bt2020_10bit
+BT.2020 NCL
+log_level_offset
+Wrong number of CELT delay samples.
+codec ids mismatch
+DTS 96/24
+Extended
+High 4:4:4 Intra
+ Vorbis setup header packet corrupt (codebooks). 
+Data packet before valid headers
+Insufficient output buffer
+libavutil/hwcontext.c
+sample
+INT_MIN
+LemonChiffon
+PaleTurquoise
+yuva444p10le
+rgba64be
+bayer_bggr8
+bayer_bggr16be
+bayer_gbrg16le
+yuv440p12be
+gray14le
+xv36le
+rgbf32be
+%-6s   %2d 
+fft2048_ns_double_c
+fft_naive_small_double_c
+mdct_pfa_3xM_fwd_double_c
+mdct_pfa_7xM_fwd_double_c
+mdct_pfa_9xM_fwd_double_c
+fft8_ns_float_c
+mdct_pfa_15xM_fwd_float_c
+mdct_pfa_3xM_inv_float_c
+mdct_pfa_9xM_fwd_int32_c
+set internal sample format
+dither_scale
+set swr resampling phase shift
+matrix_encoding
+Audio object type %s%d
+, q=%d-%d
+, Closed Captions
+A non-NULL packet sent after an EOF.
+MPEG-4 part 2 Microsoft variant version 1
+Westwood Studios VQA (Vector Quantized Animation) video
+Smacker video
+Photoshop PSD file
+MidiVid VQ
+MobiClip Video
+pcm_s32be
+pcm_bluray
+SMPTE 302M
+ADPCM 4X Movie
+adpcm_ima_alp
+ADU (Application Data Unit) MP3 (MPEG audio layer 3)
+TrueHD
+Constrained Energy Lapped Transform (CELT)
+Amazing Studio Packed Animation File Audio
+Digital Speech Standard - Standard Play mode (DSS SP)
+dsd_msbf_planar
+dvb_teletext
+SubViewer v1 subtitle
+Consider disabling 'core_only' option
+Invalid joint intensity coding index
+Read past end of XCH frame
+Invalid number of bits for XBR scale factor index
+Invalid XLL common header checksum
+A hardware frames or device context is required for hardware accelerated decoding.
+illegal pred order %d
+%cIR filter coeff_bits must be between 1 and 16.
+invalid old backstep %d
+use internal 2-pass ratecontrol in first  pass mode
+interlaced motion estimation
+venc_params
+consider all spec non compliancies as errors
+temporal complexity masking
+sum of absolute differences, fast
+rate distortion optimal, slow
+skip_loop_filter
+Error flushing the resampler.
+Error decoding a SILK frame.
+Sequential
+Bug in codevector vector building code. 
+mapping_setup->submap_residue[j]
+top back right
+Encoder not found
+Server returned 400 Bad Request
+GOP timecode
+Not supported option type: %d, option name: %s
+The value for option '%s' is not a %s format.
+bitand
+Invalid 0xRRGGBB[AA] color string: '%s'
+whsxga
+DarkGoldenRod
+SaddleBrown
+Violet
+yuva420p9le
+yuv444p14be
+fft16384_ns_float_c
+fft8192_ns_int32_c
+fft_pfa_ns_int32_c
+attachment
+Unexpected error finding codec %d.
+exact_rational
+a->planar
+s->dither.method < SWR_DITHER_NB
+Select Sub/Right channel
+SBR with 960 frame length
+Unknown ER channel configuration %d
+LTP in ER AAC LD not yet implemented.
+decode_band_types: Input buffer exhausted before END element found
+ADTS header detected, probably as result of configuration misparsing
+Invalid bitstream, crossover band index beyond array bounds: %d
+error decoding the audio block
+new snr offsets must be present in block 0
+bap %d is invalid in plain AC-3
+Too many channels: %d
+ (%d bit)
+MPEG-4 part 2 Microsoft variant version 2
+a64_multi
+Windows Media Video 9 Image
+Iterated Systems ClearVideo
+MatchWare Screen Capture Codec
+pcm_s24be
+pcm_s24daud
+pcm_lxf
+pcm_s8_planar
+PCM 16.8 floating point little-endian
+ADPCM IMA Duck DK3
+G.726 ADPCM
+Shorten
+QCELP / PureVoice
+ATRAC1 (Adaptive TRansform Acoustic Coding)
+On2 Audio for Video Codec
+dsd_msbf
+aptX HD (Audio Processing Technology for Bluetooth)
+OpenType font
+application/octet-stream
+core_only
+Read past end of XXCH channel set
+The first (and only) XLL channel set must be primary
+Invalid NAVI checksum
+!frame->buf[0]
+skip %d / discard %d samples due to side data
+!avpkt->data && !avpkt->side_data
+Specified pixel format %s is invalid or not supported
+invalid block type
+overread, skip %d enddists: %d %d
+bits_left=%d
+set bitrate (in bits/s)
+icc_profiles
+set cutoff bandwidth
+direct_blocksize
+detect improper bitstream length
+ignore errors
+spatial complexity masking
+simpleneon
+iterative motion vector (MV) search (slow)
+set the number of threads
+number of macroblock rows at the top which are skipped
+ildctcmp
+skip_frame
+rate-distortion optimal quantization
+ch_layout
+rc_max_vbv_use
+bt2020_cl
+Top-left
+List of decoders that are allowed to be used
+allow_high_depth
+Error parsing the packet header.
+Invalid parameters passed to the SILK decoder.
+DNXHR LB
+Core Profile
+p <= end
+top center
+overriding to %d logical cores
+av_crc_init(av_crc_table[AV_CRC_16_ANSI_LE], 1, 16, 0xA001, sizeof(av_crc_table[AV_CRC_16_ANSI_LE])) >= 0
+Input changed
+INVALIDDATA
+3x3 displaymatrix
+vulkan
+256color
+false,n,no,disable,disabled,off
+2kscope
+DarkSlateBlue
+LightSeaGreen
+LightYellow
+name nb_components nb_bits
+yuvj420p
+yuv420p12be
+yuv440p10be
+p016le
+gray9le
+, found %i matches%s
+%simdct_full
+%s, factor: %i, 
+fft8_ns_double_c
+fft512_ns_double_c
+fft3_ns_double_c
+mdct_pfa_15xM_inv_double_c
+fft32768_ns_float_c
+fft131072_ns_float_c
+mdct_fwd_float_c
+mdct_pfa_15xM_inv_float_c
+dctII_float_c
+fft32_ns_int32_c
+dctII_int32_c
+ro.arch
+Input and output buffers must be non-NULL.
+Invalid input buffer size: %d.
+Failed to initialize resampler
+set output channel layout (Deprecated, use ochl)
+out_channel_layout
+set surround mix Level
+set LFE mix level
+rectangular
+triangular
+select high Shibata noise shaping dither
+set swr Kaiser window beta
+Too many channels
+Too large remapped id
+Elem type:%x id:%x
+iid_par invalid
+Additional substreams
+unknown prediction type: %i
+The %s '%s' is experimental but experimental codecs are not enabled, add '-strict %d' if you want to use it.
+unknown
+Sunplus JPEG (SP5X)
+H.263+ / H.263-1998 / H.263 version 2
+cinepak
+Autodesk RLE
+jpeg2000
+CompuServe GIF (Graphics Interchange Format)
+Interplay C93
+Brute Force & Ignorance
+Flash Screen Video v2
+AJA Kona 10-bit RGB Codec
+prores
+Uncompressed 4:4:4 10-bit
+TechSmith Screen Codec 2
+OpenEXR image
+PCM signed 16-bit big-endian
+PCM unsigned 16-bit big-endian
+PCM unsigned 24-bit little-endian
+PCM signed 16-bit little-endian planar
+ADPCM IMA WAV
+ADPCM IMA Westwood
+ADPCM IMA Loki SDL MJPEG
+ADPCM Nintendo Gamecube AFC
+adpcm_aica
+ADPCM IMA High Voltage Software ALP
+ADPCM IMA Capcom's MT Framework
+DPCM Gremlin
+cbd2_dpcm
+8SVX exponential
+raw UTF-8 text
+iCEDraw text
+libavcodec/dcadec.c
+Fixed point mode doesn't support LFF=1
+Invalid XXCH channel set header checksum
+Invalid XXCH speaker layout mask (%#x)
+XXCH core speaker activity mask (%#x) disagrees with core (%#x)
+Invalid XBR scale factor index
+Invalid LBR sync word
+LBR frame chunk was truncated
+Speaker mask disabled yet there are remapping sets
+Specified sample format %s is invalid or not supported
+offset == (sizeof(huff_vlc_tables) / sizeof((huff_vlc_tables)[0]))
+xvid_ilace
+strictly conform to all the things in the spec no matter what the consequences
+i_qoffset
+memory management control operations (H.264)
+threads
+number of bits needed for the block
+bt2020
+AVSubtitleRect
+Simple Profile
+ Vorbis setup header packet corrupt (framing flag). 
+ %u. Codebook setup data corrupt.
+libavcodec/vorbisdec.c
+Ignoring comment header
+ Invalid residue type while residue decode?! 
+AMBI%d
+3.0(back)
+6.1(back)
+7.0(front)
+INPUT_CHANGED
+d3d11va
+AVHWFramesContext
+AV_LOG_FORCE_NOCOLOR
+Unable to parse '%s': %s
+%-12s 
+UINT32_MAX
+DarkSlateGray
+LawnGreen
+LightBlue
+Moccasin
+Sienna
+Tomato
+yuv420p16be
+yuv420p14be
+p010le
+drm_prime
+yf32le
+fft_sr_ns_float_neon
+fft16384_ns_double_c
+fft9_ns_double_c
+fft2_ns_float_c
+fft4_ns_float_c
+fft1048576_ns_int32_c
+s->midbuf.ch_count == s->out.ch_count
+out->bps == in->bps
+set input sample rate
+set input channel layout (Deprecated, use in_chlayout)
+shibata
+select modified-e-weighted noise shaping dither
+improved_e_weighted
+phase_shift
+If you heard an audible artifact, there may be a bug in the decoder. Clipped noise gain (%d -> %d)
+SBR reset failed. Switching SBR to pure upsampling mode.
+drc_scale
+downmix
+new coupling leak info must be present in block 0
+exponent %d is out-of-range
+Channel count %d
+Codec '%s' (%d) is not supported by the bitstream filter '%s'. Supported codecs are: 
+bsf_list(
+ASUS V2
+mmvideo
+AVS (Audio Video Standard) video
+VMware Screen Codec / VMware Video
+RL2 video
+escape124
+Electronic Arts TGV video
+iff_ilbm
+Go2Meeting
+AVS3-P2/IEEE1857.10
+mobiclip
+pcm_u24be
+PCM 64-bit floating point little-endian
+PCM signed 8-bit planar
+ADPCM Sound Blaster Pro 2-bit
+LucasArts VIMA audio
+adpcm_dtk
+musepack8
+Xbox Media Audio 2
+MPEG-H 3D Audio
+wavarc
+SSA (SubStation Alpha) subtitle
+((ch_mask & (DCA_SPEAKER_MASK_L | DCA_SPEAKER_MASK_R)) == (DCA_SPEAKER_MASK_L | DCA_SPEAKER_MASK_R))
+Invalid subband activity count
+Invalid scale factor code book
+Invalid XLL sub-header checksum
+%d XLL channels
+Invalid UTF-8 in decoded subtitles text; maybe missing -sub_charenc option
+gray decoding requested but not enabled at configuration time
+Bitrate %ld is extremely low, maybe you mean %ldk
+invalid frame header
+blocksize %d > %d
+qlevel %d not supported, maybe buggy stream
+illegal sample rate code %d
+substream %d length mismatch
+codec_tag
+experimental
+abort decoding on minor error detection
+fast integer
+color space
+Skip processing alpha
+attempt to decode anyway if HW accelerated decoder's supported profiles do not exactly match the stream
+Error decoding an Opus frame.
+mlpparse: Parity check failed.
+%p finished %d field %d
+!avctx->hwaccel
+ %u. Codebook's dimension is invalid (%d).
+Invalid codebook in vorbis_floor_decode.
+wide left
+DECODER_NOT_FOUND
+cur_size >= size
+HDR Dynamic Metadata SMPTE2094-40 (HDR10+)
+av_image_get_linesize failed
+verbose
+0x%02x%02x%02x%02x
+Unable to parse option value "%s" as color
+<dictionary>
+DarkGreen
+DeepPink
+Gainsboro
+SteelBlue
+yuv444p
+yuv444p9le
+d3d11va_vld
+x2rgb10be
+flags: [
+fft65536_ns_float_c
+fft15_ns_float_c
+fft2_ns_int32_c
+growOutputBuffer
+out_sample_fmt
+set output channel layout
+set matrixed stereo encoding
+select none
+s-> in_ch_layout.order == AV_CHANNEL_ORDER_UNSPEC || in ->ch_count == s->in_ch_layout.nb_channels
+dual_mono_mode
+skip_data_stream_element: Input buffer exhausted before END element found
+libavcodec/aacsbr_template.c
+Unsupported sample rate for SBR: %d
+kx != f_table{high,low}[0]. Derived frequency tables were not regenerated.
+ch>=8 || frame->extended_data[ch] == frame->data[ch]
+libavcodec/ac3dec.c
+ALAC (Apple Lossless Audio Codec)
+libavcodec/acelp_vectors.c
+SID mode
+Invalid block align: %d
+%s%dx%d
+mjpegb
+Lossless JPEG
+Cinepak
+QuickTime Animation (RLE) video
+pgmyuv
+SMPTE VC-1
+On2 VP6
+Uncompressed 4:2:2 10-bit
+Bitmap Brothers JV video
+zerocodec
+brender_pix
+innoHeim/Rsupport Screen Capture Codec
+Pinnacle TARGA CineWave YUV16
+GoPro CineForm HD
+YUY2 Lossless Codec
+pixlet
+PCM unsigned 16-bit little-endian
+PCM mu-law / G.711 mu-law
+PCM unsigned 24-bit big-endian
+pcm_s24le_planar
+adpcm_ima_cunning
+MP2 (MPEG audio layer 2)
+Monkey's Audio
+Windows Media Audio Voice
+fastaudio
+hdmv_pgs_subtitle
+No valid DCA sub-stream found
+Invalid XXCH downmix channel mapping mask (%#x)
+Invalid LBR sample rate
+Invalid extension size in EXSS asset descriptor
+Invalid speaker layout mask for mixing configuration
+Custom XLL channel to speaker mapping
+Device type %s expected for hardware decoding, but got %s.
+invalid coeff precision
+broken stream, invalid padding
+pic->data[*]!=NULL in avcodec_default_get_buffer
+default_get_buffer called on pic %p
+showall
+truncated frames
+aspect
+avctx.profile
+avdiscard
+BT.470 M
+unspecified
+color_trc
+iec61966-2-4
+dump_separator
+Invalid redundancy frame size.
+Invalid sample_size
+Constrained Baseline
+JPEG 2000 codestream restriction 1
+Advanced Real Time Simple Profile
+av_packet_ref() failed in submit_packet()
+ Error generating vlc tables. 
+mode_setup->mapping
+libavutil/avstring.c
+%d channels (
+HTTP_OTHER_4XX
+mediacodec
+Picture size %ux%u exceeds specified max pixel count %ld, see the documentation if you wish to increase it
+    Last message repeated %d times
+Value %f for parameter '%s' is not a valid set of 32bit integer flags
+wquxga
+Indigo
+SpringGreen
+WhiteSmoke
+gray8,y8
+uyvy422
+yuva420p9be
+gbrap16le
+gbrp12le
+gbrpf32be
+p216be
+libavutil/slicethread.c
+rdft_int32
+fft512_ns_float_c
+mdct_pfa_5xM_inv_float_c
+fft8_ns_int32_c
+exynos9810
+dither_method
+cutoff
+set maximum factor by which data is stretched/squeezed to make it match the timestamps.
+More than one AAC RDB per ADTS frame
+FILL:%s
+illegal icc
+extra_bits_bug
+invalid element channel count
+%d Hz, 
+Apple MJPEG-B
+Interplay MVE video
+LCL (LossLess Codec Library) ZLIB
+Flash Screen Video v1
+SGI image
+Deluxe Paint Animation
+utvideo
+MS ATC Screen
+Silicon Graphics Motion Video Compressor 2
+Mandsoft Screen Capture Codec
+Gremlin Digital Video
+QOI (Quite OK Image)
+PCM D-Cinema audio signed 24-bit
+pcm_f32le
+adpcm_ima_ws
+ADPCM Shockwave Flash
+ADPCM Electronic Arts R2
+adpcm_ima_ea_eacs
+adpcm_g722
+Delphine Software International CIN audio
+Nellymoser Asao
+realtext
+Electronic Program Guide
+Invalid joint scale factor index
+Invalid XBR sync word
+Invalid X96 scale factor code book
+LBR decoder not initialized
+LBR multi-channel downmix
+Format %s chosen by get_format().
+!avpkt->data
+Failed to allocate packet of size %ld
+CRC error at PTS %ld
+bps not found in STREAMINFO or frame header
+switching bps mid-stream is not supported
+illegal residual coding method %d
+Sampling rate %d is greater than the supported maximum (%d).
+Substreams with VLC block size check info
+major sync info header checksum error
+CRC mismatch %X!
+frame_duration
+allow unofficial extensions
+inter masking
+simple
+deprecated, for compatibility only
+use best rate distortion
+main10
+cmp_func
+subcmp
+chroma
+discard all non-reference frames
+request_channel_layout
+set the number of slices, used in parallelized encoding
+Mismatching coded sample count in substream %d.
+Error decoding the redundancy frame.
+Invalid number of channels
+High 4:4:4 Predictive
+N-bit Profile
+OUTPUT_CHANGED
+Film grain parameters
+((src_linesize) >= 0 ? (src_linesize) : (-(src_linesize))) >= bytewidth
+sample format
+4kflat
+%-11s %7d %10d
+bayer_gbrg8
+yuv440p12le
+p012le
+xv30le
+xv36be
+rgbf32le
+fft_double_c
+fft_inplace_double_c
+fft9_fwd_float_c
+mdct_pfa_9xM_inv_float_c
+fft2048_ns_int32_c
+fft524288_ns_int32_c
+fft3_fwd_int32_c
+mdct_inv_int32_c
+JNI_OnLoad: FindClass failed
+JNI_OnLoad: GetMethodID failed
+Input channel count and layout are unset
+SWResampler
+set output channel count (Deprecated, use out_chlayout)
+simplified 1 parameter audio timestamp matching, 0(disabled), 1(filling and trimming), >1(maximum stretch/squeeze in samples per second)
+Low Delay SBR
+channel element %d.%d is not allocated
+bs_pointer >= 0
+enable heavy dynamic range compression
+Lo/Ro Surround Mix Level
+Could not determine the sample rate
+x < size
+Decoder
+Ignoring attempt to flush encoder that doesn't support it
+ws_vqa
+Microsoft RLE
+QuickTime 8BPS video
+Renderware TXD (TeXture Dictionary) image
+Motion Pixels video
+Discworld II BMV video
+Resolume DXV
+PCM unsigned 8-bit
+PCM 32-bit floating point little-endian
+pcm_s64be
+adpcm_yamaha
+adpcm_xmd
+vorbis
+Windows Media Audio 1
+DSP Group TrueSpeech
+wmavoice
+RealAudio SIPR / ACELP.NET
+G.723.1
+Xbox Media Audio 1
+Spruce subtitle format
+wrapped_avframe
+Invalid scale factor index
+Invalid XXCH frame header checksum
+skip whole frame, skip left: %d
+avpkt->{data,buf} != NULL in avcodec_default_get_encode_buffer()
+!avpkt->data || avpkt->buf
+overread: %d
+invalid predictor order: %i > %i
+sample/frame number invalid; utf8 fscked
+There must be no extraword for MLP.
+Number of primitive matrices cannot be greater than %d.
+Filters may change only once per access unit.
+AVCodecContext
+err_detect
+set ratecontrol buffer size (in bits)
+select IDCT implementation
+slice_count
+deblock
+sub-pel motion estimation quality
+slice_flags
+discard all frames except keyframes
+minimum interval between IDR-frames
+log_sqrt
+MPEG (219*2^(n-8))
+JPEG (2^n-1)
+Hearing Impaired
+Commentary
+do_nothing
+libavcodec/parser.c
+Profile 2
+Professional
+JPEG LS
+Overdetermined VLC tree
+mapping_setup->magnitude[j]
+front center
+7.1(wide-side)
+%Y-%m-%dT%H:%M:%S
+Generic error in an external library
+PROTOCOL_NOT_FOUND
+A device with a derived frame context cannot be used as the destination of a HW -> HW transfer.
+[%s @ %p] 
+Unable to parse option value "%s" as duration
+%d.%06d
+0123456789ABCDEFabcdef
+DarkGray
+LightCyan
+Orange
+PaleGoldenRod
+PaleGreen
+yuv410p
+bgr555be
+bgra64be
+yuva422p12be
+rgbaf32le
+mdct_float
+fft32_ns_double_c
+fft15_ns_double_c
+fft32_ns_float_c
+mdct_inv_float_c
+mdct_pfa_9xM_fwd_float_c
+fft7_ns_int32_c
+fft5_fwd_int32_c
+Output buffer size (%d) too small for output data (%d), reallocating buffer.
+s->drop_output
+Failed to compensate for timestamp delta of %f
+s->in.planar
+set output sample format
+set surround mix level
+lfe_mix_level
+rematrix_maxval
+set flags
+high_shibata
+set soxr resampling precision (in bits)
+Assume the first pts should be this value (in samples).
+Matrix coefficients:
+invalid band type
+If you heard an audible artifact, there may be a bug in the decoder. Clipped intensity stereo position (%d -> %d)
+element type mismatch %d != %d
+Reserved SBR extensions
+temp1 <= 1E20
+icc_mode %d is reserved.
+invalid frame size
+Too many channels (%d) coded
+Sample depth %d
+sample count mismatch: %u != %d
+encoder
+, %dx%d
+, %ld kb/s
+Audio Service Type
+ASUS V1
+vmdvideo
+PPM (Portable PixelMap) image
+ffvhuff
+tiertexseqvideo
+Electronic Arts CMV video
+flashsv2
+Apple ProRes (iCodec Pro)
+Screenpresso
+NewTek SpeedHQ
+image/x-xpixmap
+RemotelyAnywhere Screen Capture
+PCM signed 8-bit
+pcm_u32le
+PCM signed 20|24-bit big-endian
+PCM 24.0 floating point little-endian
+adpcm_ima_dk4
+SEGA CRI ADX ADPCM
+ADPCM Sound Blaster Pro 2.6-bit
+adpcm_sbpro_2
+ADPCM Zork
+roq_dpcm
+MACE (Macintosh Audio Compression/Expansion) 6:1
+Musepack SV8
+Bonk audio
+SubRip subtitle
+Invalid packet size
+Failed to decode block code(s)
+XCH sync word not found
+Invalid auxiliary data sync word
+Tonal scale factor chunk too short
+Read past end of EXSS header
+Invalid XLL channel mask
+n >= 1
+Codec '%s' is bitmap-based, subtitles character encoding will be ignored
+Set video bitrate tolerance (in bits/s). In 1-pass mode, bitrate tolerance specifies how far ratecontrol is willing to deviate from the target average bitrate value. This is not related to minimum/maximum bitrate. Lowering tolerance too much has an adverse effect on quality.
+place global headers at every keyframe instead of in extradata
+export Producer Reference Time through packet side data
+qpel_chroma2
+last_pred
+limit motion vectors range (1023 for DivX player)
+interlaced DCT compare function
+smpte240m
+Linear
+SMPTE 2085
+extra_hw_frames
+Channel mapping 2 is only specified for channel counts which can be written as (n + 1)^2 or (n + 1)^2 + 2 for nonnegative integer n
+libavcodec/opus_rc.c
+&quot;
+libavutil/channel_layout.c
+BSF_NOT_FOUND
+STREAM_NOT_FOUND
+Server returned 401 Unauthorized (authorization failed)
+warning
+Setting '%s' to value '%s'
+%ld:%02d:%02d.%06d
+4kscope
+CornflowerBlue
+MediumSlateBlue
+PaleVioletRed
+RoyalBlue
+gray10le
+p016be
+yf32be
+p410be
+rgbaf16be
+nb_threads >= 0
+fft32_float_neon
+fft32768_ns_double_c
+fft524288_ns_double_c
+fft5_ns_double_c
+mdct_pfa_7xM_inv_double_c
+fft9_ns_float_c
+fft256_ns_int32_c
+fft131072_ns_int32_c
+mdct_naive_inv_int32_c
+avcodec_open2
+select Shibata noise shaping dither
+modified_e_weighted
+first_pts
+select Kaiser windowed sinc
+!c->frac && !c->dst_incr_mod
+Sample rate index in program config element does not match the sample rate index configured by the container.
+extension type: %d len:%d
+Stop frequency border too high: %d
+Too many patches: %d
+error in bit allocation
+Corrupt bitstream
+ (%dx%d)
+MPEG-2 video
+RealVideo 1.0
+Bink video
+Psygnosis YOP Video
+Pictor/PC Paint
+Chronomaster DFA
+XWD (X Window Dump) image
+MS Screen 1
+SGI RLE 8-bit
+CPiA video format
+FITS (Flexible Image Transport System)
+MidiVid Archive Codec
+image/jxl
+WBMP (Wireless Application Protocol Bitmap) image
+pcm_u32be
+adpcm_ea_r3
+adpcm_ima_iss
+ADPCM IMA Cunning Developments
+nellymoser
+Windows Media Audio Lossless
+SBC (low-complexity subband codec)
+HDMV Presentation Graphic Stream subtitles
+TrueType font
+application/x-truetype-font
+Deficit samples are not supported
+Invalid number of bits for XXCH speaker mask (%d)
+Invalid number of active XBR subbands (%d)
+Read past end of XBR frame header
+XLL channel set outside of hierarchy
+Invalid core shift (%d bits)
+Format %s not usable, retrying get_format() without it.
+video_get_buffer: image parameters invalid
+nb_samples (%d) > frame_size (%d)
+Substream %d parity check failed.
+use only bitexact functions (except (I)DCT)
+work around not autodetected encoder bugs
+b_qoffset
+diamond type & size for motion estimation
+full-pel ME compare function
+mblmin
+bits_per_raw_sample
+SMPTE 240 M
+SMPTE 431-2
+EBU 3213-E
+gamma28
+chroma sample location
+discard_damaged_percentage
+High 4:4:4
+Main Profile
+Basic Animated Texture Profile
+Id header corrupt.
+ Vorbis setup header packet corrupt (residues). 
+Vorbis time domain transform data nonzero. 
+Other mappings than type 0 are not compliant with the Vorbis I specification. 
+front right
+front left-of-center
+MUXER_NOT_FOUND
+Experimental feature
+Metadata relevant to a downmix procedure
+Skip samples
+HDR Dynamic Metadata CUVA 005.1 2021 (Vivid)
+    Last message repeated %d times
+AV_LOG_FORCE_256COLOR
+[%u;3%um%s
+The value set by option '%s' is not a video rate.
+true,y,yes,enable,enabled,on
+pixel format
+%d:%02d.%06d
+<boolean>
+wqsxga
+AntiqueWhite
+Magenta
+ya16le
+videotoolbox_vld
+y210be
+y212le
+reserved
+fft16_ns_double_c
+fft256_ns_double_c
+mdct_inv_full_double_c
+fft3_fwd_float_c
+fft_inplace_float_c
+mdct_pfa_5xM_fwd_float_c
+fft128_ns_int32_c
+fft16384_ns_int32_c
+center_mix_level
+resample_cutoff
+enable soxr Chebyshev passband & higher-precision irrational ratio approximation
+ATSC A/52B (AC-3, E-AC-3)
+Enhanced coupling
+invalid zero block size of %d %d %d
+%d bpc, 
+Display Matrix
+Mastering display metadata
+Encryption info
+Active Format Description data
+msmpeg4v1
+huffyuv
+PBM (Portable BitMap) image
+Windows Media Video 9
+JPEG 2000
+image/x-tga
+Electronic Arts Madcow Video
+Windows Media Video 9 Image v2
+ZeroCodec Lossless Video
+Uncompressed packed MS 4:4:4:4
+media100
+pcm_u24le
+adpcm_sbpro_3
+adpcm_ima_apm
+bmv_audio
+dss_sp
+ATRAC3+ AL (Adaptive TRansform Acoustic Coding 3+ Advanced Lossless)
+MOV text
+EIA-608 closed captions
+JACOsub subtitle
+hdmv_text_subtitle
+Invalid primary channel set downmix type
+Internal error, put_bits buffer too small
+LBR chunk %#x was truncated
+LFE chunk too short
+Tonal group chunk too short
+Too many samples per XLL segment
+Invalid XLL downmix scale index
+Character encoding is only supported with subtitles codecs
+!avpkt->data && !avpkt->buf
+The encoder timebase is not set.
+The copy_opaque flag is set, but the encoder does not support it.
+Extracting %d-channel downmix (0x%lx) from substream %d. Further substreams will be skipped.
+Error while decoding MPEG audio frame.
+recon_frame
+bitexact
+drop_changed
+ignore cropping information from sps
+skip_manual
+Xvid interlacing bug (autodetected if FOURCC == XVIX)
+qpel_chroma
+old standard qpel (autodetected per FOURCC/version)
+simplemmx
+amount of motion predictors from the previous frame
+macroblock decision algorithm (high quality mode)
+skip_idct
+discard all frames
+JEDEC P22
+Voice Over
+set input text subtitles character encoding
+pixel_format
+ignore_level
+apply_phase_inv
+HE-AAC
+High 10 Intra
+thread_release_buffer called on pic %p
+pool->alloc || pool->alloc2
+top side left
+FILTER_NOT_FOUND
+Regions Of Interest
+Bounding boxes for object detection and classification
+[48;5;%um
+[38;5;%um%s
+in_ts != ((int64_t)0x8000000000000000UL)
+duration >= 0
+Option '%s' not found
+<image_size>
+ (from 
+DBL_MIN
+Missing key or no key/value separator found after key '%s'
+%J:%M:%S
+2kflat
+uhd4320
+DarkCyan
+FloralWhite
+MediumTurquoise
+RosyBrown
+yuv444p16be
+yuva420p10le
+%sinv_only
+fft_inplace_small_double_c
+fft_pfa_ns_double_c
+fft16_ns_float_c
+rdft_r2c_float_c
+fft15_ns_int32_c
+mdct_pfa_3xM_fwd_int32_c
+rdft_c2r_int32_c
+Codec not found.
+Context must be non-NULL.
+Invalid output buffer length: %d
+Failed to allocate packet.
+s->dither.noise.ch_count == preout->ch_count
+set used channel layout
+low_shibata
+f_weighted
+select Dolby
+Full-on remixing from 22.2 has not yet been implemented! Processing the input as '%s'
+This stream seems to incorrectly report its last channel as %s[%d], mapping to SCE[1]
+envelope scalefactor overflow in dequant
+ltrt_surmixlev
+loro_surmixlev
+H263 MB Info
+Encryption initialization data
+LCL (LossLess Codec Library) MSZH
+PGMYUV (Portable GrayMap YUV) image
+image/gif
+Uncompressed packed 4:4:4
+clearvideo
+Kodak Photo CD
+jpegxl
+adpcm_ima_oki
+adpcm_agm
+Smacker audio
+Windows Media Audio 9 Professional
+Bink Audio (RDFT)
+codec2 (very low bitrate speech codec)
+Wave synthesis pseudo-codec
+aptX (Audio Processing Technology for Bluetooth)
+acelp.kelvin
+subviewer
+application/MP2T
+Null audio codec
+Read past end of X96 frame header
+Invalid setup for format %s: does not match the format of the provided frames context.
+Multiple frames in a packet.
+Invalid cropping information set by a decoder: %zu/%zu/%zu/%zu (frame size %dx%d). This is a bug, please report it
+  Max Framesize: %d
+Invalid nonrestart_substr.
+Parity check failed.
+MLP only supports up to 2 substreams.
+ret >= 0
+closed GOP
+Export metadata as side data
+video quantizer scale blur (VBR)
+autoselect a good one
+simplearm
+use strong deblock filter for damaged MBs
+picture info
+buffers
+mv0_threshold
+BT.2020 CL
+slices
+Dialogue
+pre_decoder
+Wrong number of flushed samples: %d
+Invalid channel map for output channel %d: %d
+next >= 0 || pc->buffer
+Profile 0
+!p->avctx->hwaccel
+Third header is not the setup header.
+tail_len <= 5
+Immediate exit requested
+[48;5;%um
+[38;5;%dm%s
+Value %f for parameter '%s' out of range [%g - %g]
+const_values array too small for %s
+<string>
+%-12ld 
+%c%c%c%c%c%c%c%c%c%c%c
+-FLT_MIN
+squish
+ntsc-film
+CadetBlue
+DodgerBlue
+Orchid
+PapayaWhip
+rgb555le
+yuv422p9be
+yuva422p10be
+yuva422p16be
+gbrapf32le
+yuva422p12le
+For transform of length %i, %s, 
+%s - type: 
+fft7_ns_double_c
+fft9_fwd_double_c
+fft262144_ns_float_c
+mdct_pfa_3xM_fwd_float_c
+rdft_c2r_float_c
+Failed to allocate context.
+Requested resampling engine is unavailable
+Output channel layout %s mismatches specified channel count %d
+used_channel_count
+in_sample_fmt
+set input channel layout (Deprecated, use ichl)
+in_channel_layout
+enable linear interpolation
+set duration (in seconds) over which data is stretched/squeezed to make it match the timestamps.
+invalid sampling rate index %d
+Scalefactor (%d) out of range.
+No quantized data read for sbr_dequant.
+heavy_compr
+invalid bitstream id
+invalid frame type
+new coupling strategy must be present in block 0
+set_info failed
+Error allocating buffers
+Strings Metadata
+Sony PlayStation MDEC (Motion DECoder)
+Miro VideoXL
+Duck TrueMotion 2.0
+TIFF image
+V.Flash PTX image
+On2 VP4
+pcm_s64le
+PCM signed 64-bit big-endian
+adpcm_xa
+adpcm_adx
+adpcm_vima
+ADPCM Playstation
+ADPCM AmuseGraphics Movie AGM
+adpcm_ima_acorn
+ADPCM IMA Acorn Replay
+MP3onMP4
+wmapro
+ATRAC3+ (Adaptive TRansform Acoustic Coding 3+)
+IAC (Indeo Audio Coder)
+interplayacm
+dolby_e
+aptx_hd
+Sipro ACELP.KELVIN
+SubViewer subtitle
+Timed Text Markup Language
+Unknown core frame header error
+%d XXCH channels
+Invalid bit allocation index
+Invalid downmix coefficient index
+Invalid X96 subband activity count (%d)
+Too many segments per XLL frame
+invalid packet: NULL data, size != 0
+Invalid media type for subtitles
+Failed setup for format %s: hwaccel initialisation returned error.
+start_display_time must be 0.
+  Bits: %d
+invalid coding type
+invalid channel mode: %d
+End of stream indicated.
+Sum of coeff_bits and coeff_shift for %cIR filter must be 16 or less.
+libavcodec/mpegaudiodec_template.c
+Drop frames whose parameters differ from first decoded frame
+film_grain
+QP factor between P- and B-frames
+edge padding bug (autodetected per FOURCC/version)
+sample aspect ratio
+use fewest bits
+sum of squared quantization errors (avoid, low quality)
+center
+sub_charenc
+ignore
+Invalid PCM packet, data has size %d but at least a size of %d was expected
+DNXHR HQ
+Profile 1
+floor_setup->data.t1.class_masterbook[j]
+bottom front left
+5.1(side)
+libavutil/crc.c
+End of file
+Stream not found
+EXPERIMENTAL
+HTTP_FORBIDDEN
+AVMatrixEncoding
+AVReplayGain
+((dst_linesize) >= 0 ? (dst_linesize) : (-(dst_linesize))) >= bytewidth
+If you want to help, upload a sample of this file to https://streams.videolan.org/upload/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+%d%*1[:/]%d%c
+-DBL_MAX
+Missing ')' or too many args in '%s'
+DarkBlue
+ForestGreen
+bgr555le
+yuv420p10le
+bayer_grbg16le
+gbrap10le
+gbrpf32le
+p416be
+p416le
+fft8_float_neon
+fft65536_ns_double_c
+mdct_pfa_5xM_fwd_double_c
+rdft_r2c_double_c
+fft1024_ns_float_c
+fft524288_ns_float_c
+fft1048576_ns_float_c
+androidx/media3/decoder/ffmpeg/FfmpegAudioDecoder
+Failed to set option
+Using %s internally between filters
+s->out_sample_rate == s->in_sample_rate
+chlayout
+filter_type
+Audio specific config size is invalid
+invalid low delay sampling rate index %d
+This stream seems to incorrectly report its last channel as %s[%d], mapping to LFE[0]
+Reserved bit set.
+Parametric Stereo signaled to be not-present but was found in the bitstream.
+border_position non monotone.
+cons_noisegen
+target_level
+Ignoring invalid width/height values
+ (%s / 0x%04X)
+, %d/%d
+Producer Reference Time
+TechSmith Screen Capture Codec
+PNG (Portable Network Graphics) image
+PAM (Portable AnyMap) image
+Chinese AVS (Audio Video Standard) (AVS1-P2, JiZhun profile)
+Escape 124
+Electronic Arts TGQ video
+cdgraphics
+Google VP9
+Vidvox Hap
+screenpresso
+Infinity IMM5
+CDToons video
+PCM 64-bit floating point big-endian
+ADPCM IMA AMV
+ADPCM Electronic Arts XAS
+ADPCM IMA Ubisoft APM
+RealAudio 2.0 (28.8K)
+DPCM Xan
+atrac1
+codec2
+DST (Direct Stream Transfer)
+RKA (RK Audio)
+application/x-font
+SCTE 35 Message Queue
+Subband sample buffer overflow
+XXCH sync word not found
+Read past end of X96 frame
+buf_size >= 0
+Extra XLL frequency bands
+Read past end of XLL sub-header
+Invalid XLL downmix coefficient index
+dropped changed frame #%ld pts %ld drop count: %d 
+codec->cb_type == FF_CODEC_CB_TYPE_ENCODE
+Insufficient data for headers
+No restart header present in substream %d.
+MLP must have 0x31ea sync word.
+force low delay
+ass_ro_flush_noop
+generate/parse embedded ICC profiles from/to colorimetry tags
+frame_number
+direct-qpel-blocksize bug (autodetected per FOURCC/version)
+allow non-standardized experimental things
+crccheck
+fastint
+set error concealment strategy
+sum of absolute DCT transformed differences
+sum of absolute vertical differences
+sum of absolute differences, median predicted
+bidir_refine
+thread_type
+pkt_timebase
+max_pixels
+Invalid extradata size: %d
+DNXHR 444
+ignoring invalid SAR: %d/%d
+ More codelengths than codes in codebook. 
+Codebook lookup type not supported. 
+back left
+<uint64>
+I64_MIN
+%d:%d%c
+Bisque
+DarkSeaGreen
+LightGrey
+MidnightBlue
+yuvj444p
+rgb4_byte
+yuvj440p
+yuv422p16be
+yuv422p10be
+yuva420p16le
+yuva444p16le
+yuv444p12le
+yuv440p10le
+ayuv64le
+fft_float
+mdct_double
+%sunaligned
+fft16_float_neon
+fft131072_ns_double_c
+fft262144_ns_double_c
+fft128_ns_float_c
+fft2097152_ns_float_c
+mdct_pfa_7xM_inv_float_c
+mdct_inv_full_float_c
+fft4_ns_int32_c
+fft4096_ns_int32_c
+!"valid element size"
+libavutil/utils.c
+avcodec_receive_frame
+s->out.ch_count
+force resampling
+min_hard_comp
+libswresample/rematrix.c
+default
+SBR was found before the first channel element.
+SBR signaled to be not-present but was found in the bitstream.
+sbr->data[ch].bs_num_env > 0
+(E-)AC3 decoder
+Reserved frame type
+invalid coupling range (%d >= %d)
+Compression with rice limit 0
+The file is corrupted, pitch_lag = 0 is not allowed
+Replay Gain
+raw video
+theora
+AMV Video
+indeo4
+Forward Uncompressed
+Escape 130
+hnm4video
+Avid Meridien Uncompressed
+targa_y216
+sheervideo
+prosumer
+NotchLC
+PCM unsigned 32-bit little-endian
+PCM signed 64-bit little-endian
+PCM SGA
+ADPCM IMA Duck DK4
+adpcm_ea
+ADPCM IMA Eurocom DAT4
+GSM Microsoft variant
+dsd_lsbf
+atrac3al
+bintext
+eXtended BINary text
+raw MPEG-TS stream
+XXCH speaker layout mask (%#x) overlaps with core (%#x)
+Read past end of XBR channel set
+Invalid X96 joint scale factor code book
+First grid chunk too short
+Invalid scale factor distance
+discard %d/%d samples
+FLAC decoder
+skipping flac header packet 1
+decode_frame() failed
+  Samplerate: %d
+invalid bps: %d
+quant_step_size larger than huff_lsbs
+libavcodec/mpegaudiodec_common.c
+use fixed qscale
+use internal 2-pass ratecontrol in second pass mode
+do not skip samples and export skip information as frame side data
+set the group of picture (GOP) size
+QP offset between P- and I-frames
+compresses dark areas stronger than medium ones
+simpleauto
+guess_mvs
+dia_size
+color_primaries
+jedec-p22
+chroma-derived-nc
+Chroma-derived CL
+chroma_sample_location
+bottomleft
+bottom
+Percentage of damaged samples to discard a frame
+Error resampling SILK data.
+Invalid start/end band: %d %d
+index > -0x20000000
+DTS-HD MA
+DNXHR SQ
+Main 10
+JPEG 2000 digital cinema 4K
+SNR Scalable
+Simple
+Multiple ff_thread_finish_setup() calls
+!dst->progress
+ Vorbis setup header packet corrupt (modes). 
+Square polar channel mapping with less than two channels is not compliant with the Vorbis I specification.
+mapping_setup->submap_floor[j]
+quad(side)
+Option not found
+Output changed
+Not yet implemented in FFmpeg, patches welcome
+The value for option '%s' is not a channel layout.
+Invalid separator(s) found.
+Chartreuse
+GreenYellow
+OldLace
+PowderBlue
+SeaShell
+yuva422p16le
+yuva444p16be
+nv20be
+yuv422p12le
+yuv422p14be
+yuv444p12be
+p210be
+libavutil/tx.c
+fft4_ns_double_c
+fft_naive_float_c
+dctIII_float_c
+fft65536_ns_int32_c
+fft_inplace_small_int32_c
+subtitle
+used_chlayout
+set rematrix volume
+set swr resampling filter size
+Pulse data corrupt or invalid.
+Prediction is not allowed in AAC-LC.
+TYPE_FIL: Input buffer exhausted before END element found
+Expected to read %d PS bits actually read %d.
+target level in -dBFS (0 not applied)
+Lt/Rt Center Mix Level
+Reduced sampling rate
+Force non-standard decoding process
+Invalid channel count
+ignoring invalid SAR: %u/%u
+Alternatively use the non experimental %s '%s'.
+Stereo 3D
+WebVTT Settings
+RealVideo 2.0
+JPEG-LS
+msmpeg4v3
+Sorenson Vector Quantizer 1 / Sorenson Video 1 / SVQ1
+Sorenson Vector Quantizer 3 / Sorenson Video 3 / SVQ3
+RealVideo 3.0
+CamStudio
+Intel Indeo Video Interactive 4
+Dxtory
+MS Windows Media Video V9 Screen
+alias_pix
+LucasArts SANM/SMUSH video
+Bitpacked
+Scalable Vector Graphics
+PCM signed 16-bit little-endian
+PCM signed 24-bit big-endian
+adpcm_ea_maxis_xa
+shorten
+IMC (Intel Music Coder)
+musepack7
+8SVX fibonacci
+mpegh_3d_audio
+DFPWM (Dynamic Filter Pulse Width Modulation)
+WebVTT subtitle
+arib_caption
+scte_35
+Invalid source PCM resolution
+Invalid bit allocation quantizer select
+Invalid XXCH sync word
+Invalid LBR band limit for frequency range
+%d audio assets
+XLL replacement set
+frame->data[i]
+invalid rice order: %i blocksize %i
+Channel groups with differing sample rates are not currently supported.
+Max matrix channel cannot be greater than %d.
+FIR and IIR filters must use the same precision.
+discarding ID3 tag
+propagate opaque values
+ignorecrop
+export_mvs
+export video encoding parameters through frame side data
+detect bitstream specification deviations
+careful
+block_align
+rc_override_count
+xvidmmx
+pre_dia_size
+compression_level
+BT.2020 - 12 bit
+audio service type
+Main Audio Service
+sample format audio decoders should prefer
+Channel mapping 0 is only specified for up to 2 channels
+Invalid CELT frame size: %d
+DTS-ES
+Multiview High
+fctx->async_lock
+bottom front right
+6.0(front)
+detected %d logical cores
+Error number %d occurred
+Server returned 403 Forbidden (access denied)
+AV_LOG_FORCE_COLOR
+     %-15s 
+<float>
+<duration>
+<color>
+Invalid alpha value specifier '%s' in '%s'
+%Y - %m - %d
+uhd2160
+MistyRose
+rgb565le
+bgr565be
+gbrp9be
+yuva422p9be
+gray9be
+p410le
+rdft_float
+fft_sr_float_neon
+swr_convert
+select triangular dither
+min_comp
+Error decoding AAC frame header.
+iid_mode %d is reserved.
+illegal iid
+frame sync error
+unable to determine channel mode
+Warning: new rematrixing strategy not present in block 0
+Invalid mode %d
+decoder
+H.263 / H.263-1996, H.263+ / H.263-1998 / H.263 version 2
+dvvideo
+Cirrus Logic AccuPak
+msvideo1
+image/png
+VC3/DNxHD
+Commodore CDXL video
+Mirillis FIC
+Canopus HQX
+DirectDraw Surface image decoder
+Uncompressed packed QT 4:4:4:4
+ScreenPressor
+cdtoons
+MidiVid 3.0
+PCM 32-bit floating point big-endian
+pcm_f24le
+adpcm_ct
+adpcm_ea_xas
+DPCM Marble WADY
+8svx_exp
+RealAudio Lossless
+DSD (Direct Stream Digital), least significant bit first
+DVD subtitles
+DVD Nav packet
+Read past end of XXCH channel set header
+Embedded LBR stereo downmix
+%d audio presentations
+Invalid XLL original channel order
+LSB section missing with non-zero LSB width
+Invalid format returned by get_format() callback.
+Palette size %zu is wrong
+Invalid sample rate
+(frame->private_ref && frame->private_ref->size == sizeof(FrameDecodeData)) || !(avctx->codec->capabilities & (1 << 1))
+Could not update timestamps for skipped samples.
+sample rate not found in STREAMINFO or frame header
+invalid subframe padding
+header crc mismatch
+extradata NULL or too small.
+extradata contains %d bytes too many.
+invalid max blocksize: %d
+Too many fractional bits specified.
+Header missing
+incorrect frame size - multiple frames in buffer?
+s->frame
+place global headers in extradata instead of every keyframe
+flags2
+frame_size
+std_qpel
+unofficial
+consider things that a sane encoder should not do as an error
+favor predicting from the previous frame
+macroblock (MB) type
+dctmax
+minimum macroblock Lagrange factor (VBR)
+log100
+bt2020_ncl
+set information dump field separator
+Multichannel configuration without extradata.
+DNXHR HQX
+Baseline
+High 4:2:2
+Main 10 4:4:4
+Advanced Core Profile
+Complex
+!p->hwaccel_serializing
+desc->flags & (1 << 4)
+Floor 0 order is 0.
+floor0 dec: booknumber too high!
+[truncated strftime output]
+Decoder not found
+HTTP_NOT_FOUND
+Server returned 404 Not Found
+Motion vectors
+The value set by option '%s' is not an image size.
+The value for option '%s' is not an image size.
+Unable to parse option value "%s" as boolean
+<flags>
+ (default 
+Undefined constant or missing '(' in '%s'
++infinity
+hd1080
+FireBrick
+Lavender
+LavenderBlush
+yuv440p
+yuva420p
+gbrp16le
+yvyu422
+gray14be
+fft_double
+%s, factors
+dctIII_double_c
+fft8192_ns_float_c
+avcodec_send_packet
+Select the channel to decode for dual mono
+channel_order
+Input buffer exhausted before END element found
+Pulse tool not allowed in eight short sequence.
+TNS filter order %d is greater than maximum %d.
+loro_cmixlev
+Request a specific channel layout from the decoder
+Syntax element %d
+Error : %d bits left
+HDR10+ Dynamic Metadata (SMPTE 2094-40)
+Windows Media Video 7
+Microsoft Video 1
+BMP (Windows and OS/2 bitmap)
+Tiertex Limited SEQ video
+indeo5
+bmv_video
+Vizrt Binary Image
+adpcm_ea_r1
+ADPCM IMA CRYO APC
+DPCM id RoQ
+DPCM Squareroot-Delta-Exact
+8svx_fib
+atrac9
+HCOM Audio
+eia_608
+binary data
+Invalid number of primary audio channels (%d) for audio channel arrangement (%d)
+%d XXCH channel sets
+%d XLL channel sets
+Sample rate mismatch between core (%d Hz) and XLL (%d Hz)
+Could not update timestamps for discarded samples.
+An invalid frame was output by a decoder. This is a bug, please report it.
+s->stream_info.max_blocksize
+Lossless check failed - expected %02x, calculated %02x.
+switch point in 8khz
+low_delay
+no_padding
+padding bug (autodetected)
+buffer
+DCT algorithm
+altivec
+floating point AAN DCT
+rc_min_vbv_use
+colorspace
+bt2020c
+Chroma-derived NCL
+DTS Express
+ Vorbis id header packet corrupt (illegal blocksize). 
+ %u. Codebook has too many entries (%u).
+mapping_setup->angle[j]
+%u. mapping setup data invalid.
+top back left
+Audio service type
+val || !min_size
+Invalid option type.
+No option name near '%s'
+<rational>
+<video_rate>
+BurlyWood
+Crimson
+MediumPurple
+SlateBlue
+Turquoise
+rgb48be
+rgb565be
+rgba64le
+yuv444p14le
+p210le
+p216le
+inverse
+fft64_ns_double_c
+mdct_pfa_5xM_inv_double_c
+fft5_fwd_float_c
+fft7_fwd_float_c
+fft5_ns_int32_c
+mdct_fwd_int32_c
+Rematrix is needed between %s and %s but there is not enough information to do it
+discarding %d audio samples
+s->midbuf.ch_count == s->used_ch_layout.nb_channels
+out_sample_rate
+set input sample format
+select improved-e-weighted noise shaping dither
+output_sample_bits
+ctx->channels == out->ch_count
+Unsupported sample format
+Select Main/Left channel
+invalid default channel configuration (%d)
+ms_present = 3 is reserved.
+initializing latmctx
+Invalid vDk0[%d]: %d
+ERROR : no subband found for frequency %d
+icc_par invalid
+error setting downmix coeffs
+channel_map: %0X
+delta bit allocation strategy reserved
+coupling not allowed in mono or dual-mono
+AMR-NB (Adaptive Multi-Rate NarrowBand)
+>2 channel AMR
+Palette
+Subtitle Position
+A53 Closed Captions
+MPEG-4 part 2
+H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10
+On2 VP3
+Wing Commander III / Xan
+IBM UltiMotion
+Intel Indeo 2
+dsicinvideo
+Delphine Software International CIN video
+8088flex TMV
+MS Expression Encoder Screen
+smvjpeg
+speedhq
+PCM signed 24-bit little-endian
+PCM signed 24-bit little-endian planar
+ADPCM IMA QuickTime
+ADPCM Electronic Arts Maxis CDROM XA
+ADPCM IMA Dialogic OKI
+ADPCM IMA Radical
+adpcm_zork
+interplay_dpcm
+derf_dpcm
+vmdaudio
+dsicinaudio
+gsm_ms
+CRI HCA
+mpegts
+Invalid LBR frame chunk ID
+Invalid number of channels for LBR stereo downmix
+Invalid XLL adaptive predicition order
+Invalid setup for format %s: does not match the type of the provided device context.
+Format %s requires hwaccel initialisation.
+av_codec_is_decoder(avctx->codec)
+pic->data[*]!=NULL in get_buffer_internal
+Invalid channel count
+frame->buf[0]
+requesting subtitles recoding without iconv
+Invalid minimum required packet size %ld (max allowed is %d)
+avpkt->buf
+Mismatching AVCodecContext.pix_fmt and AVHWFramesContext.format
+invalid/unknown sampling rate
+restart header sync incorrect (got 0x%04x)
+block data length mismatch
+packet too short, unable to read major sync
+H.263 advanced intra coding / MPEG-4 AC prediction
+skip bitstream encoding
+local_header
+set maximum number of B-frames between non-B-frames
+compliant
+per-block quantization parameter (QP)
+skip motion compensation
+skip loop filtering process for the selected frames
+trellis
+bt470m
+SMPTE 2084
+colorspace_type
+color range
+audio_service_type
+Emergency
+allow potentially unsafe hwaccel frame output that might require special care to process successfully
+Error feeding initial silence to the resampler.
+DTS-HD HRA
+JPEG 2000 codestream restriction 0
+Scalable Texture Profile
+Code Scalable Profile
+ Vorbis setup header packet corrupt (time domain transforms). 
+mode_number
+wide right
+surround direct left
+Bitstream filter not found
+EXTERNAL
+Filter not found
+SMPTE 12-1 timecode
+%s%s%s%s
+Value %d for parameter '%s' out of %s format range [%d - %d]
+QP2LAMBDA
+%Y%m%d
+quadhd
+DeepSkyBlue
+LightGreen
+january
+august
+yuva422p9le
+gbrap16be
+yuv422p14le
+bayer_gbrg16be
+gbrap12le
+p012be
+forward
+fft_naive_small_float_c
+fft64_ns_int32_c
+fft_naive_small_int32_c
+swr_alloc_set_opts2
+libswresample/swresample.c
+internal_sample_fmt
+kaiser_beta
+AAC LATM (Advanced Audio Coding LATM syntax)
+new bit allocation info must be present in block 0
+no end tag found. incomplete packet.
+invalid samples per frame: %u
+This AVCodecContext was allocated for %s, but %s passed to avcodec_open2()
+Codec (%s) not on whitelist '%s'
+%s requires channel layout to be set
+bottom first
+Fallback track
+Matroska BlockAdditional
+MPEGTS Stream ID
+Content light level metadata
+MPEG-4 part 2 Microsoft variant version 3
+QuickTime video (RPZA)
+PGM (Portable GrayMap) image
+image/x-portable-pixmap
+truemotion2
+smackvideo
+Nintendo Gamecube THP video
+Uncompressed RGB 10-bit
+a64_multi5
+VBLE Lossless Codec
+Sigmatel Motion Video
+BitJazz SheerVideo
+XPM (X PixMap) image
+photocd
+Media 100i
+pcm_s16be
+pcm_s8
+PCM Archimedes VIDC
+adpcm_ima_smjpeg
+adpcm_swf
+adpcm_ima_amv
+G.722 ADPCM
+mp3on4
+4GV (Fourth Generation Vocoder)
+mov_text
+webvtt
+Invalid core audio sampling frequency
+Read past end of XXCH frame header
+%d-bit XLL storage resolution
+Too many NAVI entries (%d)
+Read past end of XLL band data
+Residual encoded channels are present without core
+invalid sample size code (%d)
+Indicated length of substream %d data goes off end of packet.
+unexpected stream_type %X in MLP
+Total filter orders too high.
+TrueHD decoder
+Frame data might be split into multiple chunks
+hpel_chroma
+has_b_frames
+rc_init_occupancy
+avctx.level
+maximum macroblock Lagrange factor (VBR)
+bt2020-12
+Effects
+request_sample_fmt
+Number of extra hardware frames to allocate for the user
+forced
+Channel mapping 1 is only specified for up to 8 channels
+High 10
+Simple Scalable Profile
+Profile A
+Extradata corrupt.
+Floor 0 rate is 0.
+res_setup->books[j][k]
+ambisonic ACN %d
+user %d
+ambisonic 
+surround direct right
+top side right
+7.1(wide)
+Buffer too small
+Input and output changed
+INT64_MAX
+-DBL_MIN
+%H%M%S
+PeachPuff
+Purple
+Salmon
+gbrp9le
+yuva444p9be
+x2bgr10le
+Transform tree:
+fft128_ns_double_c
+fft4096_ns_double_c
+mdct_pfa_9xM_inv_double_c
+fft3_ns_float_c
+fft7_fwd_int32_c
+mdct_pfa_5xM_fwd_int32_c
+mdct_pfa_3xM_inv_int32_c
+swr_init
+Requested sample format %s is not supported internally, s16p/s32p/s64p/fltp/dblp are supported
+out->ch_count == in->ch_count
+filter_size
+select SoX Resampler
+s->out_ch_layout.order == AV_CHANNEL_ORDER_UNSPEC || out->ch_count == s->out_ch_layout.nb_channels
+libswresample/resample.c
+Order in which the channels are to be exported
+AAC data resilience (flags %x)
+error in spectral data, ESC overflow
+ps extension overflow %d
+extradata is too small
+Param Change
+ICC Profile
+Motion JPEG
+msmpeg4v2
+Winnov WNV1
+Lagarith lossless
+XBM (X BitMap) image
+Microsoft Paint (MSP) version 2
+magicyuv
+pcm_u16le
+PCM unsigned 32-bit big-endian
+PCM signed 16|20|24-bit big-endian for Blu-ray media
+ADPCM Sound Blaster Pro 4-bit
+adpcm_thp_le
+adpcm_ima_mtf
+amr_nb
+Vorbis
+DV audio
+MP1 (MPEG audio layer 1)
+TAK (Tom's lossless Audio Kompressor)
+wavesynth
+DSD (Direct Stream Digital), least significant bit first, planar
+application/vnd.ms-opentype
+Forcing XLL recovery mode
+Unsupported audio channel arrangement (%d)
+Invalid auxiliary data checksum
+s->buf_ptr < s->buf_end
+Packet too short for EXSS frame
+Number of samples per frame mismatch between core (%d) and XLL (%d)
+  Max Blocksize: %d
+Invalid channel %d specified as output from matrix.
+FIR filter has state data specified.
+big_values too big
+libavcodec/options.c
+explode
+simplearmv6
+favor_inter
+autodetect a suitable number of threads to use
+BT.2020
+linear
+chroma-derived-c
+CAVLC 4:4:4
+JPEG 2000 digital cinema 2K
+Simple Face Animation Profile
+thread_get_buffer() failed
+get_buffer() cannot be called after ff_thread_finish_setup()
+libavcodec/vlc.c
+ channels
+infinity
+DEMUXER_NOT_FOUND
+UNKNOWN
+INPUT_AND_OUTPUT_CHANGED
+Ambient viewing environment
+Invalid mapping found when attempting unmap.
+Unable to parse option value "%s" as channel layout
+AliceBlue
+DarkOrchid
+october
+yuyv422
+bgr565le
+bgr444be
+yuv420p9le
+yuva444p12be
+xv30be
+fft_pfa_double_c
+mdct_pfa_15xM_inv_int32_c
+(Landroidx/media3/decoder/SimpleDecoderOutputBuffer;I)Ljava/nio/ByteBuffer;
+Error in %s: %s
+s->in_ch_layout.order == AV_CHANNEL_ORDER_UNSPEC
+Context has not been initialized
+set output sample rate
+swr_flags
+set cutoff frequency ratio
+select Blackman Nuttall windowed sinc
+set swr number of output sample bits
+Assuming an incorrectly encoded 7.1 channel layout instead of a spec-compliant 7.1(wide) layout, use -strict %d to decode according to the specification instead.
+Dependent coupling is not supported together with LTP
+Start frequency border too high: %d
+Too many noise floor scale factors: %d
+SBR Extension over read.
+dmix_mode
+invalid sample rate
+Ignoring non-compatible dependent frame.
+, Film Grain
+mpeg1video
+interplayvideo
+On2 VP6 (Flash version)
+On2 VP6 (Flash version, with alpha channel)
+Auravision AURA
+Kega Game Video
+lagarith
+vc1image
+Apple Intermediate Codec
+escape130
+Uncompressed packed 4:2:0
+image/svg+xml
+HuffYUV MT
+pcm_f32be
+adpcm_ima_wav
+ADPCM CDROM XA
+ADPCM Yamaha
+adpcm_ima_dat4
+amr_wb
+mp3adu
+EVRC (Enhanced Variable Rate Codec)
+SubRip subtitle with embedded timing
+subrip
+Read past end of core frame
+Invalid core frame size (%d bytes)
+Invalid XBR bit allocation index
+XBR-DSYNC check failed
+Invalid X96 channel set header checksum
+LBR band limit %#x
+Invalid spectral line offset
+Invalid EXSS header checksum
+Read past end of XLL frame
+Invalid XLL frame size (%d bytes)
+samples per frame %d, exceeds max_samples %ld
+Error parsing decoder bitstream filters '%s': %s
+Indicated end offset of substream %d data is smaller than calculated start offset.
+Channel group 2 cannot have more bits per sample than group 1.
+Block size %d is greater than the supported maximum (%d).
+use 1/4-pel motion compensation
+time_base
+normal
+QP factor between P- and I-frames
+bits_per_coded_sample
+smpte432
+color transfer characteristics
+bt2020nc
+chroma_sample_location_type
+allow_profile_mismatch
+Mapping type %d
+rc->rng_cur < rc->rb.position
+!p->parent->stash_hwaccel
+symbols_size <= 2 || !symbols
+Too long VLC (%u) in init_vlc
+Setup header corrupt.
+Not a Vorbis I audio packet.
+Too many channels in vorbis_floor_decode.
+back right
+downmix right
+bottom front center
+hexagonal
+channel_layout->order == AV_CHANNEL_ORDER_CUSTOM
+libavutil/fifo.c
+A device with a derived frame context cannot be used as the source of a HW -> HW transfer.
+<int64>
+Invalid chars '%s' at the end of expression '%s'
+Chocolate
+DarkKhaki
+DarkMagenta
+Darkorange
+DarkRed
+OliveDrab
+Yellow
+yuv420p16le
+bayer_rggb16be
+bayer_grbg16be
+ayuv64be
+gbrapf32be
+yuva444p12le
+    %i: 
+%sasm_call
+fft2_ns_double_c
+fft1024_ns_double_c
+mdct_inv_double_c
+fft64_ns_float_c
+fft256_ns_float_c
+mdct_naive_fwd_float_c
+fft16_ns_int32_c
+fft262144_ns_int32_c
+fft9_ns_int32_c
+mdct_pfa_9xM_inv_int32_c
+dctIII_int32_c
+Requested input sample format %d is invalid
+Input channel layout %s mismatches specified channel count %d
+set used channel count
+in_chlayout
+surround_mix_level
+libswresample/audioconvert.c
+libswresample/dither.c
+Invalid bitstream, bs_pointer points to a middle noise border outside the time borders table: %d
+GAQ gain group code out-of-range
+overflow that would need clipping in ff_acelp_interpolate()
+libavcodec/avcodec.c
+%s/%s/%s, 
+Karl Morton's video codec
+Bethesda VID video
+binkvideo
+Mobotix MxPEG video
+image/x-xbitmap
+Canopus Lossless Codec
+BRender PIX image
+truemotion2rt
+IPU Video
+Cintel RAW
+pcm_alaw
+pcm_f64be
+adpcm_ima_qt
+ADPCM Creative Technology
+adpcm_ima_rad
+adpcm_ima_ssi
+ra_144
+sdx2_dpcm
+atrac3p
+binkaudio_rdft
+Discworld II BMV audio
+Marian's A-pac audio
+DVB subtitles
+HDMV Text subtitle
+Binary text
+timed ID3 metadata
+Invalid XXCH downmix scale index (%d)
+Invalid joint scale factor code book
+Invalid LFE scale factor index
+libavcodec/put_bits.h
+LBR channel mask %#x
+Invalid XLL primary channel set downmix type
+Different XLL audio characteristics
+Residual encoded channel (%d) references unavailable core channel
+libavcodec/decode.c
+reget_buffer() failed
+This decoder does not support parameter changes, but PARAM_CHANGE side data was sent to it.
+Too many errors when draining, this is a bug. Stop draining and force EOF.
+get_encode_buffer() failed
+Specified channel layout '%s' is not supported
+Substream %d checksum failed.
+restart header checksum error
+output_corrupt
+b_qfactor
+print specific debug info
+number of macroblock rows at the bottom which are skipped
+decode at 1= 1/2, 2=1/4, 3=1/8 resolutions
+sum of squared vertical differences
+discard all bidirectional frames
+refine the two motion vectors used in bidirectional macroblocks
+IEC 61966-2-1
+smpte2084
+iec61966_2_1
+ff_combine_frame failed
+Stereo High
+First header is not the id header.
+ Vorbis id header packet corrupt (no vorbis signature). 
+back center
+ambisonic %d
+HTTP_UNAUTHORIZED
+Dolby Vision RPU Data
+libavutil/imgutils.c
+The "%s" option is deprecated: %s
+Error setting option %s to value %s.
+  %s%-17s 
+<sample_fmt>
+<channel_layout>
+DBL_MAX
+Key '%s' not found.
+Missing ')' in '%s'
+whuxga
+yuv422p
+yuv444p16le
+yuv444p9be
+gbrp16be
+yuva444p
+yuva422p10le
+bayer_rggb16le
+p010be
+x2bgr10be
+nb_jobs > 0
+fft_int32
+fft2_float_neon
+fft16_ns_float_neon
+mdct_naive_fwd_double_c
+fft_naive_int32_c
+growOutputBuffer() failed
+Failed to allocate output frame.
+Output channel layout "%s" is invalid or unsupported.
+out->planar == in->planar
+comp_duration
+kaiser
+Input channel layout '%s' is not supported
+Select both channels
+Expected to read %d SBR bytes actually read %d.
+Failed to decode all channels
+, pass 2
+(unsigned)pkt->size <= 2147483647 - 64
+libavcodec/avpacket.c
+New Extradata
+DOVI configuration record
+Windows Media Video 8
+Intel H.263
+4X Movie
+American Laser Games MM Video
+PC Paintbrush PCX image
+Intel Indeo Video Interactive 5
+On2 VP8
+MagicYUV video
+Brooktree ProSumer Video
+Gryphon's Anim Compressor
+HDR (Radiance RGBE format) image
+pcm_s16le
+PCM signed 32-bit little-endian
+PCM signed 20-bit little-endian planar
+pcm_sga
+ADPCM MTAF
+ADPCM IMA Simon & Schuster Interactive
+Musepack SV7
+atrac3
+ATRAC3 (Adaptive TRansform Acoustic Coding 3)
+wmalossless
+mp4als
+Bink Audio (DCT)
+QDesign Music
+iLBC (Internet Low Bitrate Codec)
+Opus (Opus Interactive Audio Codec)
+ATRAC9 (Adaptive TRansform Acoustic Coding 9)
+jacosub
+VPlayer subtitle
+SMPTE 336M Key-Length-Value (KLV) metadata
+DSYNC check failed
+XCH with Cs speaker already present
+Invalid X96 revision (%d)
+X96-DSYNC check failed
+Invalid LBR header type
+Invalid XLL reflection coefficient index
+libavcodec/encode.c
+ticks_per_frame %d too large for the timebase %d/%d.
+libavcodec/flacdec.c
+invalid residual
+default_get_buffer called on frame %p
+libavcodec/kbdwin.c
+Invalid blocksize.
+Invalid sample rate %d
+invalid new backstep %d
+set audio sampling rate (in Hz)
+(autodetected if FOURCC == UMP4)
+consider things that violate the spec, are fast to check and have not been seen in the wild as errors
+maxrate
+macroblock compare function
+discard useless frames
+Karaoke
+set input text subtitles character encoding mode
+set video size
+Apply intensity stereo phase inversion
+Invalid number of output channels: %d
+Hybrid Profile
+Advanced Coding Profile
+%s %d are not supported. Set to default value : %d
+ Invalid code lengths while generating vlcs. 
+libavutil/buffer.c
+HTTP_SERVER_ERROR
+ATSC A53 Part 4 Closed Captions
+Dolby Vision Metadata
+Failed to map frame into derived frame context: %d.
+opencl
+Invalid negative size value %dx%d for size '%s'
+Unable to parse option value "%s"
+Unable to parse option value "%s" as image size
+between
+-infinity
+Cornsilk
+DarkOliveGreen
+DarkViolet
+OrangeRed
+SeaGreen
+yuv420p
+xyz12be
+bayer_bggr16le
+dual_stride <= basis
+[%i]: [
+mdct_naive_inv_float_c
+mdct_inv_full_int32_c
+Lavc60.3.100
+in_sample_rate
+resampler
+max_soft_comp
+select cubic
+Treating %s as mono
+tap_count == 1 || tap_count % 2 == 0
+normal libavcodec channel order
+Invalid Predictor Reset Group.
+libfaac %d.%d
+Preferred Stereo Downmix Mode
+Lt/Rt Surround Mix Level
+Frame too small (%d bytes). Truncated file?
+Invalid sample rate: %d
+Invalid channel layout
+bottom coded first (swapped)
+Skip Samples
+WebVTT ID
+indeo3
+Q-team QPEG
+RealVideo 4.0
+image/jp2
+image/tiff
+image/x-xwindowdump
+Avid AVI Codec
+X-face image
+PCM signed 16-bit big-endian planar
+ADPCM Nintendo Gamecube DTK
+G.726 ADPCM little-endian
+ADPCM Yamaha AICA
+adpcm_argo
+xan_dpcm
+gremlin_dpcm
+RFC 3389 Comfort Noise
+SAMI subtitle
+Null video codec
+DCA decoder
+Decode core only without extensions
+Invalid X96 frame header checksum
+%d Hz LFE interpolation
+Invalid XLL sync word
+Invalid return from get_format(): %s not in possible list.
+get_buffer() failed
+invalid header
+frame->nb_extended_buf == 0
+invalid/unknown bits per sample
+use interlaced DCT
+work around various bugs in Microsoft's broken decoders
+scplx_mask
+error recognition
+number of bits which should be loaded into the rc buffer before decoding starts
+profile
+pre motion estimation compare function
+smpte428
+smpte428_1
+iec61966_2_4
+smpte2085
+color_range
+color_range_type
+Maximum number of pixels
+Spatially Scalable
+Standard
+Invalid code %x for %d in init_vlc
+Duplicate value found in floor 1 X coordinates
+%d channels (%[^)]
+front left
+top front right
+7.1(top)
+Invalid data found when processing input
+HTTP_BAD_REQUEST
+libavutil/mem.c
+The value set by option '%s' is not a channel layout.
+<binary>
+I64_MAX
+FLT_MAX
+-FLT_MAX
+taylor
+bikeshed
+DarkSalmon
+Fuchsia
+IndianRed
+YellowGreen
+december
+uyyvyy411
+rgb48le
+yuv422p16le
+rgb444le
+nv20le
+gbrp14be
+gbrp14le
+gray12be
+gray12le
+grayf32be
+fft4_inv_float_neon
+fft8_ns_float_neon
+fft1048576_ns_double_c
+mdct_pfa_7xM_fwd_float_c
+fft3_ns_int32_c
+mdct_pfa_5xM_inv_int32_c
+ffmpeg_jni
+compensating audio timestamp drift:%f compensation:%d in:%d
+set input channel count (Deprecated, use ichl)
+in_channel_count
+set output channel layout (Deprecated, use out_chlayout)
+set minimum difference between timestamps and audio data (in seconds) to trigger padding/trimming the data.
+Input channel layout is invalid
+decode_pce: Input buffer exhausted before END element found
+no frame data found
+Not evaluating a further program_config_element as this construct is dubious at best.
+no decoder config found
+Lo/Ro Center Mix Level
+max samples per frame invalid: %u
+ [SAR %d:%d DAR %d:%d]
+, max. %ld kb/s
+SMPTE ST 12-1:2014 timecode
+bsf_list
+HuffYUV
+Zip Motion Blocks Video
+NuppelVideo/RTJPEG
+Auravision Aura 2
+sgirle
+GEM Raster image
+pcm_s32le
+pcm_s16be_planar
+adpcm_sbpro_4
+adpcm_ima_ea_sead
+adpcm_afc
+ADPCM IMA MobiClip MOFLEX
+MP3 (MPEG audio layer 3)
+Windows Media Audio 2
+MACE (Macintosh Audio Compression/Expansion) 3:1
+Sierra VMD audio
+MLP (Meridian Lossless Packing)
+Voxware MetaSound
+Invalid X96 subband start index (%d)
+libavcodec/bytestream.h
+Read past end of EXSS asset descriptor
+Too many samples per XLL frame
+%d Hz XLL sampling frequency
+The maximum value for lowres supported by the decoder is %d
+frame_size (%d) was not respected for a non-last frame
+Specified sample rate %d is not supported
+use_buggy_lpc
+Assignment of matrix channel %d to invalid output channel %d
+Negative output_shift
+export reconstructed frames
+Output even potentially corrupted frames
+export_side_data
+maximum bitrate (in bits/s). Used for VBV together with bufsize.
+minimum bitrate (in bits/s). Most useful in setting up a CBR encode. It is of little use otherwise.
+rate control
+diamond type & size for motion estimation pre-pass
+nsse weight
+ticks_per_frame
+color primaries
+bt470bg
+SMPTE 428-1
+gamma22
+bt2020-10
+bt2020_12bit
+sub_charenc_mode
+Field order
+Invalid number of coded channels: %d
+JPEG 2000 no codestream restrictions
+ Vorbis setup header packet corrupt (floors). 
+Invalid vlc code decoding %d channel.
+5.0(side)
+Muxer not found
+ICC profile
+fwqvga
+LightCoral
+rgb555be
+bgr444le
+yuv444p10le
+yuva444p10be
+bgra64le
+yuvj411p
+gbrap12be
+grayf32le
+fft8192_ns_double_c
+fft5_ns_float_c
+fft7_ns_float_c
+fft9_fwd_int32_c
+adding %d audio samples of silence
+set dither scale
+select rectangular dither
+set minimum difference between timestamps and audio data (in seconds) below which no timestamp compensation of either kind is applied
+stereo with SCE
+ChannelElement %d.%d missing 
+channel element %d.%d duplicate
+audio config changed (sample_rate=%d, chan_config=%d)
+Invalid bs_stop_freq: %d
+Invalid bitstream, too many QMF subbands: %d
+Invalid bitstream, too many SBR envelopes in VARVAR type SBR frame: %d
+frame CRC mismatch
+, %d reference frame%s
+top first
+Quality stats
+AVBSFContext
+mpeg2video
+DV (Digital Video)
+xan_wc3
+Sierra VMD video
+On2 VP5
+Feeble Files/ScummVM DXA
+bethsoftvid
+wmv3image
+Ut Video
+image/webp
+Alias/Wavefront PIX image
+AVS2-P2/IEEE1857.4
+Infinity IMM4
+WinCAM Motion Video
+LEAD Screen Capture
+PFM (Portable FloatMap) image
+Argonaut Games Video
+Digital Pictures SGA Video
+pcm_u8
+pcm_s24le
+pcm_s16le_planar
+ADPCM Electronic Arts R1
+ADPCM IMA Electronic Arts EACS
+DPCM Sol
+VQF TwinVQ
+DSD (Direct Stream Digital), most significant bit first
+atrac3pal
+Micronas SC-4 Audio
+FTR Voice
+MicroDVD subtitle
+subviewer1
+ASS (Advanced SSA) subtitle
+Invalid XBR frame header checksum
+Invalid LBR checksum
+Invalid LFE step size index
+Invalid tonal frequency diff
+EXSS asset out of bounds
+Read past end of XLL common header
+ret <= 0
+skipping vorbis comment
+reserved blocksize code: 0
+Current substream(%d) channels overlaps final substream(%d) channels, skipping.
+%cIR filter order %d is greater than maximum %d.
+too many audio samples in frame
+No samples to output.
+global_header
+minimum video quantizer scale (VBR)
+strictly conform to a older more strict version of the spec or reference software
+bufsize
+dark_mask
+mb_type
+picture buffer allocations
+sum of squared errors
+ebu3213
+bt1361
+Visually Impaired
+field_order
+allow to output YUV pixel formats with a different chroma sampling than 4:2:0 and/or other than 8 bits per component
+Reserved
+Advanced Simple Profile
+Progressive
+Application has requested %d threads. Using a thread count greater than %d is not recommended.
+Codec 0x%x is not in the full list.
+incorrect codes
+Floor value is too large for blocksize: %u (%u)
+low frequency
+top front left
+stereo
+ENCODER_NOT_FOUND
+Protocol not found
+Server returned 4XX Client Error, but not one of 40{0,1,3,4}
+%H:%M:%S
+BlueViolet
+GoldenRod
+LightSlateGray
+yuv411p
+gbrp10be
+ya16be
+gbrap10be
+y212be
+rdft_double
+mdct_int32
+%sfwd_only
+mdct_pfa_3xM_inv_double_c
+rdft_c2r_double_c
+fft_float_c
+fft1024_ns_int32_c
+fft_pfa_int32_c
+mdct_naive_fwd_int32_c
+Failed to reallocate output buffer.
+s->used_ch_layout.nb_channels
+!s->resample
+channel_layout
+set center mix level
+triangular_hp
+set resampling Engine
+precision
+select Dolby Pro Logic II
+blackman_nuttall
+Output channel layout '%s' is not supported
+%s:%f 
+Invalid num_bands_0: %d
+env_facs_q %d is invalid
+noise_facs_q %d is invalid
+libavcodec/aacsbr.c
+percentage of dynamic range compression to apply
+unsupported substream %d: skipping frame
+invalid spectral extension range (%d >= %d)
+*(const AVClass **)avctx->priv_data == codec->priv_class
+top coded first (swapped)
+, delay %d
+MPEG-1 video
+Theora
+DPX (Digital Picture Exchange) image
+pictor
+Uncompressed YUV 4:1:1 12-bit
+APNG (Animated Portable Network Graphics) image
+Apple Pixlet
+bitpacked
+notchlc
+Simbiosis Interactive IMX Video
+PCM A-law / G.711 A-law
+pcm_dvd
+PCM signed 32-bit little-endian planar
+ADPCM Microsoft
+ADPCM IMA Electronic Arts SEAD
+DPCM Interplay
+FLAC (Free Lossless Audio Codec)
+westwood_snd1
+wavpack
+Sonic lossless
+DSD (Direct Stream Digital), most significant bit first, planar
+Interplay ACM
+microdvd
+RealText subtitle
+vplayer
+bin_data
+Invalid X96 bit allocation index
+Invalid PCM bit resolution for XLL channel set (%d > %d)
+Disabled XLL channel mask
+Invalid LSB section size
+Invalid NAVI segment size (%d bytes)
+Invalid isolated sample location
+dimensions not set
+Mismatching AVCodecContext.sw_pix_fmt (%s) and AVHWFramesContext.sw_format (%s)
+  Channels: %d
+Previous substream(%d) channels overlaps current substream(%d) channels, skipping.
+Block size pow2 %d is greater than the supported maximum (%d).
+Matrices may change only once per access unit.
+channel count mismatch
+allow decoders to produce unaligned output
+copy_opaque
+only decode/encode grayscale
+video quantizer scale compression (VBR). Constant of ratecontrol equation. Recommended range for default rc_eq: 0.0-1.0
+maximum difference between the quantizer scales (VBR)
+how strictly to follow the standards
+compresses bright areas stronger than medium ones
+use mbcmp
+skip_top
+precmp
+smpte170m
+SMPTE 422-1
+BT.2020 - 10 bit
+ARIB STD-B67
+Bottom
+select multithreading type
+Maximum number of samples
+Spurious CELT delay samples present.
+Failed to reallocate parser buffer to %d
+Profile 3
+Profile C
+av:%.7s:df%d
+libavcodec/utils.c
+nb_codes <= 1500
+strange codes
+Floor 0 bark map size is 0.
+book_idx
+partition out of bounds: type, begin, end, size, blocksize: %u, %u, %u, %u, %u
+&apos;
+side left
+top front center
+H.26[45] User Data Unregistered SEI message
+orig_dst_frames == ((void*)0) || orig_dst_frames == dst->hw_frames_ctx
+videotoolbox
+Formats with a palette require a minimum alignment of 4
+IMGUTILS
+Unable to parse option value "%s" as %s
+The value set by option '%s' is not a %s format
+<pix_fmt>
+LightSteelBlue
+MediumSpringGreen
+MediumVioletRed
+november
+yuvj422p
+gray8a
+bgr48be
+yuva444p9le
+yuva420p10be
+bayer_rggb8
+x2rgb10le
+name   depth
+%sinplace
+%spreshuf
+mdct_pfa_15xM_fwd_double_c
+fft2097152_ns_int32_c
+fft_inplace_int32_c
+$]WsAb`
+%;KZr?
+@33*@+
+!i?l"|
+=>qxs?qxs?
+@?fff?H
+Afff?(\O?
+'?SHX?
+ $(,048<
+I?=MQ?\
+~?4:v?l)e?
+JL?Qw,?B
+!P?8Ki?h"|?
+!'-6BN*fBNZfr~Z
+j?(X3>
+M{?ANF
+k<;Gq\
+*{?.cu
+mWZ?Nq
+*?VEw?
+qNt?GA0?
+k+c?sjP
+[??L:7
+U?KGV?^3
+v?Jfw?M
+xk?SB*?
+?DaL?{
+'^??dy
+v?-vb?
+Y{?#F}
+#?N@ >
+=.4O?	=^
+'He?7".>
+Qt?qSx?
+r?o>T?
+=?GpC?$
+=4	F?s
+<<Zp?m
+T?.5@?
+~|?x)	
+~j?*B{
+h;@QR;
+&=AL,=$
+X=L0^=
+7d=T"j=
+u=pE{=ga
+V="'K=r
+'? _*?
+-8?}M:?
+O?sVP?M
+Q?sVP?
+^<?}M:?
+,? _*?+
+>="'K=8
+o=T"j=
+7d=L0^=
+2=AL,=
+m:;@QR;o
+<X=:=]
+>F*'=9,
+    !!!!!!!!!!!!!!!!!!!!!!!
+'d'e'm'
+'fOgOaOGO
+))/113//+++((((.111..***((
+!!&((())%%%""
+						
+							
+						
+ ! 1 A Q a q 
+ " 2 B R b r 
+ # 3 C S c s 
+ $ 4 D T d t 
+ % 5 E U e u 
+ & 6 F V f v 
+ ' 7 G W g w 
+ ( 8 H X h x 
+ ) 9 I Y i y 
+ * : J Z j z 
+ + ; K [ k { 
+ , < L \ l | 
+ - = M ] m } 
+ . > N ^ n ~ 
+ / ? O _ o 
+! !0!@!P!`!p!
+"(*3..***''
+"=Ze3=`
+C=pOT=
+P>$zU>
+aZ>bN_>
+7x>*A}>
+y+?Xs,?
+b.?6X/?sL0?T?1?
+E?AYF?W'G?
+}T?a)U?
+U?$|V?
+Z?Fy[?
+]?qW^?^
+^?Xo_?c
+a?}	b?
+l?.Om?
+n?Cwn?
+p?k^p?<qp?
+q?W3q?
+r?	1r?
+Kr?3er?y
+;s?`Vs?
+Rt?pot?W
+v?Z0v?tOv?
+Mw?omw?
+Sx?Ytx?
+y?N>y?X`y?y
+z?q.z?
+E{?4i{?
+|?#>|?
+}?%9}?2]}?M
+~?H`~?B
+z?%[z?$
+x?CVx?s
+t??|s?
+q?\"q?@
+h?5wg?
+a?@o`?
+]?l$]?
+%[?L{Z?
+#Y?=wX?
+S?SWR?u
+N?7-N?|vM?p
+L?1SK?
+B?X^A?
+<?@D<?
+:?a*:?Mw9?O
+8?ZN7?
+5?L?4?kv3?
+1?5 1?\\0?
+z>)Ex>
+d>,Yb>
+Q>ptO>
+8>SR6>
+s->7E+>
+-=J3)=
+p<Q=e<
+c;0yj;
+r;'>k;
+{S;-%K;
++:Gn0:
+9:g&=:
+ZI:i/K:
+vL:w1M:wdM:
+G:v|E:n
+(:L`%:b
+o88 W8
+b`9A!i9*
+|9Nxp9
+.1@bb1@P
+5@XJ5@
+M7@#r7@
+P:@:k:
+e<@.l<@
+`>@,i>
+q>@Xz>@
+R3?@L<?@IE?@IN?
+LW?@S`?
+]i?@kr?@{{?
+(@Qb(@@/(
+7&@E	&
+=_U'=]A9=j
+<>q4A>BZF>4
+-)?z;*?
+G+?"R,?%[-?
+n4?rk5?nf6?
+M9?cB:?U5;?
+H?UzI?
+pQ?>1R?
+Z?;2[?
+[?zs\?
+^?Xo_?t
+a?:4b?
+i?$Fj?
+j?l#k?
+l?fHm?
+Vp?^ip?C
+Es?.cs?
+t?)4t?
+Rt?\qt?4
+v?Z0v?
+1x?FUx?
+y?1,y?rPy?
+z?",z?
+Qz?0vz?Z
+0{?bV{?
+|?a9|?s_|?
+}?(E}?
+S~?qz~?R
+z?q>z?
+r?=6r?
+k?qHk?
+c?'2c?
+a?a!a?Go`?m
+\?&7\?Q
+W?H0W?
+O?aRN?
+>?f&>?
+4?Z-3?(V2?n
+?.?Uu-?
++?>Z*?u
+H#?Ut"?J
+f>Uqc>
+V>"PT>
+;>Nr9>l
+4>/P2>
+->CP+>M
+y=`]t=Y
+6=G01=/o,=^
+Wn<	;b<[QV<w
+^/;Q[8;
+;L9|;+"u;/
+3:;S?1;
+9: ,>:
+cM:w1M:
+MB9H_59
+#_8M.F8
+5$9l5Y
+84U$8(
+a8wxx8
+i9/>\9%
+M9	Q>9
+M<@?T<
+d?@1n?
+J>@!(>
+v=@6Q=@8+=
+t8@XH8
+W6@r)6
+e.@{5.@x
+`,@6+,
+#m)@':)
+"@y|"@
+bJ@_`4@
+"%(+.17=CIOUamy
+   !!!"""######$$$$$$%%%%%%&&&&&&''''''(((((())))))))))))************++++++++++++,,,,,,,,,,,,------------------------........................////////////////////////000000000000000000000000111111111111111111111111
+@?>=<;:98765443210//.-,,+*))('&&%$$##"!!  
+3#"2!1 
+\DCTBAP
+*[@OSNM_
+@,-./$%&'
+DZLKRJI^
+^YHWQVU]
+F3+G2<1
+\TRdOHX
+*[SQcNWg
+DZP_bMVf
+Z=7 $%&
+^Y^]aLUe
+G8<F;9:EL
+eY]uiQUma
+&J?37!
+	*dX\thPTl`
+@I>26 
+	Dcg[sw_Sko
+ZH=15/'	^bfZrv^Rjn
+9:28<;1GF
+$RE.*0M
+yeY}q]ui
+&#SD-)?L
+xdX|p\th
+@"TC,(>K
+Z!UB+7=J
+bfz~Zrv
+543:(7698
+gfedcb
+$,*1]\
+'H#/=B
+a`onml
+&W".<A
+kjihwv
+X+)?YX
+%V!-;@
+utsrqp
+,*(648@N
+yez{Y|
+$20>FLJ
+>+)753GOM
+X1?=EKI
+9:>8<;=GF
+&2T%$US
+&#1Q"!RP
+2gfbo`iw
+4decnakv
+@ 0^/._]
+Lutp}~
+Z-?[,+\Z
+&$" .,*
+$@NLJH
+(;GCZn
+'%#!/-+)
+B:FBYm
+XOMKIW
+\9EAXl
+-/1f;	;
+JJ$%Pu,
+<'<	[)n
+^@!"44r
+\7C22;W=y
+:>	AMZ
+#(-27<AFK
+!"&'+,0156:;?@DEIJNO333?H
+=O l=<J%=Zh
+s>!@6>
+1ff91D
+:XD9;-
+ 	/	(<e
+-<w%-<
+_6r7b5
+$7n|E7
+A8dRk8
+.{<Vst<
+2W<UiO<A|G<
+%45SZ3()
+B89p78
+\9YJ/9
+w<2,r<
++<8n$<
+r:`x\:
+):9fi)9
+8Ct\8s
+VM8-pG8
+388g,8
+_7/TM7
+wy5<$]5
+3Nr/3t9
+1{W$0c
+1=yd2`
+3ox)3v
+/}Wb1";
+1!^t/5
+"/_Kj1h
+}./Arr1
+ 3Wh!3;	
+27@%.>{
+0]z13k
+8'0iL43^
+1f^m0M]E3
+{0i9H3
+3wFx1eW
+0h>\3-+
+32cR1]
+3{-A1g
+}9:9{9
+sC9AH<9
+`;syY;
+gD;gv=;
+(;#.";1
+:U@~:`
+s9qCq9
+d9:Qa9
+Z9B4V9
+JR93HN9
+A9ay=9
+49Y?09
+l88"^8i
+r7wLJ7
+L5`dA5	
+65}\,5
+D4bz64%
+<q=U><?'@
+J(K?LZMyN
+							
+I?ffv?
+>=~o=4
+w]8XP39
+NN=+'k=
+$?%}(?
+,?h)1?
+]5?cy9?
+aA?l*E?
+QY?\9\?
+Ly?M+z?
+|?#S}?%
+(=sa9=
+>@	 >`	0>
+?N#'?p
+U>:Sj>
+=J?Vv^?^
+>N#I>u
+]?qxs?
+																								
+	f5nXq
+/?9@l35
+VyT<-}
+$RJ%(,%
+DEWPJJ
+	d$9P<:
+U9QEL"G
+	_B{	J
+ $(+.0368:<>@BDFHJLMOPRTUWXZ[\^_`bcdfghiklmnoprstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+#*1892+$
+%,3:;4-&
+'.5<=6/7>?
+)7"5	8
+W%/"('
+&.8DTf
+ &.4<D:6
+ &.6>FL$
+ &.4<D:6
+ &.4<D:6
+ &.4<D:6
+ (08@LZ
+UETS5D%R
+4PC3$B
+UTES5D%R
+Q4CP3$B
+wgvWufGtVe7sFUTc'rd
+wgvufGtWUVe7sFET5S'rd
+p6c`D%R
+aQ4PC3$B
+wgvWufGteV7sU'rFd
+p6cETD
+fGtVes
+p6cET&b5
+Q4CP$B3
+Ve7sF'rd
+p6cET&b
+`5aSD%R
+P4C$B3A
+V7seF'rdU
+qp6cET&b
+`S5D%RQ
+4CP$B3
+ps7'rFdUq6cET&b
+`5SD%R
+PQ4C$B3
+						
+							
+						
+						
+							
+						
+						
+										
+								
+								
+																																				
+###???
+OpusHead
+							
+tCR;\HdY\
+D>B<HuUZv
+"+=N]r
+!*=L]y
+%0@Thv
+&6EUdt
+)7ESbp
+"3=N\j~
+$2?O_n~
+%3;NYk{
+ 3CQ`p
+%3AObq~
+"7?NWlv
+ $8O[lv
++:JYix
+!.<K\k{
+,9JYiy
+.9GXdx
+#.8M\j{
+-5?KYks
+(8GXgw
+$09LWiv
+6GQ^h~
+1>O\kw
+$-=L[ly
+-<L[k{
++5FSgr
+#*:N]n}
+"2CScs
+)BIV_o
+%4?K\fw
+4DXgu~
+/=LZjw
+#2=IVanw
+"(0<Nd
+\N\O\NZOt)s(r(
+=rF`JXKXWJYB[Cd;l2x(z%a+N2SNTQXKVJWGZI]J]Jm(r$u"u"
+6s?fBbEcJYG[I[NYVP\B]@f;g<h<u4{,
+a&M-=Z]<i*k)n-t&q&p&|
+;nGVKUTS[BXIWH\KbHi:k6s4r7p8
+b#M**y`Bl+o(u,{ x$w!
+?rJRTS\Rg>`H`CeIkHq7v4}4v4u7
+ZPKE?81("
+ndZTNGA:3-' 
+vng]VPKFA;5/(
+~wph_YSNHB<6/' 
+xrga[UNHB<6/)#
+|qke_XRLF@93-'!
+{uoib\VPJC=71+$
+yslf`ZTMGA;5.
+}vpjd^WQKE?8-
+"$&')*+,-.//123456779:;<=>??ABCDEFGG(
+!)059=@BEGIKLNPRUWY[\^`begiklnpruwy{|~
+'3<CIOSW[^adfikosvy|~
+1ANYckrx~
+!:Oap}
+  !""#$$%%
+8>0RF>
+'?t|+??Z/?
+:H?'mK?
+^?sYa?
+k?n_m?P
+y?srz?''{?
+=?~6B?W^F?
+aJ?.=N?
+qH,	;`
+9=aA\E
+""""****
+$$$$$4"4
+,,444*$
+MMnMMMMMMMMMMMMMM'MMMMM'MMM
+M8.MMMMMMMuMM|MMMgMMMMMMMMMMMMMMMMMMMMMMMM'MMMMMMMMMMMMMMMM.MMMMMMMMMMM
+qqqqqqqqqI
+qqqqqqq
+qTqqITq
+qqqqqqqqq
+14P;=4p
+d4Ums4
+&57{15
+=5^LI5;aV5
+u&62G16t
+I6e"V6
+c8nPr8
+`H9SfU9
+Dc9h	r9
+/=mJ;=@vG=
+;G>M.T>7
+|?Kg~?
+<*S"=JvW=
+>dp)>A
+\>/8w>
+1?~y8?
+q?>ft?
+v?hmx?
+f#<?dY<
+;>"tH>
+b>SQp>
+?Al	?Yi
+$?tk(?>
+/?+D3?m
+g?!]i?
+l?g\n?
+|?)+}?
+(=ef5=
+?m=)T|=
+X>p`_>(
+W)?h.+?'
+0?3b2?
+A?|3C?]
+J?h[L?
+M?#=O?
+R?KeS?
+V?rYW?
+L\?qz]?]
+k?f`l?
+n?a|o?v5p?
+q?5@r?
+v?ZKw?
+y?O3z?
+|?	X|?X
+}?:F}?)z}?>
+~?K.~?
+6<C@D<
++=G&2=
+8=aR?=
+4>-"7>X<:>
+a>2id>I
+n>\	r>
+b!?~U"?dG#?
+,?@u-?
+\.??C/?
+4?zt5?
+??qd@?t3A?7
+S??gT?g
+U?VaV?
+W?>NX?
+Z?2f[?!
+^?b|_?
+`?P&a?L
+b?FIc?G
+d?XTe?d
+g?k8h?
+h?R#i?
+m?0+n?D
+n?@Mo?*
+q?Clq?
+s?	At?#
+-v?Hov?
+z?k {?pH{?
+%|?qG|?lh|?
+8}?|S}?sm}?
+~?B$~?,8~?xK~?+^~?Fp~?
+3=/	7=7T:=
+G=#8K=
+N=I,R=(
+U=7=Y=s
+v=`kz=
+(>20*>
+.>@;0>~
+4>{\6>6
+7>Lu9>
+B>bvD>
+G>uAI>
+O>JXQ>B
+^>|6`>z
+h>,Vj>6
+uo>3-q>
+t>ZZv>K
+?D,	?:
+?w2 ?Z
+'?/0(?
+*?l~*?
+,?;;-?6
+0?HF1?
+3?(]4?
+9?)c:?0
+<?]|<?
+<?,Q=?!
+??~0@?P
+A?u4B?
+C?@fC?
+D?{]E?'
+H?S3I?
+I?YSJ?
+K?MpK?
+L?YDM?
+P?B+Q?
+Q?=4R?
+S?{<T?
+V?S0W?y
+Z?;UZ?
+Z?{?[?
+[?a&\?
+_?HX_?d
+_?~/`?{v`?
+a?3Ia?
+1d?ord?r
+d?Z4e??te?
+f? )g?
+i?E@i?
+9k?4pk?5
+m?`Im?,|m?
+p?6Lp?uyp?]
+r?c+r?
+Tr?.~r?
+s?qGs?
+t?P.t?
+	u?L-u?{Pu?\su?
+v?@>v?
+_x?.{x?
+4y?UNy?
+>z?`Uz?
+>{?MR{?
+e{?+y{?D
+|?(.|?
+O|?A`|?
+}?G$}?
+~?K)~?@3~?
+F~?3P~?
+t~?x}~?
+*:	*7:
+;<,"?<
+,=` .=
+/=cW1=
+<=8|>=
+C=/:E=3
+O=1LQ=
+YX=Z!Z=
+Ra=X#c=
+h=Nxj=
+Rl={-n=
+_{=7I}=
+c">] #>&
+'>XQ(>
+->fU.>z
+_1>E#2>
+7>[K8>
+g;>q/<>
+>>YR?>
+zB>sEC>
+E>>tF>
+vJ>,DK>
+~W>AQX>
+k>gwl>
+	?CL	?>
+!?sD!?5
+!?47"?
+"?2)#?
+%?86&?
+$'?O`'?
+(?y:)?
+)?>&*?
++?i5,?
+-?@X-?=
+.?|&/?
+0?fE0?
+'3?W`3?
+	4?"A4?*y4?!
+66?ln6?
+7?mK7?
+7?R'8?
+H:?2~:?5
+;?@,<?
+>?'?>?
+@?zJ@?c~@?8
+A?>MA?
+DE?nvE?D
+F?H=F?
+(H?QYH?
+I?rKI?
+J?v;J?6kJ?
+J?Z)K?
+L?&-M?
+N?l&O?
+5P?kbP?4
+Q?wAQ?
+R?,JR?
+R?L$S?
+LV?$vV?
+9X?~bX?
+\?x9\?
+]?JB]?
+F^?Vk^?
+!_?1F_?Xj_?f
+`?FA`?
+Za?Z}a?
+Yc?S{c?
+ d?nAd? bd?
+e?R$e?\De?Nde?)
+"f?WAf?
+g?e8g?
+Vg?;ug?
+)h?EGh?
+k?0,k?vGk?
+8l??Sl?
+l?a	m?
+7n?!Pn?
+)o?jAo?
+Wp?.np?
+Kq?raq?
+Jr?I_r?
+=s?JQs?
+ds?}xs?
+7t?^Jt?
+u?t$u?
+Gu?;Yu?
+v?{%v?
+6v?xFv?
+Vv?(gv?dwv?
+%w?u4w?
+bw?(qw?'
+x?o x?
+fx?Mtx?
+!y?w.y?C;y?
+Ty?Bay?
+my?Bzy?
+9z?iDz?
+Zz?3fz?Vqz?j|z?o
+{?x%{?
+9{?|C{?`M{?5W{?
+j{?\t{?
+|?V!|?
+)|?h2|?
+:|?CC|?
+S|?'\|?Xd|?|l|?
+.}?f5}?*<}?
+I}?0P}?
+V}?N]}?
+c}?>j}?
+w}?P}}?
+:~?{?~?ND~?
+R~?:W~?
+[~?v`~?
+n~?~r~?
+v~?K{~?
+*9?/79
+::%JA:
+6O:t[V:-
+l:*$t:
+.;S 2;Bl5;
+<;g~?;;
+P;0sT;V
+}j;REn;
+%<RX'<i
+*<T#,<(
+7<p?9<
+<<~I><T
+H<gNJ<
+V<E}X<
+a<jpc<DJe<
+p<{tr<
+Hv<_5x<"$z<
+*=;V+=
+.=&T/=
+2=x]3=
+6=*r7=xD8=:
+F=|[G=e6H=
+L=VaM=h?N=
+R=E}S=}^T=(@U=E"V=
+Z=ex[=
+]\=[C]=
+ar=6Rs=
+Ct=Y4u=
+	>Y\	>
+$>b(%>8
+%>*E&>E
+(>~@)>O
+*>3`*>H
+*>r +>
++>yA,>
+->Ic->
+1>1T2>
+3>+z3>U
+:>)n:>
+;>xa<>
+?>ZN@>K
+A>o}A>
+C>9xC>
+E>*AF>W
+K>IFL>
+P>"$Q>x
+Q>_]R>
+V>[IW>
+Y>|-Z>
+[>r@\>
+]>MU^>
+`>wBa>
+c>I3d> 
+e>;Of>q
+h><Fi>
+p>7dq>K
+q>q@r>
+s>=ht>
+t>sEu>(
+x>P,y>
+	?D<	?B\	?@|	?<
+ ?8# ?
+A ?2` ?
+!?A5!?
+("?YF"?
+#?K8#?{V#?
+$?v)$?
+%?e	&?H'&?(E&?
+3'?pQ'?.o'?
+(?[!(?
+\(?Cz(?
++)?<I)?
+4*?YR*?
+=+?RZ+?
+C,?!a,?B~,?_
+.?g1.?KN.?+k.?
+Q/?\n/?
+S0?Mp0?
+T2?Zp2?
+63?BR3?ln3?
+34?%O4?)k4?)
+6?!)6?
+`6?D|6?
+=7?4Y7?
+58?mP8?
+*9?9F9?ra9?
+;?x-;?^H;??c;?
+9<?TT<?
+=?])=?
+C=?o^=?
+1>?TL>?
+??{	@?
+#@?}=@?vW@?jq@?Z
+&A?Z@A?!ZA?
+'B?AAB?
+ZB?ftB?
+&C?/@C?
+=D?KVD?toD?
+IF?lbF?({F?
+'G?G@G?
+XG?ZqG?
+4H?'MH?yeH?
+I?B'I?c?I?
+/J?hGJ?H_J?"wJ?
+K?15K?
+LK?~dK?
+K?]	L?
+ L?G8L?
+gL?|~L?
+gM?>~M?]
+MN?vdN?]{N?>
+1O?}HO?+_O?
+P?O*P?
+@P?5WP?
+	Q?& Q?]6Q?
+R?C)R?5?R?"UR?	kR?
+S?%/S?
+DS?yZS?
+1T?.GT?
+U?%1U?GFU?c[U?ypU?
+V?<-V?
+:W?,OW?
+cW?:xW?
+DX?_XX?
+7Z?fKZ?
+[?b"[?
+5[?+I[?
+]?"&]?
+K]?d^]?
+*^?Q=^?
+O^?$b^?
++_?$=_?=O_?Pa_?]s_?e
+&`?b8`?(J`?
+/a?}@a?
+Qa?Mca?
+!b?<2b?TCb?eTb?qeb?wvb?w
+c?+0c?
+Qc?Sbc?
+(d?>9d?
+Yd?Hjd?
+e?V,e?[<e?[Le?T\e?Gle?5|e?
+9f?&If?
+Xf?Uhf?
+g?|!g?
+@g?@Og?v^g?
+]h?Nlh?
+Ui?Udi?
+k?[%k?
+@k?DNk?
+[k?mik?
+%l?C2l?y?l?
+m?r)m?<6m?
+Om?w\m?*im?
+%n?[1n?
+In?EVn?
+/o?};o?UGo?)So?
+p?X$p?
+/p?(;p?
+Qp?8]p?
+0q?m;q?QFq?/Qq?
+qq?r|q?6
+r?+&r?
+;r?gEr?
+Zr?sdr?
+Bs?^Ls?5Vs?
+ss?^}s?
+t?8 t?
+3t?]<t?
+Ot?TXt?
+tt?W}t?
+:u?SCu?
+]u?Qfu?
+v?V!v?
+1v?":v?\Bv?
+cv?9kv?Vsv?p{v?
+w?@!w?
+0w?H8w?
+Gw?'Ow?
+Vw?O^w?
+ew?emw?
+tw?i|w?
+2x?'9x?-@x?.Gx?,Nx?$Ux?
+\x?	cx?
+$y?B+y?
+8y?t>y?
+Dy?*Ky?
+^y?edy?
+py?&wy?]}y?
+*z?q0z?+6z?
+Az??Gz?
+Rz?0Xz?
+]z?gcz?
+^{?kc{?Gh{?
+|?{#|?
+,|?H0|?
+<|?*A|?ZE|?
+Z|?4^|?Mb|?bf|?tj|?
+&}?r)}?
+,}?K0}?
+7}?z:}?
+=}?6A}?
+G}?8K}?
+Q}?!U}?hX}?
+^}?.b}?je}?
+o}?=r}?ju}?
+~?,	~?
+~?t ~?
+2~?|4~?
+6~?e9~?
+;~?D>~?
+G~?HJ~?
+O~?`Q~?
+V~?cX~?
+]~?Q_~?
+c~?)f~?lh~?
+l~?(o~?bq~?
+x~?3z~?b|~?
+Index value %d out of range (0 - %d) for %s at %s:%i
+!!Wx9^
+Tj&U)h
+D0oCD0o@
+S+y*xJ
+_8!&@8
+qH$A)J
+qH$A) 
+SCx3xs
+qH$A)J
+qH$A) 
+ haN i
+`n"haN
+)xix	$
+j!B)wYD)i
+j!B)wYD)i
+Ti"D)k2@
+Ti"D)k2@
+l.D)m2@
+kly<x+
+@9-il8O
+k0@9)	C
+k<ij8i
+$NBX n
+$NcX n
+$N1Z n
+$NRZ n
+$NsZ nV
+$NRZ n
+$N1Z n
+$NRZ n
+$NsZ nV
+$NRZ n
+$N1Z n
+$NRZ n
+0N1Z n
+0NRZ n
+_8-5@8
+Ziii8h 
+4q	@91
+. Kj`[q
+T	k|8i
+Tikt8i
+h2@9h6
+	kJim8I!
+kkil8L	
+kJik8+	
+kJik8+	
+kJik8+	
+kJik8+	
+kJik8+	
+Sli*8J
+.4@9(@@
+K,k*xJ	
+y	yfx)
+k+ik8l!
+**ij8K!
+Q)Ih8?	
+@9kis8
+^9)ix8?
+Thz{x{
+(iv8)ij8
+hiq8iii8
+/I{vx3
+	*J{{x?
+Thk}8*{h
+4h.!4h.d
+yHyix)
+(it8h0
+S/i(8K
+'hw80hv8
+#870hv8
+h'80hv8
+870hv8
+870hv8
+	870hv8
+870hv8Z
+'j38(hp
+($	)(d@
+9K	@9+
+9K%@9+=
+9K%@9+5
+9K!@9+-
+9K	@9+
+8Kq_8J
+9+	@9K
+9+	@9K
+9K	@9+
+9L	@9,
+haN1ha
+4|I-d+<
+6$H-q*4
++0G-s:4
+@x@Lax@L
+_8N%@8
+xaN!xaNB
+haN#haNB
+jh8H+@
+mij8K+@
+k+ik8J
+)ik8K	
+kil8L	
+*ih8H+@
+,ij8J+@
+,im8m	
+,il8K#
+k(ih8i	
+mim8L#
+d"n!d"n
+AXaxax1
+nin8M#
+Lil8K#
+k(kh8	!
+)ki8H#
+)ki8*!
+*kj8I#
+)ki8K!
+)ki8H#
+)ki8H#
+k)ki8J#
++kk8)!
+)kj8K#
+*kn8n	
++kk8J#
++kk8J#
++kk8J#
++ko8O	
++ko8O	
++ko8P#
+"kb8A#
+"kb8A#
+1kq8P#
+0kp8N#
+.kn8O#
+R+h)8)
+,kl8K#
+,kl8K#
++kk8k!
+(ih8I[@
+kkil8L	
+	ii8l"
+@9-	@9
+T8OsV8O1V8OcT8O
+T8OBT8O
+!!@KB|.
+_8C5@8B|B
+	?)c|C
+@y+	@y
+@),5@))=A)
+DAykEC
+$@y	T@y
+(ih8JQB
+xNim8_
+b8JIh8
+TN	@9P
++ik8l#
+.il8j#
+Th'D)?
+	kKik8l!
+Q"U@9J	
+Qiq8,&
+k+x+-@8
+@y6	@y	
+gn`haNa
+eN"haN
+Nhn8OHo8
+xaNdxa
+bnbxaN
+S-)	S?
+S-)	S?
+R(#@y)
+!xaNcxaNFxa
+!xaNcxaNFxa
+!xaNcxaNFxa
+!xaNcxaNFxa
+!xaNcxaNFxa
+!xaNcxaNFxa
+!xaNcxaNFxa
+<V\_-P
+1NRD]-
+@y(yhx
+snBxaNcxaN!
+RhaN1O
+haNphaN2S
+4($@xB
+ haN`j
+UPA-p@ 
+kSPA-B@
+6Mii8n!
+jo8(jh8?
+T,i+8k
+NBT(OcT(O"
+Jih8))
+S(i+8k
+SJk)8_
+9Lim8m	
+9Lim8m	
+9Lim8m	
+9Lim8m	
+9Lim8m	
+9Lim8m	
+*Lil8+
+9Lim8m	
+8@iJ},
+LAiB|-
+PAic|1
+(@iJ}.
+'@xl.@
+i)8jZ@
+Qnk)8`
+i)8jZ@
+Tl.C)m
+3yjx	0@
+ip8!zp
+b8bhb8B
+i;8hZ@
+Q,i+8k
+Q,i+8k
+Th&C)*
+Ti*C)_
+Jik8k"@
+Tl.C)m
+)hk8K%
+*hj8J!
+	kLim8m	
+)hl8l	
+TPXpx!
+*#@9;'@9i
+^M)hv@
+q@9hzB
+Th2A9u
+@9+	@9,
+qB Hzh
+k*il8l	
+S@9	O@9
+kJil8,	
+@9)ij8
+'My	#My
+b@D9! [9cDD9
+=	'Myb
+A9csB9
+'My	cU9
+ije8F'My
+_x_! k
+Tmio8M
+*k}	S:
+T`ii8@
+TQii8q
+qai`8! 
+E|iL|,
+WC)i:B
+R!	@-J	
+E-!,J-
+rB	-T8 
+-qJF-8	4
+sRK-u^O-e
+-aBE-'*2
+dVG-!*2
+Tx@Lvx@L
+=n1x@L@
+LTx@Lvx@L
+,4@).,O)(J
+K-0G)ky
+04H).$C)
+'8D)-,K)
+r=@I)/pF)-xB)&$E)
+qeyixI
+!xaNcxaN
+RJyixL
+0e.c0fnB0f.
+zhxHyhx	
+T%O!T%O
+?!@qnin
+?!@qnin
+?!@qnin
+J @Q	}
+,G)M!@Q_
+T-il8Nil8
+Thj{8ij}8
+)M))}@
+!M)s~@
+it8 8 
+OIkt8_!
+) M)*t@
+|Nx{aN
+@9-ij8k
+K!@9,#@9k
+K%@9,'@9k
+K)@9,+@9k
+K-@9,/@9k
+K1@9,3@9k
+K5@9,7@9k
+K9@9,;@9k
+K=@9,?@9k
+KA@9,C@9k
+KE@9,G@9k
+KI@9,K@9k
+KM@9,O@9k
+JQ@9+S@9J
+#kb8$~
+u8jjh8(
+Kjjh8*
+,kh8nyh
+Tcij8"}
+T	ij8)1
+HKIYix(%
+4	Iy8)
+Tdij8#}
+q){ix	$
+*L	@9J
+*L	@9J
+V(O1V0ORV(O
+V0OsV0O
+NcT(OBT(O
+NcT(OBT(O
+V0O1V(O
+T(OcT(O
+V0O1V(O
+T(OcT(O
+V(O1V0ORV(O
+V0OsV0O
+V(O1V0ORV(O
+V0OsV0O
+V0O1V(ORV0OsV(O
+V(O0V(O
+V0O1V(ORV0OsV(O
+V(O0V(O
+T	A@Q)
+!y@Lc|@
+!y@Lc|@
+!y@Lc|@
+!y@Lc|@
+Dx@Lex@L
+@@9(	 6
++ih8J	
++ih8J	
+jkj8lkl8J
+*lkm8J
+T-il8Nil8oim8pin8
+iv8)iv8
+T(kl8H
+T(kc8h
+(Hyhih8
+T(kc8h
+Jin8I%
+*ij8l	
+kji8kJ(8
+i)8o"Ay#
+pii8P 
+ji)8j|
+dNCxaNBxa
+dNCxaNBxa
+	kOiq8
+9+il8L	
+k	ii8k
+SycxFybx
+_@@qf|
+?@@q!0
+"hbx#hcx_
+T,ik8k
+*Kki8L
+RjIm8,Hm8N
++Ij8,Hj8J
+,Ik8*Hk8k
+kD	@za
+x@L!x@LB
+Ti.M)h
+TO$@9P(@9
+TK$@9L(@9
+T	$@9+
+T	$@9+
+T	$@9"
+THOpTHO
+TPOrTPO
+R)h(8!
+Lii8k	
+	Bm  `
+*,%@8K
+ijh8J#
+,ij8k	
+jih8)	
+jih8)	
+q )Zz#
++kh8J	
+Lic8k	
++yhxJ	
++ih8J	
+T+ij8L
+T(ij8K
+RL-@8-
+RL=@8uU
+RLM@8uU
+RL]@8uU
+iii8	D
+iii8	$
+(@9	 @9H
+$@9	 @9
+h%@9j)@9d!@9c
+(7h"@9
+SM'@9O+@9
+K#@9.)
+'A))}`
+	k	/D) 
+W`FmYhGm
+wbImrB
+sVFmeZ
+mtfBm@*u
+qJKm#+c
+fBEm!(b
+RPHBmQLCmf(b
+]$Em^|Fm
+CmOHMm
++Smf8b
+;Qm<(~
+@m0F@m
+m6bBm4fAm)2@m
+rEmTx}
+dBiFx~
+^GmXxw
+ZDm\x{
+hxBmfD@mj,Cm
+NHmPxn
+@MChaN
+W`F-YhG-
+wbI-rB
+sVF-eZ
+-tfB-@*5
+qJK-#+#
+fBE-!("
+RPHB-QLC-f("
+]$E-^|F-
+C-OHM-
++Kmf8"
+;Im<(>
+haN#)$
+@-0F@-
+-6bB-4fA-)2@-
+rE-Tx}
+dBiFx~
+^G-Xxw
+ZD-\x{
+hxB-fD@-j,C-
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+@haN`j
+B)K<@)P
+Ko:Ii#
+Oip2	)
+I A)K(B)
+)Di/~/
+J8A)K<D)H$@)P
+H)T\G)VTB)
+F)\tD)^4E)J$@)
+W @)IlA)
+HdB)ATD)\XC)
+F)]hG)^
+H)PDI)N<J)S,K)E
+L)L4M)B(N)
+K:4Di((
+b@iI}	
+Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)
+Android (12027248, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+Linker: LLD 18.0.1
+.init_array
+.fini_array
+.comment
+.note.android.ident
+.got.plt
+.rela.plt
+.dynstr
+.eh_frame_hdr
+.gnu.version_r
+.data.rel.ro
+.rela.dyn
+.gnu.version
+.dynsym
+.gnu.hash
+.relro_padding
+.eh_frame
+.note.gnu.build-id
+.dynamic
+.shstrtab
+.rodata

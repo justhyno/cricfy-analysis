@@ -1,0 +1,111 @@
+=== <init>(Landroid/content/Context;)V
+    invoke-virtual v2, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const/4 v0, 0
+    invoke-direct v1, v2, v0, Lcom/android/vending/ui/OverlayInsetsLayout;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+    return-void 
+    <junk/payload omitted>
+=== <init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+    invoke-virtual v1, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-direct v0, v1, v2, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== a(Lcom/android/vending/ui/OverlayInsetsLayout;)V
+    invoke-static v0, Lcom/android/vending/ui/OverlayInsetsLayout;->setBottomOverlayHeight$lambda$0(Lcom/android/vending/ui/OverlayInsetsLayout;)V
+    return-void 
+    <junk/payload omitted>
+=== setBottomOverlayHeight$lambda$0(Lcom/android/vending/ui/OverlayInsetsLayout;)V
+    invoke-virtual v0, v0, Lcom/android/vending/ui/OverlayInsetsLayout;->b(Landroid/view/View;)V
+    return-void 
+    <junk/payload omitted>
+=== b(Landroid/view/View;)V
+    instance-of v0, v6, Landroidx/recyclerview/widget/RecyclerView;
+    const/4 v1, 0
+    if-eqz v0, +03fh
+    move-object v0, v6
+    check-cast v0, Landroidx/recyclerview/widget/RecyclerView;
+    invoke-virtual v0, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/k;
+    move-result-object v2
+    instance-of v3, v2, Landroidx/recyclerview/widget/GridLayoutManager;
+    const/4 v4, 1
+    if-eqz v3, +009h
+    check-cast v2, Landroidx/recyclerview/widget/GridLayoutManager;
+    iget v2, v2, Landroidx/recyclerview/widget/LinearLayoutManager;->p I
+    if-ne v2, v4, +06ch
+    goto +16h
+    instance-of v3, v2, Landroidx/recyclerview/widget/LinearLayoutManager;
+    if-eqz v3, +009h
+    check-cast v2, Landroidx/recyclerview/widget/LinearLayoutManager;
+    iget v2, v2, Landroidx/recyclerview/widget/LinearLayoutManager;->p I
+    if-ne v2, v4, +061h
+    goto +bh
+    instance-of v3, v2, Landroidx/recyclerview/widget/StaggeredGridLayoutManager;
+    if-eqz v3, +05ch
+    check-cast v2, Landroidx/recyclerview/widget/StaggeredGridLayoutManager;
+    iget v2, v2, Landroidx/recyclerview/widget/StaggeredGridLayoutManager;->t I
+    if-ne v2, v4, +056h
+    invoke-virtual v0, v1, Landroidx/recyclerview/widget/RecyclerView;->setClipToPadding(Z)V
+    iget v0, v5, Lcom/android/vending/ui/OverlayInsetsLayout;->o I
+    invoke-virtual v6, Landroid/view/View;->getPaddingLeft()I
+    move-result v2
+    invoke-virtual v6, Landroid/view/View;->getPaddingTop()I
+    move-result v3
+    invoke-virtual v6, Landroid/view/View;->getPaddingRight()I
+    move-result v4
+    invoke-virtual v6, v2, v3, v4, v0, Landroid/view/View;->setPadding(I I I I)V
+    goto +40h
+    instance-of v0, v6, Landroid/widget/ScrollView;
+    if-nez v0, +026h
+    instance-of v0, v6, Landroidx/core/widget/NestedScrollView;
+    if-nez v0, +022h
+    instance-of v0, v6, Landroid/widget/ListView;
+    if-eqz v0, +003h
+    goto +1ch
+    invoke-virtual v6, Landroid/view/View;->getId()I
+    move-result v0
+    const v2, 2131362123
+    if-ne v0, v2, +02bh
+    iget v0, v5, Lcom/android/vending/ui/OverlayInsetsLayout;->o I
+    invoke-virtual v6, Landroid/view/View;->getPaddingLeft()I
+    move-result v2
+    invoke-virtual v6, Landroid/view/View;->getPaddingTop()I
+    move-result v3
+    invoke-virtual v6, Landroid/view/View;->getPaddingRight()I
+    move-result v4
+    invoke-virtual v6, v2, v3, v4, v0, Landroid/view/View;->setPadding(I I I I)V
+    goto +18h
+    move-object v0, v6
+    check-cast v0, Landroid/view/ViewGroup;
+    invoke-virtual v0, v1, Landroid/view/ViewGroup;->setClipToPadding(Z)V
+    iget v0, v5, Lcom/android/vending/ui/OverlayInsetsLayout;->o I
+    invoke-virtual v6, Landroid/view/View;->getPaddingLeft()I
+    move-result v2
+    invoke-virtual v6, Landroid/view/View;->getPaddingTop()I
+    move-result v3
+    invoke-virtual v6, Landroid/view/View;->getPaddingRight()I
+    move-result v4
+    invoke-virtual v6, v2, v3, v4, v0, Landroid/view/View;->setPadding(I I I I)V
+    instance-of v0, v6, Landroid/view/ViewGroup;
+    if-eqz v0, +017h
+    check-cast v6, Landroid/view/ViewGroup;
+    invoke-virtual v6, Landroid/view/ViewGroup;->getChildCount()I
+    move-result v0
+    if-ge v1, v0, +00fh
+    invoke-virtual v6, v1, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+    move-result-object v2
+    invoke-virtual v2, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual v5, v2, Lcom/android/vending/ui/OverlayInsetsLayout;->b(Landroid/view/View;)V
+    add-int/lit8 v1, v1, 1
+    goto -eh
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== setBottomOverlayHeight(I)V
+    iput v2, v1, Lcom/android/vending/ui/OverlayInsetsLayout;->o I
+    new-instance v2, Lka1;
+    const/16 v0, 8
+    invoke-direct v2, v1, v0, Lka1;-><init>(Ljava/lang/Object; I)V
+    invoke-virtual v1, v2, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+    return-void 
+    nop 
+    <junk/payload omitted>

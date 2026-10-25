@@ -1,0 +1,9 @@
+=== <init>()V
+    invoke-direct v0, Ljava/lang/Object;-><init>()V
+    return-void 
+    <junk/payload omitted>
+=== fuckYou()Ljava/lang/String;
+    const-string v0, "Your Ass"
+    return-object v0
+    nop 
+    <junk/payload omitted>

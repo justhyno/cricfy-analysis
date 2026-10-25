@@ -1,0 +1,18 @@
+package p000;
+
+/* compiled from: r8-map-id-48d9907f4e93732c11cf9c906afc42aa7d1b8bfe35a58b5c97659e3a4b269d57 */
+/* loaded from: classes26.dex */
+public final class qv5 {
+
+    /* renamed from: c */
+    public static final String f16614c = null;
+
+    /* renamed from: d */
+    public static final qv5 f16615d = null;
+
+    /* renamed from: a */
+    public volatile mg0 f16616a;
+
+    /* renamed from: b */
+    public volatile boolean f16617b;
+}

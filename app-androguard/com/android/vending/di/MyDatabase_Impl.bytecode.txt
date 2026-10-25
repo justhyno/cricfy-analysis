@@ -1,0 +1,120 @@
+=== <init>()V
+    invoke-direct v2, Lcom/android/vending/di/MyDatabase;-><init>()V
+    new-instance v0, Lja2;
+    const/4 v1, 0
+    invoke-direct v0, v2, v1, Lja2;-><init>(Lcom/android/vending/di/MyDatabase_Impl; I)V
+    new-instance v1, Lvk3;
+    invoke-direct v1, v0, Lvk3;-><init>(La41;)V
+    iput-object v1, v2, Lcom/android/vending/di/MyDatabase_Impl;->a Lvk3;
+    new-instance v0, Lja2;
+    const/4 v1, 1
+    invoke-direct v0, v2, v1, Lja2;-><init>(Lcom/android/vending/di/MyDatabase_Impl; I)V
+    new-instance v1, Lvk3;
+    invoke-direct v1, v0, Lvk3;-><init>(La41;)V
+    iput-object v1, v2, Lcom/android/vending/di/MyDatabase_Impl;->b Lvk3;
+    new-instance v0, Lja2;
+    const/4 v1, 2
+    invoke-direct v0, v2, v1, Lja2;-><init>(Lcom/android/vending/di/MyDatabase_Impl; I)V
+    new-instance v1, Lvk3;
+    invoke-direct v1, v0, Lvk3;-><init>(La41;)V
+    iput-object v1, v2, Lcom/android/vending/di/MyDatabase_Impl;->c Lvk3;
+    new-instance v0, Lja2;
+    const/4 v1, 3
+    invoke-direct v0, v2, v1, Lja2;-><init>(Lcom/android/vending/di/MyDatabase_Impl; I)V
+    new-instance v1, Lvk3;
+    invoke-direct v1, v0, Lvk3;-><init>(La41;)V
+    iput-object v1, v2, Lcom/android/vending/di/MyDatabase_Impl;->d Lvk3;
+    return-void 
+    <junk/payload omitted>
+=== b()Lj90;
+    iget-object v0, v0, Lcom/android/vending/di/MyDatabase_Impl;->a Lvk3;
+    invoke-virtual v0, Lvk3;->getValue()Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Lj90;
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== c()Ldu0;
+    iget-object v0, v0, Lcom/android/vending/di/MyDatabase_Impl;->c Lvk3;
+    invoke-virtual v0, Lvk3;->getValue()Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Ldu0;
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== createAutoMigrations(Ljava/util/Map;)Ljava/util/List;
+    invoke-virtual v1, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    new-instance v0, Ljava/util/ArrayList;
+    invoke-direct v0, Ljava/util/ArrayList;-><init>()V
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== createInvalidationTracker()Lah1;
+    new-instance v0, Ljava/util/LinkedHashMap;
+    invoke-direct v0, Ljava/util/LinkedHashMap;-><init>()V
+    new-instance v1, Ljava/util/LinkedHashMap;
+    invoke-direct v1, Ljava/util/LinkedHashMap;-><init>()V
+    new-instance v2, Lah1;
+    const-string v3, "favplaylist"
+    const-string v4, "notifications"
+    const-string v5, "favourites"
+    const-string v6, "cache"
+    const-string v7, "playlists"
+    filled-new-array v5, v6, v7, v3, v4, [Ljava/lang/String;
+    move-result-object v3
+    invoke-direct v2, v8, v0, v1, v3, Lah1;-><init>(Lr03; Ljava/util/HashMap; Ljava/util/HashMap; [Ljava/lang/String;)V
+    return-object v2
+    <junk/payload omitted>
+=== createOpenDelegate()Lw03;
+    new-instance v0, Lka2;
+    invoke-direct v0, v1, Lka2;-><init>(Lcom/android/vending/di/MyDatabase_Impl;)V
+    return-object v0
+    <junk/payload omitted>
+=== d()Loo2;
+    iget-object v0, v0, Lcom/android/vending/di/MyDatabase_Impl;->b Lvk3;
+    invoke-virtual v0, Lvk3;->getValue()Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Loo2;
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== e()Lcg2;
+    iget-object v0, v0, Lcom/android/vending/di/MyDatabase_Impl;->d Lvk3;
+    invoke-virtual v0, Lvk3;->getValue()Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Lcg2;
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== getRequiredAutoMigrationSpecClasses()Ljava/util/Set;
+    new-instance v0, Ljava/util/LinkedHashSet;
+    invoke-direct v0, Ljava/util/LinkedHashSet;-><init>()V
+    return-object v0
+    <junk/payload omitted>
+=== getRequiredTypeConverterClasses()Ljava/util/Map;
+    new-instance v2, Ljava/util/LinkedHashMap;
+    invoke-direct v2, Ljava/util/LinkedHashMap;-><init>()V
+    const-class v0, Lj90;
+    invoke-static v0, Lpw2;->a(Ljava/lang/Class;)Lvx;
+    move-result-object v0
+    const-class v1, Le60;
+    invoke-static v1, Lpw2;->a(Ljava/lang/Class;)Lvx;
+    move-result-object v1
+    invoke-static v1, Lmc4;->t(Ljava/lang/Object;)Ljava/util/List;
+    move-result-object v1
+    invoke-interface v2, v0, v1, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+    const-class v0, Loo2;
+    invoke-static v0, Lpw2;->a(Ljava/lang/Class;)Lvx;
+    move-result-object v0
+    sget-object v1, Lpo0;->o Lpo0;
+    invoke-interface v2, v0, v1, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+    const-class v0, Ldu0;
+    invoke-static v0, Lpw2;->a(Ljava/lang/Class;)Lvx;
+    move-result-object v0
+    invoke-interface v2, v0, v1, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+    const-class v0, Lcg2;
+    invoke-static v0, Lpw2;->a(Ljava/lang/Class;)Lvx;
+    move-result-object v0
+    invoke-interface v2, v0, v1, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+    return-object v2
+    <junk/payload omitted>

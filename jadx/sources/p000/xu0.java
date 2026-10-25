@@ -1,0 +1,130 @@
+package p000;
+
+/* compiled from: r8-map-id-48d9907f4e93732c11cf9c906afc42aa7d1b8bfe35a58b5c97659e3a4b269d57 */
+/* loaded from: classes.dex */
+public final class xu0 implements sd3 {
+
+    /* renamed from: o */
+    public final yu0 f22440o;
+
+    /* renamed from: p */
+    public long f22441p;
+
+    /* renamed from: q */
+    public boolean f22442q;
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (1673316464 > 464228) in method: xu0.<init>(yu0, long):void, file: classes.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (1673316464 > 464228)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    public xu0(p000.yu0 r1, long r2) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (1673316464 > 464228) in method: xu0.<init>(yu0, long):void, file: classes.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.xu0.<init>(yu0, long):void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (1993115382 > 464228) in method: xu0.close():void, file: classes.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (1993115382 > 464228)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    @Override // java.io.Closeable, java.lang.AutoCloseable
+    public final void close() {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (1993115382 > 464228) in method: xu0.close():void, file: classes.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.xu0.close():void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition < 0: (-1518476586 < 0) in method: xu0.read(hp, long):long, file: classes.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition < 0: (-1518476586 < 0)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    @Override // p000.sd3
+    public final long read(p000.hp r1, long r2) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition < 0: (-1518476586 < 0) in method: xu0.read(hp, long):long, file: classes.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.xu0.read(hp, long):long");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (737397897 > 464228) in method: xu0.timeout():jo3, file: classes.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (737397897 > 464228)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    @Override // p000.sd3
+    public final p000.jo3 timeout() {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (737397897 > 464228) in method: xu0.timeout():jo3, file: classes.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.xu0.timeout():jo3");
+    }
+}

@@ -1,0 +1,66 @@
+package p000;
+
+/* compiled from: r8-map-id-48d9907f4e93732c11cf9c906afc42aa7d1b8bfe35a58b5c97659e3a4b269d57 */
+/* loaded from: classes25.dex */
+public final class fa5 extends yw2 {
+
+    /* renamed from: a */
+    public final /* synthetic */ r13 f7040a;
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (948379050 > 346388) in method: fa5.<init>(r13, android.os.Looper):void, file: classes25.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (948379050 > 346388)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    public fa5(p000.r13 r1, android.os.Looper r2) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (948379050 > 346388) in method: fa5.<init>(r13, android.os.Looper):void, file: classes25.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.fa5.<init>(r13, android.os.Looper):void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition < 0: (-696166271 < 0) in method: fa5.handleMessage(android.os.Message):void, file: classes25.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition < 0: (-696166271 < 0)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    @Override // android.os.Handler
+    public final void handleMessage(android.os.Message r1) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition < 0: (-696166271 < 0) in method: fa5.handleMessage(android.os.Message):void, file: classes25.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.fa5.handleMessage(android.os.Message):void");
+    }
+}

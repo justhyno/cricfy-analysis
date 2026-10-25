@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_focused="true"
+        android:state_checked="true"
+        android:color="#66331810"/>
+    <item
+        android:state_focused="true"
+        android:color="#40331810"/>
+    <item
+        android:state_checked="true"
+        android:color="#4dff5a1f"/>
+    <item android:color="@color/cardBack"/>
+</selector>

@@ -1,0 +1,282 @@
+=== <init>()V
+    invoke-direct v3, Lcom/google/firebase/messaging/FirebaseMessagingService;-><init>()V
+    invoke-static v3, Lrf2;->g(Landroid/content/ComponentCallbacks;)Lj53;
+    move-result-object v0
+    const-class v1, Landroid/content/SharedPreferences;
+    invoke-static v1, Lpw2;->a(Ljava/lang/Class;)Lvx;
+    move-result-object v1
+    const/4 v2, 0
+    invoke-virtual v0, v1, v2, Lj53;->d(Lvx; Luj2;)Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Landroid/content/SharedPreferences;
+    iput-object v0, v3, Lcom/android/vending/helpers/PushService;->v Landroid/content/SharedPreferences;
+    invoke-static v3, Lrf2;->g(Landroid/content/ComponentCallbacks;)Lj53;
+    move-result-object v0
+    const-class v1, Lcg2;
+    invoke-static v1, Lpw2;->a(Ljava/lang/Class;)Lvx;
+    move-result-object v1
+    invoke-virtual v0, v1, v2, Lj53;->d(Lvx; Luj2;)Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Lcg2;
+    iput-object v0, v3, Lcom/android/vending/helpers/PushService;->w Lcg2;
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== c(Ldy2;)V
+    move-object/from16 v1, v16
+    move-object/from16 v0, v17
+    iget-object v2, v0, Ldy2;->p Lre;
+    const/4 v3, 0
+    if-nez v2, +055h
+    iget-object v2, v0, Ldy2;->o Landroid/os/Bundle;
+    new-instance v4, Lre;
+    invoke-direct v4, v3, Lsb3;-><init>(I)V
+    invoke-virtual v2, Landroid/os/BaseBundle;->keySet()Ljava/util/Set;
+    move-result-object v5
+    invoke-interface v5, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+    move-result-object v5
+    invoke-interface v5, Ljava/util/Iterator;->hasNext()Z
+    move-result v6
+    if-eqz v6, +03eh
+    invoke-interface v5, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    move-result-object v6
+    check-cast v6, Ljava/lang/String;
+    invoke-virtual v2, v6, Landroid/os/BaseBundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+    move-result-object v7
+    instance-of v8, v7, Ljava/lang/String;
+    if-eqz v8, -012h
+    check-cast v7, Ljava/lang/String;
+    const-string v8, "google."
+    invoke-virtual v6, v8, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    move-result v8
+    if-nez v8, -01ch
+    const-string v8, "gcm."
+    invoke-virtual v6, v8, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    move-result v8
+    if-nez v8, -024h
+    const-string v8, "from"
+    invoke-virtual v6, v8, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v8
+    if-nez v8, -02ch
+    const-string v8, "message_type"
+    invoke-virtual v6, v8, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v8
+    if-nez v8, -034h
+    const-string v8, "collapse_key"
+    invoke-virtual v6, v8, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v8
+    if-nez v8, -03ch
+    invoke-virtual v4, v6, v7, Lsb3;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+    goto -41h
+    iput-object v4, v0, Ldy2;->p Lre;
+    new-instance v2, Ljava/util/HashMap;
+    iget-object v0, v0, Ldy2;->p Lre;
+    invoke-direct v2, v0, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
+    const-string v0, "type"
+    invoke-virtual v2, v0, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Ljava/lang/String;
+    if-eqz v0, +008h
+    invoke-static v0, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    move-result v0
+    move v6, v0
+    goto +2h
+    move v6, v3
+    const/4 v9, 3
+    const/4 v0, 1
+    if-ne v6, v9, +012h
+    iget-object v1, v1, Lcom/android/vending/helpers/PushService;->v Landroid/content/SharedPreferences;
+    invoke-interface v1, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    move-result-object v1
+    const-string v2, "PUSH_RC"
+    invoke-interface v1, v2, v0, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String; Z)Landroid/content/SharedPreferences$Editor;
+    move-result-object v0
+    invoke-interface v0, Landroid/content/SharedPreferences$Editor;->apply()V
+    return-void 
+    const-string v4, "rtstv"
+    invoke-virtual v1, v4, v3, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+    move-result-object v4
+    const-string v5, "notId"
+    invoke-interface v4, v5, v3, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String; I)I
+    move-result v7
+    const v8, 500000
+    if-ge v7, v8, +004h
+    add-int/2addr v7, v0
+    goto +2h
+    move v7, v3
+    invoke-interface v4, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    move-result-object v4
+    invoke-interface v4, v5, v7, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String; I)Landroid/content/SharedPreferences$Editor;
+    move-result-object v4
+    invoke-interface v4, Landroid/content/SharedPreferences$Editor;->apply()V
+    const-string v4, "query"
+    invoke-virtual v2, v4, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v8
+    check-cast v8, Ljava/lang/String;
+    const/4 v10, 2
+    const-class v11, Lcom/android/vending/activities/Splash;
+    if-eq v6, v0, +019h
+    if-eq v6, v10, +00bh
+    new-instance v4, Landroid/content/Intent;
+    invoke-direct v4, v1, v11, Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+    invoke-virtual v4, v5, v7, Landroid/content/Intent;->putExtra(Ljava/lang/String; I)Landroid/content/Intent;
+    goto +24h
+    new-instance v4, Landroid/content/Intent;
+    const-string v5, "android.intent.action.VIEW"
+    invoke-static v8, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    move-result-object v12
+    invoke-direct v4, v5, v12, Landroid/content/Intent;-><init>(Ljava/lang/String; Landroid/net/Uri;)V
+    goto +18h
+    new-instance v12, Landroid/content/Intent;
+    invoke-direct v12, v1, v11, Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+    invoke-virtual v12, v4, v8, Landroid/content/Intent;->putExtra(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+    const-string v4, "isStream"
+    invoke-virtual v12, v4, v3, Landroid/content/Intent;->putExtra(Ljava/lang/String; Z)Landroid/content/Intent;
+    invoke-virtual v12, v5, v7, Landroid/content/Intent;->putExtra(Ljava/lang/String; I)Landroid/content/Intent;
+    move-object v4, v12
+    goto +6h
+    new-instance v4, Landroid/content/Intent;
+    invoke-direct v4, v1, v11, Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+    const/high16 v5, 67108864
+    invoke-virtual v4, v5, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+    invoke-static v10, Landroid/media/RingtoneManager;->getDefaultUri(I)Landroid/net/Uri;
+    move-result-object v5
+    const/high16 v10, 201326592
+    invoke-static v1, v3, v4, v10, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context; I Landroid/content/Intent; I)Landroid/app/PendingIntent;
+    move-result-object v3
+    const-string v4, "notification"
+    invoke-virtual v1, v4, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    move-result-object v4
+    invoke-virtual v4, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    move-object v10, v4
+    check-cast v10, Landroid/app/NotificationManager;
+    sget v4, Landroid/os/Build$VERSION;->SDK_INT I
+    const/16 v11, 26
+    const/4 v12, 4
+    const/4 v13, 0
+    if-lt v4, v11, +029h
+    invoke-static Lz2;->k()V
+    invoke-virtual v1, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    move-result-object v4
+    const v11, 2132017196
+    invoke-virtual v4, v11, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    move-result-object v4
+    new-instance v11, Landroid/app/NotificationChannel;
+    const-string v14, "cricfy_notification_channel"
+    invoke-direct v11, v14, v4, v12, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String; Ljava/lang/CharSequence; I)V
+    invoke-virtual v10, v11, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V
+    new-instance v4, Lpg2;
+    invoke-virtual v1, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    move-result-object v14
+    invoke-virtual v11, Landroid/app/NotificationChannel;->getId()Ljava/lang/String;
+    move-result-object v11
+    invoke-direct v4, v14, v11, Lpg2;-><init>(Landroid/content/Context; Ljava/lang/String;)V
+    move-object v11, v4
+    goto +bh
+    new-instance v4, Lpg2;
+    invoke-virtual v1, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    move-result-object v11
+    invoke-direct v4, v11, v13, Lpg2;-><init>(Landroid/content/Context; Ljava/lang/String;)V
+    goto -bh
+    const-string v4, "title"
+    invoke-virtual v2, v4, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v4
+    check-cast v4, Ljava/lang/String;
+    const-string v14, ""
+    if-nez v4, +003h
+    move-object v4, v14
+    const-string v15, "body"
+    invoke-virtual v2, v15, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v15
+    check-cast v15, Ljava/lang/String;
+    if-nez v15, +003h
+    goto +2h
+    move-object v14, v15
+    const v15, 2131231313
+    iget-object v9, v11, Lpg2;->t Landroid/app/Notification;
+    iput v15, v9, Landroid/app/Notification;->icon I
+    invoke-static v4, Lpg2;->b(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    move-result-object v15
+    iput-object v15, v11, Lpg2;->e Ljava/lang/CharSequence;
+    invoke-static v14, Lpg2;->b(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    move-result-object v15
+    iput-object v15, v11, Lpg2;->f Ljava/lang/CharSequence;
+    const/16 v15, 16
+    invoke-virtual v11, v15, v0, Lpg2;->c(I Z)V
+    iput-object v5, v9, Landroid/app/Notification;->sound Landroid/net/Uri;
+    const/4 v5, -1
+    iput v5, v9, Landroid/app/Notification;->audioStreamType I
+    new-instance v5, Landroid/media/AudioAttributes$Builder;
+    invoke-direct v5, Landroid/media/AudioAttributes$Builder;-><init>()V
+    invoke-virtual v5, v12, Landroid/media/AudioAttributes$Builder;->setContentType(I)Landroid/media/AudioAttributes$Builder;
+    move-result-object v5
+    const/4 v12, 5
+    invoke-virtual v5, v12, Landroid/media/AudioAttributes$Builder;->setUsage(I)Landroid/media/AudioAttributes$Builder;
+    move-result-object v5
+    invoke-virtual v5, Landroid/media/AudioAttributes$Builder;->build()Landroid/media/AudioAttributes;
+    move-result-object v5
+    iput-object v5, v9, Landroid/app/Notification;->audioAttributes Landroid/media/AudioAttributes;
+    iput-object v3, v11, Lpg2;->g Landroid/app/PendingIntent;
+    const-string v3, "image"
+    invoke-virtual v2, v3, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v5
+    check-cast v5, Ljava/lang/String;
+    invoke-virtual v2, v3, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v2
+    check-cast v2, Ljava/lang/String;
+    if-eqz v2, +008h
+    invoke-virtual v2, Ljava/lang/String;->length()I
+    move-result v3
+    if-nez v3, +004h
+    const/4 v9, 3
+    goto +32h
+    sget-object v3, Ljj0;->a Lgf0;
+    sget-object v3, Lfe0;->p Lfe0;
+    new-instance v9, Lj9;
+    const/16 v12, 20
+    invoke-direct v9, v1, v2, v13, v12, Lj9;-><init>(Ljava/lang/Object; Ljava/lang/Object; Lz50; I)V
+    invoke-static v3, v9, Lal;->z(Lm60; Lq41;)Ljava/lang/Object;
+    move-result-object v2
+    check-cast v2, Landroid/graphics/Bitmap;
+    if-eqz v2, +013h
+    new-instance v3, Lng2;
+    const/4 v9, 3
+    invoke-direct v3, v9, Lol;-><init>(I)V
+    new-instance v12, Landroidx/core/graphics/drawable/IconCompat;
+    invoke-direct v12, v0, Landroidx/core/graphics/drawable/IconCompat;-><init>(I)V
+    iput-object v2, v12, Landroidx/core/graphics/drawable/IconCompat;->b Ljava/lang/Object;
+    iput-object v12, v3, Lng2;->q Landroidx/core/graphics/drawable/IconCompat;
+    move-object v12, v3
+    goto +1ah
+    const/4 v9, 3
+    new-instance v3, Log2;
+    invoke-direct v3, v9, Lol;-><init>(I)V
+    invoke-static v14, Lpg2;->b(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    move-result-object v0
+    iput-object v0, v3, Log2;->q Ljava/lang/CharSequence;
+    goto -eh
+    new-instance v3, Log2;
+    invoke-direct v3, v9, Lol;-><init>(I)V
+    invoke-static v14, Lpg2;->b(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    move-result-object v0
+    iput-object v0, v3, Log2;->q Ljava/lang/CharSequence;
+    goto -1ah
+    sget-object v0, Ljj0;->a Lgf0;
+    sget-object v0, Lfe0;->p Lfe0;
+    invoke-static v0, Lke2;->b(Lm60;)Lx50;
+    move-result-object v15
+    new-instance v0, Lft2;
+    move v2, v7
+    move-object v7, v8
+    const/4 v8, 0
+    move-object v3, v4
+    move-object v4, v14
+    invoke-direct/range v0 ... v8, Lft2;-><init>(Lcom/android/vending/helpers/PushService; I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String; Lz50;)V
+    invoke-static v15, v13, v0, v9, Lvo;->r(Ly60; Lm60; Lq41; I)Lcg3;
+    invoke-virtual v11, v12, Lpg2;->e(Lol;)V
+    invoke-virtual v11, Lpg2;->a()Landroid/app/Notification;
+    move-result-object v0
+    invoke-virtual v10, v2, v0, Landroid/app/NotificationManager;->notify(I Landroid/app/Notification;)V
+    return-void 
+    nop 
+    <junk/payload omitted>

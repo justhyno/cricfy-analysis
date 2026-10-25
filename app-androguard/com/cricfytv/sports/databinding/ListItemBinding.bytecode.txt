@@ -1,0 +1,31 @@
+=== bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/ListItemBinding;
+    if-eqz v0, +00ah
+    check-cast v0, Landroid/widget/TextView;
+    new-instance v0, Lcom/cricfytv/sports/databinding/ListItemBinding;
+    invoke-direct v0, Ljava/lang/Object;-><init>()V
+    return-object v0
+    const-string v0, "rootView"
+    invoke-static v0, Llr3;->p(Ljava/lang/String;)V
+    const/4 v0, 0
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater;)Lcom/cricfytv/sports/databinding/ListItemBinding;
+    const/4 v0, 0
+    const/4 v1, 0
+    invoke-static v2, v0, v1, Lcom/cricfytv/sports/databinding/ListItemBinding;->inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/ListItemBinding;
+    move-result-object v2
+    return-object v2
+    nop 
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/ListItemBinding;
+    const v0, 2131558498
+    const/4 v1, 0
+    invoke-virtual v2, v0, v3, v1, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+    move-result-object v2
+    if-eqz v4, +005h
+    invoke-virtual v3, v2, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-static v2, Lcom/cricfytv/sports/databinding/ListItemBinding;->bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/ListItemBinding;
+    move-result-object v2
+    return-object v2
+    <junk/payload omitted>

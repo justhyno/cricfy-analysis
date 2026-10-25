@@ -1,0 +1,37 @@
+=== <init>(Lcom/android/vending/player/CricfyPlayerView; Lcom/android/vending/player/CricfyPlayerView;)V
+    invoke-direct v0, Ljava/lang/Object;-><init>()V
+    iput-object v1, v0, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->a Lcom/android/vending/player/CricfyPlayerView;
+    iput-object v2, v0, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->b Lcom/android/vending/player/CricfyPlayerView;
+    return-void 
+    <junk/payload omitted>
+=== bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    if-eqz v1, +00ah
+    check-cast v1, Lcom/android/vending/player/CricfyPlayerView;
+    new-instance v0, Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    invoke-direct v0, v1, v1, Lcom/cricfytv/sports/databinding/PlayerViewBinding;-><init>(Lcom/android/vending/player/CricfyPlayerView; Lcom/android/vending/player/CricfyPlayerView;)V
+    return-object v0
+    const-string v1, "rootView"
+    invoke-static v1, Llr3;->p(Ljava/lang/String;)V
+    const/4 v1, 0
+    return-object v1
+    nop 
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater;)Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    const/4 v0, 0
+    const/4 v1, 0
+    invoke-static v2, v0, v1, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    move-result-object v2
+    return-object v2
+    nop 
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    const v0, 2131558600
+    const/4 v1, 0
+    invoke-virtual v2, v0, v3, v1, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+    move-result-object v2
+    if-eqz v4, +005h
+    invoke-virtual v3, v2, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-static v2, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    move-result-object v2
+    return-object v2
+    <junk/payload omitted>

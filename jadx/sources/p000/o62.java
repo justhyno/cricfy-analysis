@@ -1,0 +1,171 @@
+package p000;
+
+import android.graphics.Path;
+import java.util.ArrayList;
+
+/* compiled from: r8-map-id-48d9907f4e93732c11cf9c906afc42aa7d1b8bfe35a58b5c97659e3a4b269d57 */
+/* loaded from: classes50.dex */
+public final class o62 implements ok2, i71 {
+
+    /* renamed from: a */
+    public final Path f14534a;
+
+    /* renamed from: b */
+    public final Path f14535b;
+
+    /* renamed from: c */
+    public final Path f14536c;
+
+    /* renamed from: d */
+    public final ArrayList f14537d;
+
+    /* renamed from: e */
+    public final n62 f14538e;
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (1788330501 > 405784) in method: o62.<init>(n62):void, file: classes50.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (1788330501 > 405784)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    public o62(p000.n62 r1) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (1788330501 > 405784) in method: o62.<init>(n62):void, file: classes50.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.o62.<init>(n62):void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition < 0: (-1726183275 < 0) in method: o62.a(android.graphics.Path$Op):void, file: classes50.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition < 0: (-1726183275 < 0)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    /* renamed from: a */
+    public final void m7611a(android.graphics.Path.Op r1) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition < 0: (-1726183275 < 0) in method: o62.a(android.graphics.Path$Op):void, file: classes50.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.o62.m7611a(android.graphics.Path$Op):void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition < 0: (-826688564 < 0) in method: o62.b(java.util.List, java.util.List):void, file: classes50.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition < 0: (-826688564 < 0)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    @Override // p000.h50
+    /* renamed from: b */
+    public final void mo3056b(java.util.List r1, java.util.List r2) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition < 0: (-826688564 < 0) in method: o62.b(java.util.List, java.util.List):void, file: classes50.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.o62.mo3056b(java.util.List, java.util.List):void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (1702791626 > 405784) in method: o62.f(java.util.ListIterator):void, file: classes50.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (1702791626 > 405784)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    @Override // p000.i71
+    /* renamed from: f */
+    public final void mo5086f(java.util.ListIterator r1) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (1702791626 > 405784) in method: o62.f(java.util.ListIterator):void, file: classes50.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.o62.mo5086f(java.util.ListIterator):void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (971267583 > 405784) in method: o62.h():android.graphics.Path, file: classes50.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (971267583 > 405784)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    @Override // p000.ok2
+    /* renamed from: h */
+    public final android.graphics.Path mo5811h() {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (971267583 > 405784) in method: o62.h():android.graphics.Path, file: classes50.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.o62.mo5811h():android.graphics.Path");
+    }
+}

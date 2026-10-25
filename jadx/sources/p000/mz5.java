@@ -1,0 +1,135 @@
+package p000;
+
+import java.util.List;
+
+/* compiled from: r8-map-id-48d9907f4e93732c11cf9c906afc42aa7d1b8bfe35a58b5c97659e3a4b269d57 */
+/* loaded from: classes21.dex */
+public final class mz5 {
+
+    /* renamed from: a */
+    public final boolean f13578a;
+
+    /* renamed from: b */
+    public final boolean f13579b;
+
+    /* renamed from: c */
+    public final boolean f13580c;
+
+    /* renamed from: d */
+    public final boolean f13581d;
+
+    /* renamed from: e */
+    public final List f13582e;
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition < 0: (-1833571326 < 0) in method: mz5.<init>(boolean, boolean, boolean, boolean, java.util.ArrayList):void, file: classes21.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:117)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition < 0: (-1833571326 < 0)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    public mz5(boolean r1, boolean r2, boolean r3, boolean r4, java.util.ArrayList r5) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition < 0: (-1833571326 < 0) in method: mz5.<init>(boolean, boolean, boolean, boolean, java.util.ArrayList):void, file: classes21.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.mz5.<init>(boolean, boolean, boolean, boolean, java.util.ArrayList):void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (1419589556 > 396852) in method: mz5.equals(java.lang.Object):boolean, file: classes21.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:117)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (1419589556 > 396852)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    public final boolean equals(java.lang.Object r1) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (1419589556 > 396852) in method: mz5.equals(java.lang.Object):boolean, file: classes21.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.mz5.equals(java.lang.Object):boolean");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition < 0: (-646418184 < 0) in method: mz5.hashCode():int, file: classes21.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:117)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition < 0: (-646418184 < 0)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    public final int hashCode() {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition < 0: (-646418184 < 0) in method: mz5.hashCode():int, file: classes21.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.mz5.hashCode():int");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (1790238213 > 396852) in method: mz5.toString():java.lang.String, file: classes21.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:117)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (1790238213 > 396852)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    public final java.lang.String toString() {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (1790238213 > 396852) in method: mz5.toString():java.lang.String, file: classes21.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.mz5.toString():java.lang.String");
+    }
+}

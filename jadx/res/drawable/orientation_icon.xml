@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="false"
+        android:drawable="@drawable/exo_icon_fullscreen_enter"/>
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/exo_icon_fullscreen_exit"/>
+</selector>

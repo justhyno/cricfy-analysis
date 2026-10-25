@@ -1,0 +1,8 @@
+=== <init>()V
+    invoke-direct v0, Lr03;-><init>()V
+    return-void 
+    <junk/payload omitted>
+=== b()Lj90;
+=== c()Ldu0;
+=== d()Loo2;
+=== e()Lcg2;

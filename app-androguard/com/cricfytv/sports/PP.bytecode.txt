@@ -1,0 +1,99 @@
+=== <clinit>()V
+    new-instance v0, Lnb4;
+    const/16 v1, 27
+    invoke-direct v0, v1, Lnb4;-><init>(I)V
+    sput-object v0, Lcom/cricfytv/sports/PP;->CREATOR Landroid/os/Parcelable$Creator;
+    return-void 
+    <junk/payload omitted>
+=== <init>(Ljava/util/List;)V
+    invoke-virtual v1, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-direct v0, Ljava/lang/Object;-><init>()V
+    iput-object v1, v0, Lcom/cricfytv/sports/PP;->items Ljava/util/List;
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== copy$default(Lcom/cricfytv/sports/PP; Ljava/util/List; I Ljava/lang/Object;)Lcom/cricfytv/sports/PP;
+    and-int/lit8 v2, v2, 1
+    if-eqz v2, +004h
+    iget-object v1, v0, Lcom/cricfytv/sports/PP;->items Ljava/util/List;
+    invoke-virtual v0, v1, Lcom/cricfytv/sports/PP;->copy(Ljava/util/List;)Lcom/cricfytv/sports/PP;
+    move-result-object v0
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== component1()Ljava/util/List;
+    iget-object v0, v0, Lcom/cricfytv/sports/PP;->items Ljava/util/List;
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== copy(Ljava/util/List;)Lcom/cricfytv/sports/PP;
+    invoke-virtual v1, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    new-instance v0, Lcom/cricfytv/sports/PP;
+    invoke-direct v0, v1, Lcom/cricfytv/sports/PP;-><init>(Ljava/util/List;)V
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== describeContents()I
+    const/4 v0, 0
+    return v0
+    <junk/payload omitted>
+=== equals(Ljava/lang/Object;)Z
+    const/4 v0, 1
+    if-ne v3, v4, +003h
+    return v0
+    instance-of v1, v4, Lcom/cricfytv/sports/PP;
+    const/4 v2, 0
+    if-nez v1, +003h
+    return v2
+    check-cast v4, Lcom/cricfytv/sports/PP;
+    iget-object v3, v3, Lcom/cricfytv/sports/PP;->items Ljava/util/List;
+    iget-object v4, v4, Lcom/cricfytv/sports/PP;->items Ljava/util/List;
+    invoke-static v3, v4, Lrg1;->a(Ljava/lang/Object; Ljava/lang/Object;)Z
+    move-result v3
+    if-nez v3, +003h
+    return v2
+    return v0
+    <junk/payload omitted>
+=== getItems()Ljava/util/List;
+    iget-object v0, v0, Lcom/cricfytv/sports/PP;->items Ljava/util/List;
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== hashCode()I
+    iget-object v0, v0, Lcom/cricfytv/sports/PP;->items Ljava/util/List;
+    invoke-virtual v0, Ljava/lang/Object;->hashCode()I
+    move-result v0
+    return v0
+    nop 
+    <junk/payload omitted>
+=== toString()Ljava/lang/String;
+    iget-object v2, v2, Lcom/cricfytv/sports/PP;->items Ljava/util/List;
+    new-instance v0, Ljava/lang/StringBuilder;
+    const-string v1, "PP(items="
+    invoke-direct v0, v1, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-virtual v0, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    const-string v2, ")"
+    invoke-virtual v0, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v2
+    return-object v2
+    <junk/payload omitted>
+=== writeToParcel(Landroid/os/Parcel; I)V
+    invoke-virtual v2, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    iget-object v1, v1, Lcom/cricfytv/sports/PP;->items Ljava/util/List;
+    invoke-interface v1, Ljava/util/List;->size()I
+    move-result v0
+    invoke-virtual v2, v0, Landroid/os/Parcel;->writeInt(I)V
+    invoke-interface v1, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    move-result-object v1
+    invoke-interface v1, Ljava/util/Iterator;->hasNext()Z
+    move-result v0
+    if-eqz v0, +00ch
+    invoke-interface v1, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Lho2;
+    invoke-virtual v0, v2, v3, Lho2;->writeToParcel(Landroid/os/Parcel; I)V
+    goto -fh
+    return-void 
+    nop 
+    <junk/payload omitted>

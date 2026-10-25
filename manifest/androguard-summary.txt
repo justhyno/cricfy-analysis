@@ -1,0 +1,170 @@
+PKG com.cricfytv.sports 7.1
+CERT ['Common Name: Sona Natwar Walia, Organizational Unit: Single, Organization: Individual, Locality: Calangute, State/Province: Goa, Country: 91']
+SERVICES
+  com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+  io.cashraven.sdk.CashRavenService
+  androidx.work.impl.foreground.SystemForegroundService
+  androidx.work.impl.background.systemjob.SystemJobService
+  com.google.firebase.messaging.FirebaseMessagingService
+  androidx.work.impl.background.systemalarm.SystemAlarmService
+  com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+  com.android.vending.helpers.PushService
+  com.google.android.gms.cast.framework.ReconnectionService
+  androidx.room.MultiInstanceInvalidationService
+  com.google.android.gms.measurement.AppMeasurementJobService
+  com.android.vending.player.FloatingPlayerService
+  com.google.android.gms.measurement.AppMeasurementService
+  com.google.firebase.components.ComponentDiscoveryService
+RECEIVERS
+  androidx.work.impl.diagnostics.DiagnosticsReceiver
+  androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+  androidx.work.impl.background.systemalarm.RescheduleReceiver
+  com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+  androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+  androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+  androidx.mediarouter.media.MediaTransferReceiver
+  com.google.firebase.iid.FirebaseInstanceIdReceiver
+  androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+  io.cashraven.sdk.CrBootReceiver
+  com.google.android.gms.cast.framework.media.MediaIntentReceiver
+  androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+  androidx.profileinstaller.ProfileInstallReceiver
+  com.google.android.gms.measurement.AppMeasurementReceiver
+  androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+PROVIDERS
+  androidx.core.content.FileProvider
+  com.google.firebase.provider.FirebaseInitProvider
+  androidx.startup.InitializationProvider
+PERMS
+  android.permission.ACCESS_ADSERVICES_AD_ID
+  android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+  android.permission.ACCESS_ADSERVICES_TOPICS
+  android.permission.ACCESS_NETWORK_STATE
+  android.permission.ACCESS_WIFI_STATE
+  android.permission.Ad_ID
+  android.permission.BLUETOOTH
+  android.permission.FOREGROUND_SERVICE
+  android.permission.FOREGROUND_SERVICE_DATA_SYNC
+  android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+  android.permission.INTERNET
+  android.permission.POST_NOTIFICATIONS
+  android.permission.QUERY_ALL_PACKAGES
+  android.permission.RECEIVE_BOOT_COMPLETED
+  android.permission.REQUEST_DELETE_PACKAGES
+  android.permission.REQUEST_INSTALL_PACKAGES
+  android.permission.SYSTEM_ALERT_WINDOW
+  android.permission.WAKE_LOCK
+  com.cricfytv.sports.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+  com.google.android.c2dm.permission.RECEIVE
+  com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+  com.google.android.gms.permission.AD_ID
+TOPPKG
+  com.unity3d.ads 1220
+  com.google.protobuf 384
+  com.unity3d.services 336
+  com.sun.jna 127
+  com.google.android 83
+  com.cricfytv.sports 56
+  okhttp3.internal.dns 44
+  okhttp3.internal.connection 43
+  okhttp3.internal.http2 40
+  org.chromium.net 38
+  okhttp3.internal.platform 35
+  org.chromium.support_lib_boundary 34
+  io.cashraven.sdk 33
+  com.android.vending 29
+  com.google.firebase 27
+  android.support.v4 27
+  androidx.recyclerview.widget 23
+  androidx.appcompat.widget 20
+  okhttp3.internal.http 19
+  okhttp3.internal.cache 18
+  com.drake.net 17
+  com.ironsource.adqualitysdk 17
+  androidx.work.impl 16
+  okhttp3.internal.ws 16
+  okhttp3.internal.concurrent 13
+  okhttp3.internal.publicsuffix 10
+  okhttp3.internal.http1 9
+  androidx.media3.decoder 8
+  okhttp3.internal.tls 7
+  com.unity3d.coherence 6
+  androidx.media3.exoplayer 6
+  androidx.media3.ui 5
+  okhttp3.internal.ech 4
+  androidx.mediarouter.app 4
+  androidx.core.app 4
+  okhttp3.internal.idn 4
+  androidx.appcompat.view 3
+  androidx.window.area 3
+  androidx.window.reflection 3
+  androidx.fragment.app 2
+  androidx.core.graphics 2
+  org.koin.androidx 2
+  okhttp3.internal.authenticator 2
+  androidx.appcompat.app 2
+  androidx.graphics.path 2
+  a01 1
+  al4 1
+  b25 1
+  cx4 1
+  d25 1
+  d2 1
+  d40 1
+  dc4 1
+  e25 1
+  fk1 1
+  g2 1
+  gatewayprotocol.v1.AdPlayerConfigRequestKt$Dsl$ExtrasProxy 1
+  gatewayprotocol.v1.AdPlayerConfigRequestOuterClass 1
+  gatewayprotocol.v1.AdPlayerConfigResponseOuterClass 1
+  gatewayprotocol.v1.AdRequestOuterClass$BannerSize$Builder 1
+  gatewayprotocol.v1.AdViewerResponseKt$Dsl$Companion 1
+  gatewayprotocol.v1.AllowedPiiKt 1
+  gatewayprotocol.v1.AllowedPiiOuterClass$AllowedPiiOrBuilder 1
+  gatewayprotocol.v1.AudienceManagementRequestOuterClass$AudienceManagementRequest$Builder 1
+  gatewayprotocol.v1.DiagnosticEventRequestKt 1
+  gatewayprotocol.v1.DiagnosticEventRequestOuterClass$DiagnosticEventOrBuilder 1
+  gatewayprotocol.v1.InitializationCompletedEventRequestKtKt 1
+  gatewayprotocol.v1.InitializationDataOuterClass$InitializationData$Builder 1
+  gatewayprotocol.v1.LifecycleEventRequestKtKt 1
+  gatewayprotocol.v1.MediationInfoOuterClass$MediationInfo$Builder 1
+URLS
+  http://dashif.org/guidelines/last-segment-number
+  http://dashif.org/guidelines/thumbnail_tile
+  http://dashif.org/guidelines/trickmode
+  http://dashif.org/thumbnail_tile
+  http://g.co/dev/packagevisibility.
+  http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+  https://aomedia.org/emsg/ID3
+  https://app-measurement.com/a
+  https://app-measurement.com/s/d
+  https://default.url
+  https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted
+  https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread
+  https://developer.apple.com/streaming/emsg-id3
+  https://developers.cashraven.io
+  https://dokoplay.xyz
+  https://dokoplay.xyz/server_lookup.php?channel_id=premium
+  https://fcmregistrations.googleapis.com/v1/projects/
+  https://firebase.google.com/support/guides/disable-analytics
+  https://firebase.google.com/support/privacy/init-options.
+  https://firebaseinstallations.googleapis.com/v1/
+  https://firebaseremoteconfig.googleapis.com/v1/projects/
+  https://firebaseremoteconfigrealtime.googleapis.com/v1/projects/
+  https://gateway.unityads.unity3d.com/v1
+  https://github.com/androidx/media/issues/1730
+  https://goo.gl/NAOOOI
+  https://goo.gl/NAOOOI.
+  https://google.com/search?
+  https://issuetracker.google.com/issues/241760537
+  https://issuetracker.google.com/issues/new?component=907884&template=1466542
+  https://newembedplay.xyz
+  https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+  https://pscp.tv
+  https://rtstv.xyz
+  https://vk.com
+  https://www.cricbuzz.com/
+  https://www.googleadservices.com/pagead/conversion/app/deeplink?id_type=adid&sdk_version=
+  https://www.hotstar.com/
+  https://youtrack.jetbrains.com/issue/KT-55980

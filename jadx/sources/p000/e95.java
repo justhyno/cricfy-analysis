@@ -1,0 +1,136 @@
+package p000;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.atomic.AtomicReference;
+
+/* compiled from: r8-map-id-48d9907f4e93732c11cf9c906afc42aa7d1b8bfe35a58b5c97659e3a4b269d57 */
+/* loaded from: classes10.dex */
+public final class e95 extends AtomicReference implements Runnable {
+
+    /* renamed from: q */
+    public static final wn0 f6080q = null;
+
+    /* renamed from: r */
+    public static final wn0 f6081r = null;
+
+    /* renamed from: o */
+    public final Callable f6082o;
+
+    /* renamed from: p */
+    public final /* synthetic */ f95 f6083p;
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition < 0: (-41224009 < 0) in method: e95.<init>(f95, java.util.concurrent.Callable):void, file: classes10.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:112)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition < 0: (-41224009 < 0)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    public e95(p000.f95 r1, java.util.concurrent.Callable r2) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition < 0: (-41224009 < 0) in method: e95.<init>(f95, java.util.concurrent.Callable):void, file: classes10.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.e95.<init>(f95, java.util.concurrent.Callable):void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition < 0: (-344428519 < 0) in method: e95.a(java.lang.Thread):void, file: classes10.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:112)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition < 0: (-344428519 < 0)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    /* renamed from: a */
+    public final void m3526a(java.lang.Thread r1) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition < 0: (-344428519 < 0) in method: e95.a(java.lang.Thread):void, file: classes10.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.e95.m3526a(java.lang.Thread):void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (1398422770 > 376268) in method: e95.run():void, file: classes10.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:112)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (1398422770 > 376268)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    @Override // java.lang.Runnable
+    public final void run() {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (1398422770 > 376268) in method: e95.run():void, file: classes10.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.e95.run():void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition < 0: (-35618460 < 0) in method: e95.toString():java.lang.String, file: classes10.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:112)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition < 0: (-35618460 < 0)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    @Override // java.util.concurrent.atomic.AtomicReference
+    public final java.lang.String toString() {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition < 0: (-35618460 < 0) in method: e95.toString():java.lang.String, file: classes10.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.e95.toString():java.lang.String");
+    }
+}

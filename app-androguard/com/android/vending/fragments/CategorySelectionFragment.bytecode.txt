@@ -1,0 +1,132 @@
+=== <clinit>()V
+    new-instance v0, Lis2;
+    const-string v1, "binding"
+    const-string v2, "getBinding()Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;"
+    const-class v3, Lcom/android/vending/fragments/CategorySelectionFragment;
+    invoke-direct v0, v3, v1, v2, Lis2;-><init>(Ljava/lang/Class; Ljava/lang/String; Ljava/lang/String;)V
+    const/4 v1, 1
+    new-array v1, v1, [Lmk1;
+    const/4 v2, 0
+    aput-object v0, v1, v2
+    sput-object v1, Lcom/android/vending/fragments/CategorySelectionFragment;->I0 [Lmk1;
+    return-void 
+    <junk/payload omitted>
+=== <init>()V
+    const v0, 2131558446
+    invoke-direct v4, v0, Lu11;-><init>(I)V
+    new-instance v0, Lzi;
+    const/4 v1, 5
+    invoke-direct v0, v4, v1, Lzi;-><init>(Ljava/lang/Object; I)V
+    iput-object v0, v4, Lgi0;->r0 Lzi;
+    new-instance v0, Lci0;
+    invoke-direct v0, v4, Lci0;-><init>(Lgi0;)V
+    iput-object v0, v4, Lgi0;->s0 Lci0;
+    new-instance v0, Ldi0;
+    invoke-direct v0, v4, Ldi0;-><init>(Lgi0;)V
+    iput-object v0, v4, Lgi0;->t0 Ldi0;
+    const/4 v0, 0
+    iput v0, v4, Lgi0;->u0 I
+    iput v0, v4, Lgi0;->v0 I
+    const/4 v1, 1
+    iput-boolean v1, v4, Lgi0;->w0 Z
+    iput-boolean v1, v4, Lgi0;->x0 Z
+    const/4 v2, -1
+    iput v2, v4, Lgi0;->y0 I
+    new-instance v2, Lei0;
+    invoke-direct v2, v4, Lei0;-><init>(Lgi0;)V
+    iput-object v2, v4, Lgi0;->A0 Lei0;
+    iput-boolean v0, v4, Lgi0;->F0 Z
+    const-class v2, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;
+    invoke-static v4, v2, Lke2;->w(Lu11; Ljava/lang/Class;)Ld31;
+    move-result-object v2
+    iput-object v2, v4, Lcom/android/vending/fragments/CategorySelectionFragment;->G0 Ld31;
+    new-instance v2, Lst;
+    invoke-direct v2, v4, v0, Lst;-><init>(Ljava/lang/Object; I)V
+    new-instance v3, Lvk3;
+    invoke-direct v3, v2, Lvk3;-><init>(La41;)V
+    new-instance v2, Ltt;
+    invoke-direct v2, v3, v0, Ltt;-><init>(Lvk3; I)V
+    new-instance v0, Ltt;
+    invoke-direct v0, v3, v1, Ltt;-><init>(Lvk3; I)V
+    new-instance v1, Lut;
+    invoke-direct v1, v4, v2, v0, Lut;-><init>(Lcom/android/vending/fragments/CategorySelectionFragment; Ltt; Ltt;)V
+    sget-object v0, Lbm1;->p Lbm1;
+    invoke-static v0, v1, Lre2;->I(Lbm1; La41;)Ltl1;
+    move-result-object v0
+    iput-object v0, v4, Lcom/android/vending/fragments/CategorySelectionFragment;->H0 Ltl1;
+    return-void 
+    <junk/payload omitted>
+=== A()V
+    invoke-super v3, Lgi0;->A()V
+    iget-object v3, v3, Lgi0;->B0 Landroid/app/Dialog;
+    if-eqz v3, +01ch
+    invoke-virtual v3, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+    move-result-object v0
+    if-eqz v0, +007h
+    const/4 v1, -1
+    const/4 v2, -2
+    invoke-virtual v0, v1, v2, Landroid/view/Window;->setLayout(I I)V
+    invoke-virtual v3, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
+    move-result-object v3
+    if-eqz v3, +00bh
+    new-instance v0, Landroid/graphics/drawable/ColorDrawable;
+    const/4 v1, 0
+    invoke-direct v0, v1, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
+    invoke-virtual v3, v0, Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    return-void 
+    <junk/payload omitted>
+=== C(Landroid/view/View;)V
+    invoke-virtual v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    iget-object v5, v4, Lcom/android/vending/fragments/CategorySelectionFragment;->H0 Ltl1;
+    invoke-interface v5, Ltl1;->getValue()Ljava/lang/Object;
+    move-result-object v5
+    check-cast v5, Ld04;
+    iget-object v5, v5, Ld04;->g Lng3;
+    invoke-static v5, Lal;->b(Lay0;)Lt60;
+    move-result-object v5
+    iget-object v5, v5, Lap1;->e Ljava/lang/Object;
+    sget-object v0, Lap1;->k Ljava/lang/Object;
+    if-eq v5, v0, +003h
+    goto +2h
+    const/4 v5, 0
+    check-cast v5, Ljava/util/List;
+    if-nez v5, +004h
+    sget-object v5, Lpo0;->o Lpo0;
+    new-instance v0, Landroid/widget/ArrayAdapter;
+    invoke-virtual v4, Lu11;->I()Landroid/content/Context;
+    move-result-object v1
+    const v2, 2131558498
+    invoke-direct v0, v1, v2, v5, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context; I Ljava/util/List;)V
+    iget-object v5, v4, Lcom/android/vending/fragments/CategorySelectionFragment;->G0 Ld31;
+    sget-object v1, Lcom/android/vending/fragments/CategorySelectionFragment;->I0 [Lmk1;
+    const/4 v2, 0
+    aget-object v1, v1, v2
+    invoke-virtual v5, v4, v1, Ld31;->c1(Ljava/lang/Object; Lmk1;)Ljava/lang/Object;
+    move-result-object v5
+    check-cast v5, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;
+    iget-object v1, v5, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;->b Landroid/widget/ListView;
+    iget-object v3, v5, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;->c Lcom/google/android/material/appbar/MaterialToolbar;
+    invoke-virtual v1, v0, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
+    iget-object v5, v5, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;->b Landroid/widget/ListView;
+    new-instance v1, Lrt;
+    invoke-direct v1, v4, Lrt;-><init>(Lcom/android/vending/fragments/CategorySelectionFragment;)V
+    invoke-virtual v5, v1, Landroid/widget/AdapterView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+    new-instance v5, Lpm;
+    const/4 v1, 2
+    invoke-direct v5, v4, v1, Lpm;-><init>(Ljava/lang/Object; I)V
+    invoke-virtual v3, v5, Landroidx/appcompat/widget/Toolbar;->setNavigationOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual v3, Landroidx/appcompat/widget/Toolbar;->getMenu()Landroid/view/Menu;
+    move-result-object v4
+    invoke-virtual v4, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-interface v4, v2, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;
+    move-result-object v4
+    invoke-virtual v4, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-interface v4, Landroid/view/MenuItem;->getActionView()Landroid/view/View;
+    move-result-object v4
+    invoke-virtual v4, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    check-cast v4, Landroidx/appcompat/widget/SearchView;
+    new-instance v5, Lxm4;
+    invoke-direct v5, v0, Lxm4;-><init>(Ljava/lang/Object;)V
+    invoke-virtual v4, v5, Landroidx/appcompat/widget/SearchView;->setOnQueryTextListener(Lz53;)V
+    return-void 
+    <junk/payload omitted>

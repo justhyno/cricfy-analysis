@@ -1,0 +1,294 @@
+=== <init>()V
+    invoke-direct v2, Landroid/app/Application;-><init>()V
+    new-instance v0, Lx6;
+    const/16 v1, 12
+    invoke-direct v0, v2, v1, Lx6;-><init>(Ljava/lang/Object; I)V
+    sget-object v1, Lbm1;->p Lbm1;
+    invoke-static v1, v0, Lre2;->I(Lbm1; La41;)Ltl1;
+    move-result-object v0
+    iput-object v0, v2, Lcom/android/vending/App;->p Ltl1;
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== a(I)Ljava/lang/String;
+    sget-object v0, Ljava/util/Locale;->US Ljava/util/Locale;
+    invoke-virtual v1, v2, Landroid/content/Context;->getColor(I)I
+    move-result v1
+    const v2, 16777215
+    and-int/2addr v1, v2
+    invoke-static v1, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    move-result-object v1
+    filled-new-array v1, [Ljava/lang/Object;
+    move-result-object v1
+    const/4 v2, 1
+    invoke-static v1, v2, Ljava/util/Arrays;->copyOf([Ljava/lang/Object; I)[Ljava/lang/Object;
+    move-result-object v1
+    const-string v2, "#%06X"
+    invoke-static v0, v2, v1, Ljava/lang/String;->format(Ljava/util/Locale; Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+    move-result-object v1
+    return-object v1
+    <junk/payload omitted>
+=== b()Lzu2;
+    new-instance v0, Lgd1;
+    invoke-direct v0, v12, Lgd1;-><init>(Landroid/content/Context;)V
+    iget-object v12, v0, Lgd1;->a Landroid/content/Context;
+    const v1, 2131231630
+    invoke-static v12, v1, Ljl4;->M(Landroid/content/Context; I)Landroid/graphics/drawable/Drawable;
+    move-result-object v2
+    iget-object v3, v0, Lgd1;->b Lef0;
+    invoke-virtual v2, Landroid/graphics/drawable/Drawable;->mutate()Landroid/graphics/drawable/Drawable;
+    move-result-object v2
+    const/16 v4, 32255
+    const/4 v5, 0
+    invoke-static v3, v2, v5, v4, Lef0;->a(Lef0; Landroid/graphics/drawable/Drawable; Landroid/graphics/drawable/Drawable; I)Lef0;
+    move-result-object v2
+    iput-object v2, v0, Lgd1;->b Lef0;
+    invoke-static v12, v1, Ljl4;->M(Landroid/content/Context; I)Landroid/graphics/drawable/Drawable;
+    move-result-object v12
+    iget-object v1, v0, Lgd1;->b Lef0;
+    invoke-virtual v12, Landroid/graphics/drawable/Drawable;->mutate()Landroid/graphics/drawable/Drawable;
+    move-result-object v12
+    const/16 v2, 31743
+    invoke-static v1, v5, v12, v2, Lef0;->a(Lef0; Landroid/graphics/drawable/Drawable; Landroid/graphics/drawable/Drawable; I)Lef0;
+    move-result-object v12
+    iput-object v12, v0, Lgd1;->b Lef0;
+    new-instance v12, Ljava/util/ArrayList;
+    invoke-direct v12, Ljava/util/ArrayList;-><init>()V
+    new-instance v1, Ljava/util/ArrayList;
+    invoke-direct v1, Ljava/util/ArrayList;-><init>()V
+    new-instance v2, Ljava/util/ArrayList;
+    invoke-direct v2, Ljava/util/ArrayList;-><init>()V
+    new-instance v3, Ljava/util/ArrayList;
+    invoke-direct v3, Ljava/util/ArrayList;-><init>()V
+    new-instance v4, Ljava/util/ArrayList;
+    invoke-direct v4, Ljava/util/ArrayList;-><init>()V
+    sget v5, Landroid/os/Build$VERSION;->SDK_INT I
+    const/16 v6, 28
+    if-lt v5, v6, +00bh
+    new-instance v5, Lwc1;
+    invoke-direct v5, Ljava/lang/Object;-><init>()V
+    invoke-virtual v4, v5, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    goto +9h
+    new-instance v5, Lx51;
+    invoke-direct v5, Ljava/lang/Object;-><init>()V
+    invoke-virtual v4, v5, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    new-instance v6, Lx10;
+    invoke-static v12, Lbf4;->E(Ljava/util/List;)Ljava/util/List;
+    move-result-object v7
+    invoke-static v1, Lbf4;->E(Ljava/util/List;)Ljava/util/List;
+    move-result-object v8
+    invoke-static v2, Lbf4;->E(Ljava/util/List;)Ljava/util/List;
+    move-result-object v9
+    invoke-static v3, Lbf4;->E(Ljava/util/List;)Ljava/util/List;
+    move-result-object v10
+    invoke-static v4, Lbf4;->E(Ljava/util/List;)Ljava/util/List;
+    move-result-object v11
+    invoke-direct/range v6 ... v11, Lx10;-><init>(Ljava/util/List; Ljava/util/List; Ljava/util/List; Ljava/util/List; Ljava/util/List;)V
+    iput-object v6, v0, Lgd1;->c Lx10;
+    invoke-virtual v0, Lgd1;->a()Lzu2;
+    move-result-object v12
+    return-object v12
+    nop 
+    <junk/payload omitted>
+=== onCreate()V
+    sget-object v0, Lf70;->a Lf70;
+    sput-object v15, Lf70;->b Lcom/android/vending/App;
+    invoke-static Ljava/lang/Thread;->getDefaultUncaughtExceptionHandler()Ljava/lang/Thread$UncaughtExceptionHandler;
+    move-result-object v1
+    sput-object v1, Lf70;->c Ljava/lang/Thread$UncaughtExceptionHandler;
+    invoke-static v0, Ljava/lang/Thread;->setDefaultUncaughtExceptionHandler(Ljava/lang/Thread$UncaughtExceptionHandler;)V
+    invoke-static Ltb;->l()V
+    invoke-super v15, Landroid/app/Application;->onCreate()V
+    invoke-virtual v15, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+    move-result-object v0
+    const-string v1, "android_id"
+    invoke-static v0, v1, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver; Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v0
+    const/4 v1, 0
+    if-eqz v0, +00eh
+    invoke-static v0, Lsh3;->N(Ljava/lang/CharSequence;)Z
+    move-result v2
+    if-nez v2, +003h
+    goto +2h
+    move-object v0, v1
+    if-eqz v0, +004h
+    move-object v6, v0
+    goto +6h
+    invoke-virtual v15, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    move-result-object v0
+    goto -6h
+    sget-object v2, Lio/cashraven/sdk/CashRaven;->Companion Lio/cashraven/sdk/CashRaven$Companion;
+    const-string v3, "edge.cashraven.io"
+    const-string v5, "97a90ab6b90a5bc3774fa72c34d36cb55c64ed84"
+    invoke-virtual v6, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const v0, 2131099719
+    invoke-virtual v15, v0, Lcom/android/vending/App;->a(I)Ljava/lang/String;
+    move-result-object v7
+    const v0, 2131099721
+    invoke-virtual v15, v0, Lcom/android/vending/App;->a(I)Ljava/lang/String;
+    move-result-object v8
+    const v0, 2131099718
+    invoke-virtual v15, v0, Lcom/android/vending/App;->a(I)Ljava/lang/String;
+    move-result-object v9
+    const v0, 2131099720
+    invoke-virtual v15, v0, Lcom/android/vending/App;->a(I)Ljava/lang/String;
+    move-result-object v10
+    const v0, 2132017196
+    invoke-virtual v15, v0, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    move-result-object v11
+    invoke-virtual v11, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const-string v12, ""
+    const-string v13, ""
+    const-string v14, ""
+    const/16 v4, 9000
+    invoke-virtual/range v2 ... v14, Lio/cashraven/sdk/CashRaven$Companion;->createBranded(Ljava/lang/String; I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Lio/cashraven/sdk/CashRaven;
+    move-result-object v2
+    invoke-virtual v15, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    move-result-object v3
+    invoke-virtual v3, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual v2, v3, Lio/cashraven/sdk/CashRaven;->setAppId(Ljava/lang/String;)V
+    iput-object v2, v15, Lcom/android/vending/App;->o Lio/cashraven/sdk/CashRaven;
+    sget-object v3, Lio/cashraven/sdk/CashRavenService;->Companion Lio/cashraven/sdk/CashRavenService$Companion;
+    new-instance v4, Lio/cashraven/sdk/CashRavenService$Config;
+    const-class v6, Lcom/android/vending/activities/Splash;
+    invoke-virtual v15, v0, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    move-result-object v7
+    invoke-virtual v7, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const v0, 2132017782
+    invoke-virtual v15, v0, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    move-result-object v8
+    invoke-virtual v8, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const v0, 2132017781
+    invoke-virtual v15, v0, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    move-result-object v9
+    invoke-virtual v9, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const v5, 2131231313
+    invoke-direct/range v4 ... v9, Lio/cashraven/sdk/CashRavenService$Config;-><init>(I Ljava/lang/Class; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+    invoke-virtual v3, v2, v4, Lio/cashraven/sdk/CashRavenService$Companion;->configure(Lio/cashraven/sdk/CashRaven; Lio/cashraven/sdk/CashRavenService$Config;)V
+    sget-object v2, Ldx5;->p Ldx5;
+    new-instance v0, Lbb;
+    const/4 v3, 0
+    invoke-direct v0, v15, v3, Lbb;-><init>(Lcom/android/vending/App; I)V
+    monitor-enter v2
+    new-instance v4, Lel1;
+    invoke-direct v4, Lel1;-><init>()V
+    sget-object v5, Ldx5;->q Ltz;
+    if-nez v5, +0e0h
+    iget-object v5, v4, Lel1;->a Ltz;
+    sput-object v5, Ldx5;->q Ltz;
+    invoke-virtual v0, v4, Lbb;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    iget-object v0, v4, Lel1;->a Ltz;
+    invoke-virtual v0, Ltz;->c()V
+    monitor-exit v2
+    const-class v4, Lcom/google/firebase/messaging/FirebaseMessaging;
+    monitor-enter v4
+    invoke-static Lcom/google/firebase/FirebaseApp;->getInstance()Lcom/google/firebase/FirebaseApp;
+    move-result-object v0
+    invoke-static v0, Lcom/google/firebase/messaging/FirebaseMessaging;->getInstance(Lcom/google/firebase/FirebaseApp;)Lcom/google/firebase/messaging/FirebaseMessaging;
+    move-result-object v0
+    monitor-exit v4
+    invoke-virtual v0, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    iget-object v0, v0, Lcom/google/firebase/messaging/FirebaseMessaging;->i Lf85;
+    new-instance v2, Ltq0;
+    const/16 v4, 15
+    invoke-direct v2, v4, Ltq0;-><init>(I)V
+    invoke-virtual v0, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    sget-object v4, Lhm3;->a Ll81;
+    new-instance v5, Lf85;
+    invoke-direct v5, Lf85;-><init>()V
+    new-instance v6, Lys4;
+    invoke-direct v6, v4, v2, v5, Lys4;-><init>(Ljava/util/concurrent/Executor; Lhj3; Lf85;)V
+    iget-object v2, v0, Lf85;->b Lga5;
+    invoke-virtual v2, v6, Lga5;->d(Lu25;)V
+    invoke-virtual v0, Lf85;->q()V
+    invoke-static Lcom/google/firebase/FirebaseApp;->getInstance()Lcom/google/firebase/FirebaseApp;
+    move-result-object v0
+    const-class v2, Lyx2;
+    invoke-virtual v0, v2, Lcom/google/firebase/FirebaseApp;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Lyx2;
+    invoke-virtual v0, Lyx2;->c()Lsw0;
+    move-result-object v0
+    invoke-virtual v0, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual v0, Lsw0;->d()V
+    invoke-virtual v0, Lsw0;->a()Lf85;
+    new-instance v2, Ldb;
+    invoke-direct v2, v0, v3, Ldb;-><init>(Ljava/lang/Object; I)V
+    iget-object v5, v0, Lsw0;->j Ljz5;
+    monitor-enter v5
+    iget-object v4, v5, Ljz5;->p Ljava/lang/Object;
+    check-cast v4, Ljava/util/LinkedHashSet;
+    invoke-interface v4, v2, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+    invoke-virtual v5, Ljz5;->a()V
+    monitor-exit v5
+    sget-object v2, Lzd2;->a Landroid/content/Context;
+    const-string v2, "cric_api2"
+    invoke-virtual v0, v2, Lsw0;->b(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v0
+    const-string v2, "/"
+    invoke-static v0, v2, v3, Lzh3;->s(Ljava/lang/String; Ljava/lang/String; Z)Z
+    move-result v3
+    if-eqz v3, +004h
+    const-string v2, ""
+    invoke-virtual v0, v2, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v0
+    new-instance v2, Lbb;
+    const/4 v3, 1
+    invoke-direct v2, v15, v3, Lbb;-><init>(Lcom/android/vending/App; I)V
+    sput-object v0, Lzd2;->b Ljava/lang/String;
+    sput-object v15, Lzd2;->a Landroid/content/Context;
+    new-instance v15, Lokhttp3/OkHttpClient$Builder;
+    invoke-direct v15, Lokhttp3/OkHttpClient$Builder;-><init>()V
+    invoke-virtual v2, v15, Lbb;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual v15, Lokhttp3/OkHttpClient$Builder;->interceptors()Ljava/util/List;
+    move-result-object v0
+    sget-object v2, Lge2;->a Lge2;
+    invoke-interface v0, v2, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+    move-result v0
+    if-nez v0, +005h
+    invoke-virtual v15, v2, Lokhttp3/OkHttpClient$Builder;->addInterceptor(Lokhttp3/Interceptor;)Lokhttp3/OkHttpClient$Builder;
+    invoke-virtual v15, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
+    move-result-object v15
+    invoke-virtual v15, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual v15, Lokhttp3/OkHttpClient;->interceptors()Ljava/util/List;
+    move-result-object v0
+    invoke-interface v0, v2, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+    move-result v0
+    if-nez v0, +00eh
+    invoke-virtual v15, Lokhttp3/OkHttpClient;->newBuilder()Lokhttp3/OkHttpClient$Builder;
+    move-result-object v15
+    invoke-virtual v15, v2, Lokhttp3/OkHttpClient$Builder;->addInterceptor(Lokhttp3/Interceptor;)Lokhttp3/OkHttpClient$Builder;
+    move-result-object v15
+    invoke-virtual v15, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
+    move-result-object v15
+    sput-object v15, Lzd2;->c Lokhttp3/OkHttpClient;
+    invoke-virtual v15, Lokhttp3/OkHttpClient;->cache()Lokhttp3/Cache;
+    move-result-object v15
+    if-eqz v15, +00eh
+    new-instance v1, Lu01;
+    invoke-static v15, Lokhttp3/OkHttpUtils;->diskLruCache(Lokhttp3/Cache;)Lokhttp3/internal/cache/DiskLruCache;
+    move-result-object v15
+    invoke-virtual v15, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-direct v1, v15, Lu01;-><init>(Lokhttp3/internal/cache/DiskLruCache;)V
+    sput-object v1, Lzd2;->d Lu01;
+    return-void 
+    move-exception v0
+    move-object v15, v0
+    monitor-exit v5
+    throw v15
+    move-exception v0
+    move-object v15, v0
+    monitor-exit v4
+    throw v15
+    move-exception v0
+    move-object v15, v0
+    goto +ah
+    new-instance v15, Lqh;
+    const-string v0, "A Koin Application has already been started"
+    const/4 v1, 2
+    invoke-direct v15, v0, v1, Lqh;-><init>(Ljava/lang/String; I)V
+    throw v15
+    monitor-exit v2
+    throw v15
+    nop 
+    <junk/payload omitted>

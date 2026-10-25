@@ -1,0 +1,1960 @@
+Android
+r28-beta1
+12433566
+N9"PSg0
+__cxa_finalize
+__cxa_atexit
+UNIFFI_META_CR_ANDROID_CALLBACK_INTERFACE_CRLISTENER
+UNIFFI_META_CR_ANDROID_CONSTRUCTOR_CRSHARE_CREATE
+UNIFFI_META_CR_ANDROID_CONSTRUCTOR_CRSHARE_CREATE_BRANDED
+UNIFFI_META_CR_ANDROID_CONSTRUCTOR_CRSHARE_CREATE_HEADLESS
+UNIFFI_META_CR_ANDROID_CONSTRUCTOR_CRSHARE_CREATE_WITH_BRANDING
+UNIFFI_META_CR_ANDROID_ENUM_CONSENTAUTHOR
+UNIFFI_META_CR_ANDROID_ENUM_CRAUTHSTATE
+UNIFFI_META_CR_ANDROID_ENUM_CRCASHOUTSTATUS
+UNIFFI_META_CR_ANDROID_ENUM_CRCHARGINGSTATE
+UNIFFI_META_CR_ANDROID_ENUM_CRCONSENTSTATUS
+UNIFFI_META_CR_ANDROID_ENUM_CREVENTTYPE
+UNIFFI_META_CR_ANDROID_ENUM_CRNETWORKTYPE
+UNIFFI_META_CR_ANDROID_ENUM_CRSERVINGREASON
+UNIFFI_META_CR_ANDROID_FUNC_VERSION
+UNIFFI_META_CR_ANDROID_INTERFACE_CRSHARE
+UNIFFI_META_CR_ANDROID_METHOD_CRLISTENER_ON_EVENT
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_APPLY_CONSENT_CONFIG
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_APP_ID
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_AUTH_STATE
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_AUTH_STATUS
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_AUTOSTART_ENABLED
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_AUTOSTART_SUPPORTED
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_BATTERY
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_CLEAR_LAST_ERROR
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_CLEAR_LISTENER
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_CONSENT_CONFIG_VERSION
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_CONSENT_SCREEN
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_CONSENT_STATUS
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_CONSENT_TEXT
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_CONSENT_THEME
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_DEVICE_ID
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_EARNINGS
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_EVENTS_SINCE
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_EVENT_SEQ
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_HAS_CONSENT_DECISION
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_IS_OPTED_IN
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_IS_PAUSED
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_IS_RUNNING
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_IS_SERVING_ALLOWED
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_LAST_CASH_OUT_ID
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_LAST_ERROR
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_METRICS
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_OPT_IN
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_OPT_OUT
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_PAUSE
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_REPORT_BATTERY
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_REPORT_NETWORK
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_REQUEST_CASH_OUT
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_REQUEST_CASH_OUT_DETAILED
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_RESOLVED_CONSENT
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_RESUME
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_SERVING_STATUS
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_SET_APP_ID
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_SET_AUTOSTART
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_SET_ENABLED
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_SET_LISTENER
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_SET_MBPS
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_START
+UNIFFI_META_CR_ANDROID_METHOD_CRSHARE_STOP
+UNIFFI_META_CR_ANDROID_RECORD_CONSENTCOLORS
+UNIFFI_META_CR_ANDROID_RECORD_CONSENTCOPY
+UNIFFI_META_CR_ANDROID_RECORD_CONSENTCUSTOMIZATION
+UNIFFI_META_CR_ANDROID_RECORD_CONSENTLINK
+UNIFFI_META_CR_ANDROID_RECORD_CONSENTPARAGRAPH
+UNIFFI_META_CR_ANDROID_RECORD_CONSENTUICOLORS
+UNIFFI_META_CR_ANDROID_RECORD_CRAUTHSTATUS
+UNIFFI_META_CR_ANDROID_RECORD_CRBATTERY
+UNIFFI_META_CR_ANDROID_RECORD_CRCASHOUTRESULT
+UNIFFI_META_CR_ANDROID_RECORD_CREVENTINFO
+UNIFFI_META_CR_ANDROID_RECORD_CRSERVINGSTATUS
+UNIFFI_META_CR_ANDROID_RECORD_EARNINGS
+UNIFFI_META_CR_ANDROID_RECORD_MANAGEDCONSENTSCREEN
+UNIFFI_META_CR_ANDROID_RECORD_RESOLVEDCONSENTCOPY
+UNIFFI_META_CR_ANDROID_RECORD_SHAREMETRICS
+UNIFFI_META_NAMESPACE_CR_ANDROID
+ffi_cr_android_rust_future_cancel_f32
+ffi_cr_android_rust_future_cancel_f64
+ffi_cr_android_rust_future_cancel_i16
+ffi_cr_android_rust_future_cancel_i32
+ffi_cr_android_rust_future_cancel_i64
+ffi_cr_android_rust_future_cancel_i8
+ffi_cr_android_rust_future_cancel_pointer
+ffi_cr_android_rust_future_cancel_rust_buffer
+ffi_cr_android_rust_future_cancel_u16
+ffi_cr_android_rust_future_cancel_u32
+ffi_cr_android_rust_future_cancel_u64
+ffi_cr_android_rust_future_cancel_u8
+ffi_cr_android_rust_future_cancel_void
+ffi_cr_android_rust_future_complete_f32
+ffi_cr_android_rust_future_complete_f64
+ffi_cr_android_rust_future_complete_i16
+ffi_cr_android_rust_future_complete_i32
+ffi_cr_android_rust_future_complete_i64
+ffi_cr_android_rust_future_complete_i8
+ffi_cr_android_rust_future_complete_pointer
+ffi_cr_android_rust_future_complete_rust_buffer
+ffi_cr_android_rust_future_complete_u16
+ffi_cr_android_rust_future_complete_u32
+ffi_cr_android_rust_future_complete_u64
+ffi_cr_android_rust_future_complete_u8
+ffi_cr_android_rust_future_complete_void
+ffi_cr_android_rust_future_free_f32
+ffi_cr_android_rust_future_free_f64
+ffi_cr_android_rust_future_free_i16
+ffi_cr_android_rust_future_free_i32
+ffi_cr_android_rust_future_free_i64
+ffi_cr_android_rust_future_free_i8
+ffi_cr_android_rust_future_free_pointer
+ffi_cr_android_rust_future_free_rust_buffer
+ffi_cr_android_rust_future_free_u16
+ffi_cr_android_rust_future_free_u32
+ffi_cr_android_rust_future_free_u64
+ffi_cr_android_rust_future_free_u8
+ffi_cr_android_rust_future_free_void
+ffi_cr_android_rust_future_poll_f32
+ffi_cr_android_rust_future_poll_f64
+ffi_cr_android_rust_future_poll_i16
+ffi_cr_android_rust_future_poll_i32
+ffi_cr_android_rust_future_poll_i64
+ffi_cr_android_rust_future_poll_i8
+ffi_cr_android_rust_future_poll_pointer
+ffi_cr_android_rust_future_poll_rust_buffer
+ffi_cr_android_rust_future_poll_u16
+ffi_cr_android_rust_future_poll_u32
+ffi_cr_android_rust_future_poll_u64
+ffi_cr_android_rust_future_poll_u8
+ffi_cr_android_rust_future_poll_void
+ffi_cr_android_rustbuffer_alloc
+ffi_cr_android_rustbuffer_free
+ffi_cr_android_rustbuffer_from_bytes
+ffi_cr_android_rustbuffer_reserve
+ffi_cr_android_uniffi_contract_version
+uniffi_cr_android_checksum_constructor_crshare_create
+uniffi_cr_android_checksum_constructor_crshare_create_branded
+uniffi_cr_android_checksum_constructor_crshare_create_headless
+uniffi_cr_android_checksum_constructor_crshare_create_with_branding
+uniffi_cr_android_checksum_func_version
+uniffi_cr_android_checksum_method_crlistener_on_event
+uniffi_cr_android_checksum_method_crshare_app_id
+uniffi_cr_android_checksum_method_crshare_apply_consent_config
+uniffi_cr_android_checksum_method_crshare_auth_state
+uniffi_cr_android_checksum_method_crshare_auth_status
+uniffi_cr_android_checksum_method_crshare_autostart_enabled
+uniffi_cr_android_checksum_method_crshare_autostart_supported
+uniffi_cr_android_checksum_method_crshare_battery
+uniffi_cr_android_checksum_method_crshare_clear_last_error
+uniffi_cr_android_checksum_method_crshare_clear_listener
+uniffi_cr_android_checksum_method_crshare_consent_config_version
+uniffi_cr_android_checksum_method_crshare_consent_screen
+uniffi_cr_android_checksum_method_crshare_consent_status
+uniffi_cr_android_checksum_method_crshare_consent_text
+uniffi_cr_android_checksum_method_crshare_consent_theme
+uniffi_cr_android_checksum_method_crshare_device_id
+uniffi_cr_android_checksum_method_crshare_earnings
+uniffi_cr_android_checksum_method_crshare_event_seq
+uniffi_cr_android_checksum_method_crshare_events_since
+uniffi_cr_android_checksum_method_crshare_has_consent_decision
+uniffi_cr_android_checksum_method_crshare_is_opted_in
+uniffi_cr_android_checksum_method_crshare_is_paused
+uniffi_cr_android_checksum_method_crshare_is_running
+uniffi_cr_android_checksum_method_crshare_is_serving_allowed
+uniffi_cr_android_checksum_method_crshare_last_cash_out_id
+uniffi_cr_android_checksum_method_crshare_last_error
+uniffi_cr_android_checksum_method_crshare_metrics
+uniffi_cr_android_checksum_method_crshare_opt_in
+uniffi_cr_android_checksum_method_crshare_opt_out
+uniffi_cr_android_checksum_method_crshare_pause
+uniffi_cr_android_checksum_method_crshare_report_battery
+uniffi_cr_android_checksum_method_crshare_report_network
+uniffi_cr_android_checksum_method_crshare_request_cash_out
+uniffi_cr_android_checksum_method_crshare_request_cash_out_detailed
+uniffi_cr_android_checksum_method_crshare_resolved_consent
+uniffi_cr_android_checksum_method_crshare_resume
+uniffi_cr_android_checksum_method_crshare_serving_status
+uniffi_cr_android_checksum_method_crshare_set_app_id
+uniffi_cr_android_checksum_method_crshare_set_autostart
+uniffi_cr_android_checksum_method_crshare_set_enabled
+uniffi_cr_android_checksum_method_crshare_set_listener
+uniffi_cr_android_checksum_method_crshare_set_mbps
+uniffi_cr_android_checksum_method_crshare_start
+uniffi_cr_android_checksum_method_crshare_stop
+uniffi_cr_android_fn_clone_crshare
+uniffi_cr_android_fn_constructor_crshare_create
+uniffi_cr_android_fn_constructor_crshare_create_branded
+uniffi_cr_android_fn_constructor_crshare_create_headless
+uniffi_cr_android_fn_constructor_crshare_create_with_branding
+uniffi_cr_android_fn_free_crshare
+uniffi_cr_android_fn_func_version
+uniffi_cr_android_fn_init_callback_vtable_crlistener
+uniffi_cr_android_fn_method_crshare_app_id
+uniffi_cr_android_fn_method_crshare_apply_consent_config
+uniffi_cr_android_fn_method_crshare_auth_state
+uniffi_cr_android_fn_method_crshare_auth_status
+uniffi_cr_android_fn_method_crshare_autostart_enabled
+uniffi_cr_android_fn_method_crshare_autostart_supported
+uniffi_cr_android_fn_method_crshare_battery
+uniffi_cr_android_fn_method_crshare_clear_last_error
+uniffi_cr_android_fn_method_crshare_clear_listener
+uniffi_cr_android_fn_method_crshare_consent_config_version
+uniffi_cr_android_fn_method_crshare_consent_screen
+uniffi_cr_android_fn_method_crshare_consent_status
+uniffi_cr_android_fn_method_crshare_consent_text
+uniffi_cr_android_fn_method_crshare_consent_theme
+uniffi_cr_android_fn_method_crshare_device_id
+uniffi_cr_android_fn_method_crshare_earnings
+uniffi_cr_android_fn_method_crshare_event_seq
+uniffi_cr_android_fn_method_crshare_events_since
+uniffi_cr_android_fn_method_crshare_has_consent_decision
+uniffi_cr_android_fn_method_crshare_is_opted_in
+uniffi_cr_android_fn_method_crshare_is_paused
+uniffi_cr_android_fn_method_crshare_is_running
+uniffi_cr_android_fn_method_crshare_is_serving_allowed
+uniffi_cr_android_fn_method_crshare_last_cash_out_id
+uniffi_cr_android_fn_method_crshare_last_error
+uniffi_cr_android_fn_method_crshare_metrics
+uniffi_cr_android_fn_method_crshare_opt_in
+uniffi_cr_android_fn_method_crshare_opt_out
+uniffi_cr_android_fn_method_crshare_pause
+uniffi_cr_android_fn_method_crshare_report_battery
+uniffi_cr_android_fn_method_crshare_report_network
+uniffi_cr_android_fn_method_crshare_request_cash_out
+uniffi_cr_android_fn_method_crshare_request_cash_out_detailed
+uniffi_cr_android_fn_method_crshare_resolved_consent
+uniffi_cr_android_fn_method_crshare_resume
+uniffi_cr_android_fn_method_crshare_serving_status
+uniffi_cr_android_fn_method_crshare_set_app_id
+uniffi_cr_android_fn_method_crshare_set_autostart
+uniffi_cr_android_fn_method_crshare_set_enabled
+uniffi_cr_android_fn_method_crshare_set_listener
+uniffi_cr_android_fn_method_crshare_set_mbps
+uniffi_cr_android_fn_method_crshare_start
+uniffi_cr_android_fn_method_crshare_stop
+memcpy
+pthread_getspecific
+malloc
+pthread_setspecific
+memmove
+memcmp
+memset
+strerror_r
+syscall
+__errno
+pthread_mutex_lock
+pthread_mutex_unlock
+sysconf
+getrlimit
+clock_gettime
+setrlimit
+getsockopt
+strlen
+recvfrom
+connect
+sendto
+socket
+socketpair
+shutdown
+setsockopt
+epoll_ctl
+eventfd
+epoll_create1
+epoll_wait
+dl_iterate_phdr
+munmap
+pthread_attr_destroy
+gettid
+getenv
+getaddrinfo
+gai_strerror
+posix_memalign
+realloc
+calloc
+writev
+pthread_key_create
+pthread_key_delete
+pthread_attr_init
+pthread_attr_setstacksize
+pthread_create
+pthread_join
+lseek64
+getcwd
+sched_getaffinity
+sched_yield
+realpath
+readlink
+getrandom
+freeaddrinfo
+pthread_detach
+fprintf
+fflush
+pthread_rwlock_wrlock
+pthread_rwlock_unlock
+pthread_rwlock_rdlock
+fwrite
+libdl.so
+libm.so
+libc.so
+extraDeniedPorts
+handshake_failed0123456789ABCDEF
+modnarodsetybdet
+device_protected?
+expand 32-byte k;
+n<invalid argumentclear_last_errordistress_mem_pct
+S%1D3HK
+>uespemosarenegyl
+blocked ip range
+.debug_types.dwo\
+${invalid syntax}
+c7Firestorm-M1-Max
+cpu.cfs_quota_us(
+Feroceon-88FR131             at resolved_consentoutside our zone.debug_macro.dwo
+/proc/self/statmCR_ADV_MAX_CONNS
+last_request_usdbandwidthEnabled
+[EOF on self-pipe"
+request_cash_out
+Firestorm-M1-Pro0123456789abcdef
+struct Persisted
+last_cash_out_idvalue is missing
+os_error
+sequenceopted-infd != -1
+earnings
+HOSTNAME
+ethernet
+n<Qualcomm
+extern "set_mbpsa<
+PJ4/PJ4b
+Infineon
+publicIp
+Scorpion
+dayBytesrejected
+ThunderXDenver 2
+Broadcom
+checkboxonchangea stringclientIdmaxConns
+NulError
+mem_high
+.@occupiedUnknown panic!$Invalid CrChargingState enum value: 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/io/scheduled_io.rs
+crates/cr-core/src/protect.rs
+Unknown Error: 
+floating point `
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/alloc/src/sync.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/io/driver.rs
+memory allocation of 
+ bytes failed
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sys/net/connection/socket/mod.rs
+/rust/deps/hashbrown-0.17.1/src/raw.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/net/display_buffer.rs
+/junk data left in buffer after lifting (count: 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_core-0.28.3/src/ffi_converter_traits.rs
+crates/cr-core/src/lib.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/scheduler/multi_thread/handle.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/scheduler/multi_thread/park.rs
+OS can't spawn worker thread: 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/blocking/schedule.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/util/rand/rt.rs
+character `
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/../../backtrace/src/symbolize/gimli/stash.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/../../backtrace/src/symbolize/gimli.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/path.rs
+/rust/deps/gimli-0.32.3/src/read/abbrev.rs
+assertion `left 
+ right` failed: 
+  left: 
+ right: 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/net/ip_addr.rs
+libunwind: %s - %s
+DW_EH_PE_funcrel pointer encoding not supported
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_core-0.28.3/src/ffi/foreignbytes.rs
+missing field `
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_json-1.0.150/src/de.rs
+Worker 
+ closed the connection
+initialization error: 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/num/wrapping.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/num/imp/flt2dec/strategy/dragon.rs
+getSavedFloatRegister
+Callback interface failure: 
+duplicate field `
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/alloc/src/collections/btree/node.rs
+crates/cr-core/src/config_push.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/io/mod.rs
+Worker changed 
+ (after 
+ failed connections)
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/curve25519-dalek-4.1.3/src/edwards.rs
+Bad read on self-pipe: 
+timer error: 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/../../backtrace/src/symbolize/gimli/elf.rs
+assertion `left 
+ right` failed
+  left: 
+ right: 
+libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_core-0.28.3/src/ffi/rustcalls.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/alloc/src/string.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/io/poll_evented.rs
+rehome_refused_
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sysinfo-0.32.1/src/unix/linux/cpu.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/scheduler/mod.rs
+	current: 
+, sub: 
+elapsed=
+; when=
+thread '
+) panicked at 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/net/parser.rs
+start byte index 
+& is not a char boundary; it is inside 
+ (bytes 
+ of string)
+end byte index 
+& is not a char boundary; it is inside 
+ (bytes 
+ of string)
+::ffff:
+libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+CIE version is not 1 or 3
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/alloc/src/collections/btree/navigate.rs
+crates/cr-core/src/limiter.rs
+netguard BLOCK: 
+ resolves into blocked range (SSRF)
+(Refused a tunnel 
+ device protection (
+connect_
+Connected to worker 
+Error(
+, line: 
+, column: 
+/sys/devices/system/cpu/cpu
+/cpufreq/scaling_cur_freq
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/scheduler/multi_thread/queue.rs
+*cannot add more than MAX_PERMITS permits (
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/time/mod.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sys/io/io_slice/iovec.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/../../backtrace/src/symbolize/mod.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/thread/current.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/backtrace.rs
+_Unwind_Resume() can't return
+libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+Can't binary search on variable length encoded data.
+"Caught a panic calling rust code: 
+device_protected_
+Could not reach worker 
+crates/cr-core/src/protocol.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/util/linked_list.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/scheduler/current_thread/mod.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/signal/mod.rs
+*inconsistent park_timeout state, actual = 
+	boolean `
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/unicode/printable.rs
+getULEB128
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/slice/iter.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snow-0.9.6/src/handshakestate.rs
+Error: 
+"inconsistent park state; actual = 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sys/sync/rwlock/futex.rs
+/rust/deps/addr2line-0.25.1/src/function.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/thread/thread.rs
+libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+FDE has zero length
+_Unwind_GetTextRelBase
+Could not resolve 
+config push: checks DISABLED 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sync/mpmc/waker.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/time/entry.rs
+*extension cannot contain path separators: 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/alloc/src/fmt.rs
+truncated uleb128 expression
+libunwind: unsupported .eh_frame_hdr version: %u at %lx
+Failed to convert arg '
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/thread/local.rs
+Encrypted handshake with 
+	 failed (
+ check the server key and PSK
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/thread/scoped.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/fmt/mod.rs
+byte range starts at 
+ but ends at 
+&copy_from_slice: source slice length (
++) does not match destination slice length (
+unsupported arm64 register
+unsupported restore location for register
+getTableEntrySize
+'inconsistent state in unpark; actual = 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/task/harness.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/task/list.rs
+/rust/deps/gimli-0.32.3/src/read/line.rs
+byte index 
+ is not an OsStr boundary
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/../../backtrace/src/backtrace/libunwind.rs
+/rust/deps/rustc-demangle-0.1.27/src/legacy.rs
+removal index (is 
+) should be < len (is 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/slice/memchr.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/slice/sort/shared/smallsort.rs
+*incomplete utf-8 byte sequence from index 
+truncated sleb128 expression
+DW_OP_piece not implemented
+crates/cr-core/src/pubip.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/lib.rs
+config_refused_
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sync/mpmc/list.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/thread/lifecycle.rs
+state error: 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake2-0.10.6/src/lib.rs
+number of added permits (
+) would overflow MAX_PERMITS (
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/park.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/num/imp/dec2flt/decimal_seq.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/num/imp/diy_float.rs
+evaluateExpression
+_Unwind_GetDataRelBase() not implemented
+crates/cr-android/src/lib.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/io/util/write_all.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/loom/std/mod.rs
+!inconsistent park_timeout state: 
+failed to join thread: 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sync/lazy_lock.rs
+ (os error 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/num/imp/flt2dec/strategy/grisu.rs
+unwind_phase2
+malformed uleb128 expression
+unsupported restore location for float register
+crates/cr-core/src/diag.rs
+netguard BLOCK: 
+ blocked address range
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snow-0.9.6/src/params/patterns.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/util/wake_list.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/blocking/shutdown.rs
+string 
+slice index starts at 
+ but ends at 
+libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+DW_EH_PE_aligned pointer encoding not supported
+getSavedRegister
+_Unwind_GetDataRelBase
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sys/sync/once/futex.rs
+&not enough bytes remaining in buffer (
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/net/tcp/stream.rs
+OS Error: 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_json-1.0.150/src/error.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/scheduler/multi_thread/worker.rs
+getRegister
+FDE is really a CIE
+&UnexpectedUniFFICallbackError(reason: 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/sync/watch.rs
+" must be usize, error: 
+	, value: 
+" cannot be set to 0
+8a semaphore may not have more than MAX_PERMITS permits (
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/char/methods.rs
+ index out of bounds: the len is 
+ but the index is 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snow-0.9.6/src/builder.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sync/once.rs
+"advance out of bounds: the len is 
+ but advancing by 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/alloc/src/raw_vec/mod.rs
+invalid utf-8 sequence of 
+ bytes from index 
+libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+"Invalid CrNetworkType enum value: 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/io/registration.rs
+rehomed_to_
+rehome REFUSED (
+ keeping the current pin
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aes-0.8.4/src/soft/fixslice64.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sys/io/error/unix.rs
+libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/task/core.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cipher-0.4.4/src/stream.rs
+prerequisite error: 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/context/runtime.rs
+.unexpected error when polling the I/O driver: 
+/rust/deps/gimli-0.32.3/src/read/index.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sys/random/linux.rs
+9internal error: entered unreachable code: str::from_utf8(
+" was expected to have 1 char, but 
+ chars were found
+/rust/deps/miniz_oxide-0.8.9/src/inflate/core.rs
+unknown pointer encoding
+getSLEB128
+DW_OP_deref_size with bad size
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_core-0.28.3/src/ffi/rustbuffer.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/str/pattern.rs
+Blocked an unsafe target 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sync/mpmc/array.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/scheduler/defer.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/sync/oneshot.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/net/addr.rs
+5fatal runtime error: failed to initiate panic, error 
+, aborting
+memory allocation of 
+G bytes failed
+skipping backtrace printing to avoid potential recursion
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/num/imp/dec2flt/parse.rs
+during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_core-0.28.3/src/ffi/foreigncallbacks.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anyhow-1.0.103/src/error.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/alloc/src/collections/btree/map/entry.rs
+/buf.len() must fit in remaining(); buf.len() = 
+, remaining() = 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/sync/mutex.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sync/mpmc/context.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/curve25519-dalek-4.1.3/src/scalar.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/handle.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/time/wheel/mod.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/panicking.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sys/pal/unix/time.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/ops/function.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/fmt/num.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/num/imp/bignum.rs
+setRegister
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/slice/index.rs
+noise: 
+config_disabled_
+detected public IP: 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/scheduler/multi_thread/mod.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/task/state.rs
+*inconsistent park_timeout state; actual = 
+      [... omitted 
+ frame
+Hcannot access a Thread Local Storage value during or after destruction: 
+&failed to lookup address information: 
+range end index 
+" out of range for slice of length 
+libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+DW_EH_PE_textrel pointer encoding not supported
+DWARF opcode not implemented
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anyhow-1.0.103/src/fmt.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/alloc/src/collections/btree/map.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/io/util/vec_with_initialized.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.6.4/src/os.rs
+invalid value: 
+, expected 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/context.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/sync/notify.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/time/sleep.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/context/blocking.rs
+aborting due to panic at 
+/rust/deps/rustc-demangle-0.1.27/src/lib.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/panicking.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/str/lossy.rs
+libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/io/read_buf.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/net/udp.rs
+worker pin 
+ (edge=
+ workers, consec_fail=
+Worker 
+ refused this device (
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/sync/batch_semaphore.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bytes-1.12.1/src/lib.rs
+/rust/deps/addr2line-0.25.1/src/line.rs
+start byte index 
+' is out of bounds for string of length 
+range start index 
+" out of range for slice of length 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/net/socket_addr.rs
+unknown register
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/io/util/read_to_end.rs
+config push: refused 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/util/sharded_list.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snow-0.9.6/src/types.rs
+/dev/urandom
+	 at line 
+ column 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/time/instant.rs
+/rust/deps/addr2line-0.25.1/src/unit.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sys/thread/unix.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/bstr/mod.rs
+DW_EH_PE_datarel is invalid with a datarelBase of 0
+Unknown DWARF encoding for search table.
+_Unwind_GetTextRelBase() not implemented
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/io/split.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/context/current.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sync/mpmc/zero.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/sync/mpmc/mod.rs
+libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+invalid length 
+, expected 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/slice/sort/stable/quicksort.rs
+crates/cr-core/src/netguard.rs
+rehome: 
+? is in our zone but did not resolve 
+ keeping the current pin
+rehome: 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/alloc/src/str.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cipher-0.4.4/src/stream_core.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/metrics/worker.rs
+/rust/deps/rustc-demangle-0.1.27/src/v0.rs
+libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/itoa-1.0.18/src/lib.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/future/ready.rs
+pattern error: 
+	actual = 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/task/coop/mod.rs
+	integer `
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/../../backtrace/src/symbolize/gimli/lru.rs
+panicked at 
+thread panicked while processing panic. aborting.
+_Unwind_Resume
+libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+CIE ID is not zero
+crates/cr-core/src/secure.rs
+Handshake to 
+	 failed: 
+%invalid park_timeout state, actual = 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/blocking/task.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/os/unix/net/stream.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/num/imp/flt2dec/mod.rs
+CIE start does not match
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_core-0.28.3/src/ffi_converter_impls.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/net/lookup_host.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snow-0.9.6/src/resolvers/default.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snow-0.9.6/src/symmetricstate.rs
+/dev/random
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_json-1.0.150/src/read.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/cell/once.rs
+end byte index 
+' is out of bounds for string of length 
+crates/cr-core/src/consent_remote.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/core/src/time.rs
+config push applied: max_conns=
+ open=
+ max_sockets=
+ free_sockets=
+ temp=
+ sample=
+s day=
+ month=
+ disabled=
+queue is not full; tail = 
+	; head = 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/time/wheel/level.rs
+ " must be valid unicode, error: 
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/ffi/os_str.rs
+/rust/deps/miniz_oxide-0.8.9/src/inflate/output_buffer.rs
+libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+getEncodedP
+DW_OP_fbreg not implemented
+crates/cr-core/src/engine.rs
+netguard BLOCK: 
+ denied port
+CashRaven 
+invalid type: 
+, expected 
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/runtime/blocking/pool.rs
+/home/circleci/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.53.0/src/signal/unix.rs
+/rustc/8bab26f4f68e0e26f0bb7960be334d5b520ea452/library/std/src/thread/id.rs
+libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+uniffi_core::ffi::rustcalls
+[could not resolve to any addressstruct Persisted with 7 elements
+RefCell already mutably borrowed
+assertion failed: !ptr.is_null()assertion failed: idx < CAPACITYenabledtemp_cstatepercentnetworkcustomcolors	
+cr_android
+CrListener`
+Push notification of connection/error events. Implement this and hand it to
+[`CrShare::set_listener`] instead of polling.
+Callbacks arrive on a background thread (never the engine's), so a slow
+implementation can't stall sharing 
+ but marshal to your UI thread yourself.
+Nothing delivered here is fatal: the engine reconnects and re-pins on its own.
+cr_android
+CrShare
+create
+server
+developer_key
+cr_android
+CrShare
+Create a client. Starts **opted-out** 
+ you must present
+[`consent_text`](CrShare::consent_text) and call
+[`opt_in`](CrShare::opt_in) before any traffic is served.
+cr_android
+CrShare
+create_branded
+server
+developer_key
+background
+accent
+cr_android
+CrShare
+Same as [`create`](CrShare::create) but with brand colors for the consent
+screen (`#rrggbb`). The wording + enforcement are unchanged.
+cr_android
+CrShare
+create_headless
+server
+developer_key
+	device_id
+cr_android
+CrShare
+**Headless / embedded integration** for compliance-approved partners who
+present their OWN consent UI and manage the SDK lifecycle themselves (no
+built-in screen, no foreground service). Sets `consent_ui = CustomUi`, so the
+built-in *screen* is skipped 
+ but `opt_in()` is STILL required before any
+traffic flows (call it once your user accepts your consent). Only hand this
+path to apps whose `customConsentUi` was granted in compliance review.
+`device_id` is supplied + persisted **by the host** so identity 
+ and thus
+buyer exit-stickiness, per-device attribution, and billing 
+ stays stable
+across process restarts and dynamic class-loading (where the SDK may have no
+writable storage of its own). Store a stable value yourself and pass it every
+time. Pass `""` to let the SDK manage the id from its data dir (only works if
+it has a writable `CR_DATA_DIR`; otherwise it falls back to an ephemeral id).
+cr_android
+CrShare
+create_with_branding
+server
+developer_key
+colors
+cr_android
+ConsentColors
+custom
+cr_android
+ConsentCustomization
+cr_android
+CrShare
+Same as [`create`](CrShare::create) but with brand colors AND developer
+consent customizations (additive text + button labels). The required
+legal copy stays canonical and is reviewed by compliance.
+cr_android
+ConsentAuthor
+	CashRaven
+Cash Raven's wording 
+ canonical, or published by our compliance team.	Developer
+The developer's own text.
+Who wrote a paragraph of the agreement. Mirrors
+[`cr_core::ParagraphSource`] 
+ a renderer may style them identically, but the
+distinction is what lets compliance audit what a developer added.
+cr_android
+CrAuthState
+Nothing attempted 
+ sharing is stopped.
+Connecting
+Reaching for a worker.
+Authenticating
+Key sent; awaiting the worker's verdict.
+Authenticated
+Accepted.
+Rejected
+Refused. Retrying will not fix it 
+ check `code`.
+Was authenticated; every connection has since dropped.
+Where the device stands with the backend. Mirrors `cr_core::AuthState` and
+`CrAuthState` in `cr_sdk.h`, so one support log reads the same on every
+platform.
+cr_android
+CrCashOutStatus
+	Requested
+Accepted; the admin console pays it out.
+BelowMinimum
+The balance is under the minimum payout.	NoBalance
+Nothing to withdraw.
+Outcome of a cash-out request.
+cr_android
+CrChargingState
+Unknown
+Charging
+Discharging
+Charging state. `Unknown` means the device has no readable battery.
+cr_android
+CrConsentStatus
+NotResponded
+Never asked 
+ show the consent screen.
+Accepted
+Accepted. Still `Accepted` while paused: pausing is not withdrawing.
+Declined
+Asked, said no, and has never accepted.
+Revoked
+Accepted at some point and has since withdrawn.
+Where the user sits in the consent lifecycle. Mirrors `cr_core::ConsentStatus`
+and `CrConsentStatus` in `cr_sdk.h`, so one support log reads the same on
+every platform.
+Distinct from `is_opted_in()`, which answers "may we serve right now" and is
+false for four different reasons 
+ never asked, declined, withdrawn, and
+merely **paused**. A paused user is still `Accepted` here.
+cr_android
+CrEventType
+	Connected
+Disconnected
+WorkerChanged
+	DnsFailed
+ConnectFailed
+HandshakeFailed
+EncryptionFailed
+RejectedByWorker
+The worker accepted then instantly dropped us, repeatedly 
+ almost always
+a developer key that is unknown, disabled, or at its device limit.
+TargetBlocked
+QuotaExceeded
+ProtectionBackoff
+Resumed
+AuthRejected
+The worker EXPLICITLY refused this developer key and said why 
+ on the
+first attempt, unlike [`CrEventType::RejectedByWorker`] which is inferred
+from repeated silent closes. The one failure here that does not heal
+itself: retrying cannot fix a wrong key.
+What happened. Mirrors [`cr_core::CrEventKind`].
+cr_android
+CrNetworkType
+Unknown
+Ethernet
+Mobile
+How this device is currently reaching the internet, as the PLATFORM reports
+ not as we infer it. `Mobile` is the metered one.
+cr_android
+CrServingReason
+Not blocked 
+ sharing (or ready to).
+NotOptedIn
+The user hasn't accepted the agreement, or revoked it.
+Paused
+Consent stands, sharing is switched off (`pause()`).
+NotStarted
+`start()` hasn't been called, or `stop()` was.
+QuotaExceeded
+The daily/monthly data allowance is used up. Resets on its own.
+DeviceBusy
+Distress: system memory is at or above the bar (97% by default). Clears
+on its own, and is server-settable 
+ see `docs/sdk/device-values.md`.	DeviceHot
+Distress: the device is at or above the temperature bar (60 C by
+default). Clears on its own, and is server-settable.
+Why the device isn't sharing. Mirrors [`cr_core::ServingBlockReason`] 
+answer `isServingAllowed()` couldn't give, because a boolean can't tell
+"you never agreed" from "we're waiting for Wi-Fi".
+cr_android
+version
+The Cash Raven SDK version, e.g. `3.0.0 (2026-07-20
+5ed171c)`. Developer-facing
+(Kotlin `version()` / Swift `version()`): lets an integrator confirm which SDK
+build they bundled and display it in a settings/about screen. It refreshes on
+every build 
+ no manual bumping.
+cr_android
+CrShare
+The Android/Apple SDK handle. Construct with [`CrShare::create`], show the
+consent agreement, then drive the opt-in 
+ start 
+ metrics 
+ opt-out cycle.
+cr_android
+CrListener
+on_event
+cr_android
+CrEventInfo
+cr_android
+CrShare
+apply_consent_config
+Hand the core the consent configuration the backend served
+(`GET /api/v1/sdk/consent?key=
+`). The document is parsed, **sanitized**
+and cached next to the device id, so the next launch has the current
+wording before the network answers.
+Returns the config version now in force, or `null` if the JSON was
+malformed (in which case nothing changed 
+ the previous config, or the
+compiled canonical screen, stays). A document OLDER than the one in force
+is ignored and the current version returned, so a replayed response can't
+roll the agreement's wording backwards.
+The Kotlin SDK calls this for you; it is public because the Swift/other
+shells over this crate need the same entry point.
+cr_android
+CrShare
+app_id
+The application identity this client reports ("" = none set).
+cr_android
+CrShare
+auth_state
+cr_android
+CrAuthState
+Where the device stands with the backend.
+Ask this, not `isRunning`, when you want to know whether the developer key
+works: a key the backend refuses still opens sockets, so without this a
+wrong key just looks like a flaky network.
+cr_android
+CrShare
+auth_status
+cr_android
+CrAuthStatus{
+[`auth_state`](CrShare::auth_state) plus, when the key was refused, the
+worker's own reason code and a message you can log.
+cr_android
+CrShare
+autostart_enabled
+Whether such an entry is currently registered.
+cr_android
+CrShare
+autostart_supported
+Whether this platform can register a "start after restart" entry itself.
+cr_android
+CrShare
+battery
+cr_android	CrBatteryC
+The current battery reading, or `null` on hardware with no battery.
+cr_android
+CrShare
+clear_last_error
+Forget the last error (e.g. once the user has seen it).
+cr_android
+CrShare
+clear_listener
+Remove the push listener installed by [`set_listener`](CrShare::set_listener).
+cr_android
+CrShare
+consent_config_version
+The consent-config version in force (`0` = never received one).
+cr_android
+CrShare
+consent_screen
+cr_android
+ManagedConsentScreen
+Everything the SDK's built-in consent screen needs to paint itself.
+Use this 
+ not [`consent_text`](CrShare::consent_text) or
+[`resolved_consent`](CrShare::resolved_consent) 
+ when the SDK owns the
+screen: it carries the colors as well as the copy, and it tells you (via
+[`ManagedConsentScreen::rich_text`]) whether the copy may contain the
+hyperlinks Cash Raven's compliance team put in it.
+cr_android
+CrShare
+consent_status
+cr_android
+CrConsentStatus
+Where the user sits in the consent lifecycle 
+ the authoritative answer,
+so a host never has to keep its own copy. See [`CrConsentStatus`].
+cr_android
+CrShare
+consent_text
+cr_android
+ConsentCopyA
+The consent agreement the app MUST show before sharing can start.
+cr_android
+CrShare
+consent_theme
+cr_android
+ConsentColorsL
+The consent-screen colors to paint (integrator brand or Cash Raven default).
+cr_android
+CrShare	device_id
+The stable device id this client reports to the backend.
+cr_android
+CrShare
+earnings
+cr_android
+Earnings
+The device's current earnings (lifetime bytes 
+ the configured `$/GB`). Drives
+the in-app balance / today / lifetime display for the first-party consumer app.
+cr_android
+CrShare
+events_since
+cr_android
+CrEventInfod
+Events newer than `since`. Pass the `seq` of the last one you handled, or
+0 for everything retained.
+cr_android
+CrShare	event_seq
+The newest event sequence number 
+ cheap to poll to spot "anything new?".
+cr_android
+CrShare
+has_consent_decision
+Whether the user has made a consent decision at all 
+ the question an
+SDK-managed flow asks before deciding to show the screen. Unlike
+[`is_opted_in`](CrShare::is_opted_in) this is true for a recorded DECLINE
+too, so a user who said no isn't asked again on every launch.
+cr_android
+CrShare
+is_opted_in
+True only when the user has consented AND sharing is switched on.
+cr_android
+CrShare	is_paused
+True when the user agreed but sharing is switched off 
+ i.e. paused, as
+distinct from never having opted in.
+cr_android
+CrShare
+is_running
+cr_android
+CrShare
+is_serving_allowed
+Whether the device is sharing right now 
+ consent, pause switch, engine,
+data allowance, your share policy and device protection, all considered.
+Use [`serving_status`](CrShare::serving_status) to find out *why* not.
+cr_android
+CrShare
+last_cash_out_id
+The reference of the most recent accepted cash-out on this device, or
+`null`. Persisted, so it survives restarts.
+cr_android
+CrShare
+last_error
+cr_android
+CrEventInfoz
+The most recent failure, or `null` if nothing has gone wrong. Diagnosis
+ the engine retries and re-pins by itself.
+cr_android
+CrShare
+metrics
+cr_android
+ShareMetrics+
+Live sharing metrics for the app dashboard.
+cr_android
+CrShare
+opt_in
+Record that the user accepted the agreement and switch sharing on.
+cr_android
+CrShare
+opt_out
+Revoke consent and stop sharing. Always available to the user.
+cr_android
+CrShare
+Pause sharing. The agreement, the device id, the pinned worker and the
+earnings balance all survive, so [`resume`](CrShare::resume) continues the
+same session instead of re-registering as a new device. Open tunnels are
+closed 
+ a pause the user can't observe would be a lie.
+cr_android
+CrShare
+report_battery
+percent
+cr_android
+CrChargingState
+temp_c
+Feed a battery/temperature reading from the platform. Fed
+automatically by the SDK's own `BatteryBridge` (from Android's
+`BatteryManager` / `ACTION_BATTERY_CHANGED` broadcast, wired into both
+the headless reference wrapper and the full SDK's internal service) 
+not something an app calls or needs to. Exists because `untrusted_app`
+SELinux policy denies direct `/sys/class/power_supply` access on
+Android (confirmed in every shape that denial takes, including on
+Fire OS), so unlike desktop Linux, Android can't self-sample this the
+way `battery()` implies 
+ see `cr_core::protect`'s module doc.
+`percent: null` specifically means no battery hardware (a TV,
+streaming box) rather than "unknown, be cautious".
+cr_android
+CrShare
+report_network
+network
+cr_android
+CrNetworkType
+Feed the network type from Android's own `ConnectivityManager`.
+Fed automatically by the SDK's `NetworkBridge` 
+ not something an app
+calls. It exists for the same reason `report_battery` does: SELinux
+denies `untrusted_app` the `/proc/net/route` read the core would
+otherwise use, and the denial is permanent for the process. The result
+was that **99.9% of the live fleet reported `unknown` and not one device
+reported cellular**, so the metered throughput column the worker sends
+had never selected on a real device.
+cr_android
+CrShare
+request_cash_out
+Request a cash-out. Returns the USD amount if the balance meets the minimum
+(and zeroes the local balance, like the original app); `null` otherwise.
+Prefer [`request_cash_out_detailed`](CrShare::request_cash_out_detailed) 
+this can't tell the user why a request was refused.
+cr_android
+CrShare
+request_cash_out_detailed
+cr_android
+CrCashOutResult
+Request a cash-out and get the whole outcome: accepted (amount, timestamp
+and a `requestId` for support) or refused, with the reason code and a
+message that names the shortfall.
+cr_android
+CrShare
+resolved_consent
+cr_android
+ResolvedConsentCopy
+The consent copy to render: the canonical agreement with the developer's
+additive customizations merged in (render THIS instead of
+[`consent_text`](CrShare::consent_text) to honor the developer's brand).
+cr_android
+CrShare
+resume
+Resume after [`pause`](CrShare::pause). Never grants consent: a device that
+hasn't opted in stays opted out.
+cr_android
+CrShare
+serving_status
+cr_android
+CrServingStatusn
+Why the device is or isn't sharing 
+ the single blocking reason to show
+the user, with a stable code to log.
+cr_android
+CrShare
+set_app_id
+app_id
+Set the host application's identity 
+ on Android, your `packageName`.
+When you register that id for this app in the developer portal, the worker
+refuses any device reporting a DIFFERENT one, so the developer key stops
+working if it is copied into another project. Call it before [`start`].
+Prefer the Kotlin facade's `CashRaven.create(context, 
+)`, which fills
+this in from `context.packageName` so the value can't drift from the APK
+that is actually running. It is still a value this client sends 
+ strong
+evidence of which app is running, not attestation of it.
+cr_android
+CrShare
+set_autostart
+enabled
+Register/remove the platform autostart entry. Returns false where the
+platform has no mechanism (Android/iOS) 
+ use the SDK's boot receiver there.
+cr_android
+CrShare
+set_enabled
+enabled
+Pause/resume sharing without discarding the recorded agreement.
+[`pause`](CrShare::pause)/[`resume`](CrShare::resume) are the clearer names.
+cr_android
+CrShare
+set_listener
+listener
+cr_android
+CrListener
+Install a push listener for connection/error events, replacing any previous
+one. See [`clear_listener`](CrShare::clear_listener) to remove it.
+cr_android
+CrShare
+set_mbps
+Cap throughput in megabits/second. 0 = unlimited.
+cr_android
+CrShare
+Start the engine (idempotent). Traffic still only flows once opted-in.
+cr_android
+CrShare
+Stop the engine and close all tunnels (idempotent).
+cr_android
+ConsentColors
+background
+accent
+Consent-screen colors (`#rrggbb`), brandable by the integrator. Wording is
+fixed ([`ConsentCopy`]); only these presentation colors can change.
+cr_android
+ConsentCopy
+acknowledgement
+safety
+accept
+decline
+	terms_url
+privacy_url
+eula_url
+The canonical consent agreement, handed to the UI layer so every app renders
+Cash Raven's exact wording. Mirrors [`cr_core::ConsentText`].
+cr_android
+ConsentCustomization
+app_name
+The app's own name, shown as a subheading (empty = omit).
+message
+One optional extra paragraph shown under the intro (additive).
+accept_label
+Optional accept-button relabel (empty = canonical).
+decline_label
+Optional decline-button relabel (empty = canonical).
+Developer consent customizations: additive text + button relabels. The
+required legal copy is NEVER taken from here 
+ it stays canonical. Cash
+Raven's compliance team reviews whatever a developer sets.
+cr_android
+ConsentLink
+One tappable link in the row at the bottom of the consent screen. The list is
+set by Cash Raven's admins, so an SDK must render however many it is given
+rather than assuming Terms/Privacy/EULA.
+cr_android
+ConsentParagraph
+author
+cr_android
+ConsentAuthor
+One paragraph of the agreement, with its author.
+cr_android
+ConsentUiColors
+background
+surface
+accent
+button_text
+The palette the SDK's **built-in** consent screen paints itself with 
+[`ConsentColors`] plus the two values a renderer can't guess: the card fill
+behind the copy and the label color on the accept button.
+Set per app in the developer dashboard and delivered by
+[`CrShare::apply_consent_config`]; falls back to the integrator's branded
+constructor, then to the Cash Raven palette. Mirrors
+[`cr_core::ConsentUiTheme`].
+cr_android
+CrAuthStatus
+cr_android
+CrAuthState
+The state name normally; when `state` is `Rejected`, the worker's own
+reason: `"unknown_key"`, `"key_disabled"`, `"device_cap"`, `"not_consented"`, `"app_identity"`.
+message
+A sentence you can log or show.	transient
+True while the state resolves itself; false only for `Rejected`.?
+Whether the developer key is accepted, and why not if it isn't.
+cr_android	CrBattery
+percent
+cr_android
+CrChargingState
+The device's battery, or `null` on hardware without one.
+cr_android
+CrCashOutResult	
+status
+cr_android
+CrCashOutStatus
+Stable code: `"requested"` | `"below_minimum"` | `"no_balance"`.
+message
+A sentence for the user 
+ names the shortfall when refused.
+request_id
+Support reference, e.g. `co-1a2b3c4d-1753142400`. Empty unless `ok`.
+amount_usd	
+balance_usd	
+min_payout_usd	
+requested_at
+Unix seconds the request was accepted (0 unless `ok`).d
+The full result of a cash-out request 
+ what happened, why, and the reference
+to quote to support.
+cr_android
+CrEventInfo
+Monotonic sequence number 
+ pass the highest you've handled to `eventsSince`.
+at_unix
+Unix seconds when this first occurred.
+last_at_unix
+Unix seconds of the most recent repeat.
+cr_android
+CrEventType
+Stable machine-readable code, e.g. `"rejected_by_worker"`.
+message
+How many identical repeats collapsed into this entry.
+is_error
+Whether this is a failure (vs. routine lifecycle churn).
+One connection or error event.
+cr_android
+CrServingStatus
+allowed
+reason
+cr_android
+CrServingReason
+Stable machine-readable code, e.g. `"quota_exceeded"` 
+ log this.
+message
+A sentence you can show the user as-is.	transient
+True while the condition clears itself (show "waiting
+", not an error).
+False only for the two cases the user must act on: not opted in, not started.>
+The full answer to "is this device sharing, and if not, why?".
+cr_android
+Earnings	
+rate_per_gb	
+USD paid per GB of bandwidth shared, as most recently supplied by the
+SERVER. `0.0` means the device has not been told a rate yet, and the UI
+must show no dollar figure rather than a stale compiled-in one.
+lifetime_bytes
+Total bytes shared over the device's lifetime.
+today_bytes
+Bytes shared today (UTC).
+lifetime_usd	
+Lifetime earnings in USD.	today_usd	
+Today's earnings in USD.
+paid_out_usd	
+USD already requested for cash-out (locally recorded).
+balance_usd	
+Current withdrawable balance in USD.
+min_payout_usd	
+Minimum balance required before a cash-out is allowed.
+can_cash_out
+Whether the balance currently meets the minimum.S
+The device's earnings for the first-party consumer app (see [`CrShare::earnings`]).
+cr_android
+ManagedConsentScreen
+version
+The config revision in force; `0` = compiled-in defaults only (this device
+has never received a document from the backend).
+app_name
+The developer's app name, shown as a subheading (`""` = omit).
+cr_android
+ConsentParagraph
+The agreement in render order 
+ Cash Raven's paragraphs with the
+developer's woven into the gaps they chose. Render them all, in order.
+checkbox
+Label of the tick-box that GATES the accept button.
+accept
+decline
+cr_android
+ConsentLink
+The bottom link row, in order. May be empty.
+colors
+cr_android
+ConsentUiColors
+The colors to render it in.	rich_text
+True when the prose may contain the allowed inline markup 
+ `<a href>`,
+`<b>`, `<i>`, `<u>`, `<br>`. Render it through `Html.fromHtml` when this is
+true (and a link is then tappable); plain text is correct when it is false.
+Everything the SDK's built-in consent screen needs to paint itself: the merged
+wording plus the colors. The merge (canonical copy 
+ Cash Raven's published
+update 
+ the developer's insertions and branding) happens in the core, so a
+shell renders this and decides nothing.
+cr_android
+ResolvedConsentCopy
+app_name
+message
+acknowledgement
+safety
+accept
+decline
+	terms_url
+privacy_url
+eula_url
+The consent copy to actually render: the canonical agreement with the
+developer's additive customizations merged in. Required legal fields
+(`intro`/`acknowledgement`/`safety`/`age` + URLs) are always canonical.
+cr_android
+ShareMetrics		to_target
+from_target
+total_bytes
+open_connections
+free_connections
+total_connections
+	peak_open
+uptime_secs
+	connected
+A snapshot of live sharing activity for the app's dashboard.
+cr_android
+cr_android
+called `Result::unwrap()` on an `Err` valueShare your bandwidth with Cash RavenCash Raven lets this app earn by using a small, capped portion of your device's WiFi bandwidth for vetted use cases. This is optional 
+ you can decline now and opt out at any time.By agreeing below, you acknowledge that your device will be used to relay web traffic (learn how Cash Raven works at cashraven.io/faq).Your personal information is NEVER accessed. The only use of your device is your IP address and a portion of your bandwidth. Read more about our protections at cashraven.io/safety-controls.I am at least 18 years of age, or have a legal guardian's consent to use this application.I agree 
+ start sharinghttps://cashraven.io/legal/terms-of-usehttps://cashraven.io/legal/privacyhttps://cashraven.io/legal/eulacreatecr_androidcreate_brandedcreate_headlesscreate_with_brandingversionapp_idapply_consent_configauth_stateauth_statusautostart_enabledautostart_supportedbatteryclear_listenerconsent_config_versionconsent_screenconsent_statusconsent_textconsent_themedevice_idevent_seqevents_sincehas_consent_decisionis_opted_inis_pausedis_runningis_serving_allowedlast_errormetricsopt_inopt_outpausereport_batteryreport_networkrequest_cash_out_detailedresumeserving_statusset_app_idset_autostartset_enabledset_listenerstart
+bodycodeidlefor<u128Kindmut boolkind/
+nullSometexttrue&gt;maincharenum -> -infNoneshimHOMEhost    hreftype is stopdatalostKryo&lt; as dyn i128wificalled `Result::unwrap()` on an `Err` valueTryFromIntErrorunexpected tag byte for OptionFromUtf8ErrorbyteserrorTryFromIntErrordescription() is deprecated; use Displaycalled `Result::unwrap()` on an `Err` valueTryFromIntErrorFromUtf8ErrorbyteserrorTryFromIntErrorEmptyInvalidDigitPosOverflowNegOverflowZeroNotAPowerOfTwodescription() is deprecated; use Display
+Callback interface method returned unexpected errorinternal error: entered unreachable code: invalid Once stateForeign pointer not set.  This is likely a uniffi bug.unexpected byte for BooleanUtf8Errorvalid_up_toerror_lenUnknown panic!uniffi_core::ffi::rustcallsnull RustBuffer had non-zero lengthnull RustBuffer had non-zero capacityRustBuffer length exceeds capacitydescription() is deprecated; use Displaydescription() is deprecated; use Displaybytes length negative or overflowednull ForeignBytes had non-zero lengthTryFromIntErrorinternal error: entered unreachable code: invalid Once stateEmptyInvalidDigitPosOverflowNegOverflowZeroNotAPowerOfTwo
+Caused by:
+Stack backtrace:
+Sassertion failed: self.is_char_boundary(new_len)backtrace capture faileda Display implementation returned an error unexpectedlyError
+       start of range should be a character boundaryend of range should be a character boundary.local/shareconsent config lock poisonedearnings.json4.1.31f9d7beCR_DATA_DIRcashravendevice_idXDG_DATA_HOMEconsent_config.jsonconsent.json2026-08-19this month'stoday's
+Sharing is paused 
+ data allowance is used up (
+ GB). It resets automatically.
+cr-corecalled `Result::unwrap()` on an `Err` valueassertion failed: self.is_char_boundary(new_len)self_cpu_pctself_rss_mbdistress_temp_cmax_socketsbandwidth_bpssample_secsconfig_versionbattery_pctfree_socketsbackoff_reasontruncateda sequenceinternal error: entered unreachable codelabelurlbackgroundsurfacemutedaccentbuttonTextafterappNameinsertionsmessageacceptLabeldeclineLabelversionthemecustomwordingEdittitleacceptdeclinelinksagreedenabledat_unixever_agreedstruct ConsentRecord with 4 elementslifetime_bytestoday_bytesdaypaid_out_usdlast_request_idlast_request_at
+assertion failed: edge.height == self.node.height - 1fewer elements in arrayassertion failed: src.len() == dst.len()maxOpenConnsmaxSocketsmaxSocketsEnabledfreeSocketsfreeSocketsEnabledreconnectSecsreconnectSecsEnableddistressMemPctdistressMemEnableddistressTempCdistressTempEnabledsampleSecssampleSecsEnableddayBytesEnabledmonthBytesmonthBytesEnabledbandwidthBpsbandwidthBpsMeteredearnRatePerGbversionassertion failed: len > 0assertion failed: old_left_len >= countassertion failed: edge.height == self.height - 1distress_temp_cmax_socketsday_bytesmonth_bytesbandwidthfree_socketsreconnect_secssample_secsPushedConfig
+CR_ALLOW_INTERNALstruct PushedConfiga Display implementation returned an error unexpectedlyError
+ HTTP/1.1
+Host: 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: text/plain
+Connection: close
+called `Result::unwrap()` on an `Err` valuewrite zerookSharingnot_opted_inpausednot_startedquota_exceededdevice_busydevice_hotYou haven't agreed to share bandwidth yet.Sharing is paused.Sharing hasn't been started.This period's data allowance is used up.Paused 
+ the device is low on memory.Paused 
+ the device is warm.a Display implementation returned an error unexpectedlyError`Ready` polled after completionfailed to write whole buffer
+RemoteConsentLinklabelurlRemoteConsentInsertionafterstart
+ Share your bandwidth with Cash RavenCash Raven lets this app earn by using a small, capped portion of your device's WiFi bandwidth for vetted use cases. This is optional 
+ you can decline now and opt out at any time.By agreeing below, you acknowledge that your device will be used to relay web traffic (learn how Cash Raven works at cashraven.io/faq).Your personal information is NEVER accessed. The only use of your device is your IP address and a portion of your bandwidth. Read more about our protections at cashraven.io/safety-controls.I am at least 18 years of age, or have a legal guardian's consent to use this application.I agree 
+ start sharinghttps://cashraven.io/legal/terms-of-usehttps://cashraven.io/legal/privacyhttps://cashraven.io/legal/eula&amp;&quot;bstrongiemua<a href="struct RemoteConsentLinkstruct RemoteConsentThemestruct RemoteConsentInsertionstruct RemoteConsentCustomstruct RemoteConsentstruct RemoteConsentTexta Display implementation returned an error unexpectedlyErrorPoisonError
+@(<:@@@ FH
+B"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+$,@D.@@
+>@@@@@
+internal error: entered unreachable codeno addresses to send data tocr_core::netguarddenied portresolved into blocked rangeno dns answermid > lena Display implementation returned an error unexpectedlyError`Ready` polled after completion
+maxOpenConnsmaxSocketsmaxSocketsEnabledfreeSocketsfreeSocketsEnabledreconnectSecsreconnectSecsEnableddistressMemPctdistressMemEnableddistressTempCdistressTempEnabledsampleSecssampleSecsEnableddayBytesEnabledmonthBytesmonthBytesEnabledbandwidthBpsbandwidthBpsMeteredearnRatePerGbversionfewer elements in map
+c[S,9z
+@(<:@@@ FH
+B"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+$,@D.@@
+>@@@@@
+internal error: entered unreachable codeNoise_NKpsk0_25519_ChaChaPoly_BLAKE2sdevice_at_pushed_caperrordevice_at_capreasonpushed_capdevice_busyquota_exceededRefused a tunnel 
+ the data allowance is used upsyscallconnectblockedall branches are disabled and there is no else branchcr_core::engineinternal error: entered unreachable code: the success arm is handled abovetimed outCR_IGNORE_CONFIG_FRAMEconfig push: unreadable payload, keeping the previous config,rehome_unresolvedCR_REHOME_TEST_HOSTS0.0.0.0:0no addressconnect timeoutcr_core::netguarddenied portresolved into blocked rangeno dns answercalled `Result::unwrap()` on an `Err` valueNotFoundPermissionDeniedConnectionRefusedConnectionResetHostUnreachableNetworkUnreachableConnectionAbortedNotConnectedAddrInUseAddrNotAvailableNetworkDownBrokenPipeAlreadyExistsWouldBlockNotADirectoryIsADirectoryDirectoryNotEmptyReadOnlyFilesystemFilesystemLoopStaleNetworkFileHandleInvalidInputInvalidDataTimedOutWriteZeroStorageFullNotSeekableQuotaExceededFileTooLargeResourceBusyExecutableFileBusyDeadlockCrossesDevicesTooManyLinksInvalidFilenameArgumentListTooLongInterruptedUnsupportedUnexpectedEofOutOfMemoryInProgressOtherUncategorizeda Display implementation returned an error unexpectedlyError
+$internal error: entered unreachable codeinternal error: entered unreachable code: unexpected stagecheckip.amazonaws.com/api.ipify.orgifconfig.me/ipicanhazip.comall branches are disabled and there is no else branchcr_core::engineData allowance used up 
+ sharing paused until it resetsSharing resumedagreedenabledat_unixever_agreedlifetime_bytestoday_bytesdaypaid_out_usdlast_request_idlast_request_at}requestedbelow_minimumno_balanceopted-outdevice_hotdistress_temp_c
+Cash-out of $
+ requested. Reference 
+You need $
+ more to withdraw (minimum $
+, balance $
+You don't have a balance to withdraw yet. Keep sharing to earn.
+COMPUTERNAME/proc/self/statCR_NETWORK_TYPE/proc/net/routestruct ConsentRecordedge.cashraven.io
+clientkeyagreedenableduidoptInStatusencodedEmailisLoadClientnetworksdkVersionappIdfalsemessage.edge.cashraven.iomid > lencalled `Result::unwrap()` on an `Err` valueidprobesemptyaddress, not a hostnamethe zone itself names no workerabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=mnopqrstVWXYZ0uvwxyzABGHIJKLMNCDEFOPQRSTU1789+23456/=abghicdefjklCR_REHOME_SUFFIX_FOR_TESTSABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/handshake serializes:a Display implementation returned an error unexpectedlyError
+$JoinHandle polled after completioninternal error: entered unreachable codeRUST_MIN_STACKcalled `Result::unwrap()` on an `Err` valueconnectingauthenticatingauthenticatedthreads should not terminate unexpectedlySharing has not been started.Connecting to Cash Raven.Verifying the developer key.The developer key was accepted.The developer key was refused. Check it in the developer dashboard.The connection to Cash Raven dropped; reconnecting.
+fatal runtime error: thread result panicked on drop, aborting
+attempt to join into collection with len > usize::MAXmid > lenfilled must not become larger than initializedconnecteddisconnectedworker_changeddns_failedconnect_failedencryption_failedrejected_by_workertarget_blockedquota_exceededprotection_backoffresumedauth_rejectedunknownmobileCR_SDK_VERSION_FOR_TESTScr-eventschargingdischarging4.1.3max_socketsfree_socketsreconnect_secssample_secsday_bytesmonth_bytesbandwidthworker
+Worker 
+# accepted then immediately dropped 
+ connections. The developer key is usually the cause: unknown, disabled, or at its device limit. Verify the key in the developer dashboard.
+autostart is not supported on this platforma Display implementation returned an error unexpectedlyError
+internal error: entered unreachable code
+called `Result::unwrap()` on an `Err` value25519AESGCMEncryption failed!ChaChaPolySHA256ErrorSHA512BLAKE2bBLAKE2s
+assertion failed: key.len() <= self.block_len()called `Result::unwrap()` on an `Err` valueStreamCipherErrorcalled `Result::unwrap()` on an `Err` valueStreamCipherErrorinput errordiffie-hellman errordecrypt errorTooFewParametersUnsupportedHandshakeTypeUnsupportedBaseTypeUnsupportedHashTypeUnsupportedDhTypeUnsupportedCipherTypeInvalidPskUnsupportedModifierValidateKeyLengthsValidatePskLengthsValidateCipherTypesGetRngImplGetDhImplGetCipherImplGetHashImplValidatePskPositionLocalPrivateKeyRemotePublicKeyMissingKeyMaterialMissingPskNotTurnToWriteNotTurnToReadHandshakeNotFinishedHandshakeAlreadyFinishedOneWayStatelessTransportModeExhausted
+8IaiS/
+!#o\oc
+`AC_0p
+a3SeVC
+Q|sQ7v
+	47Cd1
+)i-k;4
+?)$^M+
+<+Q!rh
+bb]^B\
+|t.'16
+1o2pY@	
+`lC\c^
+:]'_Mr
+h<RVC4
+LK\EmO
+\hdA:_
+6{TrEX
+assertion failed: key_size <= U64::to_usize()assertion failed: output_size <= U64::to_usize()assertion failed: salt.len() <= lengthassertion failed: persona.len() <= lengthassertion failed: key_size <= U32::to_usize()assertion failed: output_size <= U32::to_usize()description() is deprecated; use Displaygetrandom: this target is not supportederrno: did not return a positive valueunexpected situationSecRandomCopyBytes: iOS Security framework failureRtlGenRandom: Windows system function failureRDRAND: failed multiple times: CPU issue likelyRDRAND: instruction not supportedWeb Crypto API is unavailableCalling Web API crypto.getRandomValues failedrandSecure: VxWorks RNG module is not initializedNode.js crypto CommonJS module is unavailableCalling Node.js API crypto.randomFillSync failedNode.js ES modules are not directly supported, see https://docs.rs/getrandom#nodejs-es-module-supportErrorinternal_codedescriptionunknown_code
+9Y>)F$
+s\ax}?
+tC7Ddx
+xg^Jp5|
+{zel#|67
+Tf@x"r
+(assertion failed: self.is_char_boundary(new_len) at line EOF while parsing a listEOF while parsing an objectEOF while parsing a stringEOF while parsing a valueexpected `:`expected `,` or `]`expected `,` or `}`expected identexpected valueexpected `"`invalid escapeinvalid numbernumber out of rangeinvalid unicode code pointcontrol character (\u0000-\u001F) found while parsing a stringkey must be a stringinvalid value: expected key to be a number in quotesfloat key must be finite (got NaN or +/-inf)lone leading surrogate in hex escapetrailing commatrailing charactersunexpected end of hex escaperecursion limit exceededa Display implementation returned an error unexpectedlyErroruuuuuuuubtnufruuuuuuuuuuuuuuuuuu
+0123456789abcdefinfNaN00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+wqBv/?
+8>G#g$
+_p&&<Y
+I7Cxl2i5n
+[?/"=~Fr
+_R?Z}5
+)b"=s(
+@OQ]=4
+L|]C5;
+xuRCk?
+/proc/meminfo/proc/stat
++\\\/?\;
+\\\\\\\\\\
+\\\\3\\7\\\\\\G\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\C
+MHzcalled `Result::unwrap()` on an `Err` value/proc/statARM810ARM920ARM922ARM926ARM940ARM946ARM966ARM1020ARM1022ARM1026ARM11 MPCoreARM1136ARM1156ARM1176Cortex-A5Cortex-A7Cortex-A8Cortex-A9Cortex-A17Cortex-A15Cortex-R4Cortex-R5Cortex-R7Cortex-R8Cortex-M0Cortex-M1Cortex-M3Cortex-M4Cortex-M7Cortex-M0+Cortex-A32Cortex-A34Cortex-A53Cortex-A35Cortex-A55Cortex-A65Cortex-A57Cortex-A72Cortex-A73Cortex-A75Cortex-A76Neoverse-N1Cortex-A77Cortex-A76AECortex-R52Cortex-M23Cortex-M33Neoverse-V1Cortex-A78Cortex-A78AECortex-A65AECortex-X1Cortex-A510Cortex-A710Cortex-X2Neoverse-N2Neoverse-E1Cortex-A78CCortex-X1CCortex-A715Cortex-X3Brahma-B15Brahma-B53ThunderX2ThunderX-88XXThunderX-81XXThunderX-83XXThunderX2-99xxSA110SA1100A64FXKunpeng-920DenverCarmelX-GeneKraitFalkor-V1/KryoKryo-V2Kryo-3XX-GoldKryo-3XX-SilverKryo-4XX-GoldKryo-4XX-SilverFalkorSaphiraexynos-m1PJ4B-MPIcestorm-A14Firestorm-A14Icestorm-M1Firestorm-M1Icestorm-M1-ProIcestorm-M1-MaxBlizzard-A15Avalanche-A15Blizzard-M2Avalanche-M2FA526FA626i80200PXA250APXA210Ai80321-400i80321-600PXA250B/PXA26xPXA210Bi80321-400-B0i80321-600-B0PXA250C/PXA255/PXA26xPXA210CPXA27xIPX425-533IPX425-400IPX425-266PXA32xPXA930/PXA935PXA30xPXA31xSA1110IPX1200FTC660FTC661FTC662FTC663/proc/cpuinfoARMCaviumDECFUJITSUHiSiliconMotorola/FreescaleNVIDIAAPMSamsungMarvellAppleFaradayIntelPhytiumAmpereParseIntError
+EmptyInvalidDigitPosOverflowNegOverflowZeroNotAPowerOfTwo
+A Tokio 1.x context was found, but IO is disabled. Call `enable_io` on the runtime builder to enable IO.A Tokio 1.x context was found, but timers are disabled. Call `enable_time` on the runtime builder to enable timers.Arc counter overflowassertion failed: len <= LOCAL_QUEUE_CAPACITYexplicit panicqueue not emptyThe Tokio context thread-local variable has been destroyed.reached max `enter` depthassertion failed: self.tail.is_none()not a CurrentThread handleexpected `MultiThread::Context`expected `CurrentThread::Context`there is no reactor running, must be called from the context of a Tokio 1.x runtimeLevel
+@(<:@@@ FH
+B"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+$,@D.@@
+>@@@@@
+internal error: entered unreachable codeRUST_MIN_STACKTOKIO_WORKER_THREADScalled `Result::unwrap()` on an `Err` valuethreads should not terminate unexpectedlyassertion failed: self.tail.is_none()assertion failed: actual_state == EMPTY || actual_state == NOTIFIEDfatal runtime error: thread result panicked on drop, aborting
+a formatting trait implementation returned an error when the underlying stream did notinternal error: entered unreachable code: unexpected stagewaker missingcalled after completecore missingassertion failed: !handle.is_shutdown()expected MultiThread schedulerOh no! We never placed the Core back, this is a bug!assertion failed: handle.shared.owned.is_empty()Cannot start a runtime from within a runtime. This happens because a function (like `block_on`) attempted to block the current thread while the thread is being used to drive asynchronous tasks.`EnterGuard` values dropped out of order. Guards returned by `tokio::runtime::Handle::enter()` must be dropped in the reverse order as they were acquired.assertion failed: c.runtime.get().is_entered()called `Result::unwrap()` on an `Err` valueassertion failed: sharded_size.is_power_of_two()called `Result::unwrap()` on an `Err` valueassertion failed: shared.shutdown_tx.is_some()`num_idle_threads` underflowed on thread exit[internal exception] blocking task ran twice.park missingcore missinginternal error: entered unreachable codeJoinHandle polled after completionassertion failed: snapshot.is_join_interested()assertion failed: snapshot.is_complete()
+@(<:@@@ FH
+B"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+$,@D.@@
+>@@@@@
+filled overflowearly eofPoisonErrorinternal error: entered unreachable code: invalid Once statefailed to create UnixStream
+@(<:@@@ FH
+B"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+$,@D.@@
+>@@@@@
+assertion failed: curr.is_join_waker_set()assertion failed: curr.is_join_interested()assertion failed: !curr.is_join_waker_set()assertion failed: curr.is_running()assertion failed: next.is_notified()assertion failed: snapshot.ref_count() > 0assertion failed: snapshot.is_join_interested()called `Result::unwrap()` on an `Err` valueassertion failed: prev.ref_count() >= 2assertion failed: !prev.is_complete()assertion failed: prev.is_running()assertion failed: prev.is_join_waker_set()assertion failed: prev.is_complete()assertion failed: prev.ref_count() >= 1inconsistent state in unparkassertion failed: self.ref_count() > 0assertion failed: self.0 <= isize::MAX as usize
+fatal runtime error: thread local panicked on drop, aborting
+the timer is shutdown, must be called from the context of Tokio runtimetimer is at capacity and cannot create a new entrytimer duration exceeds maximum duration
+called `Result::unwrap()` on an `Err` valueRNG seed generator is internally corruptA Tokio 1.x context was found, but it is being shutdown.assertion failed: self.tail.is_none()Cannot drop a runtime in a context where blocking is not allowed. This happens when a runtime is dropped from within an asynchronous context.failed to wake I/O driverfailed to write whole buffer
+@(<:@@@ FH
+B"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+$,@D.@@
+>@@@@@
+mark_pending called when the timer entry is in an invalid stateTimer already firedA Tokio 1.x context was found, but it is being shutdown.tokio-rt-workertask was cancelledtask panickeddescription() is deprecated; use Display
+@(<:@@@ FH
+B"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+$,@D.@@
+>@@@@@
+no addresses to send data to
+ubyte arrayunit valueOption valuenewtype structmapunit variantnewtype varianttuple variantstruct variant.0u16u32u64f64u8a boolean
+<$86<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ (<@*<<
+:<<<<<
+reentrant initstream did not contain valid UTF-8a formatting trait implementation returned an error when the underlying stream did notfailed to fill whole bufferfatal runtime error: initialization or cleanup bug, aborting
+internal error: entered unreachable codefile name contained an unexpected NUL byte<unnamed>__rust_end_short_backtrace__rust_begin_short_backtraces.debug_abbrev.dwo.debug_cu_index.debug_info.dwo.debug_line.dwo.debug_loc.dwo.debug_loclists.dwo.debug_macinfo.dwo.debug_rnglists.dwo.debug_str.dwo.debug_str_offsets.dwo.debug_tu_indexnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+/dev/urandom/sys/fs/cgroup/cpu/sys/fs/cgroup/cpu,cpuacctfatal runtime error: Rust panics must be rethrown, aborting
+fatal runtime error: Rust cannot catch foreign exceptions, aborting
+overflow in Duration::newmid > lencalled `Result::unwrap()` on an `Err` valuetoo many running threads in thread scopefatal runtime error: current thread handle already set during thread spawn, aborting
+failed to allocate read bufferfatal runtime error: assertion failed: key as usize != KEY_SENTVAL, aborting
+invalid timestamptoo many active read locks on RwLockassertion failed: is_unlocked(state)/invalid stack sizeOnce instance has previously been poisonedRUST_LIB_BACKTRACERUST_BACKTRACE.debug_abbrev.debug_addr.debug_aranges.debug_info.debug_line.debug_line_str.debug_loc.debug_loclists.debug_macinfo.debug_macro.debug_ranges.debug_rnglists.debug_str.debug_str_offsets.debug_typesadvancing io slices beyond their lengthadvancing IoSlice beyond its length
+      <unknown>
+.gnu_debuglink.gnu_debugaltlinkmust specify at least one of read, write, or append accesscreating or truncating a file requires write or append accessBox<dyn Any>thread caused non-unwinding panic. aborting.
+failed to write whole bufferstack backtrace:
+note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
+LazyLock instance has previously been poisoneduse of std::thread::current() is not possible after the thread's local data has been destroyedfatal runtime error: init_current() was re-entrant, which indicates a bug in the Rust threading implementation, aborting
+invalid port valueinvalid socket address/proc/self/exeno /proc/self/exe available. Is /proc mounted?/dev/randomfailed to open /dev/randompoll("/dev/random") failedfailed to generate random datathe number of hardware threads is not known for the target platform/proc/self/mapsfatal runtime error: out of TLS keys, aborting
+strerror_r failureassertion failed: len >= size_of::<c::sockaddr_in>()assertion failed: len >= size_of::<c::sockaddr_in6>()/proc/self/mountinfo/proc/self/cgroupcpu.cfs_period_us/sys/fs/cgroupcgroup.controllersfailed to generate unique thread ID: bitspace exhaustedWouldBlockthread name may not contain interior null bytesfatal runtime error: thread local panicked on drop, aborting
+cannot panic during the backtrace functionNotFoundPermissionDeniedConnectionRefusedConnectionResetHostUnreachableNetworkUnreachableConnectionAbortedNotConnectedAddrInUseAddrNotAvailableNetworkDownBrokenPipeAlreadyExistsNotADirectoryIsADirectoryDirectoryNotEmptyReadOnlyFilesystemFilesystemLoopStaleNetworkFileHandleInvalidInputInvalidDataTimedOutWriteZeroStorageFullNotSeekableQuotaExceededFileTooLargeResourceBusyExecutableFileBusyDeadlockCrossesDevicesTooManyLinksInvalidFilenameArgumentListTooLongInterruptedUnsupportedUnexpectedEofOutOfMemoryInProgressOtherUncategorizedunsupported backtracedisabled backtraceOsmessageErrorCustomerroroverflow when adding duration to instantAccessErrorinvalid map entrydescription() is deprecated; use Display
+assertion failed: edge.height == self.node.height - 1assertion failed: src.len() == dst.len()assertion failed: edge.height == self.height - 1K@
+{recursion limit reached}?`fmt::Error`s should be impossible without a `fmt::Formatter`> , internal error: entered unreachable codeCunsafe " -fn() + : punycode{}.llvm.called `Result::unwrap()` on an `Err` value0[]::::{closure:#<>& *const ; (,_false{ {  } = 0x'..= | !nullstr()i8i16i32i64isizeu8u16u32u64usizef32f64!...@.
+{size limit reached}`fmt::Error` from `SizeLimitedFmtAdapter` was discardedSizeLimitExhaustedErrorParseIntErrorEmptyInvalidDigitPosOverflowNegOverflowZeroNotAPowerOfTwo
+Hash table capacity overflow
+dest is out of bounds
+assertion failed: out_pos + 3 < out_slice.len()assertion failed: (source_pos + 3) & out_buf_size_mask < out_slice.len()assertion failed: out_pos + 1 < out_slice.len()assertion failed: (source_pos + 1) & out_buf_size_mask < out_slice.len()assertion failed: out_pos + 2 < out_slice.len()assertion failed: (source_pos + 2) & out_buf_size_mask < out_slice.len()called `Result::unwrap()` on an `Err` valuecapacity overflowa formatting trait implementation returned an error when the underlying stream did notErrorLayoutError
+assertion failed: parts.len() >= 4assertion failed: buf.len() >= MAX_SIG_DIGITS-+NaNinf00.assertion failed: buf.len() >= maxlen
+!$'+.158; { , :  {
+ { .. }, .. }..
+}),]called `Result::unwrap()` on an `Err` valueentity not foundpermission deniedconnection refusedconnection resethost unreachablenetwork unreachableconnection abortednot connectedaddress in useaddress not availablenetwork downbroken pipeentity already existsoperation would blocknot a directoryis a directorydirectory not emptyread-only filesystem or storage mediumfilesystem loop or indirection limit (e.g. symlink loop)stale network file handleinvalid input parameterinvalid datatimed outwrite zerono storage spaceseek on unseekable filequota exceededfile too largeresource busyexecutable file busydeadlockcross-device link or renametoo many linksinvalid filenameargument list too longoperation interruptedunsupportedunexpected end of fileout of memoryin progressother erroruncategorized errorto_digit: invalid radix -- radix must be in the range 2 to 36 inclusiveassertion failed: other > 0assertion failed: noborrow }assertion failed: digits < 400000000000000000000000000000000000000000000000000000000000000000called `Option::unwrap()` on a `None` valuepanic in a destructor during cleanup==!=matchespanic in a function that cannot unwind00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899.[
+)14:EFIJNOde
+ #%&(38:HJLPSUVXZ\^`cefksx}
+./?\]_
+)147:;=IJ]
+)14:;EFIJ^de
+):;EIW[^_de
+INOWY^_
+FGNOXZ\^~
+no7=?BESgu
+attempt to divide by zeroattempt to calculate the remainder with a divisor of zero`async fn` resumed after completion`async fn` resumed after panickingassertion failed: !buf.is_empty()assertion failed: buf[0] > b'0'
+$ + 3 < F(P([(g0s0
+I)I>QSQiQ
+b4jPjmj
+{+{M{p
+L|]C5;
+{[o>Z[
+ih0sUr
+_R?Z}5
+'sv]U&
+8>G#g$
+?/"=~Fr
+7Cxl2i5n
+g&yR?V
+_p&&<Y.
+wqBv/?
+Wuser-provided comparison function does not correctly implement a total order
+assertion failed: d.mant > 0assertion failed: d.mant < (1 << 61)assertion failed: d.minus > 0assertion failed: d.plus > 0assertion failed: d.mant + d.plus < (1 << 61)assertion failed: d.mant.checked_sub(d.minus).is_some()assertion failed: d.mant.checked_add(d.plus).is_some()
+cannot parse integer from empty stringinvalid digit found in stringnumber too large to fit in target typenumber too small to fit in target typenumber would be zero for non-zero typenumber is not a power of two0xErrorout of range integral type conversion attemptedcannot convert float seconds to Duration: value is negativecannot convert float seconds to Duration: value is either too big or NaNfalse::RefCell already borrowed
+TTi)8(
+Zs2A9	i!
+*ia8_)
+R	i!8v
+R	i68j
+R	i48v
+R	i!8j
+?aA9?)@
+?aA9?)@
+Mii8n!
+Mii8n!
+Mii8n!
+Mii8n!
+7ih8i*B
+T+ij8k
+T+ij8k
+T+ik8k
+T*ik8L
+T+ij8k
+T*ik8L
+T+ij8k
+y xl&@
++yhxJ	
+-@@9)(@
++%@xJ	
+6i(xh2@
+hBB9?	
+h*D9t*
+@87ie8
+TEi`8$id8
+hl8'j`8
+_8'i`8
+TL	@9?
+ N%4%n&4&n
+9J:d1Sz
+@8Gic8
+Tci`8Bib8
+hm8'jc8c
+T,	@9_
++ih8J	
++ih8J	
++yhxJ	
++yhxJ	
+T*AA9_
+9	 @9?
+T*AA9_
++ih8J	
++ih8J	
+9	 @9?
+T*AA9_
++ih8J	
++yhxJ	
+h"H9v"
+ThbF9|b
+`rByhB
++yhxJ	
+h#\9	g
+9j#J9_
+T*AA9_
+4*AA9_
+4*AA9_
+h#K9ho
+ThcD9(
+9j#J9_
+T*AA9_
+ N%4%n&4&n
++ih8J	
++yhxJ	
++yhxJ	
+T*AA9_
+9	 @9?
+T*AA9_
++ih8J	
+4	IG9?
+4)E@9?
+T_S@9\
+C9Xo[)ZS
+C9Xo[)ZS
+ N%4%n&4&n
+Z?AHkH
+ N%4%n&4&n
+Lyixk	
+@9Xkj8
++yhxJ	
++yhxJ	
+T*AA9_
+9	 @9?
+T*AA9_
++ih8J	
++yhxJ	
++yhxJ	
+T*AA9_
+9	 @9?
+T*AA9_
++ih8J	
+hbA9s*@
+<-%@y+
+B),9@y
+T?S@94
+T?S@94WY)6_Z)9S
+?S@94WY)6_Z)`
+T?S@98
+C96_[)9S
+C96_[)
+<k$@y(
+B)k8@y
+ C9	 @
+@9nih8
+X n!X n
+X n!X n
+X n!X ncX n
+X nK!J
+X n1 A
+X ncX n
+=!X nB
+=bX n!X n1
+@9. @9)$@9*(@9
+@9(,@9
+@9-0@9
+E @914@9
+J$@9k!
+O0@9P(@9
+-<@9jA
+@9f @9)
+O8@91@
+e(@9/B
+@9q0@9-@
+@9a4@9
+ @9B<@9
+$@9a8@9
+8@9a,@9
+#I)!(YJ
+J1*[J,
+J<)SJBX
+T	i`8)
+4XF)B!
+!NBX NcX NB( nc( nB(`nc(`nB(
+zix*{jx
+zkx({hxI
+Tjji8J
++ih8J	
+y-Ymx-
+*(Yhx(
+MYmxNYnx- 
+yHYhxi
+yIYix)
+iYix)h(x
+Rhj48`
+jyhx)	
+Thki8(&
+@8nkj8
+j`8hkh8?
+Thki8(&
+@8mki8
+T+	@9_
+R-i+8	
++ih8J	
+*hb@9H
+@9hb@9
+@9hb@9
++ih8J	
++ih8J	
+5	LA))E	Jj~
++ih8J	
++ih8J	
++ih8J	
+*i"@9`
+R,eJy.a
+R)@D9\
+@9IA	*j
+R*i38s
+R*i!8!
+RIi38s
+,ih8J	
+,ih8J	
++ih8J	
+u$A9j8C
+MeJyOa
+,yjxk	
+T-	@9+5@xJ
+T+%@xL	
+@9IA	*j
+@9IA	*j
+@9IA	*j
+@9IA	*j
+@9IA	*j
+@9IA	*j
+@9IA	*j
+@9IA	*j
+@9IA	*j
+!@9		@
+*!@9(	@
+CA@9DE@9
+@9.	@9
+@9*	@y+
+neJypa
+MeJyOa
+@9IA	*j
+@9IA	*j
+*Jkh8?
+@9IA	*j
+IQ@x(A
+IQ@x(A
+T+)@9,
+@9IA	*j
++eJy-a
+T5!@)3!
+@9*	@y3A
+Ti8@yh
+(0@y	&
++yhxJ	
+!@9?@@
+*%A9_!
+J @9I$@9
+RI4@9J,@9
+RJ,@9I4@9_
+RJ,@9I4@9_
+7H4@9H
+!X NcX NBX N
+( n!( nc( nB( n
+( n!(`nc(`nB(`n
+jji8_)
++ih8J	
+T kz8b
+T kz8b
++ih8J	
++ih8J	
+@8Gic8)
+i`8Iii8
+@8Sid8
+_8Gi`8
++%@9))
+	%@x((
+*eJy_-
+T)ij8?
+2iii8J
+9min8N
+T)ih8?
+@8Gib8)
+Tbi`8Iii8_
+@8Fi`8)
+Tii`8Dh`8
+T,	@9_
+T)ik8?
+T)ik8?
+T*ih8_	
+)ih8?%
+T)ih8?
+T+	@9_
+Tm	@9?
+7l}	Sk!
+)ih8Jyhx
+7+}	S)!
+7K}	SJ!
+9	hi8		
+9Hkh8h	
+Rjii8N
+9jij8iii8lil8
+2jij8)
+1rT9!pT9?
+*hp8J(
+*yjx*h"x
+@9(h"8
+Z n5Z nZZ nvX n
+#X nDX n!
+Z7#N{7#N\
+Z7#N{7#N\
+R*hh8_
+@NBX nA(a
+TLil8)	
+Tmim8J	
+Tuj!8!
+@9Ii(8i
+*ik8_)
+T*ik8_)
+Ti	@9_
+SKil8,
+@9(i*8
+@9(i*8H
+@9ji,8J
+SKil8,
+SKil8,
+SKil8,
+SKil8,
+SKil8,
+SKil8,
+SKil8,
+SKil8,
+SKil8,
+@9`1Nz
+@9`1Nz
+Android (12328485, +pgo, +bolt, +lto, +mlgo, based on r530567) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+Linker: LLD 19.0.0
+rustc version 1.97.1 (8bab26f4f 2026-07-14)
+.fini_array
+.comment
+.note.android.ident
+.got.plt
+.rela.plt
+.dynstr
+.eh_frame_hdr
+.gnu.version_r
+.data.rel.ro
+.rela.dyn
+.gnu.version
+.dynsym
+.gnu.hash
+.relro_padding
+.eh_frame
+.gcc_except_table
+.dynamic
+.shstrtab
+.rodata

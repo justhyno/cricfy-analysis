@@ -1,0 +1,77 @@
+package p000;
+
+/* loaded from: classes49.dex */
+public final class dz0 extends c60 {
+
+    /* renamed from: o */
+    public qy0 f5812o;
+
+    /* renamed from: p */
+    public /* synthetic */ Object f5813p;
+
+    /* renamed from: q */
+    public int f5814q;
+
+    /* renamed from: r */
+    public final /* synthetic */ qy0 f5815r;
+
+    /* renamed from: s */
+    public Object f5816s;
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (380530238 > 383928) in method: dz0.<init>(qy0, z50):void, file: classes49.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (380530238 > 383928)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    public dz0(p000.qy0 r1, p000.z50 r2) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (380530238 > 383928) in method: dz0.<init>(qy0, z50):void, file: classes49.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.dz0.<init>(qy0, z50):void");
+    }
+
+    /*  JADX ERROR: Method load error
+        jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (2113923380 > 383928) in method: dz0.invokeSuspend(java.lang.Object):java.lang.Object, file: classes49.dex
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+        	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+        	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+        	at jadx.core.ProcessClass.generateCode(ProcessClass.java:109)
+        	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+        	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+        	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+        Caused by: java.lang.IllegalArgumentException: newPosition > limit: (2113923380 > 383928)
+        	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+        	at java.base/java.nio.Buffer.position(Buffer.java:327)
+        	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+        	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+        	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+        	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+        	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+        	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+        	... 6 more
+        */
+    @Override // p000.ql
+    public final java.lang.Object invokeSuspend(java.lang.Object r1) {
+        /*
+        // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (2113923380 > 383928) in method: dz0.invokeSuspend(java.lang.Object):java.lang.Object, file: classes49.dex
+        */
+        throw new UnsupportedOperationException("Method not decompiled: p000.dz0.invokeSuspend(java.lang.Object):java.lang.Object");
+    }
+}

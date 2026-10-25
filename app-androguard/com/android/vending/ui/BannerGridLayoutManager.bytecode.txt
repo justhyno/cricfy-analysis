@@ -1,0 +1,40 @@
+=== <init>(Landroid/content/Context; I Landroidx/recyclerview/widget/j;)V
+    invoke-direct v2, v3, v4, Landroidx/recyclerview/widget/GridLayoutManager;-><init>(Landroid/content/Context; I)V
+    iput-object v5, v2, Lcom/android/vending/ui/BannerGridLayoutManager;->Q Landroidx/recyclerview/widget/j;
+    new-instance v0, Lkl;
+    const/4 v1, 0
+    invoke-direct v0, v3, v1, Lkl;-><init>(Landroid/content/Context; I)V
+    new-instance v3, Lvk3;
+    invoke-direct v3, v0, Lvk3;-><init>(La41;)V
+    iput-object v3, v2, Lcom/android/vending/ui/BannerGridLayoutManager;->R Lvk3;
+    if-eqz v5, +009h
+    new-instance v3, Lll;
+    invoke-direct v3, v2, v4, Lll;-><init>(Lcom/android/vending/ui/BannerGridLayoutManager; I)V
+    iput-object v3, v2, Landroidx/recyclerview/widget/GridLayoutManager;->K Lzb;
+    return-void 
+    <junk/payload omitted>
+=== Y(Landroid/view/View; I)V
+    invoke-virtual v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    iget-object v0, v4, Lcom/android/vending/ui/BannerGridLayoutManager;->R Lvk3;
+    invoke-virtual v0, Lvk3;->getValue()Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Ljava/lang/Boolean;
+    invoke-virtual v0, Ljava/lang/Boolean;->booleanValue()Z
+    move-result v0
+    if-eqz v0, +01eh
+    invoke-static v5, Landroidx/recyclerview/widget/k;->G(Landroid/view/View;)I
+    move-result v5
+    invoke-virtual v4, Landroidx/recyclerview/widget/k;->B()I
+    move-result v0
+    iget v1, v4, Landroidx/recyclerview/widget/GridLayoutManager;->F I
+    add-int v2, v5, v1
+    const/16 v3, 130
+    if-ne v6, v3, +00eh
+    if-le v5, v1, +00ch
+    if-ge v2, v0, +00ah
+    invoke-virtual v4, v2, Landroidx/recyclerview/widget/LinearLayoutManager;->r0(I)V
+    goto +5h
+    move-exception v4
+    invoke-virtual v4, Ljava/lang/Throwable;->printStackTrace()V
+    return-void 
+    <junk/payload omitted>

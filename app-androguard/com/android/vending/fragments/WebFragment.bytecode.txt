@@ -1,0 +1,150 @@
+=== <clinit>()V
+    new-instance v0, Lis2;
+    const-string v1, "binding"
+    const-string v2, "getBinding()Lcom/cricfytv/sports/databinding/FragmentWebBinding;"
+    const-class v3, Lcom/android/vending/fragments/WebFragment;
+    invoke-direct v0, v3, v1, v2, Lis2;-><init>(Ljava/lang/Class; Ljava/lang/String; Ljava/lang/String;)V
+    const/4 v1, 1
+    new-array v1, v1, [Lmk1;
+    const/4 v2, 0
+    aput-object v0, v1, v2
+    sput-object v1, Lcom/android/vending/fragments/WebFragment;->t0 [Lmk1;
+    return-void 
+    <junk/payload omitted>
+=== <init>()V
+    const v0, 2131558492
+    invoke-direct v4, v0, Lu11;-><init>(I)V
+    const-class v0, Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    invoke-static v4, v0, Lke2;->w(Lu11; Ljava/lang/Class;)Ld31;
+    move-result-object v0
+    iput-object v0, v4, Lcom/android/vending/fragments/WebFragment;->q0 Ld31;
+    new-instance v0, Lcb2;
+    const-class v1, Lo24;
+    invoke-static v1, Lpw2;->a(Ljava/lang/Class;)Lvx;
+    move-result-object v1
+    new-instance v2, Lst;
+    const/16 v3, 10
+    invoke-direct v2, v4, v3, Lst;-><init>(Ljava/lang/Object; I)V
+    invoke-direct v0, v1, v2, Lcb2;-><init>(Lvx; Lst;)V
+    iput-object v0, v4, Lcom/android/vending/fragments/WebFragment;->r0 Lcb2;
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== C(Landroid/view/View;)V
+    invoke-virtual v6, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual v5, Lcom/android/vending/fragments/WebFragment;->O()Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    move-result-object v6
+    iget-object v0, v6, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->a Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    new-instance v1, Lof1;
+    const/16 v2, 28
+    invoke-direct v1, v6, v2, Lof1;-><init>(Ljava/lang/Object; I)V
+    invoke-virtual v0, v1, Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;->setOnChildScrollUpCallback(Lnk3;)V
+    iget-object v0, v6, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->a Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    new-instance v1, Lof1;
+    const/16 v2, 29
+    invoke-direct v1, v5, v2, Lof1;-><init>(Ljava/lang/Object; I)V
+    invoke-virtual v0, v1, Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;->setOnRefreshListener(Lok3;)V
+    iget-object v0, v6, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->c Landroid/webkit/WebView;
+    invoke-virtual v0, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
+    move-result-object v1
+    const/4 v2, 1
+    invoke-virtual v1, v2, Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
+    invoke-virtual v1, v2, Landroid/webkit/WebSettings;->setDomStorageEnabled(Z)V
+    invoke-virtual v1, v2, Landroid/webkit/WebSettings;->setJavaScriptCanOpenWindowsAutomatically(Z)V
+    const-string v1, "FORCE_DARK"
+    invoke-static v1, Li34;->a(Ljava/lang/String;)Z
+    move-result v1
+    if-eqz v1, +035h
+    invoke-virtual v0, Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
+    move-result-object v1
+    sget-object v2, Li34;->e Lna;
+    invoke-virtual v2, Lna;->a()Z
+    move-result v3
+    const/4 v4, 2
+    if-eqz v3, +006h
+    invoke-static v1, v4, Lxa;->d(Landroid/webkit/WebSettings; I)V
+    goto +23h
+    invoke-virtual v2, Loa;->b()Z
+    move-result v2
+    if-eqz v2, +018h
+    sget-object v2, Lj34;->a Lj4;
+    iget-object v2, v2, Lj4;->p Ljava/lang/Object;
+    check-cast v2, Lorg/chromium/support_lib_boundary/WebkitToCompatConverterBoundaryInterface;
+    invoke-interface v2, v1, Lorg/chromium/support_lib_boundary/WebkitToCompatConverterBoundaryInterface;->convertSettings(Landroid/webkit/WebSettings;)Ljava/lang/reflect/InvocationHandler;
+    move-result-object v1
+    const-class v2, Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface;
+    invoke-static v2, v1, Lvo;->f(Ljava/lang/Class; Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    move-result-object v1
+    check-cast v1, Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface;
+    invoke-interface v1, v4, Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface;->setForceDark(I)V
+    goto +7h
+    const-string v5, "This method is not supported by the current version of the framework and the current WebView APK"
+    invoke-static v5, Ltq0;->k(Ljava/lang/String;)V
+    return-void 
+    new-instance v1, Ln24;
+    invoke-direct v1, v5, v6, Ln24;-><init>(Lcom/android/vending/fragments/WebFragment; Lcom/cricfytv/sports/databinding/FragmentWebBinding;)V
+    invoke-virtual v0, v1, Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
+    iget-object v6, v6, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->b Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;
+    iget-object v6, v6, Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;->c Lcom/google/android/material/button/MaterialButton;
+    new-instance v0, Lpm;
+    const/16 v1, 16
+    invoke-direct v0, v5, v1, Lpm;-><init>(Ljava/lang/Object; I)V
+    invoke-virtual v6, v0, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual v5, Lcom/android/vending/fragments/WebFragment;->P()V
+    return-void 
+    <junk/payload omitted>
+=== O()Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    sget-object v0, Lcom/android/vending/fragments/WebFragment;->t0 [Lmk1;
+    const/4 v1, 0
+    aget-object v0, v0, v1
+    iget-object v1, v2, Lcom/android/vending/fragments/WebFragment;->q0 Ld31;
+    invoke-virtual v1, v2, v0, Ld31;->c1(Ljava/lang/Object; Lmk1;)Ljava/lang/Object;
+    move-result-object v2
+    check-cast v2, Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    return-object v2
+    <junk/payload omitted>
+=== P()V
+    invoke-virtual v3, Lcom/android/vending/fragments/WebFragment;->O()Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    move-result-object v0
+    iget-object v1, v0, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->a Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;
+    const/4 v2, 1
+    invoke-virtual v1, v2, Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;->setRefreshing(Z)V
+    iget-object v1, v0, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->c Landroid/webkit/WebView;
+    const/4 v2, 0
+    invoke-virtual v1, v2, Landroid/view/View;->setVisibility(I)V
+    iget-object v0, v0, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->b Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;
+    iget-object v0, v0, Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;->a Landroid/widget/LinearLayout;
+    invoke-virtual v0, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const/16 v2, 8
+    invoke-virtual v0, v2, Landroid/view/View;->setVisibility(I)V
+    iget-object v3, v3, Lcom/android/vending/fragments/WebFragment;->r0 Lcb2;
+    invoke-virtual v3, Lcb2;->getValue()Ljava/lang/Object;
+    move-result-object v3
+    check-cast v3, Lo24;
+    iget-object v3, v3, Lo24;->b Ljava/lang/String;
+    invoke-virtual v1, v3, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+    return-void 
+    <junk/payload omitted>
+=== t(Landroid/os/Bundle;)V
+    invoke-super v2, v3, Lu11;->t(Landroid/os/Bundle;)V
+    invoke-virtual v2, Lu11;->G()Landroidx/fragment/app/FragmentActivity;
+    move-result-object v3
+    invoke-virtual v3, Landroidx/activity/ComponentActivity;->getOnBackPressedDispatcher()Lii2;
+    move-result-object v3
+    new-instance v0, Las3;
+    const/4 v1, 4
+    invoke-direct v0, v2, v1, Las3;-><init>(Ljava/lang/Object; I)V
+    const/4 v1, 2
+    invoke-static v3, v2, v0, v1, Lne2;->d(Lii2; Lwm1; Lc41; I)Lc21;
+    return-void 
+    <junk/payload omitted>
+=== v()V
+    invoke-virtual v1, Lcom/android/vending/fragments/WebFragment;->O()Lcom/cricfytv/sports/databinding/FragmentWebBinding;
+    move-result-object v0
+    iget-object v0, v0, Lcom/cricfytv/sports/databinding/FragmentWebBinding;->c Landroid/webkit/WebView;
+    invoke-virtual v0, Landroid/webkit/WebView;->destroy()V
+    const/4 v0, 1
+    iput-boolean v0, v1, Lu11;->V Z
+    return-void 
+    nop 
+    <junk/payload omitted>

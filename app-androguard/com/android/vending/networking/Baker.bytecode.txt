@@ -1,0 +1,14 @@
+=== <clinit>()V
+    new-instance v0, Lcom/android/vending/networking/Baker;
+    invoke-direct v0, Lcom/android/vending/networking/Baker;-><init>()V
+    sput-object v0, Lcom/android/vending/networking/Baker;->INSTANCE Lcom/android/vending/networking/Baker;
+    const-string v0, "native-lib"
+    invoke-static v0, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== <init>()V
+    invoke-direct v0, Ljava/lang/Object;-><init>()V
+    return-void 
+    <junk/payload omitted>
+=== merge(Ljava/lang/String; Landroid/content/Context;)Ljava/lang/String;

@@ -1,0 +1,53 @@
+=== <init>(Landroid/widget/LinearLayout; Landroid/widget/ListView; Lcom/google/android/material/appbar/MaterialToolbar;)V
+    invoke-direct v0, Ljava/lang/Object;-><init>()V
+    iput-object v1, v0, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;->a Landroid/widget/LinearLayout;
+    iput-object v2, v0, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;->b Landroid/widget/ListView;
+    iput-object v3, v0, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;->c Lcom/google/android/material/appbar/MaterialToolbar;
+    return-void 
+    <junk/payload omitted>
+=== bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;
+    const v0, 2131362513
+    invoke-static v3, v0, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v1
+    check-cast v1, Landroid/widget/ListView;
+    if-eqz v1, +015h
+    const v0, 2131362753
+    invoke-static v3, v0, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    check-cast v2, Lcom/google/android/material/appbar/MaterialToolbar;
+    if-eqz v2, +00ah
+    new-instance v0, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;
+    check-cast v3, Landroid/widget/LinearLayout;
+    invoke-direct v0, v3, v1, v2, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;-><init>(Landroid/widget/LinearLayout; Landroid/widget/ListView; Lcom/google/android/material/appbar/MaterialToolbar;)V
+    return-object v0
+    invoke-virtual v3, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+    move-result-object v3
+    invoke-virtual v3, v0, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+    move-result-object v3
+    const-string v0, "Missing required view with ID: "
+    invoke-virtual v0, v3, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v3
+    invoke-static v3, Llr3;->p(Ljava/lang/String;)V
+    const/4 v3, 0
+    return-object v3
+    nop 
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater;)Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;
+    const/4 v0, 0
+    const/4 v1, 0
+    invoke-static v2, v0, v1, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;->inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;
+    move-result-object v2
+    return-object v2
+    nop 
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;
+    const v0, 2131558446
+    const/4 v1, 0
+    invoke-virtual v2, v0, v3, v1, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+    move-result-object v2
+    if-eqz v4, +005h
+    invoke-virtual v3, v2, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-static v2, Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;->bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/CatChoseDialogBinding;
+    move-result-object v2
+    return-object v2
+    <junk/payload omitted>

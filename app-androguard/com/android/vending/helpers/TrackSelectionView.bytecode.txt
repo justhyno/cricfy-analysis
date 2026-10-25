@@ -1,0 +1,317 @@
+=== <init>(Landroid/content/Context;)V
+    const/4 v0, 0
+    invoke-direct v1, v2, v0, Lcom/android/vending/helpers/TrackSelectionView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== <init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+    const/4 v0, 0
+    invoke-direct v6, v7, v8, v0, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V
+    const/4 v8, 1
+    invoke-virtual v6, v8, Landroid/widget/LinearLayout;->setOrientation(I)V
+    invoke-virtual v6, v0, Landroid/view/View;->setSaveFromParentEnabled(Z)V
+    invoke-virtual v7, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
+    move-result-object v1
+    const v2, 16843534
+    filled-new-array v2, [I
+    move-result-object v2
+    invoke-virtual v1, v2, Landroid/content/res/Resources$Theme;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
+    move-result-object v1
+    invoke-virtual v1, v0, v0, Landroid/content/res/TypedArray;->getResourceId(I I)I
+    move-result v2
+    iput v2, v6, Lcom/android/vending/helpers/TrackSelectionView;->o I
+    invoke-virtual v1, Landroid/content/res/TypedArray;->recycle()V
+    invoke-static v7, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    move-result-object v7
+    iput-object v7, v6, Lcom/android/vending/helpers/TrackSelectionView;->p Landroid/view/LayoutInflater;
+    new-instance v1, Lx3;
+    const/16 v3, 9
+    invoke-direct v1, v6, v3, Lx3;-><init>(Ljava/lang/Object; I)V
+    iput-object v1, v6, Lcom/android/vending/helpers/TrackSelectionView;->s Lx3;
+    new-instance v3, Lxm4;
+    invoke-virtual v6, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+    move-result-object v4
+    invoke-direct v3, v4, Lxm4;-><init>(Landroid/content/res/Resources;)V
+    iput-object v3, v6, Lcom/android/vending/helpers/TrackSelectionView;->x Ltp3;
+    new-instance v3, Ljava/util/ArrayList;
+    invoke-direct v3, Ljava/util/ArrayList;-><init>()V
+    iput-object v3, v6, Lcom/android/vending/helpers/TrackSelectionView;->t Ljava/util/ArrayList;
+    new-instance v3, Ljava/util/HashMap;
+    invoke-direct v3, Ljava/util/HashMap;-><init>()V
+    iput-object v3, v6, Lcom/android/vending/helpers/TrackSelectionView;->u Ljava/util/HashMap;
+    const v3, 17367055
+    invoke-virtual v7, v3, v6, v0, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+    move-result-object v4
+    check-cast v4, Landroid/widget/CheckedTextView;
+    iput-object v4, v6, Lcom/android/vending/helpers/TrackSelectionView;->q Landroid/widget/CheckedTextView;
+    invoke-virtual v4, v2, Landroid/view/View;->setBackgroundResource(I)V
+    const v5, 2132017400
+    invoke-virtual v4, v5, Landroid/widget/TextView;->setText(I)V
+    invoke-virtual v4, v0, Landroid/view/View;->setEnabled(Z)V
+    invoke-virtual v4, v8, Landroid/view/View;->setFocusable(Z)V
+    invoke-virtual v4, v1, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    const/16 v5, 8
+    invoke-virtual v4, v5, Landroid/widget/CheckedTextView;->setVisibility(I)V
+    invoke-virtual v6, v4, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    const v4, 2131558475
+    invoke-virtual v7, v4, v6, v0, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+    move-result-object v4
+    invoke-virtual v6, v4, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-virtual v7, v3, v6, v0, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+    move-result-object v7
+    check-cast v7, Landroid/widget/CheckedTextView;
+    iput-object v7, v6, Lcom/android/vending/helpers/TrackSelectionView;->r Landroid/widget/CheckedTextView;
+    invoke-virtual v7, v2, Landroid/view/View;->setBackgroundResource(I)V
+    const v2, 2132017399
+    invoke-virtual v7, v2, Landroid/widget/TextView;->setText(I)V
+    invoke-virtual v7, v0, Landroid/view/View;->setEnabled(Z)V
+    invoke-virtual v7, v8, Landroid/view/View;->setFocusable(Z)V
+    invoke-virtual v7, v1, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual v6, v7, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    return-void 
+    <junk/payload omitted>
+=== a(Ljava/util/Map; Ljava/util/ArrayList; Z)Ljava/util/HashMap;
+    new-instance v0, Ljava/util/HashMap;
+    invoke-direct v0, Ljava/util/HashMap;-><init>()V
+    const/4 v1, 0
+    invoke-virtual v5, Ljava/util/ArrayList;->size()I
+    move-result v2
+    if-ge v1, v2, +022h
+    invoke-virtual v5, v1, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    move-result-object v2
+    check-cast v2, Ljq3;
+    iget-object v2, v2, Ljq3;->b Lrp3;
+    invoke-interface v4, v2, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v2
+    check-cast v2, Lbq3;
+    if-eqz v2, +00fh
+    if-nez v6, +008h
+    invoke-virtual v0, Ljava/util/HashMap;->isEmpty()Z
+    move-result v3
+    if-eqz v3, +007h
+    iget-object v3, v2, Lbq3;->a Lrp3;
+    invoke-virtual v0, v3, v2, Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+    add-int/lit8 v1, v1, 1
+    goto -25h
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== b()V
+    iget-object v0, v8, Lcom/android/vending/helpers/TrackSelectionView;->q Landroid/widget/CheckedTextView;
+    iget-boolean v1, v8, Lcom/android/vending/helpers/TrackSelectionView;->z Z
+    invoke-virtual v0, v1, Landroid/widget/CheckedTextView;->setChecked(Z)V
+    iget-boolean v0, v8, Lcom/android/vending/helpers/TrackSelectionView;->z Z
+    iget-object v1, v8, Lcom/android/vending/helpers/TrackSelectionView;->u Ljava/util/HashMap;
+    const/4 v2, 0
+    if-nez v0, +00ah
+    invoke-virtual v1, Ljava/util/HashMap;->size()I
+    move-result v0
+    if-nez v0, +004h
+    const/4 v0, 1
+    goto +2h
+    move v0, v2
+    iget-object v3, v8, Lcom/android/vending/helpers/TrackSelectionView;->r Landroid/widget/CheckedTextView;
+    invoke-virtual v3, v0, Landroid/widget/CheckedTextView;->setChecked(Z)V
+    move v0, v2
+    iget-object v3, v8, Lcom/android/vending/helpers/TrackSelectionView;->y [[Landroid/widget/CheckedTextView;
+    array-length v3, v3
+    if-ge v0, v3, +048h
+    iget-object v3, v8, Lcom/android/vending/helpers/TrackSelectionView;->t Ljava/util/ArrayList;
+    invoke-virtual v3, v0, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    move-result-object v3
+    check-cast v3, Ljq3;
+    iget-object v3, v3, Ljq3;->b Lrp3;
+    invoke-virtual v1, v3, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    move-result-object v3
+    check-cast v3, Lbq3;
+    move v4, v2
+    iget-object v5, v8, Lcom/android/vending/helpers/TrackSelectionView;->y [[Landroid/widget/CheckedTextView;
+    aget-object v5, v5, v0
+    array-length v6, v5
+    if-ge v4, v6, +02dh
+    if-eqz v3, +023h
+    aget-object v5, v5, v4
+    invoke-virtual v5, Landroid/view/View;->getTag()Ljava/lang/Object;
+    move-result-object v5
+    invoke-virtual v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    check-cast v5, Lgq3;
+    iget-object v6, v8, Lcom/android/vending/helpers/TrackSelectionView;->y [[Landroid/widget/CheckedTextView;
+    aget-object v6, v6, v0
+    aget-object v6, v6, v4
+    iget-object v7, v3, Lbq3;->b Lee1;
+    iget v5, v5, Lgq3;->b I
+    invoke-static v5, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    move-result-object v5
+    invoke-virtual v7, v5, Lee1;->contains(Ljava/lang/Object;)Z
+    move-result v5
+    invoke-virtual v6, v5, Landroid/widget/CheckedTextView;->setChecked(Z)V
+    goto +6h
+    aget-object v5, v5, v4
+    invoke-virtual v5, v2, Landroid/widget/CheckedTextView;->setChecked(Z)V
+    add-int/lit8 v4, v4, 1
+    goto -31h
+    add-int/lit8 v0, v0, 1
+    goto -4ah
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== c()V
+    invoke-virtual v13, Landroid/view/ViewGroup;->getChildCount()I
+    move-result v0
+    const/4 v1, 1
+    sub-int/2addr v0, v1
+    const/4 v2, 3
+    if-lt v0, v2, +008h
+    invoke-virtual v13, v0, Landroid/view/ViewGroup;->removeViewAt(I)V
+    add-int/lit8 v0, v0, -1
+    goto -8h
+    iget-object v0, v13, Lcom/android/vending/helpers/TrackSelectionView;->t Ljava/util/ArrayList;
+    invoke-virtual v0, Ljava/util/ArrayList;->isEmpty()Z
+    move-result v2
+    iget-object v3, v13, Lcom/android/vending/helpers/TrackSelectionView;->r Landroid/widget/CheckedTextView;
+    const/4 v4, 0
+    iget-object v5, v13, Lcom/android/vending/helpers/TrackSelectionView;->q Landroid/widget/CheckedTextView;
+    if-eqz v2, +009h
+    invoke-virtual v5, v4, Landroid/view/View;->setEnabled(Z)V
+    invoke-virtual v3, v4, Landroid/view/View;->setEnabled(Z)V
+    return-void 
+    invoke-virtual v5, v1, Landroid/view/View;->setEnabled(Z)V
+    invoke-virtual v3, v1, Landroid/view/View;->setEnabled(Z)V
+    invoke-virtual v0, Ljava/util/ArrayList;->size()I
+    move-result v2
+    new-array v2, v2, [[Landroid/widget/CheckedTextView;
+    iput-object v2, v13, Lcom/android/vending/helpers/TrackSelectionView;->y [[Landroid/widget/CheckedTextView;
+    iget-boolean v2, v13, Lcom/android/vending/helpers/TrackSelectionView;->w Z
+    if-eqz v2, +00ah
+    invoke-virtual v0, Ljava/util/ArrayList;->size()I
+    move-result v2
+    if-le v2, v1, +004h
+    move v2, v1
+    goto +2h
+    move v2, v4
+    move v3, v4
+    invoke-virtual v0, Ljava/util/ArrayList;->size()I
+    move-result v5
+    if-ge v3, v5, +088h
+    invoke-virtual v0, v3, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    move-result-object v5
+    check-cast v5, Ljq3;
+    iget-boolean v6, v13, Lcom/android/vending/helpers/TrackSelectionView;->v Z
+    if-eqz v6, +008h
+    iget-boolean v6, v5, Ljq3;->c Z
+    if-eqz v6, +004h
+    move v6, v1
+    goto +2h
+    move v6, v4
+    iget-object v7, v13, Lcom/android/vending/helpers/TrackSelectionView;->y [[Landroid/widget/CheckedTextView;
+    iget v8, v5, Ljq3;->a I
+    new-array v9, v8, [Landroid/widget/CheckedTextView;
+    aput-object v9, v7, v3
+    new-array v7, v8, [Lgq3;
+    move v9, v4
+    iget v10, v5, Ljq3;->a I
+    if-ge v9, v10, +00ch
+    new-instance v10, Lgq3;
+    invoke-direct v10, v5, v9, Lgq3;-><init>(Ljq3; I)V
+    aput-object v10, v7, v9
+    add-int/lit8 v9, v9, 1
+    goto -dh
+    move v5, v4
+    if-ge v5, v8, +057h
+    iget-object v9, v13, Lcom/android/vending/helpers/TrackSelectionView;->p Landroid/view/LayoutInflater;
+    if-nez v5, +00ch
+    const v10, 2131558475
+    invoke-virtual v9, v10, v13, v4, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+    move-result-object v10
+    invoke-virtual v13, v10, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    if-nez v6, +009h
+    if-eqz v2, +003h
+    goto +5h
+    const v10, 17367055
+    goto +4h
+    const v10, 17367056
+    invoke-virtual v9, v10, v13, v4, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+    move-result-object v9
+    check-cast v9, Landroid/widget/CheckedTextView;
+    iget v10, v13, Lcom/android/vending/helpers/TrackSelectionView;->o I
+    invoke-virtual v9, v10, Landroid/view/View;->setBackgroundResource(I)V
+    iget-object v10, v13, Lcom/android/vending/helpers/TrackSelectionView;->x Ltp3;
+    aget-object v11, v7, v5
+    iget-object v12, v11, Lgq3;->a Ljq3;
+    iget v11, v11, Lgq3;->b I
+    iget-object v12, v12, Ljq3;->b Lrp3;
+    iget-object v12, v12, Lrp3;->d [La11;
+    aget-object v11, v12, v11
+    check-cast v10, Lxm4;
+    invoke-virtual v10, v11, Lxm4;->y(La11;)Ljava/lang/String;
+    move-result-object v10
+    invoke-virtual v9, v10, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    aget-object v10, v7, v5
+    invoke-virtual v9, v10, Landroid/view/View;->setTag(Ljava/lang/Object;)V
+    invoke-virtual v9, v1, Landroid/view/View;->setFocusable(Z)V
+    iget-object v10, v13, Lcom/android/vending/helpers/TrackSelectionView;->s Lx3;
+    invoke-virtual v9, v10, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v10, v13, Lcom/android/vending/helpers/TrackSelectionView;->y [[Landroid/widget/CheckedTextView;
+    aget-object v10, v10, v3
+    aput-object v9, v10, v5
+    invoke-virtual v13, v9, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    add-int/lit8 v5, v5, 1
+    goto -56h
+    add-int/lit8 v3, v3, 1
+    goto/16 -08ah
+    invoke-virtual v13, Lcom/android/vending/helpers/TrackSelectionView;->b()V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== getIsDisabled()Z
+    iget-boolean v0, v0, Lcom/android/vending/helpers/TrackSelectionView;->z Z
+    return v0
+    nop 
+    <junk/payload omitted>
+=== getOverrides()Ljava/util/Map;
+    iget-object v0, v0, Lcom/android/vending/helpers/TrackSelectionView;->u Ljava/util/HashMap;
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== setAllowAdaptiveSelections(Z)V
+    iget-boolean v0, v1, Lcom/android/vending/helpers/TrackSelectionView;->v Z
+    if-eq v0, v2, +007h
+    iput-boolean v2, v1, Lcom/android/vending/helpers/TrackSelectionView;->v Z
+    invoke-virtual v1, Lcom/android/vending/helpers/TrackSelectionView;->c()V
+    return-void 
+    <junk/payload omitted>
+=== setAllowMultipleOverrides(Z)V
+    iget-boolean v0, v2, Lcom/android/vending/helpers/TrackSelectionView;->w Z
+    if-eq v0, v3, +01fh
+    iput-boolean v3, v2, Lcom/android/vending/helpers/TrackSelectionView;->w Z
+    if-nez v3, +018h
+    iget-object v3, v2, Lcom/android/vending/helpers/TrackSelectionView;->u Ljava/util/HashMap;
+    invoke-virtual v3, Ljava/util/HashMap;->size()I
+    move-result v0
+    const/4 v1, 1
+    if-le v0, v1, +00fh
+    iget-object v0, v2, Lcom/android/vending/helpers/TrackSelectionView;->t Ljava/util/ArrayList;
+    const/4 v1, 0
+    invoke-static v3, v0, v1, Lcom/android/vending/helpers/TrackSelectionView;->a(Ljava/util/Map; Ljava/util/ArrayList; Z)Ljava/util/HashMap;
+    move-result-object v0
+    invoke-virtual v3, Ljava/util/HashMap;->clear()V
+    invoke-virtual v3, v0, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
+    invoke-virtual v2, Lcom/android/vending/helpers/TrackSelectionView;->c()V
+    return-void 
+    <junk/payload omitted>
+=== setShowDisableOption(Z)V
+    if-eqz v1, +004h
+    const/4 v1, 0
+    goto +3h
+    const/16 v1, 8
+    iget-object v0, v0, Lcom/android/vending/helpers/TrackSelectionView;->q Landroid/widget/CheckedTextView;
+    invoke-virtual v0, v1, Landroid/widget/CheckedTextView;->setVisibility(I)V
+    return-void 
+    <junk/payload omitted>
+=== setTrackNameProvider(Ltp3;)V
+    invoke-virtual v1, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    iput-object v1, v0, Lcom/android/vending/helpers/TrackSelectionView;->x Ltp3;
+    invoke-virtual v0, Lcom/android/vending/helpers/TrackSelectionView;->c()V
+    return-void 
+    nop 
+    <junk/payload omitted>

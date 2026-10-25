@@ -1,0 +1,151 @@
+=== <init>(Lcom/google/android/material/card/MaterialCardView; Landroid/widget/TextView; Landroid/widget/LinearLayout; Lcom/google/android/material/imageview/ShapeableImageView; Landroid/widget/TextView; Lcom/airbnb/lottie/LottieAnimationView; Landroid/widget/TextView; Lde/hdodenhof/circleimageview/CircleImageView; Lcom/cricfytv/sports/Utf8SafeTextView; Lde/hdodenhof/circleimageview/CircleImageView; Lcom/cricfytv/sports/Utf8SafeTextView; Landroid/widget/TextView; Lcom/cricfytv/sports/Utf8SafeTextView;)V
+    invoke-direct v0, Ljava/lang/Object;-><init>()V
+    iput-object v1, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->a Lcom/google/android/material/card/MaterialCardView;
+    iput-object v2, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->b Landroid/widget/TextView;
+    iput-object v3, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->c Landroid/widget/LinearLayout;
+    iput-object v4, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->d Lcom/google/android/material/imageview/ShapeableImageView;
+    iput-object v5, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->e Landroid/widget/TextView;
+    iput-object v6, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->f Lcom/airbnb/lottie/LottieAnimationView;
+    iput-object v7, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->g Landroid/widget/TextView;
+    iput-object v8, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->h Lde/hdodenhof/circleimageview/CircleImageView;
+    iput-object v9, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->i Lcom/cricfytv/sports/Utf8SafeTextView;
+    iput-object v10, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->j Lde/hdodenhof/circleimageview/CircleImageView;
+    iput-object v11, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->k Lcom/cricfytv/sports/Utf8SafeTextView;
+    iput-object v12, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->l Landroid/widget/TextView;
+    iput-object v13, v0, Lcom/cricfytv/sports/databinding/EventItemBinding;->m Lcom/cricfytv/sports/Utf8SafeTextView;
+    return-void 
+    <junk/payload omitted>
+=== bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/EventItemBinding;
+    move-object/from16 v0, v17
+    const v1, 2131361996
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    check-cast v2, Landroid/widget/FrameLayout;
+    if-eqz v2, +0c8h
+    const v1, 2131362025
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    check-cast v2, Landroidx/constraintlayout/widget/ConstraintLayout;
+    if-eqz v2, +0bdh
+    const v1, 2131362026
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    check-cast v2, Landroidx/constraintlayout/widget/ConstraintLayout;
+    if-eqz v2, +0b2h
+    const v1, 2131362059
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object v5, v2
+    check-cast v5, Landroid/widget/TextView;
+    if-eqz v5, +0a6h
+    const v1, 2131362060
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object v6, v2
+    check-cast v6, Landroid/widget/LinearLayout;
+    if-eqz v6, +09ah
+    const v1, 2131362129
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object v7, v2
+    check-cast v7, Lcom/google/android/material/imageview/ShapeableImageView;
+    if-eqz v7, +08eh
+    const v1, 2131362256
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object v8, v2
+    check-cast v8, Landroid/widget/TextView;
+    if-eqz v8, +082h
+    const v1, 2131362301
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object v9, v2
+    check-cast v9, Lcom/airbnb/lottie/LottieAnimationView;
+    if-eqz v9, +076h
+    const v1, 2131362670
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object v10, v2
+    check-cast v10, Landroid/widget/TextView;
+    if-eqz v10, +06ah
+    const v1, 2131362707
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    check-cast v2, Landroid/widget/LinearLayout;
+    if-eqz v2, +05fh
+    const v1, 2131362708
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object v11, v2
+    check-cast v11, Lde/hdodenhof/circleimageview/CircleImageView;
+    if-eqz v11, +053h
+    const v1, 2131362709
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object v12, v2
+    check-cast v12, Lcom/cricfytv/sports/Utf8SafeTextView;
+    if-eqz v12, +047h
+    const v1, 2131362710
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    check-cast v2, Landroid/widget/LinearLayout;
+    if-eqz v2, +03ch
+    const v1, 2131362711
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object v13, v2
+    check-cast v13, Lde/hdodenhof/circleimageview/CircleImageView;
+    if-eqz v13, +030h
+    const v1, 2131362712
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object v14, v2
+    check-cast v14, Lcom/cricfytv/sports/Utf8SafeTextView;
+    if-eqz v14, +024h
+    const v1, 2131362739
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object v15, v2
+    check-cast v15, Landroid/widget/TextView;
+    if-eqz v15, +018h
+    const v1, 2131362749
+    invoke-static v0, v1, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v2
+    move-object/from16 v16, v2
+    check-cast v16, Lcom/cricfytv/sports/Utf8SafeTextView;
+    if-eqz v16, +00bh
+    new-instance v3, Lcom/cricfytv/sports/databinding/EventItemBinding;
+    move-object v4, v0
+    check-cast v4, Lcom/google/android/material/card/MaterialCardView;
+    invoke-direct/range v3 ... v16, Lcom/cricfytv/sports/databinding/EventItemBinding;-><init>(Lcom/google/android/material/card/MaterialCardView; Landroid/widget/TextView; Landroid/widget/LinearLayout; Lcom/google/android/material/imageview/ShapeableImageView; Landroid/widget/TextView; Lcom/airbnb/lottie/LottieAnimationView; Landroid/widget/TextView; Lde/hdodenhof/circleimageview/CircleImageView; Lcom/cricfytv/sports/Utf8SafeTextView; Lde/hdodenhof/circleimageview/CircleImageView; Lcom/cricfytv/sports/Utf8SafeTextView; Landroid/widget/TextView; Lcom/cricfytv/sports/Utf8SafeTextView;)V
+    return-object v3
+    invoke-virtual v0, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+    move-result-object v0
+    invoke-virtual v0, v1, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+    move-result-object v0
+    const-string v1, "Missing required view with ID: "
+    invoke-virtual v1, v0, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v0
+    invoke-static v0, Llr3;->p(Ljava/lang/String;)V
+    const/4 v0, 0
+    return-object v0
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater;)Lcom/cricfytv/sports/databinding/EventItemBinding;
+    const/4 v0, 0
+    const/4 v1, 0
+    invoke-static v2, v0, v1, Lcom/cricfytv/sports/databinding/EventItemBinding;->inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/EventItemBinding;
+    move-result-object v2
+    return-object v2
+    nop 
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/EventItemBinding;
+    const v0, 2131558473
+    const/4 v1, 0
+    invoke-virtual v2, v0, v3, v1, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+    move-result-object v2
+    if-eqz v4, +005h
+    invoke-virtual v3, v2, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-static v2, Lcom/cricfytv/sports/databinding/EventItemBinding;->bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/EventItemBinding;
+    move-result-object v2
+    return-object v2
+    <junk/payload omitted>

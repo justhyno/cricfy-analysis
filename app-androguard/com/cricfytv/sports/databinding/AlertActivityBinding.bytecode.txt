@@ -1,0 +1,56 @@
+=== bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/AlertActivityBinding;
+    const v0, 2131362073
+    invoke-static v2, v0, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v1
+    check-cast v1, Landroid/widget/TextView;
+    if-eqz v1, +02bh
+    const v0, 2131362132
+    invoke-static v2, v0, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v1
+    check-cast v1, Lcom/google/android/material/button/MaterialButton;
+    if-eqz v1, +020h
+    const v0, 2131362354
+    invoke-static v2, v0, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v1
+    check-cast v1, Landroid/widget/TextView;
+    if-eqz v1, +015h
+    const v0, 2131362744
+    invoke-static v2, v0, Ltg;->m(Landroid/view/View; I)Landroid/view/View;
+    move-result-object v1
+    check-cast v1, Landroid/widget/TextView;
+    if-eqz v1, +00ah
+    new-instance v0, Lcom/cricfytv/sports/databinding/AlertActivityBinding;
+    check-cast v2, Landroidx/constraintlayout/widget/ConstraintLayout;
+    invoke-direct v0, Ljava/lang/Object;-><init>()V
+    return-object v0
+    invoke-virtual v2, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+    move-result-object v2
+    invoke-virtual v2, v0, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+    move-result-object v2
+    const-string v0, "Missing required view with ID: "
+    invoke-virtual v0, v2, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v2
+    invoke-static v2, Llr3;->p(Ljava/lang/String;)V
+    const/4 v2, 0
+    return-object v2
+    nop 
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater;)Lcom/cricfytv/sports/databinding/AlertActivityBinding;
+    const/4 v0, 0
+    const/4 v1, 0
+    invoke-static v2, v0, v1, Lcom/cricfytv/sports/databinding/AlertActivityBinding;->inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/AlertActivityBinding;
+    move-result-object v2
+    return-object v2
+    nop 
+    <junk/payload omitted>
+=== inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/AlertActivityBinding;
+    const v0, 2131558435
+    const/4 v1, 0
+    invoke-virtual v2, v0, v3, v1, Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+    move-result-object v2
+    if-eqz v4, +005h
+    invoke-virtual v3, v2, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+    invoke-static v2, Lcom/cricfytv/sports/databinding/AlertActivityBinding;->bind(Landroid/view/View;)Lcom/cricfytv/sports/databinding/AlertActivityBinding;
+    move-result-object v2
+    return-object v2
+    <junk/payload omitted>

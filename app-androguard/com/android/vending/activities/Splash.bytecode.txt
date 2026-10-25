@@ -1,0 +1,403 @@
+=== <clinit>()V
+    new-instance v0, Lis2;
+    const-string v1, "binding"
+    const-string v2, "getBinding()Lcom/cricfytv/sports/databinding/ActivitySplashBinding;"
+    const-class v3, Lcom/android/vending/activities/Splash;
+    invoke-direct v0, v3, v1, v2, Lis2;-><init>(Ljava/lang/Class; Ljava/lang/String; Ljava/lang/String;)V
+    const/4 v1, 1
+    new-array v1, v1, [Lmk1;
+    const/4 v2, 0
+    aput-object v0, v1, v2
+    sput-object v1, Lcom/android/vending/activities/Splash;->A [Lmk1;
+    return-void 
+    <junk/payload omitted>
+=== <init>()V
+    const v0, 2131558432
+    invoke-direct v2, v0, Landroidx/appcompat/app/AppCompatActivity;-><init>(I)V
+    const-class v0, Lcom/cricfytv/sports/databinding/ActivitySplashBinding;
+    invoke-static v2, v0, Lrg1;->q(Landroidx/appcompat/app/AppCompatActivity; Ljava/lang/Class;)Lj5;
+    move-result-object v0
+    iput-object v0, v2, Lcom/android/vending/activities/Splash;->w Lj5;
+    new-instance v0, Lst;
+    const/16 v1, 9
+    invoke-direct v0, v2, v1, Lst;-><init>(Ljava/lang/Object; I)V
+    sget-object v1, Lbm1;->p Lbm1;
+    invoke-static v1, v0, Lre2;->I(Lbm1; La41;)Ltl1;
+    move-result-object v0
+    iput-object v0, v2, Lcom/android/vending/activities/Splash;->x Ltl1;
+    invoke-static Lhx4;->a()Lu00;
+    move-result-object v0
+    iput-object v0, v2, Lcom/android/vending/activities/Splash;->y Lu00;
+    return-void 
+    <junk/payload omitted>
+=== T()Lcom/cricfytv/sports/databinding/ActivitySplashBinding;
+    sget-object v0, Lcom/android/vending/activities/Splash;->A [Lmk1;
+    const/4 v1, 0
+    aget-object v0, v0, v1
+    iget-object v1, v2, Lcom/android/vending/activities/Splash;->w Lj5;
+    invoke-virtual v1, v2, v0, Lj5;->c1(Ljava/lang/Object; Lmk1;)Ljava/lang/Object;
+    move-result-object v2
+    check-cast v2, Lcom/cricfytv/sports/databinding/ActivitySplashBinding;
+    return-object v2
+    <junk/payload omitted>
+=== U()Ln04;
+    iget-object v0, v0, Lcom/android/vending/activities/Splash;->x Ltl1;
+    invoke-interface v0, Ltl1;->getValue()Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Ln04;
+    return-object v0
+    nop 
+    <junk/payload omitted>
+=== V(Landroid/os/Bundle; Ljava/lang/Class;)V
+    invoke-static v9, Lrf2;->g(Landroid/content/ComponentCallbacks;)Lj53;
+    move-result-object v0
+    const-class v1, Ln7;
+    invoke-static v1, Lpw2;->a(Ljava/lang/Class;)Lvx;
+    move-result-object v1
+    const/4 v2, 0
+    invoke-virtual v0, v1, v2, Lj53;->d(Lvx; Luj2;)Ljava/lang/Object;
+    move-result-object v0
+    check-cast v0, Ln7;
+    const v1, 2132017769
+    invoke-virtual v9, v1, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    move-result-object v6
+    invoke-virtual v6, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const/4 v1, 6
+    invoke-virtual v0, v1, v6, Ln7;->a(I Ljava/lang/String;)Z
+    move-result v0
+    if-eqz v0, +023h
+    sget-object v0, Lcom/android/vending/activities/AlertNew;->F Lp75;
+    const v1, 2132017801
+    invoke-virtual v9, v1, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    move-result-object v4
+    invoke-virtual v4, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const v1, 2132017800
+    invoke-virtual v9, v1, Landroid/content/Context;->getString(I)Ljava/lang/String;
+    move-result-object v5
+    invoke-virtual v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual v0, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const/4 v3, 6
+    move-object v2, v9
+    move-object v8, v10
+    move-object v7, v11
+    invoke-static/range v2 ... v8, Lp75;->B(Landroidx/appcompat/app/AppCompatActivity; I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/Class; Landroid/os/Bundle;)V
+    goto +11h
+    move-object v2, v9
+    move-object v8, v10
+    move-object v7, v11
+    new-instance v9, Landroid/content/Intent;
+    invoke-direct v9, v2, v7, Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+    if-eqz v8, +005h
+    invoke-virtual v9, v8, Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
+    invoke-virtual v2, v9, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual v2, Landroid/app/Activity;->finish()V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== W(Lc60;)Ljava/lang/Object;
+    instance-of v0, v5, Loe3;
+    if-eqz v0, +011h
+    move-object v0, v5
+    check-cast v0, Loe3;
+    iget v1, v0, Loe3;->q I
+    const/high16 v2, -2147483648
+    and-int v3, v1, v2
+    if-eqz v3, +006h
+    sub-int/2addr v1, v2
+    iput v1, v0, Loe3;->q I
+    goto +6h
+    new-instance v0, Loe3;
+    invoke-direct v0, v4, v5, Loe3;-><init>(Lcom/android/vending/activities/Splash; Lc60;)V
+    iget-object v5, v0, Loe3;->o Ljava/lang/Object;
+    iget v1, v0, Loe3;->q I
+    const/4 v2, 0
+    const/4 v3, 1
+    if-eqz v1, +00eh
+    if-ne v1, v3, +006h
+    invoke-static v5, Lrf2;->t(Ljava/lang/Object;)V
+    goto +17h
+    const-string v4, "call to 'resume' before 'invoke' with coroutine"
+    invoke-static v4, Lc;->h(Ljava/lang/String;)V
+    return-object v2
+    invoke-static v5, Lrf2;->t(Ljava/lang/Object;)V
+    iput v3, v0, Loe3;->q I
+    iget-object v5, v4, Lcom/android/vending/activities/Splash;->y Lu00;
+    invoke-virtual v5, v0, Lbi1;->m(Lz50;)Ljava/lang/Object;
+    move-result-object v5
+    sget-object v0, Lz60;->o Lz60;
+    if-ne v5, v0, +003h
+    return-object v0
+    invoke-virtual v4, Landroid/app/Activity;->getApplication()Landroid/app/Application;
+    move-result-object v5
+    invoke-virtual v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    check-cast v5, Lcom/android/vending/App;
+    iget-object v5, v5, Lcom/android/vending/App;->o Lio/cashraven/sdk/CashRaven;
+    if-eqz v5, +00dh
+    invoke-virtual v5, Lio/cashraven/sdk/CashRaven;->optIn()V
+    sget-object v5, Lio/cashraven/sdk/CashRavenService;->Companion Lio/cashraven/sdk/CashRavenService$Companion;
+    invoke-virtual v5, v4, Lio/cashraven/sdk/CashRavenService$Companion;->start(Landroid/content/Context;)V
+    goto +ch
+    move-exception v4
+    goto +7h
+    const-string v4, "cashRaven"
+    invoke-static v4, Lrg1;->U(Ljava/lang/String;)V
+    throw v2
+    invoke-virtual v4, Ljava/lang/Throwable;->printStackTrace()V
+    sget-object v4, Lmu3;->a Lmu3;
+    return-object v4
+    <junk/payload omitted>
+=== X()V
+    iget-boolean v0, v4, Lcom/android/vending/activities/Splash;->z Z
+    if-eqz v0, +003h
+    return-void 
+    invoke-static v4, Ls03;->h(Lwm1;)Lpm1;
+    move-result-object v0
+    new-instance v1, Lne3;
+    const/4 v2, 2
+    const/4 v3, 0
+    invoke-direct v1, v4, v3, v2, Lne3;-><init>(Lcom/android/vending/activities/Splash; Lz50; I)V
+    const/4 v4, 3
+    invoke-static v0, v3, v1, v4, Lvo;->r(Ly60; Lm60; Lq41; I)Lcg3;
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== onCreate(Landroid/os/Bundle;)V
+    invoke-super v12, v13, Landroidx/fragment/app/FragmentActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-virtual v12, Lcom/android/vending/activities/Splash;->T()Lcom/cricfytv/sports/databinding/ActivitySplashBinding;
+    move-result-object v13
+    iget-object v13, v13, Lcom/cricfytv/sports/databinding/ActivitySplashBinding;->a Landroid/widget/RelativeLayout;
+    invoke-virtual v12, v13, Landroidx/appcompat/app/AppCompatActivity;->setContentView(Landroid/view/View;)V
+    invoke-virtual v12, Lcom/android/vending/activities/Splash;->T()Lcom/cricfytv/sports/databinding/ActivitySplashBinding;
+    move-result-object v13
+    iget-object v13, v13, Lcom/cricfytv/sports/databinding/ActivitySplashBinding;->a Landroid/widget/RelativeLayout;
+    invoke-virtual v13, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const/4 v0, 0
+    const/4 v1, 3
+    invoke-static v12, v0, v1, Lzm0;->a(Landroidx/appcompat/app/AppCompatActivity; Lal3; I)V
+    new-instance v2, Ltq0;
+    const/4 v3, 4
+    invoke-direct v2, v3, Ltq0;-><init>(I)V
+    sget-object v3, Lty3;->a Ljava/util/WeakHashMap;
+    invoke-static v13, v2, Lky3;->c(Landroid/view/View; Lzh2;)V
+    new-instance v13, Lb5;
+    const/4 v2, 1
+    invoke-direct v13, v2, Lb5;-><init>(I)V
+    new-instance v3, Lof1;
+    const/16 v4, 17
+    invoke-direct v3, v12, v4, Lof1;-><init>(Ljava/lang/Object; I)V
+    invoke-virtual v12, v13, v3, Landroidx/activity/ComponentActivity;->registerForActivityResult(La5; Lz4;)Lc5;
+    invoke-virtual v12, Lcom/android/vending/activities/Splash;->T()Lcom/cricfytv/sports/databinding/ActivitySplashBinding;
+    move-result-object v13
+    iget-object v13, v13, Lcom/cricfytv/sports/databinding/ActivitySplashBinding;->c Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;
+    iget-object v13, v13, Lcom/cricfytv/sports/databinding/ErrorLayoutBinding;->c Lcom/google/android/material/button/MaterialButton;
+    new-instance v3, Lke3;
+    invoke-direct v3, v12, v2, Lke3;-><init>(Lcom/android/vending/activities/Splash; I)V
+    invoke-virtual v13, v3, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual v12, Lcom/android/vending/activities/Splash;->T()Lcom/cricfytv/sports/databinding/ActivitySplashBinding;
+    move-result-object v13
+    iget-object v2, v13, Lcom/cricfytv/sports/databinding/ActivitySplashBinding;->j Lcom/google/android/material/button/MaterialButton;
+    new-instance v3, Lke3;
+    const/4 v5, 2
+    invoke-direct v3, v12, v5, Lke3;-><init>(Lcom/android/vending/activities/Splash; I)V
+    invoke-virtual v2, v3, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v2, v13, Lcom/cricfytv/sports/databinding/ActivitySplashBinding;->f Lcom/google/android/material/button/MaterialButton;
+    new-instance v3, Lke3;
+    invoke-direct v3, v12, v1, Lke3;-><init>(Lcom/android/vending/activities/Splash; I)V
+    invoke-virtual v2, v3, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v2, v13, Lcom/cricfytv/sports/databinding/ActivitySplashBinding;->g Lcom/google/android/material/button/MaterialButton;
+    new-instance v3, Lqs;
+    const/16 v5, 16
+    invoke-direct v3, v5, v13, v12, Lqs;-><init>(I Ljava/lang/Object; Ljava/lang/Object;)V
+    invoke-virtual v2, v3, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual v12, Lcom/android/vending/activities/Splash;->U()Ln04;
+    move-result-object v13
+    iget-object v13, v13, Ln04;->e Lv92;
+    new-instance v2, Ly;
+    const/16 v3, 29
+    invoke-direct v2, v12, v3, Ly;-><init>(Ljava/lang/Object; I)V
+    new-instance v3, Lnt;
+    const/16 v5, 8
+    invoke-direct v3, v2, v5, Lnt;-><init>(Lc41; I)V
+    invoke-virtual v13, v12, v3, Lap1;->d(Lwm1; Lmh2;)V
+    invoke-virtual v12, Lcom/android/vending/activities/Splash;->T()Lcom/cricfytv/sports/databinding/ActivitySplashBinding;
+    move-result-object v13
+    iget-object v13, v13, Lcom/cricfytv/sports/databinding/ActivitySplashBinding;->i Landroid/widget/TextView;
+    invoke-virtual v12, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    move-result-object v2
+    invoke-virtual v12, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    move-result-object v3
+    const/4 v5, 0
+    invoke-virtual v2, v3, v5, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+    move-result-object v2
+    iget-object v2, v2, Landroid/content/pm/PackageInfo;->versionName Ljava/lang/String;
+    if-nez v2, +004h
+    const-string v2, ""
+    filled-new-array v2, [Ljava/lang/Object;
+    move-result-object v2
+    const v3, 2132017812
+    invoke-virtual v12, v3, v2, Landroid/content/Context;->getString(I [Ljava/lang/Object;)Ljava/lang/String;
+    move-result-object v2
+    invoke-virtual v13, v2, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    const-string v13, "com.cricfytv.sports"
+    invoke-virtual v12, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+    move-result-object v2
+    invoke-virtual v13, v2, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    move-result v13
+    if-eqz v13, +100h
+    invoke-virtual v12, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+    move-result-object v13
+    invoke-virtual v13, Ljava/io/File;->getPath()Ljava/lang/String;
+    move-result-object v13
+    invoke-virtual v13, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual v13, Ljava/lang/String;->length()I
+    move-result v2
+    move v3, v5
+    move v6, v3
+    if-ge v3, v2, +012h
+    invoke-virtual v13, v3, Ljava/lang/String;->charAt(I)C
+    move-result v7
+    if-le v6, v1, +003h
+    goto +ah
+    const/16 v8, 46
+    if-ne v7, v8, +004h
+    add-int/lit8 v6, v6, 1
+    add-int/lit8 v3, v3, 1
+    goto -11h
+    const-string v2, "999"
+    invoke-static v13, v2, Lsh3;->F(Ljava/lang/CharSequence; Ljava/lang/String;)Z
+    move-result v13
+    if-eqz v13, +004h
+    goto/16 +0d3h
+    if-gt v6, v1, +0d1h
+    invoke-static v12, Lre2;->H(Landroid/content/Context;)Z
+    move-result v13
+    if-nez v13, +00eh
+    invoke-static v12, Lre2;->i(Landroidx/appcompat/app/AppCompatActivity;)Z
+    move-result v13
+    if-eqz v13, +003h
+    goto +6h
+    invoke-virtual v12, Landroid/app/Activity;->finishAffinity()V
+    goto/16 +0c2h
+    invoke-static Lcom/google/firebase/FirebaseApp;->getInstance()Lcom/google/firebase/FirebaseApp;
+    move-result-object v13
+    const-class v2, Lyx2;
+    invoke-virtual v13, v2, Lcom/google/firebase/FirebaseApp;->get(Ljava/lang/Class;)Ljava/lang/Object;
+    move-result-object v13
+    check-cast v13, Lyx2;
+    invoke-virtual v13, Lyx2;->c()Lsw0;
+    move-result-object v13
+    invoke-virtual v13, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    iget-object v2, v13, Lsw0;->c Ljava/util/concurrent/Executor;
+    invoke-virtual v12, Lcom/android/vending/activities/Splash;->U()Ln04;
+    move-result-object v3
+    iget-object v3, v3, Ln04;->b Landroid/content/SharedPreferences;
+    const-string v6, "PUSH_RC"
+    invoke-interface v3, v6, v5, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String; Z)Z
+    move-result v7
+    const-wide/16 v8, 0
+    const-wide/32 v10, 43200
+    if-eqz v7, +011h
+    invoke-interface v3, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    move-result-object v3
+    invoke-virtual v3, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-interface v3, v6, v5, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String; Z)Landroid/content/SharedPreferences$Editor;
+    invoke-interface v3, Landroid/content/SharedPreferences$Editor;->apply()V
+    move-wide v6, v8
+    goto +2h
+    move-wide v6, v10
+    new-instance v3, Lyw0;
+    invoke-direct v3, Ljava/lang/Object;-><init>()V
+    iput-wide v10, v3, Lyw0;->a J
+    cmp-long v8, v6, v8
+    if-ltz v8, +063h
+    iput-wide v6, v3, Lyw0;->a J
+    new-instance v6, Lyw0;
+    invoke-direct v6, Ljava/lang/Object;-><init>()V
+    iget-wide v7, v3, Lyw0;->a J
+    iput-wide v7, v6, Lyw0;->a J
+    new-instance v3, Le9;
+    const/4 v7, 5
+    invoke-direct v3, v7, v13, v6, Le9;-><init>(I Ljava/lang/Object; Ljava/lang/Object;)V
+    invoke-static v2, v3, Ljl4;->f(Ljava/util/concurrent/Executor; Ljava/util/concurrent/Callable;)Lf85;
+    invoke-virtual v13, Lsw0;->d()V
+    iget-object v3, v13, Lsw0;->g Lc30;
+    iget-object v6, v3, Lc30;->g Lh30;
+    iget-object v6, v6, Lh30;->a Landroid/content/SharedPreferences;
+    const-string v7, "minimum_fetch_interval_in_seconds"
+    invoke-interface v6, v7, v10, v11, Landroid/content/SharedPreferences;->getLong(Ljava/lang/String; J)J
+    move-result-wide v6
+    new-instance v8, Ljava/util/HashMap;
+    iget-object v9, v3, Lc30;->h Ljava/util/Map;
+    invoke-direct v8, v9, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
+    const-string v9, "X-Firebase-RC-Fetch-Type"
+    const-string v10, "BASE/1"
+    invoke-virtual v8, v9, v10, Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+    iget-object v9, v3, Lc30;->e Lw20;
+    invoke-virtual v9, Lw20;->b()Lcom/google/android/gms/tasks/Task;
+    move-result-object v9
+    iget-object v10, v3, Lc30;->c Ljava/util/concurrent/Executor;
+    new-instance v11, Lz20;
+    invoke-direct v11, v3, v6, v7, v8, Lz20;-><init>(Lc30; J Ljava/util/HashMap;)V
+    invoke-virtual v9, v10, v11, Lcom/google/android/gms/tasks/Task;->d(Ljava/util/concurrent/Executor; La60;)Lf85;
+    move-result-object v3
+    new-instance v6, Ltq0;
+    invoke-direct v6, v4, Ltq0;-><init>(I)V
+    sget-object v4, Lgw0;->o Lgw0;
+    invoke-virtual v3, v4, v6, Lf85;->l(Ljava/util/concurrent/Executor; Lhj3;)Lf85;
+    move-result-object v3
+    new-instance v4, Lcb;
+    invoke-direct v4, v13, Lcb;-><init>(Lsw0;)V
+    invoke-virtual v3, v2, v4, Lf85;->l(Ljava/util/concurrent/Executor; Lhj3;)Lf85;
+    move-result-object v2
+    new-instance v3, Lw10;
+    const/16 v4, 21
+    invoke-direct v3, v4, v13, v12, Lw10;-><init>(I Ljava/lang/Object; Ljava/lang/Object;)V
+    invoke-virtual v2, v3, Lf85;->i(Lki2;)Lf85;
+    goto +1dh
+    new-instance v12, Ljava/lang/IllegalArgumentException;
+    new-instance v13, Ljava/lang/StringBuilder;
+    const-string v0, "Minimum interval between fetches has to be a non-negative number. "
+    invoke-direct v13, v0, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-virtual v13, v6, v7, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+    const-string v0, " is an invalid argument"
+    invoke-virtual v13, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual v13, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v13
+    invoke-direct v12, v13, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    throw v12
+    invoke-virtual v12, Landroid/app/Activity;->finishAffinity()V
+    invoke-static v12, Ls03;->h(Lwm1;)Lpm1;
+    move-result-object v13
+    new-instance v2, Lne3;
+    invoke-direct v2, v12, v0, v5, Lne3;-><init>(Lcom/android/vending/activities/Splash; Lz50; I)V
+    invoke-static v13, v0, v2, v1, Lvo;->r(Ly60; Lm60; Lq41; I)Lcg3;
+    sget v13, Landroid/os/Build$VERSION;->SDK_INT I
+    const/16 v0, 33
+    if-lt v13, v0, +014h
+    const-string v13, "android.permission.POST_NOTIFICATIONS"
+    invoke-static v12, v13, Lre2;->l(Landroid/content/Context; Ljava/lang/String;)I
+    move-result v0
+    if-eqz v0, +00ch
+    filled-new-array v13, [Ljava/lang/String;
+    move-result-object v13
+    const/16 v0, 101
+    invoke-static v12, v13, v0, Lre2;->T(Landroid/app/Activity; [Ljava/lang/String; I)V
+    return-void 
+    iget-object v12, v12, Lcom/android/vending/activities/Splash;->y Lu00;
+    sget-object v13, Ljava/lang/Boolean;->TRUE Ljava/lang/Boolean;
+    invoke-virtual v12, v13, Lbi1;->L(Ljava/lang/Object;)Z
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== onRequestPermissionsResult(I [Ljava/lang/String; [I)V
+    invoke-virtual v2, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual v3, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-super v0, v1, v2, v3, Landroidx/fragment/app/FragmentActivity;->onRequestPermissionsResult(I [Ljava/lang/String; [I)V
+    const/16 v2, 101
+    if-ne v1, v2, +009h
+    iget-object v0, v0, Lcom/android/vending/activities/Splash;->y Lu00;
+    sget-object v1, Ljava/lang/Boolean;->TRUE Ljava/lang/Boolean;
+    invoke-virtual v0, v1, Lbi1;->L(Ljava/lang/Object;)Z
+    return-void 
+    nop 
+    <junk/payload omitted>

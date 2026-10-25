@@ -1,0 +1,91 @@
+=== <clinit>()V
+    new-instance v0, Lis2;
+    const-string v1, "binding"
+    const-string v2, "getBinding()Lcom/cricfytv/sports/databinding/FragmentPlaylistBinding;"
+    const-class v3, Lcom/android/vending/fragments/FavouriteFragment;
+    invoke-direct v0, v3, v1, v2, Lis2;-><init>(Ljava/lang/Class; Ljava/lang/String; Ljava/lang/String;)V
+    const/4 v1, 1
+    new-array v1, v1, [Lmk1;
+    const/4 v2, 0
+    aput-object v0, v1, v2
+    sput-object v1, Lcom/android/vending/fragments/FavouriteFragment;->t0 [Lmk1;
+    return-void 
+    <junk/payload omitted>
+=== <init>()V
+    const v0, 2131558487
+    invoke-direct v3, v0, Lu11;-><init>(I)V
+    const-class v0, Lcom/cricfytv/sports/databinding/FragmentPlaylistBinding;
+    invoke-static v3, v0, Lke2;->w(Lu11; Ljava/lang/Class;)Ld31;
+    move-result-object v0
+    iput-object v0, v3, Lcom/android/vending/fragments/FavouriteFragment;->q0 Ld31;
+    new-instance v0, Lst;
+    const/4 v1, 2
+    invoke-direct v0, v3, v1, Lst;-><init>(Ljava/lang/Object; I)V
+    new-instance v1, Lqv;
+    const/4 v2, 1
+    invoke-direct v1, v3, v0, v2, Lqv;-><init>(Lu11; La41; I)V
+    sget-object v0, Lbm1;->p Lbm1;
+    invoke-static v0, v1, Lre2;->I(Lbm1; La41;)Ltl1;
+    move-result-object v0
+    iput-object v0, v3, Lcom/android/vending/fragments/FavouriteFragment;->r0 Ltl1;
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== C(Landroid/view/View;)V
+    invoke-virtual v6, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    sget-object v6, Lcom/android/vending/fragments/FavouriteFragment;->t0 [Lmk1;
+    const/4 v0, 0
+    aget-object v1, v6, v0
+    iget-object v2, v5, Lcom/android/vending/fragments/FavouriteFragment;->q0 Ld31;
+    invoke-virtual v2, v5, v1, Ld31;->c1(Ljava/lang/Object; Lmk1;)Ljava/lang/Object;
+    move-result-object v1
+    check-cast v1, Lcom/cricfytv/sports/databinding/FragmentPlaylistBinding;
+    iget-object v1, v1, Lcom/cricfytv/sports/databinding/FragmentPlaylistBinding;->b Landroid/widget/TextView;
+    const-string v3, "Favorites"
+    filled-new-array v3, [Ljava/lang/Object;
+    move-result-object v3
+    const v4, 2132017329
+    invoke-virtual v5, v4, v3, Lu11;->j(I [Ljava/lang/Object;)Ljava/lang/String;
+    move-result-object v3
+    invoke-virtual v1, v3, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    aget-object v6, v6, v0
+    invoke-virtual v2, v5, v6, Ld31;->c1(Ljava/lang/Object; Lmk1;)Ljava/lang/Object;
+    move-result-object v6
+    check-cast v6, Lcom/cricfytv/sports/databinding/FragmentPlaylistBinding;
+    iget-object v6, v6, Lcom/cricfytv/sports/databinding/FragmentPlaylistBinding;->d Landroidx/recyclerview/widget/RecyclerView;
+    const/16 v1, 14
+    const/4 v2, 0
+    invoke-static v6, v0, v0, v2, v1, Lre2;->W(Landroidx/recyclerview/widget/RecyclerView; Z I Lm20; I)V
+    iget-object v5, v5, Lcom/android/vending/fragments/FavouriteFragment;->s0 Lyt0;
+    if-eqz v5, +006h
+    invoke-virtual v6, v5, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/j;)V
+    return-void 
+    const-string v5, "favAdapter"
+    invoke-static v5, Lrg1;->U(Ljava/lang/String;)V
+    throw v2
+    <junk/payload omitted>
+=== t(Landroid/os/Bundle;)V
+    invoke-super v3, v4, Lu11;->t(Landroid/os/Bundle;)V
+    new-instance v4, Lyt0;
+    new-instance v0, Leu0;
+    const/4 v1, 0
+    invoke-direct v0, v3, v1, Leu0;-><init>(Lcom/android/vending/fragments/FavouriteFragment; I)V
+    new-instance v1, Leu0;
+    const/4 v2, 1
+    invoke-direct v1, v3, v2, Leu0;-><init>(Lcom/android/vending/fragments/FavouriteFragment; I)V
+    invoke-direct v4, v0, v1, Lyt0;-><init>(Leu0; Leu0;)V
+    iput-object v4, v3, Lcom/android/vending/fragments/FavouriteFragment;->s0 Lyt0;
+    iget-object v4, v3, Lcom/android/vending/fragments/FavouriteFragment;->r0 Ltl1;
+    invoke-interface v4, Ltl1;->getValue()Ljava/lang/Object;
+    move-result-object v4
+    check-cast v4, Ljz3;
+    iget-object v4, v4, Ljz3;->d Lt60;
+    new-instance v0, Leu0;
+    const/4 v1, 2
+    invoke-direct v0, v3, v1, Leu0;-><init>(Lcom/android/vending/fragments/FavouriteFragment; I)V
+    new-instance v1, Lnt;
+    const/4 v2, 2
+    invoke-direct v1, v0, v2, Lnt;-><init>(Lc41; I)V
+    invoke-virtual v4, v3, v1, Lap1;->d(Lwm1; Lmh2;)V
+    return-void 
+    <junk/payload omitted>

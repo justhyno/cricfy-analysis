@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/dlg_bg"
+    android:paddingLeft="@dimen/_6sdp"
+    android:paddingTop="@dimen/_6sdp"
+    android:paddingRight="@dimen/_6sdp"
+    android:paddingBottom="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/_6sdp">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/toolbar_menu_search"
+        app:navigationIcon="@drawable/ic_clear"
+        app:navigationIconTint="@color/dlg_text_secondary"
+        app:title="@string/chose_category"
+        app:titleTextColor="@color/dlg_text_primary"/>
+    <View
+        android:background="@drawable/dlg_gradient_line"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginHorizontal="@dimen/_10sdp"/>
+    <ListView
+        android:id="@+id/optionsListView"
+        android:paddingBottom="@dimen/_20sdp"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/dlg_list_item_bg"
+        android:drawSelectorOnTop="false"
+        android:divider="@color/dlg_stroke"
+        android:dividerHeight="1dp"/>
+</LinearLayout>

@@ -1,0 +1,103 @@
+package okhttp3;
+
+import java.util.List;
+
+/* compiled from: r8-map-id-48d9907f4e93732c11cf9c906afc42aa7d1b8bfe35a58b5c97659e3a4b269d57 */
+/* loaded from: classes27.dex */
+public interface CookieJar {
+    public static final Companion Companion = null;
+    public static final CookieJar NO_COOKIES = null;
+
+    /* compiled from: r8-map-id-48d9907f4e93732c11cf9c906afc42aa7d1b8bfe35a58b5c97659e3a4b269d57 */
+    /* loaded from: classes.dex */
+    public static final class Companion {
+        static final /* synthetic */ Companion $$INSTANCE = null;
+
+        /* compiled from: r8-map-id-48d9907f4e93732c11cf9c906afc42aa7d1b8bfe35a58b5c97659e3a4b269d57 */
+        /* loaded from: classes26.dex */
+        public static final class NoCookies implements CookieJar {
+            /*  JADX ERROR: Method load error
+                jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (692650613 > 358328) in method: okhttp3.CookieJar.Companion.NoCookies.loadForRequest(okhttp3.HttpUrl):java.util.List<okhttp3.Cookie>, file: classes26.dex
+                	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+                	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+                	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:451)
+                Caused by: java.lang.IllegalArgumentException: newPosition > limit: (692650613 > 358328)
+                	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+                	at java.base/java.nio.Buffer.position(Buffer.java:327)
+                	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+                	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+                	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+                	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+                	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+                	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+                	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+                	... 2 more
+                */
+            @Override // okhttp3.CookieJar
+            public java.util.List<okhttp3.Cookie> loadForRequest(okhttp3.HttpUrl r1) {
+                /*
+                // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (692650613 > 358328) in method: okhttp3.CookieJar.Companion.NoCookies.loadForRequest(okhttp3.HttpUrl):java.util.List<okhttp3.Cookie>, file: classes26.dex
+                */
+                throw new UnsupportedOperationException("Method not decompiled: okhttp3.CookieJar.Companion.NoCookies.loadForRequest(okhttp3.HttpUrl):java.util.List");
+            }
+
+            /*  JADX ERROR: Method load error
+                jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (178967814 > 358328) in method: okhttp3.CookieJar.Companion.NoCookies.saveFromResponse(okhttp3.HttpUrl, java.util.List<okhttp3.Cookie>):void, file: classes26.dex
+                	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+                	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+                	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:451)
+                Caused by: java.lang.IllegalArgumentException: newPosition > limit: (178967814 > 358328)
+                	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+                	at java.base/java.nio.Buffer.position(Buffer.java:327)
+                	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+                	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+                	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+                	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+                	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+                	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+                	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+                	... 2 more
+                */
+            @Override // okhttp3.CookieJar
+            public void saveFromResponse(okhttp3.HttpUrl r1, java.util.List<okhttp3.Cookie> r2) {
+                /*
+                // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (178967814 > 358328) in method: okhttp3.CookieJar.Companion.NoCookies.saveFromResponse(okhttp3.HttpUrl, java.util.List<okhttp3.Cookie>):void, file: classes26.dex
+                */
+                throw new UnsupportedOperationException("Method not decompiled: okhttp3.CookieJar.Companion.NoCookies.saveFromResponse(okhttp3.HttpUrl, java.util.List):void");
+            }
+        }
+
+        /*  JADX ERROR: Method load error
+            jadx.core.utils.exceptions.DecodeException: Load method exception: IllegalArgumentException: newPosition > limit: (1792044386 > 464228) in method: okhttp3.CookieJar.Companion.<init>():void, file: classes.dex
+            	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:167)
+            	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:445)
+            	at jadx.core.dex.nodes.ClassNode.load(ClassNode.java:451)
+            	at jadx.core.ProcessClass.process(ProcessClass.java:69)
+            	at jadx.core.ProcessClass.generateCode(ProcessClass.java:117)
+            	at jadx.core.dex.nodes.ClassNode.generateClassCode(ClassNode.java:402)
+            	at jadx.core.dex.nodes.ClassNode.decompile(ClassNode.java:390)
+            	at jadx.core.dex.nodes.ClassNode.getCode(ClassNode.java:340)
+            Caused by: java.lang.IllegalArgumentException: newPosition > limit: (1792044386 > 464228)
+            	at java.base/java.nio.Buffer.createPositionException(Buffer.java:352)
+            	at java.base/java.nio.Buffer.position(Buffer.java:327)
+            	at java.base/java.nio.ByteBuffer.position(ByteBuffer.java:1551)
+            	at jadx.plugins.input.dex.sections.SectionReader.skip(SectionReader.java:92)
+            	at jadx.plugins.input.dex.insns.DexInsnFormat$30.skip(DexInsnFormat.java:358)
+            	at jadx.plugins.input.dex.sections.DexCodeReader.skip(DexCodeReader.java:105)
+            	at jadx.plugins.input.dex.sections.DexCodeReader.visitInstructions(DexCodeReader.java:89)
+            	at jadx.core.dex.instructions.InsnDecoder.process(InsnDecoder.java:46)
+            	at jadx.core.dex.nodes.MethodNode.load(MethodNode.java:157)
+            	... 7 more
+            */
+        private Companion() {
+            /*
+            // Can't load method instructions: Load method exception: IllegalArgumentException: newPosition > limit: (1792044386 > 464228) in method: okhttp3.CookieJar.Companion.<init>():void, file: classes.dex
+            */
+            throw new UnsupportedOperationException("Method not decompiled: okhttp3.CookieJar.Companion.<init>():void");
+        }
+    }
+
+    List<Cookie> loadForRequest(HttpUrl httpUrl);
+
+    void saveFromResponse(HttpUrl httpUrl, List<Cookie> list);
+}

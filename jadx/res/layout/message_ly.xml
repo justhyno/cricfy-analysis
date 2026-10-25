@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/message_container"
+    android:focusable="true"
+    android:visibility="gone"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_3sdp"
+    app:cardBackgroundColor="@color/dlg_action_bg"
+    app:cardCornerRadius="@dimen/_8sdp"
+    app:strokeColor="@color/colorPrimary"
+    app:strokeWidth="1dp">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/_8sdp"
+        android:paddingRight="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_26sdp"
+        android:paddingHorizontal="@dimen/_8sdp">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/ic_announcement"
+            android:layout_marginEnd="@dimen/_8sdp"
+            app:tint="@color/dlg_primary"/>
+        <com.cricfytv.sports.Utf8SafeTextView
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            android:textColor="@color/dlg_text_primary"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:id="@+id/message_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

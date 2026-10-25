@@ -1,0 +1,153 @@
+=== <clinit>()V
+    const-string v0, "ISO-8859-1"
+    invoke-static v0, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+    move-result-object v0
+    invoke-virtual v0, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    sput-object v0, Lcom/cricfytv/sports/Utf8SafeTextView;->x Ljava/nio/charset/Charset;
+    return-void 
+    <junk/payload omitted>
+=== <init>(Landroid/content/Context;)V
+    invoke-virtual v3, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const/4 v0, 0
+    const/4 v1, 6
+    invoke-direct v2, v3, v0, v1, Lcom/cricfytv/sports/Utf8SafeTextView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== <init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+    invoke-virtual v2, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const/4 v0, 4
+    invoke-direct v1, v2, v3, v0, Lcom/cricfytv/sports/Utf8SafeTextView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V
+    return-void 
+    <junk/payload omitted>
+=== <init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V
+    and-int/lit8 v3, v3, 2
+    if-eqz v3, +003h
+    const/4 v2, 0
+    const v3, 16842884
+    invoke-direct v0, v1, v2, v3, Lmd;-><init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V
+    return-void 
+    <junk/payload omitted>
+=== h(Ljava/lang/String;)Z
+    invoke-virtual v5, Ljava/lang/String;->length()I
+    move-result v0
+    const/4 v1, 0
+    move v2, v1
+    if-ge v2, v0, +01bh
+    invoke-virtual v5, v2, Ljava/lang/String;->charAt(I)C
+    move-result v3
+    const/16 v4, 194
+    if-eq v3, v4, +011h
+    const/16 v4, 195
+    if-eq v3, v4, +00dh
+    const/16 v4, 197
+    if-eq v3, v4, +009h
+    const/16 v4, 226
+    if-eq v3, v4, +005h
+    add-int/lit8 v2, v2, 1
+    goto -18h
+    const/4 v5, 1
+    return v5
+    return v1
+    <junk/payload omitted>
+=== getKeepMarquee()Z
+    iget-boolean v0, v0, Lcom/cricfytv/sports/Utf8SafeTextView;->w Z
+    return v0
+    nop 
+    <junk/payload omitted>
+=== isFocused()Z
+    iget-boolean v0, v1, Lcom/cricfytv/sports/Utf8SafeTextView;->w Z
+    if-eqz v0, +004h
+    const/4 v1, 1
+    return v1
+    invoke-super v1, Landroid/view/View;->isFocused()Z
+    move-result v1
+    return v1
+    nop 
+    <junk/payload omitted>
+=== onWindowFocusChanged(Z)V
+    iget-boolean v0, v1, Lcom/cricfytv/sports/Utf8SafeTextView;->w Z
+    if-eqz v0, +003h
+    const/4 v2, 1
+    invoke-super v1, v2, Landroid/view/View;->onWindowFocusChanged(Z)V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== setKeepMarquee(Z)V
+    iput-boolean v1, v0, Lcom/cricfytv/sports/Utf8SafeTextView;->w Z
+    if-eqz v1, +006h
+    const/4 v1, 1
+    invoke-virtual v0, v1, Landroid/view/View;->setSelected(Z)V
+    return-void 
+    nop 
+    <junk/payload omitted>
+=== setSafeText(Ljava/lang/CharSequence;)V
+    sget-object v0, Lcom/cricfytv/sports/Utf8SafeTextView;->x Ljava/nio/charset/Charset;
+    if-nez v5, +007h
+    const/4 v5, 0
+    invoke-virtual v4, v5, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    return-void 
+    invoke-virtual v5, Ljava/lang/Object;->toString()Ljava/lang/String;
+    move-result-object v5
+    invoke-static v5, Lcom/cricfytv/sports/Utf8SafeTextView;->h(Ljava/lang/String;)Z
+    move-result v1
+    if-nez v1, +003h
+    goto +26h
+    new-instance v1, Ljava/lang/String;
+    invoke-virtual v5, v0, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+    move-result-object v2
+    invoke-virtual v2, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    sget-object v3, Ljw;->a Ljava/nio/charset/Charset;
+    invoke-direct v1, v2, v3, Ljava/lang/String;-><init>([B Ljava/nio/charset/Charset;)V
+    move-object v5, v1
+    invoke-static v5, Lcom/cricfytv/sports/Utf8SafeTextView;->h(Ljava/lang/String;)Z
+    move-result v1
+    if-nez v1, +003h
+    goto +10h
+    new-instance v1, Ljava/lang/String;
+    invoke-virtual v5, v0, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+    move-result-object v0
+    invoke-virtual v0, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    sget-object v2, Ljw;->a Ljava/nio/charset/Charset;
+    invoke-direct v1, v0, v2, Ljava/lang/String;-><init>([B Ljava/nio/charset/Charset;)V
+    move-object v5, v1
+    sget-object v0, Ljava/text/Normalizer$Form;->NFD Ljava/text/Normalizer$Form;
+    invoke-static v5, v0, Ljava/text/Normalizer;->normalize(Ljava/lang/CharSequence; Ljava/text/Normalizer$Form;)Ljava/lang/String;
+    move-result-object v5
+    invoke-virtual v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const-string v0, "[\p{M}&&[^\uFE0F\u20E3]]+"
+    invoke-static v0, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    move-result-object v0
+    invoke-virtual v0, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual v0, v5, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+    move-result-object v5
+    const-string v0, ""
+    invoke-virtual v5, v0, Ljava/util/regex/Matcher;->replaceAll(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v5
+    invoke-virtual v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const-string v1, "[^a-zA-Z0-9\s:|.\p{So}\p{Cs}\u200D\uFE0F\u20E3-]"
+    invoke-static v1, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    move-result-object v1
+    invoke-virtual v1, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual v1, v5, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+    move-result-object v5
+    invoke-virtual v5, v0, Ljava/util/regex/Matcher;->replaceAll(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v5
+    invoke-virtual v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const-string v0, "\s+"
+    invoke-static v0, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    move-result-object v0
+    invoke-virtual v0, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const-string v1, " "
+    invoke-virtual v0, v5, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+    move-result-object v5
+    invoke-virtual v5, v1, Ljava/util/regex/Matcher;->replaceAll(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v5
+    invoke-virtual v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-static v5, Lsh3;->i0(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    move-result-object v5
+    invoke-virtual v5, Ljava/lang/Object;->toString()Ljava/lang/String;
+    move-result-object v5
+    invoke-virtual v4, v5, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    return-void 
+    <junk/payload omitted>

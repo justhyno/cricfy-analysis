@@ -1,0 +1,281 @@
+=== <init>()V
+    invoke-direct v2, Lan1;-><init>()V
+    new-instance v0, Lj4;
+    const/16 v1, 10
+    invoke-direct v0, v1, Lj4;-><init>(I)V
+    iput-object v0, v2, Lcom/android/vending/player/FloatingPlayerService;->p Lj4;
+    new-instance v0, Ljava/util/LinkedHashMap;
+    invoke-direct v0, Ljava/util/LinkedHashMap;-><init>()V
+    iput-object v0, v2, Lcom/android/vending/player/FloatingPlayerService;->q Ljava/util/LinkedHashMap;
+    new-instance v0, Lxx0;
+    const/4 v1, 0
+    invoke-direct v0, v2, v1, Lxx0;-><init>(Lcom/android/vending/player/FloatingPlayerService; I)V
+    new-instance v1, Lvk3;
+    invoke-direct v1, v0, Lvk3;-><init>(La41;)V
+    iput-object v1, v2, Lcom/android/vending/player/FloatingPlayerService;->r Lvk3;
+    new-instance v0, Lxx0;
+    const/4 v1, 1
+    invoke-direct v0, v2, v1, Lxx0;-><init>(Lcom/android/vending/player/FloatingPlayerService; I)V
+    new-instance v1, Lvk3;
+    invoke-direct v1, v0, Lvk3;-><init>(La41;)V
+    iput-object v1, v2, Lcom/android/vending/player/FloatingPlayerService;->s Lvk3;
+    new-instance v0, Lz8;
+    const/4 v1, 5
+    invoke-direct v0, v2, v1, Lz8;-><init>(Ljava/lang/Object; I)V
+    iput-object v0, v2, Lcom/android/vending/player/FloatingPlayerService;->t Lz8;
+    return-void 
+    <junk/payload omitted>
+=== onCreate()V
+    invoke-super v5, Lan1;->onCreate()V
+    new-instance v0, Landroid/content/IntentFilter;
+    const-string v1, "android.intent.action.CONFIGURATION_CHANGED"
+    invoke-direct v0, v1, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
+    iget-object v1, v5, Lcom/android/vending/player/FloatingPlayerService;->t Lz8;
+    invoke-virtual v5, v1, v0, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;
+    sput-object v5, Lcom/android/vending/player/FloatingPlayerService;->u Lcom/android/vending/player/FloatingPlayerService;
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT I
+    const/16 v1, 26
+    const/4 v2, 2
+    const-string v3, "Floating Player"
+    const-string v4, "floating_player_channel"
+    if-lt v0, v1, +01ah
+    invoke-static Lz2;->k()V
+    new-instance v0, Landroid/app/NotificationChannel;
+    invoke-direct v0, v4, v3, v2, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String; Ljava/lang/CharSequence; I)V
+    const-string v1, "Floating player notification channel"
+    invoke-virtual v0, v1, Landroid/app/NotificationChannel;->setDescription(Ljava/lang/String;)V
+    const-class v1, Landroid/app/NotificationManager;
+    invoke-virtual v5, v1, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    move-result-object v1
+    check-cast v1, Landroid/app/NotificationManager;
+    invoke-virtual v1, v0, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V
+    new-instance v0, Lpg2;
+    invoke-direct v0, v5, v4, Lpg2;-><init>(Landroid/content/Context; Ljava/lang/String;)V
+    invoke-static v3, Lpg2;->b(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    move-result-object v1
+    iput-object v1, v0, Lpg2;->e Ljava/lang/CharSequence;
+    const-string v1, "Player is running in background"
+    invoke-static v1, Lpg2;->b(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    move-result-object v1
+    iput-object v1, v0, Lpg2;->f Ljava/lang/CharSequence;
+    const v1, 2131231313
+    iget-object v3, v0, Lpg2;->t Landroid/app/Notification;
+    iput v1, v3, Landroid/app/Notification;->icon I
+    const/4 v1, -1
+    iput v1, v0, Lpg2;->j I
+    const/4 v1, 1
+    invoke-virtual v0, v2, v1, Lpg2;->c(I Z)V
+    invoke-virtual v0, Lpg2;->a()Landroid/app/Notification;
+    move-result-object v0
+    invoke-virtual v0, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    const/16 v1, 101
+    invoke-virtual v5, v1, v0, Landroid/app/Service;->startForeground(I Landroid/app/Notification;)V
+    return-void 
+    <junk/payload omitted>
+=== onDestroy()V
+    const/4 v0, 0
+    sput-object v0, Lcom/android/vending/player/FloatingPlayerService;->u Lcom/android/vending/player/FloatingPlayerService;
+    iget-object v0, v2, Lcom/android/vending/player/FloatingPlayerService;->t Lz8;
+    invoke-virtual v2, v0, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+    iget-object v0, v2, Lcom/android/vending/player/FloatingPlayerService;->q Ljava/util/LinkedHashMap;
+    invoke-virtual v0, Ljava/util/LinkedHashMap;->values()Ljava/util/Collection;
+    move-result-object v0
+    invoke-interface v0, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    move-result-object v0
+    invoke-interface v0, Ljava/util/Iterator;->hasNext()Z
+    move-result v1
+    if-eqz v1, +00ch
+    invoke-interface v0, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    move-result-object v1
+    check-cast v1, Lwx0;
+    invoke-virtual v1, Lwx0;->a()V
+    goto -fh
+    const/4 v0, 1
+    invoke-virtual v2, v0, Landroid/app/Service;->stopForeground(I)V
+    invoke-super v2, Lan1;->onDestroy()V
+    return-void 
+    <junk/payload omitted>
+=== onStartCommand(Landroid/content/Intent; I I)I
+    invoke-super v12, v13, v14, v15, Landroid/app/Service;->onStartCommand(Landroid/content/Intent; I I)I
+    iget-object v14, v12, Lcom/android/vending/player/FloatingPlayerService;->q Ljava/util/LinkedHashMap;
+    invoke-interface v14, Ljava/util/Map;->size()I
+    move-result v15
+    iget-object v0, v12, Lcom/android/vending/player/FloatingPlayerService;->r Lvk3;
+    invoke-virtual v0, Lvk3;->getValue()Ljava/lang/Object;
+    move-result-object v1
+    check-cast v1, Landroid/content/SharedPreferences;
+    const-string v2, "floatingPlayersCount"
+    const/4 v3, 1
+    invoke-interface v1, v2, v3, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String; I)I
+    move-result v1
+    if-lt v15, v1, +010h
+    invoke-virtual v14, Ljava/util/LinkedHashMap;->values()Ljava/util/Collection;
+    move-result-object v12
+    invoke-static v12, Llz;->D0(Ljava/lang/Iterable;)Ljava/lang/Object;
+    move-result-object v12
+    check-cast v12, Lwx0;
+    invoke-virtual v12, v13, Lwx0;->d(Landroid/content/Intent;)V
+    return v3
+    const/4 v15, 0
+    if-eqz v13, +00eh
+    invoke-virtual v13, Landroid/content/Intent;->getData()Landroid/net/Uri;
+    move-result-object v1
+    if-eqz v1, +008h
+    invoke-virtual v1, Landroid/net/Uri;->toString()Ljava/lang/String;
+    move-result-object v1
+    if-nez v1, +00ch
+    if-eqz v13, +009h
+    const-string v1, "query"
+    invoke-virtual v13, v1, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v1
+    goto +2h
+    move-object v1, v15
+    invoke-virtual v14, Ljava/util/LinkedHashMap;->values()Ljava/util/Collection;
+    move-result-object v2
+    if-eqz v2, +009h
+    invoke-interface v2, Ljava/util/Collection;->isEmpty()Z
+    move-result v4
+    if-eqz v4, +003h
+    goto +20h
+    invoke-interface v2, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    move-result-object v2
+    invoke-interface v2, Ljava/util/Iterator;->hasNext()Z
+    move-result v4
+    if-eqz v4, +017h
+    invoke-interface v2, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    move-result-object v4
+    check-cast v4, Lwx0;
+    invoke-virtual v4, Lwx0;->c()Lrn2;
+    move-result-object v4
+    iget-object v4, v4, Lrn2;->c Ljm2;
+    iget-object v4, v4, Ljm2;->b Ljava/lang/String;
+    invoke-static v4, v1, Lrg1;->a(Ljava/lang/Object; Ljava/lang/Object;)Z
+    move-result v4
+    if-eqz v4, -018h
+    return v3
+    invoke-static Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
+    move-result-object v1
+    invoke-virtual v1, Ljava/util/UUID;->toString()Ljava/lang/String;
+    move-result-object v9
+    invoke-virtual v9, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    new-instance v4, Lwx0;
+    invoke-virtual v12, Landroid/app/Service;->getApplication()Landroid/app/Application;
+    move-result-object v5
+    invoke-virtual v5, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual v0, Lvk3;->getValue()Ljava/lang/Object;
+    move-result-object v0
+    move-object v6, v0
+    check-cast v6, Landroid/content/SharedPreferences;
+    iget-object v0, v12, Lcom/android/vending/player/FloatingPlayerService;->s Lvk3;
+    invoke-virtual v0, Lvk3;->getValue()Ljava/lang/Object;
+    move-result-object v0
+    move-object v8, v0
+    check-cast v8, Landroid/view/WindowManager;
+    new-instance v10, Lyx0;
+    const/4 v0, 0
+    invoke-direct v10, v12, v0, Lyx0;-><init>(Ljava/lang/Object; I)V
+    new-instance v11, Lo9;
+    const/4 v1, 7
+    invoke-direct v11, v9, v1, v12, Lo9;-><init>(Ljava/lang/String; I Ljava/lang/Object;)V
+    move-object v7, v12
+    invoke-direct/range v4 ... v11, Lwx0;-><init>(Landroid/app/Application; Landroid/content/SharedPreferences; Lcom/android/vending/player/FloatingPlayerService; Landroid/view/WindowManager; Ljava/lang/String; Lyx0; Lo9;)V
+    iget-object v12, v7, Lcom/android/vending/player/FloatingPlayerService;->p Lj4;
+    invoke-virtual v12, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    iget-object v12, v12, Lj4;->p Ljava/lang/Object;
+    check-cast v12, Ljava/util/LinkedHashSet;
+    invoke-interface v12, v9, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+    invoke-virtual v4, v13, Lwx0;->d(Landroid/content/Intent;)V
+    invoke-interface v14, v9, v4, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+    new-instance v12, Landroid/view/ContextThemeWrapper;
+    const v13, 2132083088
+    invoke-direct v12, v5, v13, Landroid/view/ContextThemeWrapper;-><init>(Landroid/content/Context; I)V
+    invoke-static v12, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    move-result-object v12
+    invoke-static v12, v15, v0, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->inflate(Landroid/view/LayoutInflater; Landroid/view/ViewGroup; Z)Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    move-result-object v12
+    iput-object v12, v4, Lwx0;->g Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    new-instance v12, Lt70;
+    invoke-virtual v4, Lwx0;->b()Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    move-result-object v13
+    iget-object v13, v13, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->b Lcom/android/vending/player/CricfyPlayerView;
+    invoke-virtual v4, Lwx0;->c()Lrn2;
+    move-result-object v14
+    invoke-direct v12, v13, v6, v14, Lt70;-><init>(Lcom/android/vending/player/CricfyPlayerView; Landroid/content/SharedPreferences; Lrn2;)V
+    iput-object v12, v4, Lwx0;->j Lt70;
+    invoke-static Landroid/content/res/Resources;->getSystem()Landroid/content/res/Resources;
+    move-result-object v12
+    invoke-virtual v12, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    move-result-object v12
+    iget v13, v12, Landroid/util/DisplayMetrics;->widthPixels I
+    iput v13, v4, Lwx0;->q I
+    iget v12, v12, Landroid/util/DisplayMetrics;->heightPixels I
+    iput v12, v4, Lwx0;->r I
+    invoke-virtual v4, Lwx0;->b()Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    move-result-object v12
+    iget-object v12, v12, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->b Lcom/android/vending/player/CricfyPlayerView;
+    invoke-virtual v12, Lcom/android/vending/player/CricfyPlayerView;->getControllerBinding()Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;
+    move-result-object v12
+    iget-object v13, v12, Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;->k Landroid/widget/ImageButton;
+    invoke-virtual v13, v0, Landroid/view/View;->setVisibility(I)V
+    iget-object v13, v12, Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;->k Landroid/widget/ImageButton;
+    new-instance v14, Ltx0;
+    invoke-direct v14, v4, v0, Ltx0;-><init>(Lwx0; I)V
+    invoke-virtual v13, v14, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    iget-object v12, v12, Lcom/cricfytv/sports/databinding/ExoPlayerControlViewBinding;->e Landroid/widget/ImageButton;
+    new-instance v13, Ltx0;
+    invoke-direct v13, v4, v3, Ltx0;-><init>(Lwx0; I)V
+    invoke-virtual v12, v13, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    new-instance v12, Landroid/view/GestureDetector;
+    new-instance v13, Lvx0;
+    invoke-direct v13, v4, Lvx0;-><init>(Lwx0;)V
+    invoke-direct v12, v5, v13, Landroid/view/GestureDetector;-><init>(Landroid/content/Context; Landroid/view/GestureDetector$OnGestureListener;)V
+    invoke-virtual v4, Lwx0;->b()Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    move-result-object v13
+    iget-object v13, v13, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->b Lcom/android/vending/player/CricfyPlayerView;
+    invoke-virtual v13, Lcom/android/vending/player/CricfyPlayerView;->getDragHandle()Landroid/view/View;
+    move-result-object v13
+    new-instance v14, Lrx0;
+    invoke-direct v14, v4, v12, Lrx0;-><init>(Lwx0; Landroid/view/GestureDetector;)V
+    invoke-virtual v13, v14, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual v4, Lwx0;->b()Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    move-result-object v12
+    iget-object v12, v12, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->b Lcom/android/vending/player/CricfyPlayerView;
+    invoke-virtual v12, Lcom/android/vending/player/CricfyPlayerView;->getResizeHandle()Landroid/widget/ImageView;
+    move-result-object v12
+    new-instance v13, Ly6;
+    const/4 v14, 4
+    invoke-direct v13, v4, v14, Ly6;-><init>(Ljava/lang/Object; I)V
+    invoke-virtual v12, v13, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-static v4, Lwx0;->g(Lwx0;)V
+    invoke-virtual v4, Lwx0;->b()Lcom/cricfytv/sports/databinding/PlayerViewBinding;
+    move-result-object v12
+    iget-object v12, v12, Lcom/cricfytv/sports/databinding/PlayerViewBinding;->b Lcom/android/vending/player/CricfyPlayerView;
+    new-instance v13, Lsx0;
+    invoke-direct v13, v4, v3, Lsx0;-><init>(Lwx0; I)V
+    invoke-virtual v12, v13, Lcom/android/vending/player/CricfyPlayerView;->setOnRetry(La41;)V
+    new-instance v12, Lux0;
+    invoke-direct v12, v4, v0, Lux0;-><init>(Lwx0; I)V
+    iput-object v12, v4, Lwx0;->s Lux0;
+    invoke-virtual v4, Lwx0;->c()Lrn2;
+    move-result-object v12
+    iget-object v12, v12, Lrn2;->h Lt60;
+    iget-object v13, v4, Lwx0;->s Lux0;
+    if-eqz v13, +020h
+    invoke-virtual v12, v7, v13, Lap1;->d(Lwm1; Lmh2;)V
+    new-instance v12, Lux0;
+    invoke-direct v12, v4, v3, Lux0;-><init>(Lwx0; I)V
+    iput-object v12, v4, Lwx0;->t Lux0;
+    invoke-virtual v4, Lwx0;->c()Lrn2;
+    move-result-object v12
+    iget-object v12, v12, Lrn2;->g Lt60;
+    iget-object v13, v4, Lwx0;->t Lux0;
+    if-eqz v13, +006h
+    invoke-virtual v12, v7, v13, Lap1;->d(Lwm1; Lmh2;)V
+    return v3
+    const-string v12, "serversObserver"
+    invoke-static v12, Lrg1;->U(Ljava/lang/String;)V
+    throw v15
+    const-string v12, "playerItemObserver"
+    invoke-static v12, Lrg1;->U(Ljava/lang/String;)V
+    throw v15
+    <junk/payload omitted>

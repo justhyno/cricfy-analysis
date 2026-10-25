@@ -1,0 +1,17 @@
+package p000;
+
+import java.util.ArrayList;
+
+/* compiled from: r8-map-id-48d9907f4e93732c11cf9c906afc42aa7d1b8bfe35a58b5c97659e3a4b269d57 */
+/* loaded from: classes17.dex */
+public final class bw2 {
+
+    /* renamed from: a */
+    public final ArrayList f2783a;
+
+    /* renamed from: b */
+    public long f2784b;
+
+    /* renamed from: c */
+    public long f2785c;
+}
